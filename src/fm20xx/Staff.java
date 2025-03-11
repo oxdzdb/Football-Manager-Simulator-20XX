@@ -10,4 +10,9 @@ package fm20xx;
  */
 public class Staff extends Person{
     private String specialty;
+    
+    //getters and setters
+    public String getSpecialty(){
+        return specialty;
+    }
 }

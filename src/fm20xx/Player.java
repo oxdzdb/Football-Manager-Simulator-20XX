@@ -11,4 +11,21 @@ package fm20xx;
 public class Player extends Person {
     private String position;
     private int goals, apps, number, value;
+    
+    //getters and setters
+    public String getPosition(){
+        return position;
+    }
+    public int getGoals(){
+        return goals;
+    }
+    public int getApps(){
+        return apps;
+    }
+    public int getNumber(){
+        return number;
+    }
+    public int getValue(){
+        return value;
+    }
 }

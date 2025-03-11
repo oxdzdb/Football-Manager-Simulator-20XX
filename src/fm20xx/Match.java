@@ -13,6 +13,23 @@ public class Match {
     private int attendance, attFee;
     private League league;
 
+    //getters and setters
+    public Team getHomeTeam(){
+        return homeTeam;
+    }
+    public Team getAwayTeam(){
+        return awayTeam;
+    }
+    public int getAttendance(){
+        return attendance;
+    }
+    public int getAttFee(){
+        return attFee;
+    }
+    public League getLeague(){
+        return league;
+    }
+    
     public void matchEngine(){
         
     }

@@ -10,6 +10,23 @@ package fm20xx;
  */
 public class Person {
     private String name, nation;
-    private int XP, sklRating, popRating;
+    private int sklRating, popRating;
     private Team team;
+    
+    //getters and setters
+    public String getName(){
+        return name;
+    }
+    public String getNation(){
+        return nation;
+    }
+    public int getSkillRating(){
+        return sklRating;
+    }
+    public int getPopRating(){
+        return popRating;
+    }
+    public Team getTeam(){
+        return team;
+    }
 }
