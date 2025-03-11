@@ -22,7 +22,7 @@ import javafx.stage.Stage;
  *
  * @author Dell
  */
-public class FXMLDocumentController implements Initializable {
+public class TitleController implements Initializable {
     
     @FXML private Label label;
     @FXML private Button start, setting, exit;
