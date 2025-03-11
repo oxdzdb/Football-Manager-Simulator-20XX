@@ -1,2 +1,1 @@
-# Football-Manager-Simulator-20XX
-
+Please use the master branch.
