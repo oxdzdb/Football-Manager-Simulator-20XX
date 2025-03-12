@@ -22,6 +22,7 @@ import javafx.stage.Stage;
  *
  * @author Dell
  */
+
 public class TeamSelectController implements Initializable {
 
     @FXML private Button back;
@@ -34,9 +35,18 @@ public class TeamSelectController implements Initializable {
         thisStage.setScene(scene);
         thisStage.show();
     }
+    @FXML
+    private void home(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Home.fxml"));
+        Parent root = loader.load();
+        Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene  = new Scene(root);
+        thisStage.setScene(scene);
+        thisStage.show();
+    }
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
     
-}
+} 

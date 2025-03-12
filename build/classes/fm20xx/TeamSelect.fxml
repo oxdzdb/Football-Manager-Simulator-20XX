@@ -45,7 +45,7 @@
                   </Label>
                </children>
             </VBox>
-            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="START &gt;" textAlignment="CENTER">
+            <Button mnemonicParsing="false" onAction="#home" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="START &gt;" textAlignment="CENTER">
                <font>
                   <Font name="DejaVu Sans Bold" size="13.0" />
                </font>

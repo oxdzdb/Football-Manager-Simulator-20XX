@@ -17,14 +17,14 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1322.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1322.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fm20xx.HomeController">
    <children>
       <Separator layoutX="-3.0" layoutY="61.0" prefHeight="3.0" prefWidth="1206.0" />
       <HBox layoutX="-1.0" prefHeight="64.0" prefWidth="1322.0" style="-fx-background-color: #244473;">
          <children>
-            <StackPane alignment="TOP_LEFT" prefHeight="64.0" prefWidth="1160.0">
+            <StackPane alignment="TOP_LEFT" prefHeight="65.0" prefWidth="1056.0">
                <children>
-                  <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fitHeight="60.0" fitWidth="60.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@mancity.png" />
                      </image>
@@ -50,7 +50,7 @@
                   </Label>
                </children>
             </StackPane>
-            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="44.0" prefWidth="250.0" style="-fx-background-color: #ffde59;" text="NEXT GAME &gt;" textOverrun="CENTER_ELLIPSIS">
+            <Button alignment="CENTER" mnemonicParsing="false" onAction="#match" prefHeight="44.0" prefWidth="250.0" style="-fx-background-color: #ffde59;" text="NEXT GAME &gt;" textOverrun="CENTER_ELLIPSIS">
                <font>
                   <Font name="DejaVu Sans Bold" size="13.0" />
                </font>
@@ -1123,11 +1123,11 @@
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
                <children>
-                  <HBox prefHeight="40.0" prefWidth="770.0">
+                  <HBox prefHeight="40.0" prefWidth="850.0">
                      <children>
-                        <HBox prefHeight="40.0" prefWidth="778.0">
+                        <HBox prefHeight="40.0" prefWidth="822.0">
                            <children>
-                              <Label prefHeight="61.0" prefWidth="780.0" text="SQUAD &gt;" textFill="#ffde59">
+                              <Label prefHeight="40.0" prefWidth="625.0" text="SQUAD &gt;" textFill="#ffde59">
                                  <font>
                                     <Font name="DejaVu Sans Bold" size="20.0" />
                                  </font>
@@ -1135,6 +1135,14 @@
                                     <Insets left="10.0" />
                                  </HBox.margin>
                               </Label>
+                              <Button alignment="CENTER" mnemonicParsing="false" onAction="#transfer" onMouseClicked="#transfer" prefHeight="30.0" prefWidth="248.0" style="-fx-background-color: #b84e39;" text="TRANSFER &gt;" textOverrun="CENTER_ELLIPSIS">
+                                 <font>
+                                    <Font name="DejaVu Sans Bold" size="13.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="20.0" top="10.0" />
+                                 </HBox.margin>
+                              </Button>
                            </children>
                         </HBox>
                      </children></HBox>

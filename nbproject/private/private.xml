@@ -3,6 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Staff.java</file>
             <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/HomeController.java</file>
             <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Title.fxml</file>
@@ -24,6 +25,19 @@
             <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Person.java</file>
             <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/MatchController.java</file>
             <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Match.java</file>
+=======
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/src/fm20xx/MatchController.java</file>
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/src/fm20xx/Person.java</file>
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/src/fm20xx/TeamSelectController.java</file>
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/src/fm20xx/Exchange.java</file>
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/src/fm20xx/FM20XX.java</file>
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/src/fm20xx/TitleController.java</file>
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/src/fm20xx/League.java</file>
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/src/fm20xx/TransferController.java</file>
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/src/fm20xx/Home.fxml</file>
+            <file>file:/C:/Users/Zion/OneDrive/Documents/NetBeansProjects/FM20XX/Football-Manager-Simulator-20XX/src/fm20xx/HomeController.java</file>
+>>>>>>> 25846911bdeda3efb704869e379f9b1629b0ae31
         </group>
     </open-files>
 </project-private>

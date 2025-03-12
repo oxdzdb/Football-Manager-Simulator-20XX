@@ -11,6 +11,11 @@ package fm20xx;
 public class Staff extends Person{
     private String specialty;
     
+    public Staff(String nm, String nt, Team t, int XP, int sR, int pR, String s) {
+        super(nm, nt, t, XP, sR, pR);
+        this.specialty = s;
+    }
+    
     //getters and setters
     public String getSpecialty(){
         return specialty;

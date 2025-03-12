@@ -10,7 +10,17 @@ package fm20xx;
  */
 public class Player extends Person {
     private String position;
-    private int goals, apps, number, value;
+    private int goals, apps, number;
+    private double value;
+    
+    public Player(String nm, String nt, Team t, int XP, int sR, int pR, String p, int a, int pN, double pV) {
+        super(nm, nt, t, XP, sR, pR);
+        this.position = p;
+        this.apps = a;
+        this.number = pN;
+        this.value = pV;
+        this.getTeam().getPlayerList().add(this);
+    }
     
     //getters and setters
     public String getPosition(){
@@ -25,7 +35,7 @@ public class Player extends Person {
     public int getNumber(){
         return number;
     }
-    public int getValue(){
+    public double getValue(){
         return value;
     }
 }

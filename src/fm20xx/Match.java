@@ -10,8 +10,17 @@ package fm20xx;
  */
 public class Match {
     private Team homeTeam, awayTeam;
-    private int attendance, attFee;
+    private int attendance;
+    private double attFee;
     private League league;
+    
+    public Match(Team h, Team a, int at, double eF, League lG) {
+        this.homeTeam = h;
+        this.awayTeam = a;
+        this.attendance = at;
+        this.attFee = eF;
+        this.league = lG;
+    }
 
     //getters and setters
     public Team getHomeTeam(){
@@ -23,14 +32,23 @@ public class Match {
     public int getAttendance(){
         return attendance;
     }
-    public int getAttFee(){
+    public double getAttFee(){
         return attFee;
     }
     public League getLeague(){
         return league;
     }
     
-    public void matchEngine(){
+    public void matchEngine(Team awayTeam, Team homeTeam){
         
+    int minuteCounter = 0;
+    int swapCounter = 0;
+    boolean newPlayer = false;
+    Team turnTeam, notTurnTeam; 
+    Player turnPlayer, notTurnPlayer;
+    
+    do{
+    // fixed matchEngine here
+        } while(minuteCounter < 90);
     }
 }
