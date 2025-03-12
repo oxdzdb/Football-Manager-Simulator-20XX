@@ -36,7 +36,4 @@ public class League {
         return teamList.size();
     }
     
-    public void calcTable(){
-        
-    }
 }

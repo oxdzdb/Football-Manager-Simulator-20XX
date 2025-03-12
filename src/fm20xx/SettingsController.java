@@ -23,7 +23,7 @@ import javafx.stage.Stage;
  * @author Dell
  */
 public class SettingsController implements Initializable {
-    @FXML private Button back;
+    @FXML private Button back, previous, next;
     
     int index = 0;
     
@@ -47,7 +47,7 @@ public class SettingsController implements Initializable {
     
     @FXML
     public void next(){
-        if(index < League.getListL){
+        if(index < League.getLeagueListLen()){
             index++;
             updateSubject();
         }
