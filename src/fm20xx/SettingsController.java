@@ -26,7 +26,7 @@ import javafx.stage.Stage;
  * @author Dell
  */
 public class SettingsController implements Initializable {
-    @FXML Button back, previous, next;
+    @FXML Button back, previous, next, select;
     @FXML ImageView icon;
     @FXML Label leagueName;
     
