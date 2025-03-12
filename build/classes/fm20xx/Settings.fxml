@@ -65,7 +65,7 @@
                   <Insets left="20.0" top="20.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt;">
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&gt;">
                <font>
                   <Font name="DejaVu Sans Condensed Bold" size="26.0" />
                </font>

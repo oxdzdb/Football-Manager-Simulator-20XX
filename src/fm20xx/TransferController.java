@@ -27,7 +27,7 @@ public class TransferController implements Initializable {
         // TODO
     }    
     @FXML
-    private void home(ActionEvent event) throws IOException {
+    private void back(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Home.fxml"));
         Parent root = loader.load();
         Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();

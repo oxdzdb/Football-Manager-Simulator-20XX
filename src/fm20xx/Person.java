@@ -10,8 +10,17 @@ package fm20xx;
  */
 public class Person {
     private String name, nation;
-    private int sklRating, popRating;
+    private int sklRating, popRating, XP;
     private Team team;
+    
+    public Person(String nm, String nt, Team t, int XP, int sR, int pR) {
+        this.name = nm;
+        this.nation = nt;
+        this.team = t;
+        this.XP = XP;
+        this.sklRating = sR;
+        this.popRating = pR;
+    }
     
     //getters and setters
     public String getName(){

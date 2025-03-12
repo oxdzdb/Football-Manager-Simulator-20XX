@@ -16,6 +16,12 @@ public class League {
     private static ArrayList<League> leagueList = new ArrayList();
     private static ArrayList<Team> teamList = new ArrayList();
     
+    public League(String nm, String nt, int pR) {
+        this.name = nm;
+        this.nation = nt;
+        this.popRating = pR;
+    }
+    
     //getters and setters
     public String getName(){
         return name;
