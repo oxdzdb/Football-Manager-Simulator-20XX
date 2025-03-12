@@ -23,8 +23,10 @@ import javafx.stage.Stage;
  * @author Dell
  */
 public class SettingsController implements Initializable {
-
     @FXML private Button back;
+    
+    int index = 0;
+    
     @FXML
     private void back(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Title.fxml"));
@@ -34,6 +36,28 @@ public class SettingsController implements Initializable {
         thisStage.setScene(scene);
         thisStage.show();
     }
+    
+    @FXML
+    public void previous(){
+        if(index > 0){
+            index--;
+            updateSubject();    
+        }
+    }
+    
+    @FXML
+    public void next(){
+        if(index < League.getListL){
+            index++;
+            updateSubject();
+        }
+    }
+    
+    @FXML
+    public void updateSubject(){
+        
+    }
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
