@@ -236,64 +236,6 @@ public class Team implements Exchange {
     
     @Override
     public void exchange(Team t){
-        System.out.println("What do you want to do?\n1: buy \n2: sell");
-        String courseOfAction = sc.nextLine();
-        switch(courseOfAction){
-            case "buy" -> {
-                System.out.println("Which player?");
-                String buy = sc.nextLine();
-           
-                Player bought;
-                
-                for(Player e: t.getPlayerList()) {
-                    if (e.getName().equals(buy)) {
-                        bought = e;
-                    }
-                }
-                
-                if (this.getFunds() >= bought.getPlayerValue()) {
-                    this.setFunds((int) (this.getFunds() - bought.getPlayerValue()));
-                    this.getPlayerList().add(bought);
-                    t.getPlayerList().remove(bought);
-                    bought.setTeam(this);
-                    System.out.println("Player bought!");
-                }
-                else {
-                    System.out.println("Player not bought due to insufficient funds!");
-                }
-            }
-            case "sell" -> {
-                System.out.println("Which player?");
-                String buy = sc.nextLine();
-           
-                Player sold;
-                
-                for(Player e: this.getPlayerList()) {
-                    if (e.getName().equals(buy)) {
-                        sold = e;
-                    }
-                }
-                
-                double overallRating = 0.0;
-                
-                for(Player e: t.getPlayerList()) {
-                    overallRating += e.getPlayerValue();
-                }
-                
-                overallRating = overallRating / t.getPlayerList().size();
-                
-                if (t.getFunds() >= sold.getPlayerValue() && sold.getSkillRating() >= overallRating) {
-                    t.setFunds((int) (t.getFunds() - sold.getPlayerValue()));
-                    this.getPlayerList().remove(sold);
-                    t.getPlayerList().add(sold);
-                    sold.setTeam(t);
-                    System.out.println("Player sold!");
-                }
-                else {
-                    System.out.println("This sale is a bad choice, so we're preventing you! (stand in for");
-                } 
-            }
-            default -> System.out.println("Invalid Input!");
-        }
+        // fixed Exchange here
     }
 }

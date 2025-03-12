@@ -20,28 +20,7 @@ public class Manager extends Staff implements Exchange{
     
     @Override
     public void exchange(Team t){
-        Player temp1; //temp to store player to be subbed out 
-        Player temp2; // temp to store player to be subbed in
-        
-        System.out.println("Enter name of who you want to sub out: ");
-        String subOut = sc.nextLine(); //input
-        System.out.println("Enter array number of who you want to sub in: ");
-        String subIn = sc.nextLine(); //input
-        
-        for(Player e: t.getStartingLineup()) {
-            if (e.getName().equals(subOut)) {
-                temp1 = e;
-            }
-        }
-        
-        for(Player e: t.getSubsLineup()) {
-            if (e.getName().equals(subIn)) {
-                temp2 = e;
-            }
-        }
-        
-        t.getStartingLineup().add(temp2); 
-        t.getSubsLineup().add(temp1);
+        // fixed Exchange here
     }
 
 }

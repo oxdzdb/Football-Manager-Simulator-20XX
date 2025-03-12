@@ -100,6 +100,10 @@ public class FM20XX extends Application {
         Manager Citar = new Manager("Carmer Citar", "Japanese", YM, 75, 80, 65); 
         
         League OL = new League("Origins League", "Philippines", 85);
+        OL.getLeagueList().add(AdM);
+        OL.getLeagueList().add(DD);
+        OL.getLeagueList().add(SS);
+        OL.getLeagueList().add(YM);
 
         
         Scene scene = new Scene(root);
