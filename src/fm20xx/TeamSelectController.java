@@ -22,6 +22,7 @@ import javafx.stage.Stage;
  *
  * @author Dell
  */
+
 public class TeamSelectController implements Initializable {
 
     @FXML private Button back;
@@ -39,4 +40,4 @@ public class TeamSelectController implements Initializable {
         // TODO
     }    
     
-}
+} 
