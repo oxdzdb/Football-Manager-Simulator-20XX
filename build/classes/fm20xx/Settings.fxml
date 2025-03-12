@@ -35,12 +35,12 @@
                   <Font name="DejaVu Sans Condensed Bold" size="30.0" />
                </font>
             </Label>
-            <ImageView fitHeight="350.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="icon" fitHeight="350.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
                <VBox.margin>
                   <Insets left="480.0" />
                </VBox.margin>
             </ImageView>
-            <Label alignment="CENTER" prefHeight="106.0" prefWidth="1322.0" text="Premier League" textFill="WHITE">
+            <Label fx:id="leagueName" alignment="CENTER" prefHeight="106.0" prefWidth="1322.0" text="Premier League" textFill="WHITE">
                <font>
                   <Font name="DejaVu Sans ExtraLight" size="30.0" />
                </font>
@@ -49,7 +49,7 @@
       </VBox>
       <HBox layoutY="642.0" prefHeight="100.0" prefWidth="1322.0" style="-fx-background-color: #1a1c38;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt;">
+            <Button fx:id="previous" mnemonicParsing="false" onAction="#previous" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt;">
                <HBox.margin>
                   <Insets left="325.0" top="20.0" />
                </HBox.margin>
@@ -65,7 +65,7 @@
                   <Insets left="20.0" top="20.0" />
                </HBox.margin>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&gt;">
+            <Button fx:id="next" mnemonicParsing="false" onAction="#next" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&gt;">
                <font>
                   <Font name="DejaVu Sans Condensed Bold" size="26.0" />
                </font>

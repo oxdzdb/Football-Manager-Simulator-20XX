@@ -8,7 +8,15 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="FM20XX.jar" size="30838" download="eager" />
+    <jar href="FM20XX.jar" size="212595" download="eager" />
+    <jar href="lib/javafx-swt.jar" size="37082" download="eager" />
+    <jar href="lib/javafx.base.jar" size="756558" download="eager" />
+    <jar href="lib/javafx.controls.jar" size="2605899" download="eager" />
+    <jar href="lib/javafx.fxml.jar" size="130605" download="eager" />
+    <jar href="lib/javafx.graphics.jar" size="4453621" download="eager" />
+    <jar href="lib/javafx.media.jar" size="285124" download="eager" />
+    <jar href="lib/javafx.swing.jar" size="91164" download="eager" />
+    <jar href="lib/javafx.web.jar" size="728618" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="fm20xx.FM20XX"  name="FM20XX" />
   <update check="always"/>

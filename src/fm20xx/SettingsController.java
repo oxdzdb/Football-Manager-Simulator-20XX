@@ -15,6 +15,9 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 /**
@@ -23,7 +26,9 @@ import javafx.stage.Stage;
  * @author Dell
  */
 public class SettingsController implements Initializable {
-    @FXML private Button back, previous, next;
+    @FXML Button back, previous, next;
+    @FXML ImageView icon;
+    @FXML Label leagueName;
     
     int index = 0;
     
@@ -41,7 +46,7 @@ public class SettingsController implements Initializable {
     public void previous(){
         if(index > 0){
             index--;
-            updateSubject();    
+            updateLeague();    
         }
     }
     
@@ -49,13 +54,20 @@ public class SettingsController implements Initializable {
     public void next(){
         if(index < League.getLeagueListLen()){
             index++;
-            updateSubject();
+            updateLeague();
         }
     }
     
     @FXML
-    public void updateSubject(){
-        
+    public void updateLeague(){
+        League league = League.searchLeague(index);
+        if (league != null){
+            leagueName.setText(league.getName());
+            icon.setImage(new Image(getClass().getResourceAsStream(league.getImgFileName())));
+            
+            previous.setDisable(index == 0);
+            next.setDisable(index == (League.getLeagueListLen() - 1));
+        }
     }
     
     @Override

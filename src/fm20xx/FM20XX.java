@@ -20,6 +20,12 @@ public class FM20XX extends Application {
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("fm20xx/Title.fxml"));
         
+        League prem = new League("Premier League", "England", "premierLeague.png", 5);
+        League bundesliga = new League("Bundesliga", "Germany", "bundesliga.png", 4);
+        League laLiga = new League("La Liga", "Spain", "laLiga.png", 3);
+        League serieA = new League("Serie A", "Italy", "serieA.png", 2);
+        League ligue1 = new League("Ligue 1", "France", "ligue1.png", 1);
+        
         Team AdM = new Team("Atletico de Manila", "ADM", "Manila", "Rizal Memorial Stadium", 450000000, 60, 40);
         Team DD = new Team("Dynamo Dresden", "DD", "Dresden", "Rudolf-Harbig-Stadion", 550000000, 70, 60);
         Team SS = new Team("Sofia Strikers", "SS", "Sofia", "Vasil Levski National Stadium", 450000000, 60, 40);
@@ -99,7 +105,7 @@ public class FM20XX extends Application {
         Manager Uy = new Manager("Scian Uy", "Bulgarian", SS, 80, 75, 80);
         Manager Citar = new Manager("Carmer Citar", "Japanese", YM, 75, 80, 65); 
         
-        League OL = new League("Origins League", "Philippines", 85);
+        League OL = new League("Origins League", "Philippines", "premierLeague.png", 3);
         OL.getLeagueList().add(AdM);
         OL.getLeagueList().add(DD);
         OL.getLeagueList().add(SS);

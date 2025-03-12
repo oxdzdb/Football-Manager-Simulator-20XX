@@ -16,9 +16,10 @@ public class League {
     private static ArrayList<League> leagueList = new ArrayList();
     private static ArrayList<Team> teamList = new ArrayList();
     
-    public League(String nm, String nt, int pR) {
+    public League(String nm, String nt, String fn, int pR) {
         this.name = nm;
         this.nation = nt;
+        this.imgFileName = fn;
         this.popRating = pR;
         League.leagueList.add(this);
     }
@@ -44,5 +45,9 @@ public class League {
     }
     public static int getTeamListSize(){
         return teamList.size();
+    }
+    
+    public static League searchLeague(int index) throws IndexOutOfBoundsException{
+        return leagueList.get(index);
     }
 }
