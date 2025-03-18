@@ -13,25 +13,26 @@ import java.util.Scanner;
  */
 public class Team implements Exchange {
     private String name, shortName, location, stadiumName;
-    private int wins, draws, losses, goals, concededGoals, funds, facilityRating, points;
+    private int wins, draws, losses, goals, concededGoals, funds, facilityRating, points, stadiumCap;
     private static ArrayList<Player> playerList = new ArrayList();
     private static ArrayList<Staff> staffList = new ArrayList();
     private static ArrayList<Player> startingLineup = new ArrayList();
     private static ArrayList<Player> subsLineup = new ArrayList();
 
-    public Team(String n, String shN, String l, String sN, int f, int fR, int p) {
+    public Team(String n, String shN, String loc, String sN, int w, int d, int l, int g, int gC, int f, int fR, int p, int sC) {
         this.name = n;
         this.shortName = shN;
-        this.location = l;
+        this.location = loc;
         this.stadiumName = sN;
-        this.wins = 0;
-        this.draws = 0;
-        this.losses = 0;
-        this.goals = 0;
-        this.concededGoals = 0;
+        this.wins = w;
+        this.draws = d;
+        this.losses = l;
+        this.goals = g;
+        this.concededGoals = gC;
         this.funds = f;
         this.facilityRating = fR;
         this.points = p;
+        this.stadiumCap = sC;
     }
     
     /**
