@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1322.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fm20xx.SettingsController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="1322.0" style="-fx-background-color: #1a1c38; -fx-border-color: #ffffff; -fx-border-width: 1;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt; TITLE SCREEN">
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="DejaVu Sans Bold" size="13.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" prefHeight="98.0" prefWidth="962.0" text="Settings" textFill="#ffde59">
+               <font>
+                  <Font name="DejaVu Sans Condensed Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox layoutY="100.0" prefHeight="542.0" prefWidth="1322.0" style="-fx-background-color: #1a1c38;">
+         <children>
+            <Label alignment="CENTER" prefHeight="86.0" prefWidth="1320.0" text="Set the league you are playing in:" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Condensed Bold" size="30.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="icon" fitHeight="350.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
+               <VBox.margin>
+                  <Insets left="480.0" />
+               </VBox.margin>
+               <image>
+                  <Image url="@leagueImgs/premierLeague.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="leagueName" alignment="CENTER" prefHeight="106.0" prefWidth="1322.0" text="Premier League" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans ExtraLight" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <HBox layoutY="642.0" prefHeight="100.0" prefWidth="1322.0" style="-fx-background-color: #1a1c38;">
+         <children>
+            <Button fx:id="previous" mnemonicParsing="false" onAction="#previous" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt;">
+               <HBox.margin>
+                  <Insets left="325.0" top="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="DejaVu Sans Condensed Bold" size="26.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="430.0" style="-fx-background-color: #77a9dc; -fx-border-color: #000000; -fx-border-width: 3;" text="Set as League" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Condensed Bold" size="22.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="next" mnemonicParsing="false" onAction="#next" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&gt;">
+               <font>
+                  <Font name="DejaVu Sans Condensed Bold" size="26.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</Pane>

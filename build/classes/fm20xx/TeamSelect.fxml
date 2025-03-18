@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1322.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fm20xx.TeamSelectController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #1a1c38;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt; TITLE SCREEN">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <VBox prefHeight="92.0" prefWidth="961.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="52.0" prefWidth="961.0" text="Team Selection" textAlignment="CENTER" textFill="#ffde59">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="27.0" />
+                     </font>
+                     <padding>
+                        <Insets top="12.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="964.0" text="Premier League" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="DejaVu Sans Condensed Bold" size="19.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="12.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+            <Button mnemonicParsing="false" onAction="#home" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="START &gt;" textAlignment="CENTER">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <Separator prefHeight="0.0" prefWidth="1322.0" />
+      <SplitPane dividerPositions="0.5" prefHeight="568.0" prefWidth="1322.0" style="-fx-background-color: #1a1c38;">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="558.0" prefWidth="700.0">
+               <children>
+                  <VBox layoutX="27.0" layoutY="40.0" prefHeight="502.0" prefWidth="604.0">
+                     <children>
+                        <ImageView fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@mancity-removebg-preview.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="150.0" top="10.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Label alignment="CENTER" prefHeight="18.0" prefWidth="604.0" text="Manchester City" textFill="#ffde59">
+                           <font>
+                              <Font name="DejaVu Sans Bold" size="35.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="15.0" prefWidth="604.0" text="Football Club" textFill="#ffde59">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="68.0" prefWidth="604.0" text="Etihad Stadium, Manchester" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="458.0" prefWidth="842.0">
+               <children>
+                  <VBox layoutX="142.0" layoutY="105.0" prefHeight="346.0" prefWidth="374.0">
+                     <children>
+                        <Label alignment="CENTER" prefHeight="58.0" prefWidth="374.0" text="TEAM STATS:" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans Condensed Bold" size="30.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="64.0" prefWidth="376.0" text="Budget: £31m" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="64.0" prefWidth="376.0" text="Average Rating: 87" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="64.0" prefWidth="376.0" text="Facility Rating: 5" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="64.0" prefWidth="376.0" text="Players: 22" textAlignment="CENTER" textFill="WHITE">
+                           <font>
+                              <Font name="DejaVu Sans Condensed Bold" size="25.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Separator prefWidth="200.0" />
+      <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #1a1c38;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #737373; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt; PREVIOUS" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <TextField prefHeight="52.0" prefWidth="775.0" promptText="Enter a Team..." style="-fx-background-color: #999393;">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #737373; -fx-border-color: #000000; -fx-border-width: 3;" text="SEARCH" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #737373; -fx-border-color: #000000; -fx-border-width: 3;" text="NEXT &gt;" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>
