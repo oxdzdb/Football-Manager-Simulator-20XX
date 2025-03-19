@@ -61,7 +61,7 @@
                   <Font name="DejaVu Sans Condensed Bold" size="26.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="430.0" style="-fx-background-color: #77a9dc; -fx-border-color: #000000; -fx-border-width: 3;" text="Set as League" textFill="WHITE">
+            <Button fx:id="select" mnemonicParsing="false" prefHeight="55.0" prefWidth="430.0" style="-fx-background-color: #77a9dc; -fx-border-color: #000000; -fx-border-width: 3;" text="Set as League" textFill="WHITE">
                <font>
                   <Font name="DejaVu Sans Condensed Bold" size="22.0" />
                </font>
