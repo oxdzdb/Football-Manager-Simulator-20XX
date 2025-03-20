@@ -14,6 +14,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 /**
@@ -22,12 +23,10 @@ import javafx.stage.Stage;
  * @author Dell
  */
 public class TransferController implements Initializable {
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }    
+    @FXML ImageView icon;
+    
     @FXML
-    private void back(ActionEvent event) throws IOException {
+    private void home(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Home.fxml"));
         Parent root = loader.load();
         Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -35,4 +34,9 @@ public class TransferController implements Initializable {
         thisStage.setScene(scene);
         thisStage.show();
     }
+    
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+    }    
 }

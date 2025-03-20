@@ -3,27 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Staff.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/HomeController.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Title.fxml</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Home.fxml</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/ManagementController.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/TransferController.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/SettingsController.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Match.fxml</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/TeamSelectController.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Team.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Player.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Management.fxml</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/TeamSelect.fxml</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/FM20XX.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/TitleController.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Settings.fxml</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Transfer.fxml</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/League.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Person.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/MatchController.java</file>
-            <file>file:/home/oxdzdb/Documents/School%20Stuff/CS/Project/FM20XX/Football-Manager-Simulator-20XX/FM20XX/src/fm20xx/Match.java</file>
+            <file>file:/home/oxdzdb/Downloads/Football-Manager-Simulator-20XX/src/fm20xx/FM20XX.java</file>
+            <file>file:/home/oxdzdb/Downloads/Football-Manager-Simulator-20XX/src/fm20xx/TransferController.java</file>
+            <file>file:/home/oxdzdb/Downloads/Football-Manager-Simulator-20XX/src/fm20xx/SettingsController.java</file>
+            <file>file:/home/oxdzdb/Downloads/Football-Manager-Simulator-20XX/src/fm20xx/Settings.fxml</file>
+            <file>file:/home/oxdzdb/Downloads/Football-Manager-Simulator-20XX/src/fm20xx/Transfer.fxml</file>
         </group>
     </open-files>
 </project-private>

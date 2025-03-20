@@ -12,14 +12,13 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1322.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1322.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fm20xx.TransferController">
    <children>
       <HBox prefHeight="90.0" prefWidth="1322.0" style="-fx-background-color: #77a9dc;">
          <children>
-            <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="icon" fitHeight="80.0" fitWidth="80.0" onMouseClicked="#home" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@mancity-removebg-preview.png" />
+                  <Image url="@imgs/mancity.png" />
                </image>
                <HBox.margin>
                   <Insets left="10.0" top="5.0" />
