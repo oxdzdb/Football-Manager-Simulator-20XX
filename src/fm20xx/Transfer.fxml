@@ -5,6 +5,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -18,7 +19,7 @@
          <children>
             <ImageView fx:id="icon" fitHeight="80.0" fitWidth="80.0" onMouseClicked="#home" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@imgs/mancity.png" />
+                  <Image url="@../OneDrive/Documents/NetBeansProjects/Football-Manager-Simulator-20XX-main/src/fm20xx/imgs/mancity.png" />
                </image>
                <HBox.margin>
                   <Insets left="10.0" top="5.0" />
@@ -82,17 +83,11 @@
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <TextArea editable="false" prefHeight="60.0" prefWidth="600.0" promptText="Enter an Amount...">
+                        <TextField promptText="Enter an Amount">
                            <font>
-                              <Font name="DejaVu Sans ExtraLight" size="20.0" />
+                              <Font size="20.0" />
                            </font>
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                           <VBox.margin>
-                              <Insets left="10.0" right="10.0" />
-                           </VBox.margin>
-                        </TextArea>
+                        </TextField>
                         <Label prefHeight="50.0" prefWidth="647.0" text="PLAYER" textFill="WHITE">
                            <font>
                               <Font name="DejaVu Sans Condensed Bold" size="20.0" />
@@ -101,17 +96,11 @@
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <TextArea editable="false" prefHeight="60.0" prefWidth="600.0" promptText="Enter a Player...">
+                        <TextField promptText="Enter a Player">
                            <font>
-                              <Font name="DejaVu Sans ExtraLight" size="20.0" />
+                              <Font size="20.0" />
                            </font>
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                           <VBox.margin>
-                              <Insets left="10.0" right="10.0" />
-                           </VBox.margin>
-                        </TextArea>
+                        </TextField>
                         <Label alignment="CENTER" prefHeight="60.0" prefWidth="647.0" text="TOTAL VALUE:" textFill="WHITE">
                            <font>
                               <Font name="DejaVu Sans Condensed Bold" size="20.0" />
@@ -152,17 +141,11 @@
                               <Insets right="10.0" />
                            </padding>
                         </Label>
-                        <TextArea prefHeight="60.0" prefWidth="600.0" promptText="Enter a Team...">
+                        <TextField prefHeight="63.0" prefWidth="657.0" promptText="Enter a Team">
                            <font>
-                              <Font name="DejaVu Sans ExtraLight" size="20.0" />
+                              <Font size="20.0" />
                            </font>
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                           <VBox.margin>
-                              <Insets left="10.0" right="10.0" />
-                           </VBox.margin>
-                        </TextArea>
+                        </TextField>
                         <Label alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="647.0" text="MONEY" textFill="WHITE">
                            <font>
                               <Font name="DejaVu Sans Condensed Bold" size="20.0" />
@@ -171,17 +154,11 @@
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <TextArea editable="false" prefHeight="60.0" prefWidth="600.0" promptText="Enter an Amount...">
+                        <TextField promptText="Enter an Amount">
                            <font>
-                              <Font name="DejaVu Sans ExtraLight" size="20.0" />
+                              <Font size="20.0" />
                            </font>
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                           <VBox.margin>
-                              <Insets left="10.0" right="10.0" />
-                           </VBox.margin>
-                        </TextArea>
+                        </TextField>
                         <Label alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="647.0" text="PLAYER" textFill="WHITE">
                            <font>
                               <Font name="DejaVu Sans Condensed Bold" size="20.0" />
@@ -190,17 +167,11 @@
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <TextArea editable="false" prefHeight="60.0" prefWidth="600.0" promptText="Enter a Player...">
+                        <TextField promptText="Enter a Player">
                            <font>
-                              <Font name="DejaVu Sans ExtraLight" size="20.0" />
+                              <Font size="20.0" />
                            </font>
-                           <opaqueInsets>
-                              <Insets />
-                           </opaqueInsets>
-                           <VBox.margin>
-                              <Insets left="10.0" right="10.0" />
-                           </VBox.margin>
-                        </TextArea>
+                        </TextField>
                         <Label alignment="CENTER" prefHeight="60.0" prefWidth="647.0" text="TOTAL VALUE:" textFill="WHITE">
                            <font>
                               <Font name="DejaVu Sans Condensed Bold" size="20.0" />

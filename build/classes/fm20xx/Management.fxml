@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1322.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1322.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fm20xx.ManagementController">
    <children>
       <HBox prefHeight="100.0" prefWidth="1322.0" style="-fx-background-color: #1a1c38; -fx-border-color: #ffffff; -fx-border-width: 1;">
          <children>
@@ -24,7 +24,7 @@
                   <Insets left="20.0" />
                </HBox.margin>
             </Label>
-            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #f3d455;" text="RETURN TO GAME &gt;">
+            <Button mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #f3d455;" text="RETURN TO GAME &gt;">
                <HBox.margin>
                   <Insets bottom="20.0" left="20.0" right="20.0" top="25.0" />
                </HBox.margin>

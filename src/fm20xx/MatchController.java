@@ -27,6 +27,7 @@ public class MatchController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+    @FXML
     private void manage(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Management.fxml"));
         Parent root = loader.load();
