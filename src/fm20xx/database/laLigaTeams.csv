@@ -1,0 +1,21 @@
+Name,Short Name,Location,Stadium Name,Wins,Draws,Losses,Goals,Con Goals,Funds,Facility Rating,Points,Stadium Capacity,Image FIle Name
+Barcelona ,BAR,Barcelona,Camp Nou,0,0,0,0,0,2000000,19,0,56000,teamImgs/FCBarcelona.png
+Athletic Bilbao,BIL,Bilbao,San Mames,0,0,0,0,0,21000000,18,0,53332,teamImgs/clubAthleticBilbao.png
+Atletico Madrid,ATL,Madrid,Civitas Metropolitano,0,0,0,0,0,4000000,17,0,68456,teamImgs/atleticoMadrid.png
+Osasuna,OSA,Pamplona,El Sadar Stadium,0,0,0,0,0,0,12,0,23576,teamImgs/CAOsasuna.png
+Leganes,LEG,Leganes,Butarque,0,0,0,0,0,78000,14,0,12450,teamImgs/CDLeganes.png
+Alaves,ALV,Vitoria-Gasteiz,Mendizorozza,0,0,0,0,0,0,12,0,19840,teamImgs/deportivoAlaves.png
+Getafe ,GET,Getafe,Coliseum,0,0,0,0,0,857000,13,0,17393,teamImgs/getafeCF.png
+Girona ,GIR,Girona,Montilivi,0,0,0,0,0,4000000,13,0,14642,teamImgs/gironaFC.png
+Rayo Vallecano,RVL,Villa de Vallecas,El Campo de Futbol de Vallecas,0,0,0,0,0,857000,12,0,14708,teamImgs/rayoVallecano.png
+Celta Vigo,CVI,Vigo,Balaidos,0,0,0,0,0,17000000,12,0,24791,teamImgs/RCCeltaDeVigo.png
+Espanyol,ESP,Barcelona,Estadio Cornella-El Prat,0,0,0,0,0,4000000,17,0,40000,teamImgs/RCDEspanyol.png
+Mallorca,MAL,Palma,Son Moix,0,0,0,0,0,857000,12,0,23142,teamImga/RCDMallorca.png
+Real Betis,BET,Seville,Estadio Benito Villamarin,0,0,0,0,0,3000000,14,0,60720,teamImgs/realBetis.png
+Real Madrid,RMA,Madrid,Santiago Bernabeu,0,0,0,0,0,21000000,18,0,81044,teamImgs/realMadridCF.png
+Real Sociedad,RSO,San Sebastian,Anoeta Stadium,0,0,0,0,0,1000000,18,0,39313,teamImgs/realSociedad.png
+Real Valladolid,RVA,Valladolid,Nuevo Jose Zorrila,0,0,0,0,0,0,14,0,27618,teamImgs/realValladolidCF.png
+Sevilla,SEV,Seville,Ramon Sanchez-Pizjuan,0,0,0,0,0,4000000,16,0,43883,teamImgs/sevillaFC.png
+Las Palmas,LSP,Las Palmas,Estadio de Gran Canaria,0,0,0,0,0,2000000,14,0,32400,teamImgs/UDLasPalmas.png
+Valencia,VAL,Valencia,Mestalla,0,0,0,0,0,2000000,16,0,49430,teamImgs/valenciaCF.png
+Villareal ,VIL,Villareal,Estadio de La Ceramica,0,0,0,0,0,13000000,17,0,23000,teamImgs/villarealCF.png

@@ -15,18 +15,26 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
 /**
- * FXML Controller class
+ * TeamSelect.fxml Controller class
  *
  * @author Dell
  */
 
 public class TeamSelectController implements Initializable {
-
     @FXML private Button back;
-    @FXML
+    @FXML private Button home;
+    @FXML private Label teamName;
+    @FXML private Label location;
+    @FXML private Label leagueName;
+    @FXML private Label budget;
+    @FXML private Label aveRating;
+    @FXML private Label facRating;
+    @FXML private Label playerCount;
+    
     private void back(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Title.fxml"));
         Parent root = loader.load();

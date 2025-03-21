@@ -16,11 +16,10 @@ public class League {
     private static ArrayList<League> leagueList = new ArrayList();
     private static ArrayList<Team> teamList = new ArrayList();
     
-    public League(String nm, String nt, String fn, int pR) {
+    public League(String nm, String nt, String fn) {
         this.name = nm;
         this.nation = nt;
         this.imgFileName = fn;
-        this.popRating = pR;
         League.leagueList.add(this);
     }
     
@@ -33,9 +32,6 @@ public class League {
     }
     public String getNation(){
         return nation;
-    }
-    public int getPopRating(){
-        return popRating;
     }
     public static ArrayList getLeagueList(){
         return leagueList;

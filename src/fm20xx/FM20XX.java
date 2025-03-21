@@ -20,11 +20,11 @@ public class FM20XX extends Application {
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("fm20xx/Title.fxml"));
         
-        League prem = new League("Premier League", "England", "leagueImgs/premierLeague.png", 5);
-        League bundesliga = new League("Bundesliga", "Germany", "leagueImgs/bundesliga.png", 4);
-        League laLiga = new League("La Liga", "Spain", "leagueImgs/laLiga.png", 3);
-        League serieA = new League("Serie A", "Italy", "leagueImgs/serieA.png", 2);
-        League ligue1 = new League("Ligue 1", "France", "leagueImgs/ligue1.png", 1);
+        League prem = new League("Premier League", "England", "leagueImgs/premierLeague.png");
+        League bundesliga = new League("Bundesliga", "Germany", "leagueImgs/bundesliga.png");
+        League laLiga = new League("La Liga", "Spain", "leagueImgs/laLiga.png");
+        League serieA = new League("Serie A", "Italy", "leagueImgs/serieA.png");
+        League ligue1 = new League("Ligue 1", "France", "leagueImgs/ligue1.png");
         
         Team AdM = new Team("Atletico de Manila", "ADM", "Manila", "Rizal Memorial Stadium", 0, 0, 0, 0, 0, 450000000, 60, 40, 10);
         Team DD = new Team("Dynamo Dresden", "DD", "Dresden", "Rudolf-Harbig-Stadion", 0, 0, 0, 0, 0, 550000000, 70, 60, 10);
@@ -104,14 +104,7 @@ public class FM20XX extends Application {
         Manager Kimwell = new Manager("Oltritch Kimwell", "German", DD, 70, 65, 75); 
         Manager Uy = new Manager("Scian Uy", "Bulgarian", SS, 80, 75, 80);
         Manager Citar = new Manager("Carmer Citar", "Japanese", YM, 75, 80, 65); 
-        
-        League OL = new League("Origins League", "Philippines", "premierLeague.png", 3);
-        OL.getLeagueList().add(AdM);
-        OL.getLeagueList().add(DD);
-        OL.getLeagueList().add(SS);
-        OL.getLeagueList().add(YM);
-
-        
+  
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
