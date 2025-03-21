@@ -28,11 +28,6 @@ public class TitleController implements Initializable {
     @FXML private Button start, setting, exit;
     
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-       // System.out.println("You clicked me!");
-        //label.setText("Hello World!");
-    }
-    @FXML
     private void start(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("TeamSelect.fxml"));
         Parent root = loader.load();
@@ -56,8 +51,6 @@ public class TitleController implements Initializable {
         Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
         thisStage.close();
     }
-    
-    
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {

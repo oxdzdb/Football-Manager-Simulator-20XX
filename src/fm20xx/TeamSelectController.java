@@ -35,6 +35,7 @@ public class TeamSelectController implements Initializable {
     @FXML private Label facRating;
     @FXML private Label playerCount;
     
+    @FXML
     private void back(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Title.fxml"));
         Parent root = loader.load();
