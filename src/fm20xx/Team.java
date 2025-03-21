@@ -14,12 +14,13 @@ import java.util.Scanner;
 public class Team implements Exchange {
     private String name, shortName, location, stadiumName, imgFileName;
     private int wins, draws, losses, goals, concededGoals, funds, facilityRating, points, stadiumCap;
+    private League league;
     private static ArrayList<Player> playerList = new ArrayList();
     private static ArrayList<Staff> staffList = new ArrayList();
     private static ArrayList<Player> startingLineup = new ArrayList();
     private static ArrayList<Player> subsLineup = new ArrayList();
 
-    public Team(String n, String shN, String loc, String sN, int w, int d, int l, int g, int gC, int f, int fR, int p, int sC, String iFN) {
+    public Team(String n, String shN, String loc, String sN, int w, int d, int l, int g, int gC, int f, int fR, int p, int sC, String iFN, League league) {
         this.name = n;
         this.shortName = shN;
         this.location = loc;
@@ -34,6 +35,11 @@ public class Team implements Exchange {
         this.points = p;
         this.stadiumCap = sC;
         this.imgFileName = iFN;
+        this.league = league;
+    }
+    
+    public League getLeague() {
+        return league;
     }
     
     /**

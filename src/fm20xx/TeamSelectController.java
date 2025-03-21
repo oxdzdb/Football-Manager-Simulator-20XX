@@ -91,7 +91,6 @@ public class TeamSelectController implements Initializable {
             facRating.setText("Facility Rating: " + team.getFacilityRating());
             playerCount.setText("Players: " + team.getPlayerListSize());
             
-            
             previous.setDisable(index == 0);
             next.setDisable(index == (League.getTeamListSize() - 1));
         }
