@@ -46,4 +46,8 @@ public class League {
     public static League searchLeague(int index) throws IndexOutOfBoundsException{
         return leagueList.get(index);
     }
+    
+    public static Team searchTeam(int index) throws IndexOutOfBoundsException{
+        return teamList.get(index);
+    }
 }

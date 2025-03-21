@@ -16,6 +16,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 /**
@@ -25,8 +27,12 @@ import javafx.stage.Stage;
  */
 
 public class TeamSelectController implements Initializable {
+    @FXML private ImageView icon;
     @FXML private Button back;
     @FXML private Button home;
+    @FXML private Button next;
+    @FXML private Button previous;
+    @FXML private Button search;
     @FXML private Label teamName;
     @FXML private Label location;
     @FXML private Label leagueName;
@@ -34,6 +40,8 @@ public class TeamSelectController implements Initializable {
     @FXML private Label aveRating;
     @FXML private Label facRating;
     @FXML private Label playerCount;
+    
+    int index = 0;
     
     @FXML
     private void back(ActionEvent event) throws IOException {
@@ -44,6 +52,7 @@ public class TeamSelectController implements Initializable {
         thisStage.setScene(scene);
         thisStage.show();
     }
+    
     @FXML
     private void home(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Home.fxml"));
@@ -53,6 +62,41 @@ public class TeamSelectController implements Initializable {
         thisStage.setScene(scene);
         thisStage.show();
     }
+    
+    @FXML
+    public void previous(){
+        if(index > 0){
+            index--;
+            updateTeam();    
+        }
+    }
+    
+    @FXML
+    public void next(){
+        if(index < League.getLeagueListLen()){
+            index++;
+            updateTeam();
+        }
+    }
+    
+    @FXML
+    public void updateTeam(){
+        Team team = League.searchTeam(index);
+        if (team != null){
+            icon.setImage(new Image(getClass().getResourceAsStream(team.getImgFileName())));
+            teamName.setText(team.getName());
+            location.setText(team.getStadiumName() + ", " + team.getLocation());
+            budget.setText("Budget: " + team.getFunds());
+            aveRating.setText("Average Rating: ");
+            facRating.setText("Facility Rating: " + team.getFacilityRating());
+            playerCount.setText("Players: " + team.getPlayerListSize());
+            
+            
+            previous.setDisable(index == 0);
+            next.setDisable(index == (League.getTeamListSize() - 1));
+        }
+    }
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

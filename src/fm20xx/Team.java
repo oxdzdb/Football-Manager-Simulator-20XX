@@ -12,14 +12,14 @@ import java.util.Scanner;
  * @author oxdzdb
  */
 public class Team implements Exchange {
-    private String name, shortName, location, stadiumName;
+    private String name, shortName, location, stadiumName, imgFileName;
     private int wins, draws, losses, goals, concededGoals, funds, facilityRating, points, stadiumCap;
     private static ArrayList<Player> playerList = new ArrayList();
     private static ArrayList<Staff> staffList = new ArrayList();
     private static ArrayList<Player> startingLineup = new ArrayList();
     private static ArrayList<Player> subsLineup = new ArrayList();
 
-    public Team(String n, String shN, String loc, String sN, int w, int d, int l, int g, int gC, int f, int fR, int p, int sC) {
+    public Team(String n, String shN, String loc, String sN, int w, int d, int l, int g, int gC, int f, int fR, int p, int sC, String iFN) {
         this.name = n;
         this.shortName = shN;
         this.location = loc;
@@ -33,6 +33,7 @@ public class Team implements Exchange {
         this.facilityRating = fR;
         this.points = p;
         this.stadiumCap = sC;
+        this.imgFileName = iFN;
     }
     
     /**
@@ -42,7 +43,6 @@ public class Team implements Exchange {
         return name;
     }
 
-    
 
     /**
      * @return the shortName
@@ -52,15 +52,12 @@ public class Team implements Exchange {
     }
 
 
-
     /**
      * @return the location
      */
     public String getLocation() {
         return location;
     }
-
-
 
     /**
      * @return the stadiumName
@@ -69,14 +66,12 @@ public class Team implements Exchange {
         return stadiumName;
     }
 
-
     /**
      * @return the wins
      */
     public int getWins() {
         return wins;
     }
-
 
     /**
      * @return the funds
@@ -85,15 +80,12 @@ public class Team implements Exchange {
         return funds;
     }
 
-  
     /**
      * @return the draws
      */
     public int getDraws() {
         return draws;
     }
-
-
 
     /**
      * @return the losses
@@ -102,16 +94,12 @@ public class Team implements Exchange {
         return losses;
     }
 
-
-
     /**
      * @return the goals
      */
     public int getGoals() {
         return goals;
     }
-
-
 
     /**
      * @return the concededGoals
@@ -120,8 +108,6 @@ public class Team implements Exchange {
         return concededGoals;
     }
 
-
-
     /**
      * @return the facilityRating
      */
@@ -129,16 +115,12 @@ public class Team implements Exchange {
         return facilityRating;
     }
 
-
-
     /**
      * @return the points
      */
     public int getPoints() {
         return points;
     }
-
-
     
     /**
      * @return the playerList
@@ -147,15 +129,16 @@ public class Team implements Exchange {
         return playerList;
     }
 
-
     /**
      * @return the staffList
      */
     public static ArrayList<Staff> getStaffList() {
         return staffList;
     }
-
-
+    
+    public String getImgFileName() { 
+        return imgFileName;
+    }
 
     /**
      * @return the startingLineup
@@ -163,7 +146,6 @@ public class Team implements Exchange {
     public static ArrayList<Player> getStartingLineup() {
         return startingLineup;
     }
-
 
     /**
      * @return the subsLineup
@@ -214,6 +196,10 @@ public class Team implements Exchange {
         this.funds = funds;
     }
 
+    public static int getPlayerListSize(){
+        return playerList.size();
+    }
+    
     /**
      * @param facilityRating the facilityRating to set
      */

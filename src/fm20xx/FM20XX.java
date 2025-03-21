@@ -26,10 +26,10 @@ public class FM20XX extends Application {
         League serieA = new League("Serie A", "Italy", "leagueImgs/serieA.png");
         League ligue1 = new League("Ligue 1", "France", "leagueImgs/ligue1.png");
         
-        Team AdM = new Team("Atletico de Manila", "ADM", "Manila", "Rizal Memorial Stadium", 0, 0, 0, 0, 0, 450000000, 60, 40, 10);
-        Team DD = new Team("Dynamo Dresden", "DD", "Dresden", "Rudolf-Harbig-Stadion", 0, 0, 0, 0, 0, 550000000, 70, 60, 10);
-        Team SS = new Team("Sofia Strikers", "SS", "Sofia", "Vasil Levski National Stadium", 0, 0, 0, 0, 0, 450000000, 60, 40, 10);
-        Team YM = new Team("Yokohama Marinos", "YM", "Yokohama", "Nissan Stadium", 0, 0, 0, 0, 0, 550000000, 70, 60, 10);
+        Team AdM = new Team("Atletico de Manila", "ADM", "Manila", "Rizal Memorial Stadium", 0, 0, 0, 0, 0, 450000000, 60, 40, 10, "s");
+        Team DD = new Team("Dynamo Dresden", "DD", "Dresden", "Rudolf-Harbig-Stadion", 0, 0, 0, 0, 0, 550000000, 70, 60, 10, "s");
+        Team SS = new Team("Sofia Strikers", "SS", "Sofia", "Vasil Levski National Stadium", 0, 0, 0, 0, 0, 450000000, 60, 40, 10, "s");
+        Team YM = new Team("Yokohama Marinos", "YM", "Yokohama", "Nissan Stadium", 0, 0, 0, 0, 0, 550000000, 70, 60, 10, "s");
         
         Player p1 = new Player("Arti", "Filipino", AdM, 60, 80, 60, "FW", 0, 42, 600000.0);
         Player p2 = new Player("Ficial", "Filipino", AdM, 70, 70, 60, "MF", 0, 3, 700000.0);
