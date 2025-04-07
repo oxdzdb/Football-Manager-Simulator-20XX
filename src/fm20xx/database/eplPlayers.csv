@@ -1,0 +1,506 @@
+Name,Nationality,Team,XP (Age) ,Skill Rating,Position,Number,Value
+Neto,BRA,Arsenal,35,72,GK,32,2000000
+Jack Porter,ENG,Arsenal,16,33,GK,1,346000
+David Raya,ESP,Arsenal,29,78,GK,22,38000000
+Tommy Setford,ENG,Arsenal,19,46,GK,1,0
+Ricciardo Calafiori,ITA,Arsenal,22,70,DF,33,39100000
+Gabriel,BRA,Arsenal,27,80,DF,6,74500000
+Jakub Kiwior,POL,Arsenal,25,72,DF,15,22200000
+Josh Nichols,ENG,Arsenal,18,38,DF,12,0
+William Saliba,FRA,Arsenal,24,84,DF,2,77200000
+Kieran Tierney,SCO,Arsenal,27,76,DF,3,9400000
+Jurrien Timber,NLD,Arsenal,23,74,DF,12,48200000
+Takehiro Tomiyasu,JPN,Arsenal,26,75,DF,18,24500000
+Ben White,ENG,Arsenal,27,78,DF,4,49600000
+Oleksandr Zinchenko,UKR,Arsenal,28,78,DF,17,21800000
+Nathan Butler-Oyedeji,ENG,Arsenal,22,44,MF,11,440000
+Jimi Gower,ENG,Arsenal,20,40,MF,44,0
+Jorginho,ITA,Arsenal,33,75,MF,20,7800000
+Miles Lewis-Skelly,ENG,Arsenal,18,55,MF,49,27800000
+Mikel Merino,ESP,Arsenal,28,77,MF,23,35700000
+Ethan Nwaneri,ENG,Arsenal,18,58,MF,53,53000000
+Martin Odegaard,NOR,Arsenal,26,88,MF,8,105000000
+Salah Oulad M'Hand,MAR,Arsenal,21,50,MF,10,386000
+Thomas Partey,GHA,Arsenal,31,78,MF,5,14700000
+Declan Rice,ENG,Arsenal,26,88,MF,41,112300000
+Gabriel Jesus,BRA,Arsenal,28,83,ST,9,39100000
+Kai Havertz,DEU,Arsenal,25,78,ST,29,70500000
+Ismeal Kabia,NLD,Arsenal,19,37,ST,7,0
+Gabriel Martinelli,BRA,Arsenal,23,80,ST,11,54600000
+Bukayo Saka,ENG,Arsenal,23,89,ST,7,150000000
+Raheem Sterling,ENG,Arsenal,30,81,ST,30,14700000
+Leandro Trossard,BEL,Arsenal,30,78,ST,19,30200000
+Emiliano Martinez,ARG,Aston VIlla,32,80,GK,23,25000000
+Robin Olsen,SWE,Aston VIlla,35,64,GK,25,1500000
+Lamare Bogarde,NLD,Aston VIlla,21,54,DF,26,5000000
+Matty Cash,POL,Aston VIlla,27,70,DF,2,28000000
+Lucas Digne,FRA,Aston VIlla,31,73,DF,12,12000000
+Axel Disasi,FRA,Aston VIlla,27,74,DF,3,25000000
+Andres Garcia,ESP,Aston VIlla,22,62,DF,16,7000000
+Ezri Konsa,ENG,Aston VIlla,27,74,DF,4,35000000
+Ian Maatsen,NLD,Aston VIlla,23,67,DF,22,28000000
+Tyrone Mings,ENG,Aston VIlla,32,73,DF,5,6000000
+Pau Torres,ESP,Aston VIlla,28,78,DF,14,40000000
+Ross Barkley,ENG,Aston VIlla,31,71,MF,6,8000000
+Boubacar Kamara,FRA,Aston VIlla,25,74,MF,44,38000000
+John McGinn,SCO,Aston VIlla,30,78,MF,7,18000000
+Amadou Onana,BEL,Aston VIlla,23,69,MF,24,55000000
+Jacob Ramsey,ENG,Aston VIlla,23,71,MF,41,32000000
+Morgan Rogers,ENG,Aston VIlla,22,65,MF,27,50000000
+Youri Tielemans,BEL,Aston VIlla,27,74,MF,8,35000000
+Marco Asensio,ESP,Aston VIlla,29,80,ST,21,20000000
+Leon Bailey,JAM,Aston VIlla,27,73,ST,31,32000000
+Donyell Malen,NLD,Aston VIlla,26,73,ST,17,25000000
+Marcus Rashford,ENG,Aston VIlla,27,80,ST,9,50000000
+Ollie Watkins,ENG,Aston VIlla,29,74,ST,11,50000000
+Kepa Arrizabalaga,ESP,Bournemouth,30,71,GK,13,11000000
+Julian Araujo,MEX,Bournemouth,23,65,DF,22,10000000
+James Hill,ENG,Bournemouth,23,59,DF,23,2000000
+Dean Huijsen,ESP,Bournemouth,19,60,DF,2,42000000
+Milos Kerkez,HUN,Bournemouth,21,65,DF,3,35000000
+Marcos Senesi,ARG,Bournemouth,27,68,DF,5,24000000
+Adam Smith,ENG,Bournemouth,33,65,DF,15,1000000
+Ilya Zabarnyi,UKR,Bournemouth,22,67,DF,27,40000000
+Tyler Adams,USA,Bournemouth,26,71,MF,12,18000000
+Ryan Christie,SCO,Bournemouth,30,69,MF,10,12000000
+Lewis Cook,ENG,Bournemouth,28,67,MF,4,15000000
+Alex Scott,ENG,Bournemouth,21,66,MF,8,20000000
+Marcus Tavernier,ENG,Bournemouth,26,68,MF,16,20000000
+Ben Winterburn,ENG,Bournemouth,20,18,MF,47,0
+David Brooks,WLS,Bournemouth,27,65,ST,7,12000000
+Evanilson,BRA,Bournemouth,25,73,ST,9,35000000
+Daniel Jebbison,CAN,Bournemouth,21,56,ST,21,4000000
+Justin Kluivert,NLD,Bournemouth,25,73,ST,19,35000000
+Dango Ouattara,BFA,Bournemouth,23,65,ST,11,25000000
+Remy Rees-Dottin,ENG,Bournemouth,19,26,ST,51,0
+Antoine Semenyo,GHA,Bournemouth,25,66,ST,24,35000000
+Zain Silcott-Duberry,ENG,Bournemouth,19,40,ST,43,0
+Luis Sinisterra,COL,Bournemouth,25,70,ST,17,17000000
+Enes Unai,TUR,Bournemouth,27,70,ST,26,13000000
+Mark Flekken,NLD,Brentford,31,69,GK,1,10000000
+Hakon Rafn Valdimarsson,ISL,Brentford,23,60,GK,12,2500000
+Kristoffer Ajer,NOR,Brentford,26,70,DF,20,18000000
+Nathan Collins,IRL,Brentford,23,68,DF,22,28000000
+Rico Henry,ENG,Brentford,27,73,DF,3,17000000
+Michael Kayode,ITA,Brentford,20,67,DF,33,18000000
+Kim Ji-Soo,KOR,Brentford,20,49,DF,36,600000
+Ben Mee,ENG,Brentford,35,70,DF,16,900000
+Ethan Pinnock,JAM,Brentford,31,70,DF,5,8000000
+Sepp van den Berg,NLD,Brentford,23,62,DF,4,20000000
+Fabio Carvalho,PRT,Brentford,22,66,MF,14,15000000
+Mikkel Damsgaard,DNK,Brentford,24,68,MF,24,25000000
+Vitaly Janelt,DEU,Brentford,26,69,MF,27,22000000
+Mathias Jensen,DNK,Brentford,29,71,MF,8,16000000
+Yunus Emre Konak,TUR,Brentford,19,50,MF,26,4500000
+Keane Lewis-Potter,ENG,Brentford,24,66,MF,23,23000000
+Paris Maghoma,ENG,Brentford,23,54,MF,32,600000
+Christian Norgaard,DNK,Brentford,31,72,MF,6,12000000
+Kevin Schade,DEU,Brentford,23,69,MF,7,27000000
+Yegor Yarmolyuk,UKR,Brentford,21,60,MF,18,12000000
+Bryan Mbuemo,CMR,Brentford,25,74,ST,19,50000000
+Igor Thiago,BRA,Brentford,23,63,ST,9,22000000
+Yoane Wissa,COD,Brentford,28,69,ST,11,30000000
+Jason Steele,ENG,Brighton,34,73,GK,34,2000000
+Bart Verbruggen,NLD,Brighton,22,66,GK,22,25000000
+Eiran Cashin,IRL,Brighton,23,58,DF,23,8000000
+Lewis Dunk,ENG,Brighton,33,77,DF,33,8000000
+Pervis Estupinan,ECU,Brighton,27,78,DF,27,30000000
+Igor,BRA,Brighton,27,72,DF,27,22000000
+Ferdi Kadioglu,TUR,Brighton,25,73,DF,25,30000000
+Tariq Lamptey,GHA,Brighton,24,69,DF,24,12000000
+Joel Veltman,NLD,Brighton,33,73,DF,33,7000000
+Adam Webster,ENG,Brighton,30,71,DF,30,12000000
+Jan Paul van Hecke,NLD,Brighton,24,74,DF,24,32000000
+Yasin Ayari,SWE,Brighton,21,55,MF,21,17000000
+Carlos Baleba,CMR,Brighton,21,67,MF,21,35000000
+Diego Gomez,PRY,Brighton,22,58,MF,22,13000000
+Jack HInshelwood,ENG,Brighton,19,64,MF,19,24000000
+Matt O'Riley,DMK,Brighton,24,69,MF,24,22000000
+Mats Wieffer,NLD,Brighton,25,70,MF,25,27000000
+Simon Adingra,IRL,Brighton,23,69,ST,23,30000000
+Brajan Gruda,DEU,Brighton,20,61,ST,20,25000000
+Joao Pedro,BRA,Brighton,23,72,ST,23,50000000
+Solly March,ENG,Brighton,30,75,ST,30,8000000
+Yankuba Minteh,GMB,Brighton,20,63,ST,20,30000000
+Kaoru Mitoma,JPN,Brighton,27,75,ST,27,45000000
+Georginio Rutter,FRA,Brighton,22,68,ST,22,32000000
+Danny Welbeck,ENG,Brighton,34,74,ST,34,5000000
+Filip Jorgensen,DNK,Chelsea,22,70,GK,12,20000000
+Robert Sanchez,ESP,Chelsea,27,71,GK,1,20000000
+Josh Acheampong,ENG,Chelsea,18,40,DF,34,5000000
+Tosin Adarabioyo,ENG,Chelsea,27,68,DF,4,20000000
+Benoit Badiashile,FRA,Chelsea,24,74,DF,5,25000000
+Trevoh Chalobah,ENG,Chelsea,25,74,DF,23,17000000
+Levi Colwill,ENG,Chelsea,22,73,DF,6,55000000
+Marc Cucurella,ESP,Chelsea,26,73,DF,3,30000000
+Wesley Fofana,FRA,Chelsea,24,76,DF,29,27000000
+Malo Gusto,FRA,Chelsea,21,69,DF,27,35000000
+Reece James,ENG,Chelsea,25,81,DF,24,30000000
+Mathis Amougou,FRA,Chelsea,19,39,MF,39,10000000
+Moises Caicedo,ECU,Chelsea,23,78,MF,25,80000000
+Kiernan Dewsbury-Hall,ENG,Chelsea,26,70,MF,22,22000000
+Enzo Fernandez,ARG,Chelsea,24,79,MF,8,75000000
+Romeo Lavia,BEL,Chelsea,21,67,MF,45,40000000
+Christopher Nkunku,FRA,Chelsea,27,81,MF,18,45000000
+Cole Palmer,ENG,Chelsea,22,74,MF,20,130000000
+Tyrique George,ENG,Chelsea,19,49,ST,32,3500000
+Marc Guiu,ESP,Chelsea,19,48,ST,38,8000000
+Nicolas Jackson,SEN,Chelsea,23,74,ST,15,55000000
+Noni Madueke,ENG,Chelsea,23,70,ST,11,40000000
+Shumaira Mhueka,ENG,Chelsea,17,38,ST,9,0
+Mykhailo Mudryk,UKR,Chelsea,24,70,ST,10,30000000
+Pedro Neto,PRT,Chelsea,25,69,ST,7,50000000
+Jadon Sancho,ENG,Chelsea,25,72,ST,19,30000000
+Dean Henderson,ENG,Crystal Palace,28,69,GK,1,15000000
+Ben Chilwell,ENG,Crystal Palace,28,78,DF,25,18000000
+Nathaniel Clyne,ENG,Crystal Palace,34,63,DF,17,1500000
+Marc Guehi,ENG,Crystal Palace,24,76,DF,6,45000000
+Maxence Lacroix,FRA,Crystal Palace,25,69,DF,5,22000000
+Tyrick Mitchell,ENG,Crystal Palace,25,69,DF,3,25000000
+Daniel Munoz,COL,Crystal Palace,28,64,DF,12,25000000
+Chadi Riad,MAR,Crystal Palace,21,64,DF,34,15000000
+Chris Richards,USA,Crystal Palace,25,67,DF,26,12000000
+Joel Ward,ENG,Crystal Palace,35,64,DF,2,600000
+Justin Devenny,NIR,Crystal Palace,21,41,MF,55,3000000
+Cheick Doucoure,MLI,Crystal Palace,25,72,MF,28,30000000
+Romain Esse,ENG,Crystal Palace,19,55,MF,21,12000000
+Eberechi Eze,ENG,Crystal Palace,26,74,MF,10,55000000
+Will Hughes,ENG,Crystal Palace,29,65,MF,19,9000000
+Kamada Daichi,JPN,Crystal Palace,28,70,MF,18,15000000
+Caleb Kporha,ENG,Crystal Palace,18,38,MF,2,1000000
+Jefferson Lerma,COL,Crystal Palace,30,69,MF,8,12000000
+Franca Matheus,BRA,Crystal Palace,21,62,MF,11,10000000
+Adam Wharton,ENG,Crystal Palace,21,64,MF,20,35000000
+Jean-Philippe Mateta,FRA,Crystal Palace,27,65,ST,14,30000000
+Eddie Nketiah,ENG,Crystal Palace,25,74,ST,9,22000000
+Ismaila Sarr,SEN,Crystal Palace,27,66,ST,7,22000000
+Jordan Pickford,ENG,Everton,31,75,GK,1,20000000
+Jarrad Branthwaite,ENG,Everton,22,73,DF,32,50000000
+Seamus Coleman,IRL,Everton,36,64,DF,23,500000
+Roman Dixon,ENG,Everton,20,40,DF,2,0
+Michael Keane,ENG,Everton,32,64,DF,5,6000000
+Vitali Mykolenko,UKR,Everton,25,67,DF,19,28000000
+Jake O'Brien,IRL,Everton,23,62,DF,15,15000000
+Nathan Patterson,SCO,Everton,23,67,DF,2,15000000
+James Tarkowski,ENG,Everton,32,70,DF,6,10000000
+Ashley Young,ENG,Everton,39,65,DF,18,500000
+Carlos Alcaraz,ARG,Everton,22,65,MF,24,14000000
+Abdoulaye Doucoure,MLI,Everton,32,68,MF,16,8000000
+James Garner,ENG,Everton,24,69,MF,37,20000000
+Idrissa Gueye,SEN,Everton,35,71,MF,27,2000000
+Tim Iroegbunam,ENG,Everton,21,59,MF,42,10000000
+Jesper Lindstrom,DMK,Everton,25,68,MF,29,20000000
+Orel Mangala,BEL,Everton,27,64,MF,8,20000000
+Dwight McNeil,ENG,Everton,25,70,MF,7,25000000
+Beto,GNB,Everton,27,70,ST,14,20000000
+Armando Broja,ALB,Everton,23,68,ST,22,13000000
+Dominic Calvert-Lewin,ENG,Everton,28,75,ST,9,20000000
+Chermiti,PRT,Everton,20,58,ST,17,9000000
+Jack Harrison,ENG,Everton,28,68,ST,11,16000000
+Iliman Ndiaye,SEN,Everton,25,67,ST,10,22000000
+Bernd Leno,DEU,Fulham,33,73,GK,1,11000000
+Joachim Andersen,DMK,Fulham,28,74,DF,5,32000000
+Calvin Bassey,NGA,Fulham,25,68,DF,3,25000000
+Timothy Castagne,BEL,Fulham,29,70,DF,21,15000000
+Jorge Cuenca,ESP,Fulham,25,71,DF,15,6000000
+Issa Diop,FRA,Fulham,28,67,DF,31,16000000
+Antonee Robinson,USA,Fulham,27,70,DF,33,35000000
+Kenny Tete,NLD,Fulham,29,70,DF,2,15000000
+Sander Berge,NOR,Fulham,27,68,MF,16,25000000
+Tom Cairney,SCO,Fulham,34,67,MF,10,2000000
+Alex Iwobi,NGA,Fulham,28,70,MF,17,25000000
+Joshua King,ENG,Fulham,18,40,MF,24,1000000
+Sasa Lukic,SRB,Fulham,28,68,MF,20,10000000
+Andreas Pereira,BRA,Fulham,29,70,MF,18,20000000
+Harrison Reed,ENG,Fulham,30,68,MF,6,7000000
+Ryan Sessegnon,ENG,Fulham,24,69,MF,30,9000000
+Emile Smith Rowe,ENG,Fulham,24,74,MF,32,32000000
+Harry Wilson,WLS,Fulham,28,69,MF,8,17000000
+Carlos Vinicius,BRA,Fulham,30,66,ST,12,4000000
+Martial Godo,ENG,Fulham,22,53,ST,47,600000
+Raul Jimenez,MEX,Fulham,33,68,ST,7,5000000
+Reiss Nelson,ENG,Fulham,25,74,ST,19,18000000
+Muniz Rodrigo,BRA,Fulham,23,64,ST,9,20000000
+Adama Traore,ESP,Fulham,29,69,ST,11,10000000
+Willian,BRA,Fulham,36,68,ST,22,1000000
+Arijanet Muric,XKX,Ipswich,26,65,GK,1,6000000
+Alex Palmer,ENG,Ipswich,28,60,GK,31,1200000
+Christian Walton,ENG,Ipswich,29,60,GK,28,1500000
+Cameron Burgess,AUS,Ipswich,29,63,DF,15,2500000
+Leif Davis,ENG,Ipswich,25,68,DF,3,25000000
+Ben Godfrey,ENG,Ipswich,27,68,DF,44,8000000
+Jacob Greaves,ENG,Ipswich,24,60,DF,24,20000000
+Benjamin Johnson,ENG,Ipswich,25,68,DF,18,9000000
+Dara O'Shea,IRL,Ipswich,26,65,DF,26,14000000
+Conor Townsend,ENG,Ipswich,32,60,DF,22,1200000
+Axel Tuanzebe,COD,Ipswich,27,66,DF,40,5000000
+Luke Woolfenden,ENG,Ipswich,26,67,DF,6,2000000
+Nathan Broadhead,WLS,Ipswich,27,64,MF,33,5000000
+Wes Burns,WLS,Ipswich,30,63,MF,7,2500000
+Jens Cajuste,SWE,Ipswich,25,68,MF,12,12000000
+Julio Enciso,PRY,Ipswich,21,69,MF,9,22000000
+Massimo Luongo,AUS,Ipswich,32,63,MF,25,500000
+Samy Morsy,EGY,Ipswich,33,65,MF,5,900000
+Kalvin Philllips,ENG,Ipswich,29,75,MF,8,15000000
+Sammie Szmodics,IRL,Ipswich,29,66,MF,23,12000000
+Jack Taylor,IRL,Ipswich,26,58,MF,14,3000000
+Conor Chaplin,ENG,Ipswich,28,65,ST,10,8000000
+Jack Clarke,ENG,Ipswich,24,70,ST,47,15000000
+Liam Delap,ENG,Ipswich,22,64,ST,19,35000000
+George Hirst,SCO,Ipswich,26,66,ST,27,5000000
+Omari Hutchinson,ENG,Ipswich,21,65,ST,20,22000000
+Chiedozie Ogbene,IRL,Ipswich,27,63,ST,21,8000000
+Jaden Philogene,ENG,Ipswich,23,64,ST,29,18000000
+Mads Hermansen,DMK,Leicester,24,69,GK,30,15000000
+Jakub Stolarczyk,POL,Leicester,24,62,GK,41,400000
+Danny Ward,WLS,Leicester,31,60,GK,1,1500000
+Conor Coady,ENG,Leicester,32,66,DF,4,3000000
+Woyo Coulibaly,FRA,Leicester,25,62,DF,25,2000000
+Wout Faes,BEL,Leicester,27,67,DF,3,20000000
+James Justin,ENG,Leicester,27,65,DF,2,15000000
+Victor Kristiansen,DMK,Leicester,22,66,DF,16,16000000
+Caleb Okoli,ITA,Leicester,23,66,DF,5,12000000
+Ricardo Pereira,PRT,Leicester,31,69,DF,21,5000000
+Luke Thomas,ENG,Leicester,23,62,DF,33,6000000
+Jannik Vestergaard,DMK,Leicester,32,68,DF,23,3000000
+Facundo Buonanotte,ARG,Leicester,20,67,MF,40,22000000
+Bobby De Cordova-Reid,JAM,Leicester,32,68,MF,14,4000000
+Bilal El Khannouss,MAR,Leicester,20,60,MF,11,30000000
+Wilfred Ndidi,NGA,Leicester,28,67,MF,6,18000000
+Oliver Skipp,ENG,Leicester,24,68,MF,22,12000000
+Boubakary Soumare,FRA,Leicester,26,68,MF,24,14000000
+Harry Winks,ENG,Leicester,29,70,MF,8,10000000
+Jordan Ayew,GHA,Leicester,33,67,ST,18,3500000
+Patson Daka,ZMB,Leicester,26,64,ST,20,12000000
+Odsonne Edouard,FRA,Leicester,27,68,ST,29,10000000
+Issahaku Fatawu,GHA,Leicester,21,67,ST,7,13000000
+Stephy Mavididi,ENG,Leicester,26,67,ST,10,11000000
+Kasey McAteer,IRL,Leicester,23,64,ST,35,900000
+Jamie Vardy,ENG,Leicester,38,66,ST,9,1000000
+Alisson,BRA,Liverpool,32,88,GK,1,25000000
+Vitezslav Jaros,CZE,Liverpool,23,46,GK,56,5000000
+Caoimhin Kelleher,IRL,Liverpool,26,70,GK,62,22000000
+Trent Alexander-Arnold,ENG,Liverpool,26,83,DF,66,75000000
+Conor Bradley,NIR,Liverpool,21,64,DF,84,25000000
+Joe Gomez,ENG,Liverpool,27,76,DF,2,25000000
+Ibrahima Konate,FRA,Liverpool,25,80,DF,5,60000000
+Jarell Quansah,ENG,Liverpool,22,64,DF,78,22000000
+Andrew Robertson,SCO,Liverpool,31,79,DF,26,20000000
+Konstantinos Tsimikas,GRC,Liverpool,28,75,DF,21,20000000
+Virgil van Dijk,NLD,Liverpool,33,89,DF,4,28000000
+Harvey Elliot,ENG,Liverpool,22,75,MF,19,35000000
+Endo Wataru,JPN,Liverpool,32,72,MF,3,10000000
+Ryan Gravenberch,NLD,Liverpool,22,78,MF,38,70000000
+Curtis Jones,ENG,Liverpool,24,75,MF,17,50000000
+Alexis Mac Allister,ARG,Liverpool,26,79,MF,10,90000000
+Dominik Szoboszlai,HUN,Liverpool,24,77,MF,8,80000000
+Federico Chiesa,ITA,Liverpool,27,78,ST,14,18000000
+Luis Diaz,COL,Liverpool,28,84,ST,7,85000000
+Diogo Jota,PRT,Liverpool,28,78,ST,20,45000000
+Cody Gakpo,NLD,Liverpool,25,77,ST,18,70000000
+Darwin Nunez,URY,Liverpool,25,78,ST,9,50000000
+Mohamed Salah,EGY,Liverpool,32,91,ST,11,55000000
+Ederson,BRA,Manchester City,31,90,GK,31,25000000
+Stefan Ortega,DEU,Manchester City,32,68,GK,18,9000000
+Manuel Akanji,CHE,Manchester City,29,77,DF,25,32000000
+Nathan Ake,NLD,Manchester City,30,78,DF,6,32000000
+Ruben Dias,PRT,Manchester City,27,88,DF,3,70000000
+Josko Gvardiol,HRV,Manchester City,23,75,DF,24,75000000
+Abdukodir Khusanov,UZB,Manchester City,21,58,DF,45,35000000
+Rico Lewis,ENG,Manchester City,20,72,DF,82,40000000
+Jahmai Simpson-Pusey,ENG,Manchester City,19,38,DF,4,2000000
+John Stones,ENG,Manchester City,30,83,DF,5,30000000
+Vitor Reis,BRA,Manchester City,19,41,DF,22,30000000
+Oscar Bobb,NOR,Manchester City,21,69,MF,52,25000000
+Kevin De Bruyne,BEL,Manchester City,33,95,MF,17,27000000
+Phil Foden,ENG,Manchester City,24,85,MF,47,130000000
+Jack Grealish,ENG,Manchester City,29,82,MF,10,35000000
+Ilkay Gundogan,DEU,Manchester City,34,84,MF,19,7000000
+Mateo Kovacic,HRV,Manchester City,30,76,MF,8,25000000
+James McAtee,ENG,Manchester City,22,64,MF,87,18000000
+Nico Gonzalez,ESP,Manchester City,23,70,MF,14,40000000
+Matheus Nunes,PRT,Manchester City,26,75,MF,27,35000000
+Nico O'Reilly,ENG,Manchester City,20,45,MF,75,7000000
+Bernardo Silva,PRT,Manchester City,30,89,MF,20,45000000
+Jeremy Doku,BEL,Manchester City,22,77,ST,11,55000000
+Erling Haaland,NOR,Manchester City,24,95,ST,9,200000000
+Omar Marmoush,EGY,Manchester City,26,73,ST,7,75000000
+Divin Mubama,ENG,Manchester City,20,55,ST,9,4000000
+Savinho,BRA,Manchester City,20,71,ST,26,55000000
+Andre Onana,CMR,Manchester Utd,29,74,GK,24,32000000
+Harry Amass,ENG,Manchester Utd,18,40,DF,41,0
+Diogo Dalot,PRT,Manchester Utd,26,72,DF,20,35000000
+Patrick Dorgu,DMK,Manchester Utd,20,62,DF,13,25000000
+Jonny Evans,NIR,Manchester Utd,37,70,DF,35,1500000
+Ayden Heaven,ENG,Manchester Utd,18,40,DF,26,1500000
+Victor Lindelof,SWE,Manchester Utd,30,71,DF,2,10000000
+Harry Maguire,ENG,Manchester Utd,32,73,DF,5,15000000
+Lisandro Martinez,ARG,Manchester Utd,27,78,DF,6,45000000
+Noussair Mazraoui,MAR,Manchester Utd,27,75,DF,3,32000000
+Luke Shaw,ENG,Manchester Utd,29,80,DF,23,16000000
+Leny Yoro,FRA,Manchester Utd,19,60,DF,15,55000000
+Matthijs de Ligt,NLD,Manchester Utd,25,80,DF,4,40000000
+Casemiro,BRA,Manchester Utd,33,79,MF,18,12000000
+Toby Collyer,ENG,Manchester Utd,21,49,MF,43,5000000
+Christian Eriksen,DMK,Manchester Utd,33,73,MF,14,6000000
+Bruno Fernandes,PRT,Manchester Utd,30,86,MF,8,55000000
+Kobbie Mainoo,ENG,Manchester Utd,19,69,MF,37,55000000
+Mason Mount,ENG,Manchester Utd,26,78,MF,7,28000000
+Manuel Ugarte,URY,Manchester Utd,23,76,MF,25,50000000
+Amad Diallo,CIV,Manchester Utd,22,69,ST,16,40000000
+Alejandro Garnacho,ARG,Manchester Utd,20,74,ST,17,45000000
+Rasmus Hojlund,DMK,Manchester Utd,22,70,ST,9,45000000
+Chidozie Obi-Martin,DMK,Manchester Utd,17,40,ST,56,0
+Joshua Zirkzee,NLD,Manchester Utd,23,74,ST,11,35000000
+Martin Dubravka,SVK,Newcastle,36,68,GK,1,1000000
+Nick Pope,ENG,Newcastle,32,75,GK,22,10000000
+Sven Botman,NLD,Newcastle,25,78,DF,4,45000000
+Dan Burn,ENG,Newcastle,32,70,DF,33,7000000
+Lewis Hall,ENG,Newcastle,20,65,DF,20,30000000
+Emil Krafth,SWE,Newcastle,30,65,DF,17,2500000
+Valentino Livramento,ENG,Newcastle,22,70,DF,21,35000000
+Fabian Schar,CHE,Newcastle,33,74,DF,5,9000000
+Matt Targett,ENG,Newcastle,29,67,DF,13,8000000
+Kieran Trippier,ENG,Newcastle,34,80,DF,2,5000000
+Bruno Guimaraes,BRA,Newcastle,27,83,MF,39,80000000
+Joelinton,BRA,Newcastle,28,77,MF,7,40000000
+Sean Longstaff,ENG,Newcastle,27,69,MF,36,22000000
+Lewis Miley,ENG,Newcastle,18,66,MF,67,22000000
+Jacob Murphy,ENG,Newcastle,30,68,MF,23,16000000
+Sandro Tonali,ITA,Newcastle,24,79,MF,8,45000000
+Joe Willock,ENG,Newcastle,25,73,MF,28,28000000
+Harvey Barnes,ENG,Newcastle,27,73,ST,11,30000000
+Anthony Gordon,ENG,Newcastle,24,75,ST,10,65000000
+Alexander Isak,SWE,Newcastle,25,78,ST,14,100000000
+William Osula,DMK,Newcastle,21,58,ST,18,7000000
+Callum Wilson,ENG,Newcastle,33,76,ST,9,11000000
+Matz Sels,BEL,Nottingham,33,68,GK,26,7000000
+Ola Aina,NGA,Nottingham,28,65,DF,34,20000000
+Willy Boly,IRL,Nottingham,34,66,DF,30,2000000
+Nikola Milenkovic,SRB,Nottingham,27,72,DF,31,28000000
+Morato,BRA,Nottingham,23,68,DF,4,15000000
+Alex Moreno,ESP,Nottingham,31,76,DF,19,11000000
+Murillo,BRA,Nottingham,22,68,DF,5,55000000
+Harry Toffolo,ENG,Nottingham,29,61,DF,15,4000000
+Neco Williams,WLS,Nottingham,23,64,DF,7,20000000
+Elliot Anderson,ENG,Nottingham,22,65,MF,8,30000000
+Danilo,BRA,Nottingham,23,67,MF,28,28000000
+Nicolas Dominguez,ARG,Nottingham,26,70,MF,16,17000000
+Morgan Gibbs-White,ENG,Nottingham,25,67,MF,10,50000000
+Callum Hudson-Odoi,ENG,Nottingham,24,70,MF,14,24000000
+Ibrahim Sangare,CIV,Nottingham,27,73,MF,6,28000000
+Ramon Sosa,PRY,Nottingham,25,66,MF,24,13000000
+Ryan Yates,ENG,Nottingham,27,65,MF,22,13000000
+Eric da Silva Moreira,DEU,Nottingham,18,45,MF,2,1000000
+Taiwo Awoniyi,NGA,Nottingham,27,68,ST,9,18000000
+Anthony Elanga,SWE,Nottingham,22,64,ST,21,35000000
+Jota Silva,PRT,Nottingham,25,67,ST,20,14000000
+Chris Wood,NZL,Nottingham,33,68,ST,11,10000000
+Joe Lumley,ENG,Southampton,30,57,GK,13,600000
+Alex McCarthy,ENG,Southampton,35,61,GK,1,500000
+Aaron Ramsdale,ENG,Southampton,26,74,GK,30,16000000
+Jan Bednarek,POL,Southampton,28,69,DF,35,11000000
+Armel Bella-Kotchap,DEU,Southampton,23,66,DF,37,12000000
+James Bree,ENG,Southampton,27,61,DF,14,2500000
+Taylor Harwood-Bellis,ENG,Southampton,23,65,DF,6,25000000
+Ryan Manning,IRL,Southampton,28,64,DF,3,3500000
+Jack Stephens,ENG,Southampton,31,65,DF,5,2000000
+Sugawara Yukinari,JPN,Southampton,24,71,DF,16,12000000
+Charlie Taylor,ENG,Southampton,31,66,DF,21,2800000
+Kyle Walker-Peters,ENG,Southampton,27,72,DF,2,18000000
+Wellington,BRA,Southampton,24,61,DF,34,3500000
+Nathan Wood,ENG,Southampton,22,58,DF,15,3800000
+Joe Aribo,NGA,Southampton,28,64,MF,7,6000000
+Flynn Downes,ENG,Southampton,26,65,MF,4,15000000
+Mateus Fernandes,PRT,Southampton,20,57,MF,18,15000000
+Ryan Fraser,SCO,Southampton,31,64,MF,24,3000000
+Albert Gronbaek,DMK,Southampton,23,66,MF,29,12000000
+Adam Lallana,ENG,Southampton,36,73,MF,10,900000
+William Smallbone,IRL,Southampton,25,63,MF,8,7000000
+Lesley Ugochukwu,FRA,Southampton,21,57,MF,26,20000000
+Cameron Archer,ENG,Southampton,23,64,ST,19,14000000
+Tyler Dibling,ENG,Southampton,19,53,ST,33,25000000
+Paul Onuachu,NGA,Southampton,30,65,ST,32,8000000
+Ross Stewart,SCO,Southampton,28,63,ST,11,4500000
+Kamaldeen Sulemana,GHA,Southampton,23,66,ST,20,13000000
+Brandon Austin,ENG,Tottenham,26,48,GK,40,600000
+Fraser Forster,ENG,Tottenham,37,68,GK,20,1200000
+Antonin Kinsky,CZE,Tottenham,22,50,GK,31,15000000
+Guglielmo Vicario,ITA,Tottenham,28,78,GK,1,35000000
+Kevin Danso,AUT,Tottenham,26,70,DF,4,25000000
+Ben Davies,WLS,Tottenham,31,70,DF,33,8000000
+Radu Dragusin,ROU,Tottenham,23,70,DF,6,25000000
+Archie Gray,ENG,Tottenham,19,60,DF,14,35000000
+Pedro Porro,ESP,Tottenham,25,77,DF,23,45000000
+Sergio Reguilon,ESP,Tottenham,28,70,DF,3,8000000
+Cristian Romero,ARG,Tottenham,26,81,DF,17,55000000
+Djed Spence,ENG,Tottenham,24,65,DF,24,15000000
+Destiny Udogie,ITA,Tottenham,22,73,DF,13,45000000
+Micky van de Ven,NLD,Tottenham,23,75,DF,37,55000000
+Rodrigo Bentancur,URY,Tottenham,27,78,MF,30,30000000
+Lucas Bergvall,SWE,Tottenham,19,55,MF,15,25000000
+Yves Bissouma,MLI,Tottenham,28,79,MF,8,28000000
+James Maddison,ENG,Tottenham,28,80,MF,10,50000000
+Pape Matar Sarr,SEN,Tottenham,22,74,MF,29,40000000
+Brennan Johnson,WLS,Tottenham,23,73,ST,22,50000000
+Dejan Kulusevski,SWE,Tottenham,24,80,ST,21,60000000
+Mikey Moore,ENG,Tottenham,17,46,ST,47,15000000
+Wilson Odobert,FRA,Tottenham,20,65,ST,28,18000000
+Richarlison,BRA,Tottenham,27,73,ST,9,25000000
+Dane Scarlett,ENG,Tottenham,21,52,ST,44,1800000
+Dominic Solanke,ENG,Tottenham,27,71,ST,19,45000000
+Son Heung-Min,KOR,Tottenham,32,85,ST,7,30000000
+Mathys Tel,FRA,Tottenham,19,65,ST,11,40000000
+Timo Werner,DEU,Tottenham,29,72,ST,16,10000000
+Alphonse Areola,FRA,West Ham,32,70,GK,23,10000000
+Lukasz Fabianski,POL,West Ham,39,68,GK,1,700000
+Kaelan Casey ,ENG,West Ham,20,48,DF,5,1000000
+Vladimir Coufal,CZE,West Ham,32,68,DF,5,7000000
+Aaron Cresswell,ENG,West Ham,35,66,DF,3,700000
+Emerson,ITA,West Ham,30,70,DF,33,12000000
+Max Kilman,ENG,West Ham,27,68,DF,26,30000000
+Konstantinos Mavropanos,GRC,West Ham,27,70,DF,15,17000000
+Oliver Scarles,ENG,West Ham,19,48,DF,57,4000000
+Jean-Clair Todibo,FRA,West Ham,25,74,DF,25,28000000
+Aaron Wan-Bissaka,ENG,West Ham,27,72,DF,29,22000000
+Edson Alvarez,MEX,West Ham,27,76,MF,19,30000000
+Andrew Irving,SCO,West Ham,24,62,MF,39,5000000
+Mohammed Kudus,GHA,West Ham,24,75,MF,14,50000000
+Lucas Paqueta ,BRA,West Ham,27,75,MF,10,35000000
+Lewis Orford,ENG,West Ham,19,45,MF,8,400000
+Guido Rodriguez,ARG,West Ham,30,78,MF,24,12000000
+Carlos Soler,ESP,West Ham,28,74,MF,4,20000000
+Tomas Soucek,CZE,West Ham,30,70,MF,28,22000000
+James Ward-Prowse,ENG,West Ham,30,72,MF,8,10000000
+Michail Antonio ,JAM,West Ham,35,68,ST,9,1000000
+Jarrod Bowen,ENG,West Ham,28,78,ST,20,45000000
+Evan Ferguson,IRL,West Ham,20,68,ST,34,32000000
+Niclas Fullkrug,DEU,West Ham,32,75,ST,11,12000000
+Danny Ings,ENG,West Ham,32,68,ST,18,7000000
+Luis Guilherme,BRA,West Ham,19,54,ST,17,18000000
+Crysencio Summerville,NLD,West Ham,23,69,ST,7,22000000
+Sam Johnstone,ENG,Wolves,32,69,GK,31,8000000
+Jose Sa,PRT,Wolves,32,70,GK,1,8000000
+Emmanuel Agbadou,CIV,Wolves,27,64,DF,12,17000000
+Rayan Ait Nouri,DZA,Wolves,23,67,DF,3,35000000
+Santiago Bueno,URY,Wolves,26,64,DF,4,8000000
+Craig Dawson,ENG,Wolves,34,70,DF,15,2000000
+Nasser Djiga,BFA,Wolves,22,55,DF,34,10000000
+Matt Doherty,IRL,Wolves,33,68,DF,2,2500000
+Rodrigo Gomes,PRT,Wolves,21,64,DF,19,15000000
+Pedro Lima,BRA,Wolves,18,47,DF,37,5000000
+Alfie Pond,ENG,Wolves,21,43,DF,5,250000
+Nelson Semedo,PRT,Wolves,31,72,DF,22,10000000
+Toti,PRT,Wolves,26,63,DF,24,25000000
+Andre,BRA,Wolves,23,70,MF,7,25000000
+Jean-Richer Bellegarde,FRA,Wolves,26,67,MF,27,18000000
+Thomas Doyle,ENG,Wolves,23,65,MF,20,10000000
+Joao Gomes,BRA,Wolves,24,69,MF,8,40000000
+Marshall Munetsi,ZWE,Wolves,28,63,MF,5,15000000
+Boubacar Traore,MLI,Wolves,23,59,MF,6,6000000
+Matheus Cunha,BRA,Wolves,25,75,ST,10,55000000
+Carlos Forbs,PRT,Wolves,21,40,ST,26,8000000
+Goncalo Guedes,PRT,Wolves,28,71,ST,29,13000000
+Hwang Hee-Chan,KOR,Wolves,29,70,ST,11,17000000
+Jorgen Strand Larsen,NOR,Wolves,25,67,ST,9,27000000
+Pablo Sarabia,ESP,Wolves,32,76,ST,21,7000000
