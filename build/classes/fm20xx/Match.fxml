@@ -6,6 +6,7 @@
 <?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -38,12 +39,12 @@
                         <Separator orientation="VERTICAL" prefHeight="475.0" prefWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                         <Separator prefWidth="200.0" GridPane.rowIndex="1" />
                         <Separator prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <Label alignment="CENTER" prefHeight="278.0" prefWidth="218.0" text="1" textFill="WHITE" GridPane.columnIndex="1">
+                        <Label fx:id="homeScore" alignment="CENTER" prefHeight="278.0" prefWidth="218.0" text="1" textFill="WHITE" GridPane.columnIndex="1">
                            <font>
                               <Font name="DejaVu Sans Condensed Bold" size="100.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="278.0" prefWidth="218.0" text="1" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                        <Label fx:id="awayScore" alignment="CENTER" prefHeight="278.0" prefWidth="218.0" text="1" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
                            <font>
                               <Font name="DejaVu Sans Condensed Bold" size="100.0" />
                            </font>
@@ -51,7 +52,7 @@
                         <StackPane prefHeight="150.0" prefWidth="200.0">
                            <children>
                               <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
-                              <Label alignment="CENTER" prefHeight="280.0" prefWidth="442.0" text="MCI" textFill="#38b6ff">
+                              <Label fx:id="homeTeam" alignment="CENTER" prefHeight="280.0" prefWidth="442.0" text="MCI" textFill="#38b6ff">
                                  <font>
                                     <Font name="DejaVu Sans Condensed Bold" size="100.0" />
                                  </font>
@@ -65,19 +66,22 @@
                                     <Font name="DejaVu Sans Condensed Bold" size="100.0" />
                                  </font>
                               </Label>
-                              <ImageView fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                              <ImageView fx:id="awayTeam" fitHeight="200.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
                            </children>
                         </StackPane>
                      </children>
                   </GridPane>
                   <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #1a1c38; -fx-border-color: #ffffff; -fx-border-width: 3;">
                      <children>
-                        <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="icon" fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                            <HBox.margin>
                               <Insets left="80.0" top="5.0" />
                            </HBox.margin>
+                           <image>
+                              <Image url="@leagueImgs/premierLeague.png" />
+                           </image>
                         </ImageView>
-                        <Label prefHeight="94.0" prefWidth="562.0" text="Premier League - MW16" textFill="WHITE">
+                        <Label fx:id="nameGameWeek" prefHeight="94.0" prefWidth="562.0" text="Premier League - MW16" textFill="WHITE">
                            <font>
                               <Font name="DejaVu Sans Condensed Bold" size="30.0" />
                            </font>
@@ -92,12 +96,12 @@
                   </HBox>
                   <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #1a1c38; -fx-border-color: #ffffff; -fx-border-width: 3;">
                      <children>
-                        <Label alignment="CENTER" prefHeight="96.0" prefWidth="216.0" style="-fx-border-color: #ffffff; -fx-border-width: 3;" text="'XX" textFill="WHITE">
+                        <Label fx:id="timer" alignment="CENTER" onKeyPressed="#match" prefHeight="96.0" prefWidth="216.0" style="-fx-border-color: #ffffff; -fx-border-width: 3;" text="'00" textFill="WHITE">
                            <font>
                               <Font name="DejaVu Sans Condensed Bold" size="50.0" />
                            </font>
                         </Label>
-                        <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #ff3131;" text="Skip to End">
+                        <Button fx:id="skip" mnemonicParsing="false" onAction="#skipToEnd" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: #ff3131;" text="Skip to End">
                            <font>
                               <Font name="DejaVu Sans Bold" size="13.0" />
                            </font>
@@ -105,7 +109,7 @@
                               <Insets left="20.0" top="20.0" />
                            </HBox.margin>
                         </Button>
-                        <Button mnemonicParsing="false" onAction="#manage" prefHeight="50.0" prefWidth="225.0" style="-fx-background-color: #ed8d15;" text="Manage Team">
+                        <Button fx:id="manage" mnemonicParsing="false" onAction="#manage" prefHeight="50.0" prefWidth="225.0" style="-fx-background-color: #ed8d15;" text="Manage Team">
                            <font>
                               <Font name="DejaVu Sans Bold" size="13.0" />
                            </font>
@@ -126,7 +130,7 @@
                     <content>
                       <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="638.0" prefWidth="648.0" style="-fx-background-color: #1a1c38;">
                            <children>
-                              <Label layoutX="184.0" layoutY="6.0" prefHeight="39.0" prefWidth="280.0" text="MATCH SUMMARY" textFill="WHITE">
+                              <Label fx:id="matchSummary" layoutX="184.0" layoutY="6.0" prefHeight="39.0" prefWidth="280.0" text="MATCH SUMMARY" textFill="WHITE">
                                  <font>
                                     <Font name="DejaVu Sans Condensed Bold" size="30.0" />
                                  </font>
@@ -176,31 +180,6 @@
                                     <Font size="18.0" />
                                  </font>
                               </Label>
-                              <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="413.0" prefHeight="40.0" prefWidth="620.0" textFill="WHITE" wrapText="true">
-                                 <font>
-                                    <Font size="18.0" />
-                                 </font>
-                              </Label>
-                              <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="453.0" prefHeight="40.0" prefWidth="620.0" textFill="WHITE" wrapText="true">
-                                 <font>
-                                    <Font size="18.0" />
-                                 </font>
-                              </Label>
-                              <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="493.0" prefHeight="40.0" prefWidth="620.0" textFill="WHITE" wrapText="true">
-                                 <font>
-                                    <Font size="18.0" />
-                                 </font>
-                              </Label>
-                              <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="533.0" prefHeight="40.0" prefWidth="620.0" textFill="WHITE" wrapText="true">
-                                 <font>
-                                    <Font size="18.0" />
-                                 </font>
-                              </Label>
-                              <Label alignment="TOP_LEFT" layoutX="14.0" layoutY="573.0" prefHeight="40.0" prefWidth="620.0" textFill="WHITE" wrapText="true">
-                                 <font>
-                                    <Font size="18.0" />
-                                 </font>
-                              </Label>
                            </children>
                         </AnchorPane>
                     </content>
@@ -209,7 +188,7 @@
             </VBox>
             <HBox layoutX="-1.0" layoutY="642.0" prefHeight="100.0" prefWidth="657.0" style="-fx-background-color: #1a1c38; -fx-border-color: #ffffff; -fx-border-width: 3;">
                <children>
-                  <Label alignment="CENTER" prefHeight="100.0" prefWidth="656.0" text="Manchester City bring it forward..." textFill="WHITE">
+                  <Label fx:id="commentary" alignment="CENTER" prefHeight="100.0" prefWidth="656.0" text="Manchester City bring it forward..." textFill="WHITE">
                      <font>
                         <Font name="DejaVu Sans" size="23.0" />
                      </font>

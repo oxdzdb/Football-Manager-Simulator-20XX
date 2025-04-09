@@ -39,16 +39,7 @@ public class Match {
         return league;
     }
     
-    public void matchEngine(Team awayTeam, Team homeTeam){
-        
-    int minuteCounter = 0;
-    int swapCounter = 0;
-    boolean newPlayer = false;
-    Team turnTeam, notTurnTeam; 
-    Player turnPlayer, notTurnPlayer;
-    
-    do{
-    // fixed matchEngine here
-        } while(minuteCounter < 90);
+    public void matchEngine(){
+        //:)
     }
 }

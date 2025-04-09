@@ -83,7 +83,7 @@
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <TextField promptText="Enter an Amount">
+                        <TextField fx:id="amount1IN" promptText="Enter an Amount">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -96,7 +96,7 @@
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <TextField promptText="Enter a Player">
+                        <TextField fx:id="player1IN" promptText="Enter a Player">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -114,7 +114,8 @@
                               <Font name="DejaVu Sans Condensed Bold" size="56.0" />
                            </font>
                         </Label>
-                        <Button mnemonicParsing="false" prefHeight="60.0" prefWidth="600.0" style="-fx-background-color: #006032;" text="CONFIRM" textFill="#00bf63">
+                        <Button mnemonicParsing="false" onAction="#confirm" text="Button" />
+                        <Button mnemonicParsing="false" onAction="#home" prefHeight="60.0" prefWidth="600.0" style="-fx-background-color: #006032;" text="CONFIRM" textFill="#00bf63">
                            <VBox.margin>
                               <Insets left="30.0" right="10.0" top="30.0" />
                            </VBox.margin>
@@ -141,7 +142,7 @@
                               <Insets right="10.0" />
                            </padding>
                         </Label>
-                        <TextField prefHeight="63.0" prefWidth="657.0" promptText="Enter a Team">
+                        <TextField fx:id="teamIN" prefHeight="63.0" prefWidth="657.0" promptText="Enter a Team">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -154,7 +155,7 @@
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <TextField promptText="Enter an Amount">
+                        <TextField fx:id="amount2IN" promptText="Enter an Amount">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -167,7 +168,7 @@
                               <Insets left="10.0" />
                            </padding>
                         </Label>
-                        <TextField promptText="Enter a Player">
+                        <TextField fx:id="player2IN" promptText="Enter a Player">
                            <font>
                               <Font size="20.0" />
                            </font>
