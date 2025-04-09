@@ -26,7 +26,7 @@
                <children>
                   <ImageView fitHeight="60.0" fitWidth="60.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@mancity.png" />
+                        <Image url="@teamImgs/manchesterCityFC.png" />
                      </image>
                      <StackPane.margin>
                         <Insets bottom="2.0" left="4.0" top="2.0" />
@@ -50,7 +50,7 @@
                   </Label>
                </children>
             </StackPane>
-            <Button alignment="CENTER" mnemonicParsing="false" onAction="#match" prefHeight="44.0" prefWidth="250.0" style="-fx-background-color: #ffde59;" text="NEXT GAME &gt;" textOverrun="CENTER_ELLIPSIS">
+            <Button fx:id="nextMatch" alignment="CENTER" mnemonicParsing="false" onAction="#match" onMouseClicked="#match" prefHeight="44.0" prefWidth="250.0" style="-fx-background-color: #ffde59;" text="NEXT GAME &gt;" textOverrun="CENTER_ELLIPSIS">
                <font>
                   <Font name="DejaVu Sans Bold" size="13.0" />
                </font>

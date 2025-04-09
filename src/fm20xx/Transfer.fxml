@@ -19,7 +19,7 @@
          <children>
             <ImageView fx:id="icon" fitHeight="80.0" fitWidth="80.0" onMouseClicked="#home" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../OneDrive/Documents/NetBeansProjects/Football-Manager-Simulator-20XX-main/src/fm20xx/imgs/mancity.png" />
+                  <Image url="@teamImgs/manchesterCityFC.png"/>
                </image>
                <HBox.margin>
                   <Insets left="10.0" top="5.0" />

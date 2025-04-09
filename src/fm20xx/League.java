@@ -14,13 +14,12 @@ public class League {
     private String name, imgFileName, nation;
     private int popRating;
     private static ArrayList<League> leagueList = new ArrayList();
-    private static ArrayList<Team> teamList = new ArrayList();
+    private ArrayList<Team> teamList;
     
     public League(String nm, String nt, String fn) {
         this.name = nm;
         this.nation = nt;
         this.imgFileName = fn;
-        League.leagueList.add(this);
     }
     
     //getters and setters
@@ -39,15 +38,29 @@ public class League {
     public static int getLeagueListLen(){
         return leagueList.size();
     }
-    public static int getTeamListSize(){
+    public int getTeamListSize(){
         return teamList.size();
+    }
+    public void setTeamList(ArrayList<Team> tL){
+        this.teamList = tL;
     }
     
     public static League searchLeague(int index) throws IndexOutOfBoundsException{
         return leagueList.get(index);
     }
     
-    public static Team searchTeam(int index) throws IndexOutOfBoundsException{
+    public static League searchLeague(String search){
+        League match = null;
+        for(int i = 0; i < 5; i++){
+            match = (League) League.getLeagueList().get(i);
+            if (match.getName().equals(search)) {
+                break;
+            }
+        }
+        return match;
+    }
+    
+    public Team searchTeam(int index) throws IndexOutOfBoundsException{
         return teamList.get(index);
     }
 }

@@ -24,7 +24,7 @@
                   <Font name="DejaVu Sans Condensed Bold" size="90.0" />
                </font>
             </Label>
-            <Button mnemonicParsing="false" onAction="#start" prefHeight="60.0" prefWidth="350.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="Start Game">
+            <Button fx:id="start" mnemonicParsing="false" onAction="#start" prefHeight="60.0" prefWidth="350.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="Start Game">
                <VBox.margin>
                   <Insets left="20.0" />
                </VBox.margin>
@@ -32,7 +32,7 @@
                   <Font name="DejaVu Sans Condensed Bold" size="17.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" onAction="#setting" prefHeight="60.0" prefWidth="350.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-width: 3;" text="Settings">
+            <Button fx:id="setting" mnemonicParsing="false" onAction="#setting" prefHeight="60.0" prefWidth="350.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-width: 3;" text="Settings">
                <font>
                   <Font name="DejaVu Sans Condensed Bold" size="17.0" />
                </font>
@@ -40,7 +40,7 @@
                   <Insets left="20.0" top="15.0" />
                </VBox.margin>
             </Button>
-            <Button mnemonicParsing="false" onAction="#exit" prefHeight="60.0" prefWidth="350.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-width: 3;" text="Exit Game">
+            <Button fx:id="exit" mnemonicParsing="false" onAction="#exit" prefHeight="60.0" prefWidth="350.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-width: 3;" text="Exit Game">
                <font>
                   <Font name="DejaVu Sans Condensed Bold" size="17.0" />
                </font>

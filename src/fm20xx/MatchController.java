@@ -78,7 +78,7 @@ public class MatchController implements Initializable {
             updateTime();
         }
         else {
-            //update total data from match data
+            //update total data from match data (need csv data)
             
             FXMLLoader loader = new FXMLLoader(getClass().getResource("Home.fxml"));
             Parent root = loader.load();

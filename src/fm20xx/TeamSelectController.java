@@ -42,6 +42,8 @@ public class TeamSelectController implements Initializable {
     @FXML private Label playerCount;
     
     int index = 0;
+    League chosenLeague;
+    
     
     @FXML
     private void back(ActionEvent event) throws IOException {
@@ -51,6 +53,11 @@ public class TeamSelectController implements Initializable {
         Scene scene  = new Scene(root);
         thisStage.setScene(scene);
         thisStage.show();
+    }
+    
+    @FXML
+    public void chosen(League l){
+        chosenLeague = l;
     }
     
     @FXML
@@ -81,7 +88,7 @@ public class TeamSelectController implements Initializable {
     
     @FXML
     public void updateTeam(){
-        Team team = League.searchTeam(index);
+        Team team = chosenLeague.searchTeam(index);
         if (team != null){
             icon.setImage(new Image(getClass().getResourceAsStream(team.getImgFileName())));
             teamName.setText(team.getName());
@@ -92,13 +99,12 @@ public class TeamSelectController implements Initializable {
             playerCount.setText("Players: " + team.getPlayerListSize());
             
             previous.setDisable(index == 0);
-            next.setDisable(index == (League.getTeamListSize() - 1));
+            next.setDisable(index == (chosenLeague.getTeamListSize() - 1));
         }
     }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
     }    
     
 } 

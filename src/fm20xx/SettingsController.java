@@ -31,15 +31,19 @@ public class SettingsController implements Initializable {
     @FXML Label leagueName;
     
     int index = 0;
+    League chosenLeague;
     
     @FXML
     private void back(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Title.fxml"));
         Parent root = loader.load();
+        TitleController controller = loader.getController();
+        controller.chosen(chosenLeague);
         Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene  = new Scene(root);
         thisStage.setScene(scene);
         thisStage.show();
+        System.out.println(chosenLeague.getName() + " is the new chosen league.");
     }
     
     @FXML
@@ -51,11 +55,22 @@ public class SettingsController implements Initializable {
     }
     
     @FXML
+    public void chosen(League l){
+        chosenLeague = l;
+    }
+    
+    @FXML
     public void next(){
         if(index < League.getLeagueListLen()){
             index++;
             updateLeague();
         }
+    }
+    
+    @FXML
+    public void select(){
+        chosenLeague = League.searchLeague(index);
+        System.out.println(chosenLeague.getName() + " is the new chosen league.");
     }
     
     @FXML
@@ -72,7 +87,6 @@ public class SettingsController implements Initializable {
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
     }    
     
 }
