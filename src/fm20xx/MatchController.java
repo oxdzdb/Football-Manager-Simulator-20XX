@@ -31,17 +31,17 @@ public class MatchController implements Initializable {
         // TODO
     }    
     
-    @FXML Label homeTeam;
-    @FXML Label awayTeam;
-    @FXML Label homeScore;
-    @FXML Label awayScore;
-    @FXML Label nameGameWeek;
+    //@FXML Label homeTeam;
+    //@FXML Label awayTeam;
+    //@FXML Label homeScore;
+    //@FXML Label awayScore;
+    //@FXML Label nameGameWeek;
     @FXML Label timer;
-    @FXML Label commentary;
-    @FXML Label matchSummary;
-    @FXML ImageView icon;
-    @FXML Button skip;
-    @FXML Button manage;
+    //@FXML Label commentary;
+    //@FXML Label matchSummary;
+    //@FXML ImageView icon;
+    //@FXML Button skip;
+    //@FXML Button manage;
     
     int minutes = 0;
     

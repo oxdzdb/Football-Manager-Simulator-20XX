@@ -63,4 +63,5 @@ public class League {
     public Team searchTeam(int index) throws IndexOutOfBoundsException{
         return teamList.get(index);
     }
+    
 }

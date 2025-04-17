@@ -90,7 +90,7 @@ public class TeamSelectController implements Initializable {
     public void updateTeam(){
         Team team = chosenLeague.searchTeam(index);
         if (team != null){
-            icon.setImage(new Image(getClass().getResourceAsStream(team.getImgFileName())));
+            icon.setImage(new Image(getClass().getResourceAsStream(team.getImageFileName())));
             teamName.setText(team.getName());
             location.setText(team.getStadiumName() + ", " + team.getLocation());
             budget.setText("Budget: " + team.getFunds());
@@ -102,7 +102,6 @@ public class TeamSelectController implements Initializable {
             next.setDisable(index == (chosenLeague.getTeamListSize() - 1));
         }
     }
-    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
     }    

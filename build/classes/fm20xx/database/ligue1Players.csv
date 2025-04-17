@@ -1,0 +1,475 @@
+Name,Nationality,Team,Age,Skill Rating,Position,Number,Goals,Yellow Cards,Red Cards,Value
+Gianluigi Donnarumma,ITA,PSG,26,81,GK,1,0,0,0,35000000
+Matvey Safonov,RUS,PSG,26,67,GK,39,0,0,0,22000000
+Arnau Tenas,ESP,PSG,23,68,GK,80,0,0,0,4000000
+Willian Pacho,ECU,PSG,23,67,DF,51,0,0,0,45000000
+Marquinhos,BRA,PSG,30,82,DF,5,0,0,0,40000000
+Lucas Beraldo,BRA,PSG,21,65,DF,35,0,0,0,25000000
+Presnel Kimpembe,FRA,PSG,29,75,DF,3,0,0,0,8000000
+Naoufel El Hannach,MAR,PSG,18,38,DF,45,0,0,0,0
+Nuno Mendes,PRT,PSG,22,78,DF,25,0,0,0,55000000
+Lucas Hernandez,FRA,PSG,29,81,DF,21,0,0,0,30000000
+Achraf Hakimi,MAR,PSG,26,81,DF,2,0,0,0,65000000
+Yoram Zague,FRA,PSG,18,44,DF,42,0,0,0,2500000
+Joao Neves,PRT,PSG,20,73,MF,87,0,0,0,65000000
+Vitinha,PRT,PSG,25,78,MF,17,0,0,0,60000000
+Warren Zaire-Emery,FRA,PSG,19,74,MF,33,0,0,0,60000000
+Fabian Ruiz,ESP,PSG,29,76,MF,8,0,0,0,35000000
+Senny Mayulu,FRA,PSG,18,49,MF,24,0,0,0,10000000
+Khvicha Kvaratskhelia,GEO,PSG,24,83,ST,7,0,0,0,80000000
+Bradley Barcola,FRA,PSG,22,73,ST,29,0,0,0,70000000
+Desire Doue,FRA,PSG,19,62,ST,14,0,0,0,60000000
+Ousmane Dembele,FRA,PSG,27,84,ST,10,0,0,0,75000000
+Lee Kang-In,KOR,PSG,24,72,ST,19,0,0,0,30000000
+Ibrahim Mbaye,FRA,PSG,17,35,ST,49,0,0,0,2000000
+Goncalo Ramos,PRT,PSG,23,75,ST,9,0,0,0,45000000
+Geronimo Rulli,ARG,Marseille,32,69,GK,1,0,0,0,8000000
+Jeffrey de Lange,NLD,Marseille,27,57,GK,12,0,0,0,2500000
+Ruben Blanco,ESP,Marseille,29,68,GK,36,0,0,0,1500000
+Jelle Van Neck,BEL,Marseille,21,38,GK,40,0,0,0,100000
+Leonardo Balerdi,ARG,Marseille,26,67,DF,5,0,0,0,20000000
+Luiz Felipe,ITA,Marseille,28,70,DF,4,0,0,0,6000000
+Derek Cornelius,CAN,Marseille,27,62,DF,13,0,0,0,5000000
+Chancel Mbemba,COD,Marseille,30,71,DF,99,0,0,0,3000000
+Quentin Merlin,FRA,Marseille,22,65,DF,3,0,0,0,12000000
+Ulisses Garcia,CHE,Marseille,29,65,DF,6,0,0,0,4000000
+Amar Dedic,BIH,Marseille,22,66,DF,77,0,0,0,15000000
+Amir Murillo,PAN,Marseille,29,63,DF,62,0,0,0,9000000
+Pol Lirola,ESP,Marseille,27,65,DF,29,0,0,0,4000000
+Pierre-Emile Hojbjerg,DMK,Marseille,29,69,MF,23,0,0,0,20000000
+Ismael Bennacer,DZA,Marseille,27,76,MF,22,0,0,0,15000000
+Geoffrey Kondogbia,CAF,Marseille,32,73,MF,19,0,0,0,8000000
+Adrien Rabiot,FRA,Marseille,30,78,MF,25,0,0,0,25000000
+Valentin Rongier,FRA,Marseille,30,71,MF,21,0,0,0,9000000
+Bilal Nadir,MAR,Marseille,21,47,MF,26,0,0,0,5000000
+Amine Harit,MAR,Marseille,27,68,MF,11,0,0,0,10000000
+Darryl Bakota,FRA,Marseille,17,40,MF,50,0,0,0,200000
+Luis Henrique,BRA,Marseille,23,64,ST,44,0,0,0,18000000
+Jonathan Rowe,ENG,Marseille,21,65,ST,17,0,0,0,12000000
+Mason Greenwood,ENG,Marseille,23,72,ST,10,0,0,0,35000000
+Amine Gouiri,DZA,Marseille,25,69,ST,9,0,0,0,20000000
+Neal Maupay,FRA,Marseille,28,64,ST,8,0,0,0,10000000
+Faris Moumbagna,CAM,Marseille,24,66,ST,14,0,0,0,8000000
+Radoslaw Majecki,POL,Monaco ,25,59,GK,1,0,0,0,7000000
+Philipp Kohn,CHE,Monaco ,27,65,GK,16,0,0,0,4000000
+Yann Lienard,FRA,Monaco ,22,46,GK,50,0,0,0,200000
+Wilfried Singo,CIV,Monaco ,24,69,DF,17,0,0,0,25000000
+Thilo Kehrer,DEU,Monaco ,28,68,DF,5,0,0,0,15000000
+Mohammed Salisu,GHA,Monaco ,25,69,DF,22,0,0,0,15000000
+Christian Mawissa,FRA,Monaco ,19,53,DF,13,0,0,0,12000000
+Caio Henrique,BRA,Monaco ,27,72,DF,12,0,0,0,15000000
+Kassoum Ouattara,FRA,Monaco ,20,54,DF,20,0,0,0,8000000
+Vanderson,BRA,Monaco ,23,70,DF,2,0,0,0,20000000
+Jordan Teze,NLD,Monaco ,25,69,DF,4,0,0,0,12000000
+Denis Zakaria,CHE,Monaco ,28,71,MF,6,0,0,0,30000000
+Soungoutou Magassa,FRA,Monaco ,21,58,MF,88,0,0,0,12000000
+Moatasem Al-Musrati,LBY,Monaco ,29,50,MF,8,0,0,0,10000000
+Lamine Camara,SEN,Monaco ,21,60,MF,15,0,0,0,20000000
+Edan Diop,FRA,Monaco ,20,52,MF,37,0,0,0,1500000
+Alexandr Golovin,RUS,Monaco ,28,75,MF,10,0,0,0,25000000
+Eliesse Ben Seghir,MAR,Monaco ,20,62,ST,7,0,0,0,30000000
+Takumi Minamino,JPN,Monaco ,30,70,ST,18,0,0,0,15000000
+Lucas Michal,FRA,Monaco ,19,39,ST,41,0,0,0,500000
+Maghnes Akliouche,FRA,Monaco ,23,60,ST,11,0,0,0,40000000
+Krepin Diatta,SEN,Monaco ,26,63,ST,27,0,0,0,10000000
+Mika Biereth,DMK,Monaco ,22,55,ST,14,0,0,0,25000000
+Folarin Balogun,USA,Monaco ,23,70,ST,9,0,0,0,20000000
+George Ilenikhena,NGA,Monaco ,18,53,ST,21,0,0,0,15000000
+Breel Embolo,CHE,Monaco ,28,73,ST,36,0,0,0,12000000
+Marcin Bulka,POL,Nice,25,68,GK,1,0,0,0,20000000
+Maxime Dupe,FRA,Nice,32,63,GK,31,0,0,0,1200000
+Teddy Boulhendi,DZA,Nice,24,44,GK,77,0,0,0,100000
+Youssouf Ndayishimiye,BDI,Nice,26,67,DF,55,0,0,0,12000000
+Moise Bombito,CAN,Nice,25,50,DF,64,0,0,0,10000000
+Mohamed Abdelmonem,EGY,Nice,26,68,DF,5,0,0,0,4000000
+Dante,BRA,Nice,41,68,DF,4,0,0,0,500000
+Amidou Doumbouya,FRA,Nice,17,38,DF,44,0,0,0,300000
+Melvin Bard,FRA,Nice,24,66,DF,26,0,0,0,12000000
+Ali Abdi,TUN,Nice,31,60,DF,2,0,0,0,3000000
+Yael Nandjou,FRA,Nice,19,34,DF,21,0,0,0,150000
+Jonathan Clauss,FRA,Nice,32,73,DF,92,0,0,0,6000000
+Antoine Mendy,SEN,Nice,20,52,DF,33,0,0,0,3000000
+Pablo Rosario,NLD,Nice,28,68,MF,8,0,0,0,8000000
+Baptiste Santamaria,FRA,Nice,30,68,MF,28,0,0,0,7000000
+Hicham Boudaoui,DZA,Nice,25,69,MF,6,0,0,0,10000000
+Tanguy Ndombele,FRA,Nice,28,65,MF,22,0,0,0,10000000
+Morgan Sanson,FRA,Nice,30,68,MF,11,0,0,0,5000000
+Tom Louchet,FRA,Nice,21,46,MF,20,0,0,0,3000000
+Jeremie Boga,CIV,Nice,28,71,ST,7,0,0,0,12000000
+Sofiane Diop,MAR,Nice,24,67,ST,10,0,0,0,12000000
+Mohamed-Ali Cho,FRA,Nice,21,60,ST,25,0,0,0,15000000
+Badredine Bouanani,DZA,Nice,20,59,ST,19,0,0,0,5000000
+Evann Guessand,CIV,Nice,23,63,ST,29,0,0,0,25000000
+Terem Moffi,NGA,Nice,25,71,ST,9,0,0,0,15000000
+Youssoufa Moukoko,DEU,Nice,20,63,ST,15,0,0,0,10000000
+Gaetan Laborde,FRA,Nice,30,71,ST,24,0,0,0,6000000
+Victor Orakpo,NGA,Nice,19,48,ST,45,0,0,0,500000
+Lucas Perri,BRA,Lyon,27,71,GK,1,0,0,0,10000000
+Remy Descamps,FRA,Lyon,28,62,GK,40,0,0,0,1500000
+Lassine Diarra,MLI,Lyon,22,39,GK,50,0,0,0,25000
+Moussa Niakhate,SEN,Lyon,29,68,DF,19,0,0,0,15000000
+Duje Caleta-Car,HRV,Lyon,28,67,DF,55,0,0,0,8000000
+Warmed Omari,COM,Lyon,24,66,DF,27,0,0,0,4000000
+Abner,BRA,Lyon,24,67,DF,16,0,0,0,9000000
+Nicolas Tagliafico,ARG,Lyon,32,67,DF,3,0,0,0,7000000
+Ainsley Maitland-Niles,ENG,Lyon,27,64,DF,98,0,0,0,10000000
+Sael Kumbedi,FRA,Lyon,20,56,DF,20,0,0,0,6000000
+Clinton Mata,AGO,Lyon,32,67,DF,22,0,0,0,4000000
+Tanner Tessmann,USA,Lyon,23,63,MF,15,0,0,0,6000000
+Nemanja Matic,SRB,Lyon,36,72,MF,31,0,0,0,2500000
+Paul Akouokou,CIV,Lyon,27,60,MF,4,0,0,0,800000
+Corentin Tolisso,FRA,Lyon,30,64,MF,8,0,0,0,10000000
+Jordan Veretout,FRA,Lyon,32,72,MF,7,0,0,0,5000000
+Thiago Almada,ARG,Lyon,23,70,MF,23,0,0,0,25000000
+Malick Fofana,BEL,Lyon,20,60,ST,11,0,0,0,25000000
+Rayan Cherki,FRA,Lyon,21,65,ST,18,0,0,0,35000000
+Ernest Nuamah,GHA,Lyon,21,67,ST,37,0,0,0,15000000
+Georges Mikautadze,GEO,Lyon,24,63,ST,69,0,0,0,20000000
+Alexandre Lacazette,FRA,Lyon,33,70,ST,10,0,0,0,8000000
+Enzo Molebe,FRA,Lyon,17,50,ST,29,0,0,0,100000
+Lucas Chevalier,FRA,Lille ,23,66,GK,30,0,0,0,30000000
+Vito Mannone,ITA,Lille ,37,59,GK,1,0,0,0,200000
+Marc-Aurele Caillard,FRA,Lille ,30,57,GK,16,0,0,0,150000
+Bafode Diakite,FRA,Lille ,24,67,DF,18,0,0,0,25000000
+Alexsandro,BRA,Lille ,25,63,DF,4,0,0,0,15000000
+Samuel Umtiti,FRA,Lille ,31,67,DF,14,0,0,0,2000000
+Aissa Mandi,DZA,Lille ,33,70,DF,2,0,0,0,1500000
+Gabriel Gudmundsson,SWE,Lille ,25,59,DF,5,0,0,0,9000000
+Mitchel Bakker,NLD,Lille ,24,65,DF,20,0,0,0,7000000
+Ismaily,BRA,Lille ,35,64,DF,31,0,0,0,1500000
+Tiago Santos,PRT,Lille ,22,63,DF,22,0,0,0,15000000
+Thomas Meunier,BEL,Lille ,33,65,DF,12,0,0,0,2000000
+Ngal'ayel Mukau,COD,Lille ,20,46,MF,17,0,0,0,15000000
+Nabil Bentaleb,DZA,Lille ,30,68,MF,6,0,0,0,8000000
+Benjamin Andre,FRA,Lille ,34,69,MF,21,0,0,0,6000000
+Ayyoub Bouaddi,FRA,Lille ,17,43,MF,32,0,0,0,30000000
+Andre Gomes,PRT,Lille ,31,65,MF,26,0,0,0,8000000
+Ethan Mbappe,FRA,Lille ,18,47,MF,29,0,0,0,5000000
+Angel Gomes,ENG,Lille ,24,69,MF,8,0,0,0,20000000
+Hakon Arnar Haraldsson,ISL,Lille ,22,64,MF,7,0,0,0,15000000
+Remy Cabella,FRA,Lille ,35,68,MF,10,0,0,0,3000000
+Osame Sahraoui,MAR,Lille ,23,64,ST,11,0,0,0,12000000
+Edon Zhegrova,XKX,Lille ,26,72,ST,23,0,0,0,25000000
+Jonathan David,CAN,Lille ,25,74,ST,9,0,0,0,45000000
+Matias Fernandez-Pardo,ESP,Lille ,20,45,ST,19,0,0,0,10000000
+Chuba Akpom,ENG,Lille ,29,67,ST,24,0,0,0,8000000
+Dorde Petrovic,SRB,Strasbourg,25,71,GK,1,0,0,0,18000000
+Alaa Bellaarouch,MAR,Strasbourg,23,42,GK,36,0,0,0,500000
+Karl-Johan Johnsson,SWE,Strasbourg,35,57,GK,30,0,0,0,400000
+Mamadou Sarr,FRA,Strasbourg,19,51,DF,23,0,0,0,15000000
+Ismael Doukoure,FRA,Strasbourg,21,56,DF,29,0,0,0,15000000
+Abakar Sylla,CIV,Strasbourg,22,64,DF,5,0,0,0,12000000
+Andrew Omobamidele,CIV,Strasbourg,22,63,DF,2,0,0,0,10000000
+Yoni Gomis,FRA,Strasbourg,19,49,DF,25,0,0,0,1000000
+Valentin Barco,ARG,Strasbourg,20,65,DF,32,0,0,0,8000000
+Eduard Sobol,UKR,Strasbourg,29,61,DF,77,0,0,0,1200000
+Thomas Delaine,FRA,Strasbourg,33,63,DF,3,0,0,0,800000
+Guela Doue,CIV,Strasbourg,22,54,DF,22,0,0,0,12000000
+Pape Diong,SEN,Strasbourg,18,43,MF,17,0,0,0,800000
+Andrey Santos,BRA,Strasbourg,20,65,MF,8,0,0,0,25000000
+Habib Diarra,SEN,Strasbourg,21,58,MF,19,0,0,0,20000000
+Sebastian Nanasi,SWE,Strasbourg,22,63,MF,15,0,0,0,15000000
+Felix Lemarechal,FRA,Strasbourg,21,48,MF,6,0,0,0,7000000
+Tidiane Diallo,FRA,Strasbourg,18,38,MF,35,0,0,0,0
+Diego Moreira,PRT,Strasbourg,20,53,ST,7,0,0,0,10000000
+Oscar Perea,COL,Strasbourg,19,59,ST,20,0,0,0,2500000
+Dilane Bakwa,FRA,Strasbourg,22,65,ST,26,0,0,0,18000000
+Samuel Amo-Ameyaw,ENG,Strasbourg,18,52,ST,27,0,0,0,2000000
+Abdoul Ouattara,CIV,Strasbourg,19,40,ST,42,0,0,0,800000
+Emanuel Emegha,NLD,Strasbourg,22,66,ST,10,0,0,0,20000000
+Sekou Mara,FRA,Strasbourg,22,61,ST,14,0,0,0,6000000
+Moise Sahi Dion,CIV,Strasbourg,23,54,ST,11,0,0,0,1500000
+Mathew Ryan,AUS,Lens,33,70,GK,30,0,0,0,2500000
+Herve Koffi,BFA,Lens,28,62,GK,16,0,0,0,1500000
+Denis Petric,SVN,Lens,36,56,GK,1,0,0,0,100000
+Facundo Medina,ARG,Lens,25,71,DF,14,0,0,0,25000000
+Malang Sarr,FRA,Lens,26,65,DF,20,0,0,0,5000000
+Jonathan Gradit,FRA,Lens,32,67,DF,24,0,0,0,4000000
+Juma Bah,SLE,Lens,19,38,DF,27,0,0,0,4000000
+Nidal Celik,BIH,Lens,18,35,DF,4,0,0,0,1800000
+Jhoanner Chavez,ECU,Lens,22,57,DF,13,0,0,0,4000000
+Deiver Machado,COL,Lens,31,67,DF,3,0,0,0,3500000
+Ruben Aguilar,FRA,Lens,31,68,DF,2,0,0,0,4000000
+Hamzat Ojediran,NGA,Lens,21,51,MF,15,0,0,0,2000000
+Nampalys Mendy,SEN,Lens,32,65,MF,26,0,0,0,2000000
+Tom Pouilly,FRA,Lens,21,44,MF,34,0,0,0,100000
+Andy Diouf,FRA,Lens,21,61,MF,18,0,0,0,10000000
+Neil El Aynaoui,MAR,Lens,23,60,MF,23,0,0,0,10000000
+Anass Zaroury,MAR,Lens,24,64,MF,21,0,0,0,8000000
+Angelo Fulgini,FRA,Lens,28,66,MF,11,0,0,0,6000000
+Adrien Thomasson,FRA,Lens,31,66,MF,28,0,0,0,5000000
+Jeremy Agbonifo,SWE,Lens,19,37,ST,25,0,0,0,5000000
+M'Bala Nzola,AGO,Lens,28,68,ST,8,0,0,0,8000000
+Martin Satriano,URY,Lens,24,62,ST,9,0,0,0,5000000
+Wesley Said,FRA,Lens,29,62,ST,22,0,0,0,3500000
+Florian Sotoca,FRA,Lens,34,65,ST,7,0,0,0,2500000
+Remy Labeau Lascary,GLP,Lens,22,52,ST,36,0,0,0,2500000
+Goduine Koyalipou,CAF,Lens,25,53,ST,19,0,0,0,1800000
+Marco Bizot,NLD,Brest,34,68,GK,40,0,0,0,3500000
+Gregoire Coudert,FRA,Brest,26,56,GK,30,0,0,0,400000
+Noah Jauny,IRL,Brest,20,37,GK,50,0,0,0,0
+Soumaila Coulibaly,FRA,Brest,21,58,DF,44,0,0,0,9000000
+Brendan Chardonnet,FRA,Brest,30,65,DF,5,0,0,0,6000000
+Abdoulaye Ndiaye,SEN,Brest,23,57,DF,3,0,0,0,3000000
+Julien Le Cardinal,FRA,Brest,27,58,DF,25,0,0,0,1500000
+Bradley Locko,FRA,Brest,22,63,DF,2,0,0,0,9000000
+Jordan Amavi,FRA,Brest,31,59,DF,23,0,0,0,2000000
+Massadio Haidara,MLI,Brest,32,62,DF,22,0,0,0,1800000
+Justin Bourgault,FRA,Brest,19,50,DF,18,0,0,0,300000
+Luc Zogbe,CIV,Brest,20,45,DF,12,0,0,0,3000000
+Kenny Lala,FRA,Brest,33,64,DF,7,0,0,0,2500000
+Pierre Lees-Melou,FRA,Brest,31,68,MF,20,0,0,0,7000000
+Edimilson Fernandes,CHE,Brest,29,66,MF,6,0,0,0,3500000
+Jonas Martin,FRA,Brest,35,61,MF,28,0,0,0,800000
+Hamidou Makalou,MLI,Brest,18,45,MF,33,0,0,0,200000
+Mahdi Camara,FRA,Brest,26,64,MF,45,0,0,0,10000000
+Hugo Magnetti,FRA,Brest,26,65,MF,8,0,0,0,7000000
+Romain Faivre,FRA,Brest,26,66,MF,21,0,0,0,7000000
+Kamory Doumbia,MLI,Brest,22,61,MF,9,0,0,0,5000000
+Abdallah Sima,SEN,Brest,23,65,ST,17,0,0,0,10000000
+Ibrahim Salah,MAR,Brest,23,57,ST,34,0,0,0,4000000
+Mathias Pereira Lage,FRA,Brest,28,64,ST,26,0,0,0,2000000
+Romain Del Castillo,FRA,Brest,29,65,ST,10,0,0,0,8000000
+Mama Balde,GNB,Brest,29,62,ST,14,0,0,0,4500000
+Ludovic Ajorque,FRA,Brest,31,64,ST,19,0,0,0,4000000
+Guillaume Restes,FRA,Toulouse ,20,62,GK,50,0,0,0,20000000
+Kjetil Haug,NOR,Toulouse ,26,58,GK,16,0,0,0,600000
+Justin Lacombe,FRA,Toulouse ,22,38,GK,40,0,0,0,50000
+Charlie Cresswell,ENG,Toulouse ,22,60,DF,4,0,0,0,7000000
+Mark McKenzie,USA,Toulouse ,26,62,DF,3,0,0,0,6000000
+Rasmus Nicolaisen,DMK,Toulouse ,28,64,DF,2,0,0,0,5000000
+Jaydee Canvot,FRA,Toulouse ,18,38,DF,29,0,0,0,2500000
+Umit Akdag,ROM,Toulouse ,21,43,DF,6,0,0,0,800000
+Gabriel Suazo,CHL,Toulouse ,27,63,DF,17,0,0,0,4000000
+Ylies Aradj,FRA,Toulouse ,19,45,DF,26,0,0,0,0
+Warren Kamanzi,NOR,Toulouse ,24,60,DF,12,0,0,0,2000000
+Djibril Sidibe,FRA,Toulouse ,32,58,DF,19,0,0,0,1200000
+Cristian Casseres Jr.,VEN,Toulouse ,25,62,MF,23,0,0,0,5000000
+Vincent Sierro,CHE,Toulouse ,29,63,MF,8,0,0,0,4000000
+Niklas Schmidt,DEU,Toulouse ,27,61,MF,20,0,0,0,2000000
+Miha Zajc,SVN,Toulouse ,30,63,MF,21,0,0,0,1800000
+Rafik Messali,DZA,Toulouse ,21,38,MF,22,0,0,0,800000
+Aron Donnum,NOR,Toulouse ,26,62,MF,15,0,0,0,4000000
+Mathis Saka,FRA,Toulouse ,18,33,MF,11,0,0,0,0
+Yann Gboho,FRA,Toulouse ,24,56,ST,10,0,0,0,8000000
+Zakaria Aboukhlal,MAR,Toulouse ,25,65,ST,7,0,0,0,12000000
+Shavy Babicka,GAB,Toulouse ,24,60,ST,80,0,0,0,3000000
+Noah Edjouma,FRA,Toulouse ,19,44,ST,31,0,0,0,500000
+Frank Magri,FRA,Toulouse ,25,62,ST,9,0,0,0,2500000
+Joshua King,NOR,Toulouse ,33,65,ST,13,0,0,0,2000000
+Donovan Leon,GUF,Auxerre,32,58,GK,16,0,0,0,800000
+Theo De Percin,FRA,Auxerre,24,45,GK,40,0,0,0,300000
+Raphael Adiceam,FRA,Auxerre,34,42,GK,37,0,0,0,50000
+Tom Negrel,FRA,Auxerre,22,38,GK,30,0,0,0,0
+Sinaly Diomande,CIV,Auxerre,24,62,DF,20,0,0,0,5000000
+Gabriel Osho,NGA,Auxerre,26,61,DF,3,0,0,0,3000000
+Clement Akpa,CIV,Auxerre,23,49,DF,92,0,0,0,3000000
+Jubal,BRA,Auxerre,31,61,DF,4,0,0,0,2000000
+Gideon Mensah,GHA,Auxerre,26,62,DF,14,0,0,0,3500000
+Fredrik Oppegard,NOR,Auxerre,22,55,DF,12,0,0,0,600000
+Ki-Jana Hoever,NLD,Auxerre,23,61,DF,23,0,0,0,4500000
+Paul Joly,FRA,Auxerre,24,60,DF,26,0,0,0,2000000
+Ange-Loic N'Gatta,FRA,Auxerre,21,45,DF,24,0,0,0,100000
+Elisha Owusu,GHA,Auxerre,27,61,MF,42,0,0,0,3000000
+Assane Diousse,SEN,Auxerre,27,53,MF,18,0,0,0,800000
+Nathan Buayi-Kiala,FRA,Auxerre,21,40,MF,8,0,0,0,150000
+Han-Noah Massengo,FRA,Auxerre,23,61,MF,80,0,0,0,5000000
+Kevin Danois,FRA,Auxerre,20,44,MF,27,0,0,0,4000000
+Hamed Junior Traore,CIV,Auxerre,25,69,MF,25,0,0,0,18000000
+Ben Viadere,FRA,Auxerre,19,34,MF,29,0,0,0,0
+Lassine Sinayoko,MLI,Auxerre,25,60,ST,17,0,0,0,3500000
+Aristide Zossou,CIV,Auxerre,19,45,ST,77,0,0,0,100000
+Gaetan Perrin,FRA,Auxerre,28,60,ST,10,0,0,0,6000000
+Lasso Coulibaly,CIV,Auxerre,22,58,ST,21,0,0,0,1500000
+Eros Maddy,NLD,Auxerre,24,52,ST,11,0,0,0,200000
+Theo Bair,CAN,Auxerre,25,50,ST,9,0,0,0,1800000
+Ado Onaiwu,JPN,Auxerre,29,59,ST,45,0,0,0,1800000
+Florian Aye,FRA,Auxerre,28,61,ST,19,0,0,0,1500000
+Brice Samba,FRA,Rennes,30,71,GK,1,0,0,0,15000000
+Dogan Almedar,TUR,Rennes,22,54,GK,80,0,0,0,2000000
+Gauthier Gallon,FRA,Rennes,31,63,GK,23,0,0,0,1000000
+Steve Mandanda,FRA,Rennes,40,67,GK,30,0,0,0,700000
+Geoffrey Lembet,CAF,Rennes,36,50,GK,40,0,0,0,150000
+Lilian Brassier,FRA,Rennes,25,65,DF,5,0,0,0,10000000
+Anthony Rouault,FRA,Rennes,23,63,DF,24,0,0,0,10000000
+Alidu Seidu,GHA,Rennes,24,65,DF,36,0,0,0,9000000
+Mika Faye,SEN,Rennes,20,58,DF,15,0,0,0,8000000
+Christopher Wooh,CAM,Rennes,23,59,DF,4,0,0,0,7000000
+Jeremy Jacquet,FRA,Rennes,19,50,DF,97,0,0,0,5000000
+Adrien Truffert,FRA,Rennes,23,67,DF,3,0,0,0,15000000
+Mahamadou Nagida,CAM,Rennes,19,42,DF,18,0,0,0,1000000
+Lorenz Assignon,FRA,Rennes,24,63,DF,22,0,0,0,9000000
+Hans Hateboer,NLD,Rennes,31,67,DF,33,0,0,0,3000000
+Azor Matusiwa,NLD,Rennes,26,68,MF,6,0,0,0,10000000
+Seko Fofana,CIV,Rennes,29,70,MF,8,0,0,0,12000000
+Ismael Kone,CAN,Rennes,22,62,MF,90,0,0,0,12000000
+Jordan James,WLS,Rennes,20,57,MF,17,0,0,0,8000000
+Naouirou Ahamada,FRA,Rennes,23,61,MF,32,0,0,0,5000000
+Djaoui Cisse,FRA,Rennes,21,42,MF,38,0,0,0,5000000
+Ayanda Sishuba,BEL,Rennes,20,53,MF,28,0,0,0,2000000
+Kazeem Olaigbe,BEL,Rennes,22,51,ST,19,0,0,0,4000000
+Ludovic Blas,FRA,Rennes,27,70,ST,10,0,0,0,18000000
+Musa Al-Tamari,JOR,Rennes,27,63,ST,11,0,0,0,6000000
+Carlos Andres Gomez,COL,Rennes,22,59,ST,20,0,0,0,5000000
+Arnaud Kalimuendo,FRA,Rennes,23,68,ST,9,0,0,0,20000000
+Kyogo Furuhashi,JPN,Rennes,30,69,ST,7,0,0,0,12000000
+Mohamed Kader Meite,FRA,Rennes,17,40,ST,62,0,0,0,600000
+Wilson Samake,MLI,Rennes,21,47,ST,52,0,0,0,150000
+Alban Lafont,FRA,Nantes,26,68,GK,1,0,0,0,4000000
+Anthony Lopes,PRT,Nantes,34,67,GK,16,0,0,0,1500000
+Patrik Carlgren,SWE,Nantes,33,63,GK,30,0,0,0,800000
+Hugo Barbet,FRA,Nantes,23,47,GK,50,0,0,0,100000
+Nathan Zeze,FRA,Nantes,19,56,DF,44,0,0,0,12000000
+Saidou Sow,GIN,Nantes,22,55,DF,24,0,0,0,6000000
+Jean-Charles Castelletto,CAM,Nantes,30,63,DF,21,0,0,0,3500000
+Nicolas Pallois,FRA,Nantes,37,59,DF,4,0,0,0,500000
+Nicolas Cozza,FRA,Nantes,26,63,DF,3,0,0,0,3500000
+Kelvin Amian,FRA,Nantes,27,61,DF,98,0,0,0,2500000
+Fabien Centonze,FRA,Nantes,29,61,DF,18,0,0,0,2000000
+Marcus Coco,GLP,Nantes,28,61,DF,11,0,0,0,1500000
+Johann Lepenant,FRA,Nantes,22,60,MF,8,0,0,0,7000000
+Pedro Chirivella,ESP,Nantes,27,64,MF,5,0,0,0,5000000
+Francis Coquelin,FRA,Nantes,33,72,MF,13,0,0,0,1000000
+Douglas Augusto,BRA,Nantes,28,63,MF,6,0,0,0,6000000
+Dehmaine Tabibou,FRA,Nantes,19,45,MF,59,0,0,0,100000
+Louis Leroux,FRA,Nantes,19,40,MF,66,0,0,0,2000000
+Florent Mollet,FRA,Nantes,33,63,MF,25,0,0,0,1500000
+Moses Simon,NGA,Nantes,29,66,ST,27,0,0,0,12000000
+Herba Guirassy,GIN,Nantes,18,36,ST,62,0,0,0,1000000
+Sorba Thomas,WLS,Nantes,26,59,ST,22,0,0,0,4000000
+Matthis Abline,FRA,Nantes,22,59,ST,39,0,0,0,12000000
+Mostafa Mohamed,EGY,Nantes,27,66,ST,31,0,0,0,6000000
+Meschack Elia,COD,Nantes,27,68,ST,17,0,0,0,5000000
+Tino Kadewere,ZWE,Nantes,29,62,ST,10,0,0,0,3000000
+Yahia Fofana,CIV,Angers,24,59,GK,30,0,0,0,6000000
+Melvin Zinga,COG,Angers,23,45,GK,16,0,0,0,250000
+Oumar Pona,FRA,Angers,18,34,GK,40,0,0,0,0
+Emmanuel Biumla,FRA,Angers,19,47,DF,24,0,0,0,4000000
+Cedric Hountondji,BEN,Angers,31,59,DF,22,0,0,0,1500000
+Jordan Lefort,FRA,Angers,31,59,DF,21,0,0,0,1200000
+Ousmane Camara,FRA,Angers,22,55,DF,29,0,0,0,500000
+Abdoulaye Bamba,CIV,Angers,34,60,DF,25,0,0,0,350000
+Jacques Ekomie,GAB,Angers,21,49,DF,3,0,0,0,800000
+Florent Hanin,FRA,Angers,35,58,DF,26,0,0,0,350000
+Carlens Arcus,HTI,Angers,28,58,DF,2,0,0,0,1500000
+Lilian Raolisoa,FRA,Angers,24,55,DF,27,0,0,0,700000
+Halid Sabanovic,BIH,Angers,25,54,DF,31,0,0,0,200000
+Jean-Eudes Aholou,CIV,Angers,31,64,MF,6,0,0,0,2000000
+Zinedine Ould Khaled,FRA,Angers,25,55,MF,12,0,0,0,300000
+Haris Belkebla,DZA,Angers,31,63,MF,93,0,0,0,2000000
+Yassin Belkhdim,MAR,Angers,23,44,MF,14,0,0,0,800000
+Pierrick Capelle,FRA,Angers,38,59,MF,15,0,0,0,200000
+Himad Abdelli,DZA,Angers,25,61,MF,10,0,0,0,7000000
+Farid El Melali,DZA,Angers,27,58,ST,28,0,0,0,4000000
+Jim Allevinah,GAB,Angers,30,60,ST,18,0,0,0,1800000
+Zinedine Ferhat,DZA,Angers,32,58,ST,20,0,0,0,1200000
+Justin Kalumba,FRA,Angers,20,49,ST,17,0,0,0,600000
+Esteban Lepaul,FRA,Angers,24,52,ST,19,0,0,0,5000000
+Bamba Dieng,SEN,Angers,25,63,ST,99,0,0,0,3500000
+Ibrahima Niane,SEN,Angers,26,58,ST,7,0,0,0,1500000
+Sidiki Cherif,FRA,Angers,18,48,ST,11,0,0,0,1000000
+Adrien Hunou,FRA,Angers,31,58,ST,23,0,0,0,500000
+Yehvann Diouf,SEN,Reims,25,61,GK,94,0,0,0,9000000
+Alexandre Olliero,FRA,Reims,29,57,GK,20,0,0,0,300000
+Ludovic Butelle,FRA,Reims,42,53,GK,16,0,0,0,100000
+Joseph Okumu,KEN,Reims,27,65,DF,2,0,0,0,7000000
+Cedric Kipre,CIV,Reims,28,62,DF,21,0,0,0,3000000
+Malcolm Jeng,SWE,Reims,20,48,DF,31,0,0,0,2500000
+Abdoul Kone,FRA,Reims,19,40,DF,92,0,0,0,500000
+Sergio Akieme,ESP,Reims,27,63,DF,18,0,0,0,7000000
+Nhoa Sangui,FRA,Reims,19,46,DF,55,0,0,0,2500000
+Aurelio Buta,PRT,Reims,28,66,DF,23,0,0,0,5000000
+Hiroki Sekine,JPN,Reims,22,60,DF,3,0,0,0,800000
+Gabriel Moscardo,BRA,Reims,19,62,MF,19,0,0,0,10000000
+Mory Gbane,CIV,Reims,24,56,MF,24,0,0,0,4000000
+Amadou Kone,CIV,Reims,19,50,MF,72,0,0,0,1500000
+Valentin Atangana,FRA,Reims,19,50,MF,6,0,0,0,9000000
+Yaya Fofana,CIV,Reims,20,48,MF,8,0,0,0,5000000
+Teddy Teuma,MLT,Reims,31,67,MF,10,0,0,0,4000000
+John Patrick ,IRL,Reims,21,45,MF,30,0,0,0,1000000
+Reda Khadra,DEU,Reims,23,63,MF,14,0,0,0,2500000
+Keito Nakamura,JPN,Reims,24,68,ST,17,0,0,0,10000000
+Mohamed Daramy,DMK,Reims,23,69,ST,9,0,0,0,5000000
+Mamadou Diakhon,FRA,Reims,19,48,ST,67,0,0,0,1500000
+Junya Ito,JPN,Reims,32,70,ST,7,0,0,0,8000000
+Oumar Diakite,CIV,Reims,21,53,ST,22,0,0,0,7000000
+Jordan,USA,Reims,28,64,ST,12,0,0,0,3000000
+Arthur Desmas,FRA,Le Havre,31,63,GK,30,0,0,0,1500000
+Mathieu Gorgelin,FRA,Le Havre,34,55,GK,1,0,0,0,200000
+Arouna Sangate,SEN,Le Havre,23,63,DF,93,0,0,0,10000000
+Etienne Youte Kinkoue,FRA,Le Havre,23,70,DF,6,0,0,0,8000000
+Gautier Lloris,FRA,Le Havre,29,65,DF,4,0,0,0,3000000
+Fode Ballo-Toure,SEN,Le Havre,28,67,DF,97,0,0,0,1500000
+Yanis Zouaoui,FRA,Le Havre,26,50,DF,18,0,0,0,800000
+Timothee Pembele,FRA,Le Havre,22,58,DF,32,0,0,0,2500000
+Loic Nego,HUN,Le Havre,34,62,DF,7,0,0,0,800000
+Oualid El Hajjam,MAR,Le Havre,34,57,DF,17,0,0,0,400000
+Junior Mwanga,FRA,Le Havre,21,64,MF,23,0,0,0,6000000
+Abdoulaye Toure,GIN,Le Havre,31,63,MF,94,0,0,0,3000000
+Rassoul Ndiaye,SEN,Le Havre,23,60,MF,19,0,0,0,2500000
+Alois Confais,FRA,Le Havre,28,53,MF,25,0,0,0,200000
+Yassine Kechta,MAR,Le Havre,23,62,MF,8,0,0,0,5000000
+Daler Kuzyaev,RUS,Le Havre,32,68,MF,14,0,0,0,5000000
+Mahamadou Diawara,FRA,Le Havre,20,51,MF,34,0,0,0,2500000
+Ismail Bouneb,FRA,Le Havre,18,36,MF,44,0,0,0,50000
+Antoine Joujou,FRA,Le Havre,22,59,ST,21,0,0,0,2500000
+Issa Soumare,SEN,Le Havre,24,58,ST,45,0,0,0,1500000
+Josue Casimir,GLP,Le Havre,23,62,ST,10,0,0,0,3500000
+Ruben Londja,CHE,Le Havre,18,35,ST,70,0,0,0,0
+Ilyes Housni,MAR,Le Havre,19,51,ST,46,0,0,0,2000000
+Ahmed Hassan,EGY,Le Havre,32,58,ST,99,0,0,0,900000
+Andre Ayew,GHA,Le Havre,35,62,ST,28,0,0,0,700000
+Elysee Logbo,FRA,Le Havre,20,53,ST,20,0,0,0,600000
+Yann Kitala,COD,Le Havre,27,55,ST,9,0,0,0,500000
+Gautier Larsonneur,FRA,St Etienne,28,62,GK,30,0,0,0,3500000
+Brice Maubleu,FRA,St Etienne,35,59,GK,1,0,0,0,300000
+Boubacar Fall,SEN,St Etienne,24,46,GK,16,0,0,0,100000
+Maxime Bernauer,FRA,St Etienne,26,56,DF,13,0,0,0,2000000
+Mickael Nade,FRA,St Etienne,26,55,DF,3,0,0,0,1500000
+Dylan Batubinsika,COS,St Etienne,29,61,DF,21,0,0,0,1500000
+Yunis Abdelhamid,MAR,St Etienne,37,67,DF,5,0,0,0,500000
+Anthony Briancon,FRA,St Etienne,30,60,DF,23,0,0,0,500000
+Pierre Cornud,FRA,St Etienne,28,60,DF,17,0,0,0,1000000
+Leo Petrot,FRA,St Etienne,28,55,DF,19,0,0,0,1000000
+Yvann Macon,FRA,St Etienne,26,59,DF,27,0,0,0,2000000
+Dennis Appiah,FRA,St Etienne,32,59,DF,8,0,0,0,900000
+Pierre Ekwah,FRA,St Etienne,23,61,MF,4,0,0,0,5000000
+Louis Mouton,FRA,St Etienne,22,52,MF,14,0,0,0,800000
+Lamine Fomba,FRA,St Etienne,27,56,MF,26,0,0,0,700000
+Benjamin Bouchouari,MAR,St Etienne,23,57,MF,6,0,0,0,5000000
+Aimen Moueffek,MAR,St Etienne,24,55,MF,29,0,0,0,2500000
+Florian Tardieu,FRA,St Etienne,32,62,MF,10,0,0,0,700000
+Augustine Boakye,GHA,St Etienne,24,54,MF,20,0,0,0,3000000
+Igor Miladnovic,SRB,St Etienne,21,55,MF,28,0,0,0,1500000
+Ben Old,NZL,St Etienne,22,48,ST,11,0,0,0,800000
+Zuriko Davitashvili,GEO,St Etienne,24,59,ST,22,0,0,0,10000000
+Lucas Stassin,BEL,St Etienne,20,53,ST,32,0,0,0,7000000
+Irvin Cardona,FRA,St Etienne,27,60,ST,7,0,0,0,2000000
+Ibrahim Sissoko,MLI,St Etienne,29,57,ST,9,0,0,0,2000000
+Ibrahima Wadji,SEN,St Etienne,29,55,ST,25,0,0,0,800000
+Djylian N'Guessan,FRA,St Etienne,16,37,ST,63,0,0,0,800000
+Benjamin Lecomte,FRA,Montpellier ,33,68,GK,40,0,0,0,2000000
+Dimitry Bertaud,COD,Montpellier ,26,60,GK,16,0,0,0,1200000
+Belmin Dizdarevic,BIH,Montpellier ,23,48,GK,1,0,0,0,150000
+Bamo Meite,CIV,Montpellier ,23,59,DF,2,0,0,0,5000000
+Becir Omeragic,CHE,Montpellier ,23,62,DF,27,0,0,0,5000000
+Kiki Kouyate,MLI,Montpellier ,28,64,DF,4,0,0,0,3500000
+Modibo Sagnan,MLI,Montpellier ,26,59,DF,5,0,0,0,3000000
+Christopher Jullien,FRA,Montpellier ,32,60,DF,6,0,0,0,1500000
+Nikola Maksimovic,SRB,Montpellier ,33,55,DF,52,0,0,0,400000
+Issiaga Sylla,GIN,Montpellier ,31,63,DF,3,0,0,0,2000000
+Lucas Mincarelli,FRA,Montpellier ,21,49,DF,21,0,0,0,900000
+Theo Sainte-Luce,FRA,Montpellier ,26,58,DF,17,0,0,0,800000
+Enzo Tchato,SEN,Montpellier ,22,52,DF,29,0,0,0,2500000
+Falaye Sacko,MLI,Montpellier ,29,62,DF,77,0,0,0,2000000
+Joris Chotard,FRA,Montpellier ,23,65,MF,13,0,0,0,7000000
+Rabby Nzingoula,FRA,Montpellier ,19,30,MF,19,0,0,0,2500000
+Khalil Fayad,MAR,Montpellier ,20,54,MF,22,0,0,0,4000000
+Jordan Ferri,FRA,Montpellier ,33,64,MF,12,0,0,0,2500000
+Teji Savanier,FRA,Montpellier ,33,72,MF,11,0,0,0,3000000
+Nicolas Pays,FRA,Montpellier ,21,30,MF,18,0,0,0,700000
+Wahbi Khazri,TUN,Montpellier ,34,62,ST,10,0,0,0,1500000
+Tanguy Coulibaly,FRA,Montpellier ,24,61,ST,70,0,0,0,1800000
+Othmane Maamma,MAR,Montpellier ,19,41,ST,14,0,0,0,800000
+Andy Delort,DZA,Montpellier ,33,68,ST,9,0,0,0,2000000
+Glenn Ngoso,SEN,Montpellier ,21,40,ST,28,0,0,0,0

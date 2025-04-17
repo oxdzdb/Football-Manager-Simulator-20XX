@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class DataReader {
+    /*
     public static ArrayList<Team> readData(String filename, int x) throws FileNotFoundException{
         
         ArrayList<Team> dataList = new ArrayList<>();
@@ -76,5 +77,5 @@ public class DataReader {
             dataList.add(team);
         }
         return dataList;
-    }
+    }*/
 }

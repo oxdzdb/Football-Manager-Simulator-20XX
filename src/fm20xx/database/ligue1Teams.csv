@@ -1,19 +1,19 @@
 Name,Short Name,Location,Stadium Name,Wins,Draws,Losses,Goals,Con Goals,Funds,Facility Rating,Points,Stadium Capacity,Image FIle Name
-Paris Saint-Germain,PSG,Paris,Parc des Princes,0,0,0,0,0,26000000,20,0,47926,teamImgs/parisSaint-GermainFC.png
-Olympique de Marseille,OLM,Marseille,Orange Velodrome,0,0,0,0,0,2000000,16,0,67354,teamImgs/ olympiqueMarseille.png
-AS Monaco FC,ASM,Fontvielle,Stade Louis II,0,0,0,0,0,26000000,18,0,18521,teamImgs/ASMonacoFC.png
-OGC Nice,NIC,Nice,Allianz Riviera,0,0,0,0,0,4000000,17,0,35624,teamImgs/OGCNice.png
-Olympique Lyonnais,OLY,Lyon,Groupama Stadium,0,0,0,0,0,3000000,17,0,59186,teamImgs/olympiqueLyonnais.png
-Lille OSC,LOS,Lille,Decathlon Arena,0,0,0,0,0,5000000,16,0,49834,teamImgs/lilleOSC.png
-RC Strasbourg Alsace,RCS,Strasbourg,Stade de La Meinau,0,0,0,0,0,2000000,12,0,29000,teamImgs/RCStrasbourgAlsace.png
-RC Lens,RCL,Lens,Stade Bollaert-Delelis,0,0,0,0,0,3000000,16,0,38223,teamImgs/RCLens.png
-Stade Brestois 29,BRE,Brest,Stade Francis-Le Ble,0,0,0,0,0,5000000,12,0,15583,teamImgs/stadeBrestois29.png
-Toulouse FC,TOU,Toulouse,Stadium de Toulouse,0,0,0,0,0,1000000,15,0,33105,teamImgs/toulouseFC.png
-AJ Auxerre,AJA,Auxerre,Stade Abbe-Deschamps,0,0,0,0,0,401000,16,0,19154,teamImgs/AJAuxerre.png
-Stade Rennais FC,REN,Rennes,Roazhon Park,0,0,0,0,0,13000000,16,0,31127,teamImgs/stadeRennaisFC.png
-FC Nantes,NAN,Nantes,Stade de la Beaujoire,0,0,0,0,0,2000000,14,0,38004,teamImgs/FCNantes.png
-Angers SCO,ANG,Angers,Stade Raymond-Kopa,0,0,0,0,0,3000000,11,0,19350,teamImgs/angersSCO.png
-Stade de Reims,REI,Reims,Stade Auguste-Delaune,0,0,0,0,0,3000000,14,0,21628,teamImgs/stadeDeReims.png
-Le Havre AC,LHV,Le Havre,Stade Oceane,0,0,0,0,0,1000000,15,0,25278,teamImgs/leHavreAC.png
-AS Saint Etienne,ASE,Saint-Etienne,Stade Geoffroy-Guichard,0,0,0,0,0,3000000,16,0,42000,teamImgs/ASSaint-Etienne.png
-Montpellier HSC,MTP,Montpellier,Stade de la Mosson,0,0,0,0,0,3000000,14,0,32950,teamImgs/montpellierHSC.png
+PSG,PSG,Paris,Parc des Princes,0,0,0,0,0,26000000,20,0,47926,teamImgs/parisSaint-GermainFC.png
+Marseille,OLM,Marseille,Orange Velodrome,0,0,0,0,0,2000000,16,0,67354,teamImgs/ olympiqueMarseille.png
+Monaco ,ASM,Fontvielle,Stade Louis II,0,0,0,0,0,26000000,18,0,18521,teamImgs/ASMonacoFC.png
+Nice,NIC,Nice,Allianz Riviera,0,0,0,0,0,4000000,17,0,35624,teamImgs/OGCNice.png
+Lyon,OLY,Lyon,Groupama Stadium,0,0,0,0,0,3000000,17,0,59186,teamImgs/olympiqueLyonnais.png
+Lille ,LOS,Lille,Decathlon Arena,0,0,0,0,0,5000000,16,0,49834,teamImgs/lilleOSC.png
+Strasbourg,RCS,Strasbourg,Stade de La Meinau,0,0,0,0,0,2000000,12,0,29000,teamImgs/RCStrasbourgAlsace.png
+Lens,RCL,Lens,Stade Bollaert-Delelis,0,0,0,0,0,3000000,16,0,38223,teamImgs/RCLens.png
+Brest,BRE,Brest,Stade Francis-Le Ble,0,0,0,0,0,5000000,12,0,15583,teamImgs/stadeBrestois29.png
+Toulouse ,TOU,Toulouse,Stadium de Toulouse,0,0,0,0,0,1000000,15,0,33105,teamImgs/toulouseFC.png
+Auxerre,AJA,Auxerre,Stade Abbe-Deschamps,0,0,0,0,0,401000,16,0,19154,teamImgs/AJAuxerre.png
+Rennes,REN,Rennes,Roazhon Park,0,0,0,0,0,13000000,16,0,31127,teamImgs/stadeRennaisFC.png
+Nantes,NAN,Nantes,Stade de la Beaujoire,0,0,0,0,0,2000000,14,0,38004,teamImgs/FCNantes.png
+Angers,ANG,Angers,Stade Raymond-Kopa,0,0,0,0,0,3000000,11,0,19350,teamImgs/angersSCO.png
+Reims,REI,Reims,Stade Auguste-Delaune,0,0,0,0,0,3000000,14,0,21628,teamImgs/stadeDeReims.png
+Le Havre,LHV,Le Havre,Stade Oceane,0,0,0,0,0,1000000,15,0,25278,teamImgs/leHavreAC.png
+St Etienne,ASE,Saint-Etienne,Stade Geoffroy-Guichard,0,0,0,0,0,3000000,16,0,42000,teamImgs/ASSaint-Etienne.png
+Montpellier ,MTP,Montpellier,Stade de la Mosson,0,0,0,0,0,3000000,14,0,32950,teamImgs/montpellierHSC.png

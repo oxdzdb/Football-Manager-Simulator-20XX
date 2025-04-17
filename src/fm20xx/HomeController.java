@@ -28,11 +28,10 @@ public class HomeController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }   
-    @FXML Button nextMatch;
     
     @FXML
     private void back(MouseEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Title.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("TeamSelect.fxml"));
         Parent root = loader.load();
         Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene  = new Scene(root);
