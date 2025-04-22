@@ -41,7 +41,7 @@ public class MatchController implements Initializable {
     //@FXML Label matchSummary;
     //@FXML ImageView icon;
     //@FXML Button skip;
-    //@FXML Button manage;
+    @FXML Button manage;
     
     int minutes = 0;
     
