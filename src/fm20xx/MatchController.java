@@ -32,6 +32,26 @@ public class MatchController implements Initializable {
     }    
     
     @FXML Label homeTeam;
+    @FXML Label homeEvent1;
+    @FXML Label homeEvent2;
+    @FXML Label homeEvent3;
+    @FXML Label homeEvent4;
+    @FXML Label homeEvent5;
+    @FXML Label homeEvent6;
+    @FXML Label homeEvent7;
+    @FXML Label homeEvent8;
+    @FXML Label homeEvent9;
+    @FXML Label homeEvent10;
+    @FXML Label awayEvent1;
+    @FXML Label awayEvent2;
+    @FXML Label awayEvent3;
+    @FXML Label awayEvent4;
+    @FXML Label awayEvent5;
+    @FXML Label awayEvent6;
+    @FXML Label awayEvent7;
+    @FXML Label awayEvent8;
+    @FXML Label awayEvent9;
+    @FXML Label awayEvent10;
     @FXML ImageView homeIcon;
     @FXML Label awayTeam;
     @FXML ImageView awayIcon;
@@ -47,6 +67,70 @@ public class MatchController implements Initializable {
     int minutes = 0;
     int hScore = 0;
     int aScore = 0;
+    //Team possession = homeTeam;
+    
+    @FXML
+    private void match(KeyEvent event) throws IOException {
+        if(minutes < 90){
+            minutes += 1;
+            matchEngine();
+            commentary();
+            updateTime();
+        }
+    }
+    
+    @FXML
+    private void matchEngine() {
+        /*
+        Match System:
+        First Possession - homeTeam
+        Every 5 rolls, advance 1 minute.
+        At halftime, possession is given to awayTeam
+
+        REMINDERS:
+        Update shots taken if after every shot (4)
+        Count minutes that a team has poss to calculate poss stat
+        Every activation (2b, 3b, 4b) is 5 passes, every change in possession is 5 passes, every [RECYCLE] is 10 passes (for calculating passes stat)
+        Update corners taken after every corner (5)
+        Always return to (1) if there is goal or possession switch
+     
+        1. Check team in possession
+
+        2. (SIM ATTACK) -
+
+            2a. (GENERATE ATTACK) - Generate random number (1-100), Add the difference of possession and opp team avg skill lvl
+
+            2b. (ROLL ATTACK) - Generate another number (1-100), If less than or equal to generateAttack number, chance is activated. If greater, roll for possession roll.
+
+                2b-1. (Possession Roll) - Generate random number (1-100), if 0-50: poss team keep poss, advance minute return to -> 2a [RECYCLE], if 51-90: give poss to other team, advance minute [LOSE], if 91-100: give poss to other team, immediately return to -> 2a without advancing a minute [COUNTER].
+
+        3. (SIM CHANCE) - 
+
+            3a. (GENERATE CHANCE) - Generate random number (1-100), Add the difference of possession team attacker (random from players on field) and opp team defender (random from players on field) skill lvl.
+
+            3b. (ROLL CHANCE) - Generate another random number (1-100), if less than or equal to generateChance number, shot is activated. If greater, give poss to other team, advance minute.
+
+        4. (SIM SHOT) - 
+
+            4a. (GENERATE SHOT) - Get the difference of the possession team attacker and opp team GK skill lvl and add it to (either 10, 25, or rng [FOR CALIBRATION]). 
+
+            4b. (ROLL SHOT) - Generate random number (1-100), if less than or equal to generateShot number, goal is awarded to poss team, scored by random player from poss team (STs have 75% chance, MFs have 25% chance), advance a minute [GOAL]. If greater, roll for Recycle roll.
+
+                4b-1 (Recycle Roll) - Generate random number (1-100). If 0-10: Return to 4a with the same poss team [REBOUND], if 11-55: Give poss to opp team, advance a minute [MISS], if 56-95: Activate corner for poss team [CORNER], if 96-100: Activate penalty for poss team [PENALTY].
+
+                    4b-1a (ROLL PENALTY) - Generate random number (1-100), if lower than 75, goal awarded to poss team (All players have equal chance), advance 3 minutes [PEN].
+
+        5. (SIM CORNER) - 
+
+            5a. (ROLL CORNER) - Advance a minute then generate random number (1-100). If 0-25: Return to -> 3a [SHORT], if 26-98: Roll for corner shot roll, if 99-100: goal is awarded to poss team, scored by random player from poss team (STs have 25% chance, MFs have 75% chance), advance a minute [OLIMPICO].
+
+                5a-1. (Generate Corner Shot) - Generate random number (1-100) add difference of poss team ST avg skill rating and opp team DF avg skill rating.
+
+                5a-2. (Roll Corner Shot) - Generate another number (1-100), if lower than generateCornerShot, goal is awarded to poss team (All players have equal chance, GK has 2% chance) [CORNER GOAL]. If greater, roll for corner shake roll.
+
+                    5a-2a. (Corner Shake Roll) - Generate random number (1-100). If 0-25: Poss remains with poss team, return to -> 3a [RECYCLE], if 26-50: give poss to opp team, advance 1 minute [LOSE]. If 51-75: Poss remains with poss team, return to -> 4a [REBOUND]. If 76-100: give poss to opp team, immediately return to -> 2a without advancing [CORNER COUNTER].
+        */
+    }
     
     @FXML
     private void timeButton() {
@@ -132,15 +216,6 @@ public class MatchController implements Initializable {
     private void skipToEnd(){
         minutes = 90;
         updateTime();
-    }
-    
-    @FXML
-    private void match(KeyEvent event) throws IOException {
-        if(minutes < 90){
-            minutes += 1;
-            commentary();
-            updateTime();
-        }
     }
     
     @FXML 

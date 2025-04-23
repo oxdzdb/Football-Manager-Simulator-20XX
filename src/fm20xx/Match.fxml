@@ -204,7 +204,7 @@
       </HBox>
       <VBox layoutY="422.0" prefHeight="272.0" prefWidth="666.0" style="-fx-border-color: #cdcdcd; -fx-border-width: 3;">
          <children>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="homeEvent1" alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -212,7 +212,7 @@
                   <Insets left="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="homeEvent2" alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -220,7 +220,7 @@
                   <Insets left="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="homeEvent3" alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -228,7 +228,7 @@
                   <Insets left="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="homeEvent4" alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -236,7 +236,7 @@
                   <Insets left="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="homeEvent5" alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -244,7 +244,7 @@
                   <Insets left="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="homeEvent6" alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -252,7 +252,7 @@
                   <Insets left="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="homeEvent7" alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -260,7 +260,7 @@
                   <Insets left="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="homeEvent8" alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -268,7 +268,7 @@
                   <Insets left="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="homeEvent9" alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -276,7 +276,7 @@
                   <Insets left="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="homeEvent10" alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -288,7 +288,7 @@
       </VBox>
       <VBox layoutX="660.0" layoutY="422.0" prefHeight="272.0" prefWidth="660.0" style="-fx-border-color: #cdcdcd; -fx-border-width: 3;">
          <children>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="awayEvent1" alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -296,7 +296,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="awayEvent2" alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -304,7 +304,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="awayEvent3" alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -312,7 +312,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="awayEvent4" alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -320,7 +320,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="awayEvent5" alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -328,7 +328,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="awayEvent6" alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -336,7 +336,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="awayEvent7" alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -344,7 +344,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="awayEvent8" alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -352,7 +352,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="awayEvent9" alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -360,7 +360,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
+            <Label fx:id="awayEvent10" alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
