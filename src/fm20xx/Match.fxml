@@ -11,11 +11,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1322.0" style="-fx-background-color: #181a33; -fx-border-width: 3; -fx-border-color: #c3c3c3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="744.0" prefWidth="1322.0" style="-fx-background-color: #181a33; -fx-border-width: 3; -fx-border-color: #c3c3c3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fm20xx.MatchController">
    <children>
       <HBox prefHeight="100.0" prefWidth="1322.0" style="-fx-border-width: 3; -fx-border-color: #cdcdcd; -fx-background-color: #191b35;">
          <children>
-            <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="homeIcon" fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                <HBox.margin>
                   <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
                </HBox.margin>
@@ -23,7 +23,7 @@
                   <Image url="@teamImgs/realBetis.png" />
                </image>
             </ImageView>
-            <Label prefHeight="36.0" prefWidth="450.0" text="Real Betis" textFill="WHITE">
+            <Label fx:id="homeTeam" prefHeight="36.0" prefWidth="450.0" text="Real Betis" textFill="WHITE">
                <HBox.margin>
                   <Insets left="10.0" top="25.0" />
                </HBox.margin>
@@ -31,7 +31,7 @@
                   <Font name="FreeSans Bold" size="30.0" />
                </font>
             </Label>
-            <Label alignment="CENTER" prefHeight="90.0" prefWidth="90.0" text="1" textAlignment="CENTER" textFill="WHITE">
+            <Label fx:id="homeScore" alignment="CENTER" prefHeight="90.0" prefWidth="90.0" text="0" textAlignment="CENTER" textFill="WHITE">
                <HBox.margin>
                   <Insets />
                </HBox.margin>
@@ -39,7 +39,7 @@
                   <Font name="FreeSans Bold" size="55.0" />
                </font>
             </Label>
-            <Label fx:id="timer" alignment="CENTER" prefHeight="38.0" prefWidth="98.0" text="FT" textFill="WHITE">
+            <Label fx:id="timer" alignment="CENTER" onKeyPressed="#match" prefHeight="38.0" prefWidth="98.0" text="00:00" textFill="WHITE">
                <font>
                   <Font name="FreeSans Bold" size="33.0" />
                </font>
@@ -47,12 +47,12 @@
                   <Insets top="25.0" />
                </HBox.margin>
             </Label>
-            <Label alignment="CENTER" prefHeight="90.0" prefWidth="90.0" text="1" textAlignment="CENTER" textFill="WHITE">
+            <Label fx:id="awayScore" alignment="CENTER" prefHeight="90.0" prefWidth="90.0" text="0" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="FreeSans Bold" size="55.0" />
                </font>
             </Label>
-            <Label alignment="CENTER_RIGHT" prefHeight="36.0" prefWidth="450.0" text="Barcelona" textFill="WHITE">
+            <Label fx:id="awayTeam" alignment="CENTER_RIGHT" prefHeight="36.0" prefWidth="450.0" text="Barcelona" textFill="WHITE">
                <font>
                   <Font name="FreeSans Bold" size="30.0" />
                </font>
@@ -60,7 +60,7 @@
                   <Insets top="25.0" />
                </HBox.margin>
             </Label>
-            <ImageView fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="awayIcon" fitHeight="80.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@teamImgs/FCBarcelona.png" />
                </image>
@@ -72,7 +72,7 @@
       </HBox>
       <HBox layoutY="100.0" prefHeight="52.0" prefWidth="1322.0" style="-fx-background-color: #191b35; -fx-border-color: #cdcdcd; -fx-border-width: 3;">
          <children>
-            <Button mnemonicParsing="false" prefHeight="36.0" prefWidth="186.0" style="-fx-background-color: #d7013e;" text="End Match" textFill="WHITE">
+            <Button fx:id="timeControl" mnemonicParsing="false" onAction="#skipToEnd" prefHeight="36.0" prefWidth="186.0" style="-fx-background-color: #d7013e;" text="End Match" textFill="WHITE">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -80,12 +80,12 @@
                   <Insets left="10.0" top="8.0" />
                </HBox.margin>
             </Button>
-            <Label alignment="CENTER_RIGHT" prefHeight="55.0" prefWidth="480.0" text="La Liga" textFill="WHITE">
+            <Label fx:id="leagueName" alignment="CENTER_RIGHT" prefHeight="55.0" prefWidth="480.0" text="La Liga" textFill="WHITE">
                <font>
                   <Font name="Timmana Regular" size="25.0" />
                </font>
             </Label>
-            <ImageView fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="leagueIcon" fitHeight="60.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@leagueImgs/laLiga.png" />
                </image>
@@ -93,7 +93,7 @@
                   <Insets top="5.0" />
                </HBox.margin>
             </ImageView>
-            <Label prefHeight="55.0" prefWidth="480.0" text="Matchweek 30" textFill="WHITE">
+            <Label fx:id="matchWeek" prefHeight="55.0" prefWidth="480.0" text="Matchweek 30" textFill="WHITE">
                <font>
                   <Font name="Timmana Regular" size="25.0" />
                </font>
@@ -117,9 +117,9 @@
             </Label>
          </children>
       </HBox>
-      <ProgressBar layoutX="161.0" layoutY="235.0" prefHeight="20.0" prefWidth="1000.0" progress="0.26" />
-      <ProgressBar layoutX="161.0" layoutY="285.0" prefHeight="20.0" prefWidth="1000.0" progress="0.25" />
-      <ProgressBar layoutX="161.0" layoutY="335.0" prefHeight="20.0" prefWidth="1000.0" progress="0.2" />
+      <ProgressBar layoutX="161.0" layoutY="235.0" prefHeight="20.0" prefWidth="1000.0" progress="0.5" />
+      <ProgressBar layoutX="161.0" layoutY="285.0" prefHeight="20.0" prefWidth="1000.0" progress="0.5" />
+      <ProgressBar layoutX="161.0" layoutY="335.0" prefHeight="20.0" prefWidth="1000.0" progress="0.5" />
       <Label alignment="CENTER" layoutX="528.0" layoutY="206.0" prefHeight="28.0" prefWidth="264.0" text="Possession" textFill="WHITE">
          <font>
             <Font name="FreeSans" size="20.0" />
@@ -144,37 +144,37 @@
             <Insets top="5.0" />
          </padding>
       </Label>
-      <Label alignment="CENTER" layoutX="47.0" layoutY="231.0" prefHeight="29.0" prefWidth="60.0" text="26" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="47.0" layoutY="231.0" prefHeight="29.0" prefWidth="60.0" text="0" textFill="WHITE">
          <font>
             <Font name="FreeSans" size="26.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="56.0" layoutY="281.0" prefHeight="29.0" prefWidth="43.0" text="6" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="56.0" layoutY="281.0" prefHeight="29.0" prefWidth="43.0" text="0" textFill="WHITE">
          <font>
             <Font name="FreeSans" size="26.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="35.0" layoutY="331.0" prefHeight="29.0" prefWidth="82.0" text="254" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="35.0" layoutY="331.0" prefHeight="29.0" prefWidth="82.0" text="0" textFill="WHITE">
          <font>
             <Font name="FreeSans" size="26.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="1209.0" layoutY="231.0" prefHeight="29.0" prefWidth="60.0" text="74" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="1209.0" layoutY="231.0" prefHeight="29.0" prefWidth="60.0" text="0" textFill="WHITE">
          <font>
             <Font name="FreeSans" size="26.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="1211.0" layoutY="281.0" prefHeight="29.0" prefWidth="60.0" text="13" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="1211.0" layoutY="281.0" prefHeight="29.0" prefWidth="60.0" text="0" textFill="WHITE">
          <font>
             <Font name="FreeSans" size="26.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="1202.0" layoutY="331.0" prefHeight="29.0" prefWidth="82.0" text="730" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="1202.0" layoutY="331.0" prefHeight="29.0" prefWidth="82.0" text="0" textFill="WHITE">
          <font>
             <Font name="FreeSans" size="26.0" />
          </font>
       </Label>
-      <ProgressBar layoutX="161.0" layoutY="385.0" prefHeight="20.0" prefWidth="1000.0" progress="0.3" />
+      <ProgressBar layoutX="161.0" layoutY="385.0" prefHeight="20.0" prefWidth="1000.0" progress="0.5" />
       <Label alignment="CENTER" layoutX="554.0" layoutY="358.0" prefHeight="28.0" prefWidth="224.0" text="Corner Kicks " textFill="WHITE">
          <font>
             <Font name="FreeSans" size="20.0" />
@@ -183,19 +183,19 @@
             <Insets top="5.0" />
          </padding>
       </Label>
-      <Label alignment="CENTER" layoutX="56.0" layoutY="381.0" prefHeight="29.0" prefWidth="43.0" text="3" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="56.0" layoutY="381.0" prefHeight="29.0" prefWidth="43.0" text="0" textFill="WHITE">
          <font>
             <Font name="FreeSans" size="26.0" />
          </font>
       </Label>
-      <Label alignment="CENTER" layoutX="1211.0" layoutY="381.0" prefHeight="29.0" prefWidth="60.0" text="9" textFill="WHITE">
+      <Label alignment="CENTER" layoutX="1211.0" layoutY="381.0" prefHeight="29.0" prefWidth="60.0" text="0" textFill="WHITE">
          <font>
             <Font name="FreeSans" size="26.0" />
          </font>
       </Label>
       <HBox layoutX="1.0" layoutY="694.0" prefHeight="45.0" prefWidth="1322.0">
          <children>
-            <Label alignment="CENTER" prefHeight="85.0" prefWidth="1316.0" text="Full time here at the Estadi Olimpic." textFill="WHITE">
+            <Label fx:id="commentary" alignment="CENTER" prefHeight="85.0" prefWidth="1316.0" text="Full time here at the Estadi Olimpic." textFill="WHITE">
                <font>
                   <Font name="FreeSans" size="20.0" />
                </font>
@@ -204,7 +204,7 @@
       </HBox>
       <VBox layoutY="422.0" prefHeight="272.0" prefWidth="666.0" style="-fx-border-color: #cdcdcd; -fx-border-width: 3;">
          <children>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="14' - (Y) Natan" textFill="#ddff00" wrapText="true">
+            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -212,7 +212,7 @@
                   <Insets left="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="17' - (〇 1 - 1) Natan" textFill="#4effa6" wrapText="true">
+            <Label alignment="TOP_LEFT" lineSpacing="3.0" prefHeight="20.0" prefWidth="655.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -288,7 +288,7 @@
       </VBox>
       <VBox layoutX="660.0" layoutY="422.0" prefHeight="272.0" prefWidth="660.0" style="-fx-border-color: #cdcdcd; -fx-border-width: 3;">
          <children>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="7' - (〇 0 - 1) Gavi" textFill="#4effa6" wrapText="true">
+            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -296,7 +296,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="77' - (Y) Eric Garcia" textFill="#ddff00" wrapText="true">
+            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
@@ -304,7 +304,7 @@
                   <Insets right="5.0" top="5.0" />
                </VBox.margin>
             </Label>
-            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="87' - (Y) Jules Kounde" textFill="#ddff00" wrapText="true">
+            <Label alignment="TOP_RIGHT" lineSpacing="3.0" prefHeight="20.0" prefWidth="656.0" text="|" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="FreeSans" size="15.0" />
                </font>
