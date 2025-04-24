@@ -31,7 +31,7 @@ public class SettingsController implements Initializable {
     @FXML Label leagueName;
     
     int index = 0;
-    League chosenLeague;
+    static League chosenLeague;
     
     @FXML
     private void back(ActionEvent event) throws IOException {

@@ -67,20 +67,192 @@ public class MatchController implements Initializable {
     int minutes = 0;
     int hScore = 0;
     int aScore = 0;
+
     //Team possession = homeTeam;
+    //Team opposition = awayTeam;
+    //Team possessionSwitch = homeTeam;
     
     @FXML
     private void match(KeyEvent event) throws IOException {
-        if(minutes < 90){
-            minutes += 1;
-            matchEngine();
-            commentary();
-            updateTime();
-        }
+       timeButton();
+       commentary();
+       attack();
     }
     
     @FXML
-    private void matchEngine() {
+    private int attack() {
+        int rngA = (int) (Math.random() * 100);
+        //2a
+        int atkGen = 0;
+        // = (((int) (Math.random() * 100)) - ((possession.getAvgSkillLvl() - opposition.getAvgSkillLvl()))
+        //2b
+        if((int) (Math.random() * 100) <= atkGen) {
+            //possession passes +5
+            chance();
+        }
+        //2b-1
+        else {
+            //[RECYCLE]
+            if(rngA <= 50) {
+                //poss team passes +10
+                minutes += 1;
+                updateTime();
+                attack();
+            }
+            //[LOSE]
+            else if(rngA <= 90 && rngA > 50) {
+                //poss team passess +5
+                //possession = opposition;
+                //opposition = possessionSwitch;
+                //possessionSwitch = possession;
+                minutes += 1;
+                updateTime();
+                attack();
+            }
+            //[COUNTER]
+            else {
+                //poss team passess +5
+                //possession = opposition;
+                //opposition = possessionSwitch;
+                //possessionSwitch = possession;
+                attack();
+            }
+        }
+        return 1;
+    }
+    
+    @FXML 
+    private void chance() {
+        //3a
+        int chanceGen = 0;
+        // = (((int) (Math.random() * 100)) - ((possession.player.getSkillLvl() - opposition.player.getSkillLvl()))
+        //3b
+        if((int) (Math.random() * 100) <= chanceGen) {
+            //possession passes +5
+            shot();
+        }
+        else {
+            //poss team passess +5
+            //possession = opposition;
+            //opposition = possessionSwitch;
+            //possessionSwitch = possession;
+            minutes += 1;
+            updateTime();
+            attack();
+        }
+    }
+        
+    @FXML
+    private void shot() {
+        int rngS = (int) (Math.random() * 100);
+        //4a
+        int shotGen = 0;
+        // = (((int) (Math.random() * 100)) - ((possession atk skill lvl - opposition gk skill lvl))
+        //4b
+        if((int) (Math.random() * 100) <= shotGen) {
+            //award goal, goal scored with a 60% chance divided among attackers, 30% chance divided among midifelders, 10% chance divided among defenders
+            minutes += 2;
+            updateTime();
+        }
+            //4b-1
+            else {
+                //[REBOUND]
+                if(rngS <= 10) {
+                    shot();
+                }
+                //[MISS]
+                else if(rngS <= 55 && rngS > 10) {
+                    //poss team passess +5
+                    //possession = opposition;
+                    //opposition = possessionSwitch;
+                    //possessionSwitch = possession;
+                    minutes += 1;
+                    updateTime();
+                    attack();
+                }
+                //[CORNER]
+                else if(rngS <= 95 && rngS > 55) {
+
+                }
+                //[PENALTY]
+                else if(rngS <= 100 && rngS > 95) {
+                    if(rngS <= 75) {
+                        //award goal, goal scored chance equally divided among all players on field
+                        minutes += 3;
+                        updateTime();
+                    }
+                }
+            }
+    }
+    
+    @FXML
+    private void corner() {
+        minutes += 2;
+        updateTime();
+        int rngC = (int) (Math.random() * 100);
+        
+        //5a
+        //[SHORT]
+        if(rngC <= 25) {
+            chance();
+        }
+        //[CORNER SHOT]
+        else if(rngC <= 98 && rngC > 25) {
+            //5a-1
+            int cornerGen = 0;
+            // = (((int) (Math.random() * 100)) - ((possession.getAvgSkillLvl() - opposition.getAvgSkillLvl()))
+            //5a-2
+            if((int) (Math.random() * 100) <= cornerGen) {
+                if(rngC < cornerGen) {
+                    //award goal, goal scored chance equally divided among all players on field
+                    minutes += 3;
+                    updateTime();
+                }
+                else {
+                    //[RECYCLE]
+                    if(rngC <= 25) {
+                        //poss team passes +10
+                        minutes += 1;
+                        updateTime();
+                        chance();
+                    }
+                    //[LOSE]
+                    else if(rngC <= 50 && rngC > 25) {
+                        //poss team passess +5
+                        //possession = opposition;
+                        //opposition = possessionSwitch;
+                        //possessionSwitch = possession;
+                        minutes += 1;
+                        updateTime();
+                        attack();
+                    }
+                    //[REBOUND]
+                    else if(rngC <= 75 && rngC > 50) {
+                        minutes += 1;
+                        updateTime();
+                        shot();
+                    }
+                    //[CORNER COUNTER]
+                    else if (rngC <= 100 && rngC > 75) {
+                        //poss team passess +5
+                        //possession = opposition;
+                        //opposition = possessionSwitch;
+                        //possessionSwitch = possession;
+                        minutes += 1;
+                        updateTime();
+                        attack();
+                    }
+                }
+            }
+            //[OLIMPICO]
+            else {
+                //award goal, goal scored chance equally divided among all players on field
+                minutes += 2;
+                updateTime();
+            }    
+        }
+    }   
+        
         /*
         Match System:
         First Possession - homeTeam
@@ -94,7 +266,7 @@ public class MatchController implements Initializable {
         Update corners taken after every corner (5)
         Always return to (1) if there is goal or possession switch
      
-        1. Check team in possession
+        1. Set poss and opp teams
 
         2. (SIM ATTACK) -
 
@@ -130,7 +302,6 @@ public class MatchController implements Initializable {
 
                     5a-2a. (Corner Shake Roll) - Generate random number (1-100). If 0-25: Poss remains with poss team, return to -> 3a [RECYCLE], if 26-50: give poss to opp team, advance 1 minute [LOSE]. If 51-75: Poss remains with poss team, return to -> 4a [REBOUND]. If 76-100: give poss to opp team, immediately return to -> 2a without advancing [CORNER COUNTER].
         */
-    }
     
     @FXML
     private void timeButton() {
@@ -181,21 +352,21 @@ public class MatchController implements Initializable {
     @FXML
     private void commentary() {
         if(minutes == 0) {
-            commentary.setText("Kickoff is here at the stadiumName");
+            //commentary.setText("Kickoff is here at the stadiumName");
         }
         else if(minutes == 45){
             if(hScore > aScore) {
-                commentary.setText("And it's halftime with homeTeam having the advantage.");
+                //commentary.setText("And it's halftime with homeTeam having the advantage.");
             }
             else if(aScore > hScore) {
-                commentary.setText("And it's halftime with awayTeam having the advantage.");
+                //commentary.setText("And it's halftime with awayTeam having the advantage.");
             }
             else if(hScore == aScore) {
-                commentary.setText("And it's all square here at halftime.");
+                //commentary.setText("And it's all square here at halftime.");
             }
         }
         else if(minutes == 90){
-            commentary.setText("And it's full time here at the stadiumName.");
+            //commentary.setText("And it's full time here at the stadiumName.");
         }
     }
     
