@@ -80,8 +80,12 @@ public class MatchController implements Initializable {
     }
     
     @FXML
+    private int rng() {
+        return (int) (Math.random() * 100);
+    }
+    
+    @FXML
     private int attack() {
-        int rngA = (int) (Math.random() * 100);
         //2a
         int atkGen = 0;
         // = (((int) (Math.random() * 100)) - ((possession.getAvgSkillLvl() - opposition.getAvgSkillLvl()))
@@ -93,14 +97,14 @@ public class MatchController implements Initializable {
         //2b-1
         else {
             //[RECYCLE]
-            if(rngA <= 50) {
+            if(rng() <= 50) {
                 //poss team passes +10
                 minutes += 1;
                 updateTime();
                 attack();
             }
             //[LOSE]
-            else if(rngA <= 90 && rngA > 50) {
+            else if(rng() <= 90 && rng() > 50) {
                 //poss team passess +5
                 //possession = opposition;
                 //opposition = possessionSwitch;
@@ -144,7 +148,6 @@ public class MatchController implements Initializable {
         
     @FXML
     private void shot() {
-        int rngS = (int) (Math.random() * 100);
         //4a
         int shotGen = 0;
         // = (((int) (Math.random() * 100)) - ((possession atk skill lvl - opposition gk skill lvl))
@@ -157,11 +160,11 @@ public class MatchController implements Initializable {
             //4b-1
             else {
                 //[REBOUND]
-                if(rngS <= 10) {
+                if(rng() <= 10) {
                     shot();
                 }
                 //[MISS]
-                else if(rngS <= 55 && rngS > 10) {
+                else if(rng() <= 55 && rng() > 10) {
                     //poss team passess +5
                     //possession = opposition;
                     //opposition = possessionSwitch;
@@ -171,12 +174,12 @@ public class MatchController implements Initializable {
                     attack();
                 }
                 //[CORNER]
-                else if(rngS <= 95 && rngS > 55) {
+                else if(rng() <= 95 && rng() > 55) {
 
                 }
                 //[PENALTY]
-                else if(rngS <= 100 && rngS > 95) {
-                    if(rngS <= 75) {
+                else if(rng() <= 100 && rng() > 95) {
+                    if(rng() <= 75) {
                         //award goal, goal scored chance equally divided among all players on field
                         minutes += 3;
                         updateTime();
@@ -189,35 +192,33 @@ public class MatchController implements Initializable {
     private void corner() {
         minutes += 2;
         updateTime();
-        int rngC = (int) (Math.random() * 100);
-        
         //5a
         //[SHORT]
-        if(rngC <= 25) {
+        if(rng() <= 25) {
             chance();
         }
         //[CORNER SHOT]
-        else if(rngC <= 98 && rngC > 25) {
+        else if(rng() <= 98 && rng() > 25) {
             //5a-1
             int cornerGen = 0;
             // = (((int) (Math.random() * 100)) - ((possession.getAvgSkillLvl() - opposition.getAvgSkillLvl()))
             //5a-2
             if((int) (Math.random() * 100) <= cornerGen) {
-                if(rngC < cornerGen) {
+                if(rng() < cornerGen) {
                     //award goal, goal scored chance equally divided among all players on field
                     minutes += 3;
                     updateTime();
                 }
                 else {
                     //[RECYCLE]
-                    if(rngC <= 25) {
+                    if(rng() <= 25) {
                         //poss team passes +10
                         minutes += 1;
                         updateTime();
                         chance();
                     }
                     //[LOSE]
-                    else if(rngC <= 50 && rngC > 25) {
+                    else if(rng() <= 50 && rng() > 25) {
                         //poss team passess +5
                         //possession = opposition;
                         //opposition = possessionSwitch;
@@ -227,13 +228,13 @@ public class MatchController implements Initializable {
                         attack();
                     }
                     //[REBOUND]
-                    else if(rngC <= 75 && rngC > 50) {
+                    else if(rng() <= 75 && rng() > 50) {
                         minutes += 1;
                         updateTime();
                         shot();
                     }
                     //[CORNER COUNTER]
-                    else if (rngC <= 100 && rngC > 75) {
+                    else if (rng() <= 100 && rng() > 75) {
                         //poss team passess +5
                         //possession = opposition;
                         //opposition = possessionSwitch;
