@@ -13,46 +13,58 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 public class PlayerReader {
-    public static List<Player> readPlayers(String filePath) {
-        List<Player> players = new ArrayList<>();
-        String delimiter = ",";
+    private String filePath;
+    private List<Player> players;
 
+    public PlayerReader(String filePath) {
+        this.filePath = filePath;
+        this.players = new ArrayList<>();
+    }
+
+    public void readCSV() {
+        String line;
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
-            String line;
-            
-            // Read and discard the header row (if present).
-            if ((line = br.readLine()) != null) {
-                // Optionally process or verify header here.
-            }
-            
-            // Process each line of the CSV file.
+            boolean isFirstLine = true;
             while ((line = br.readLine()) != null) {
-                // Split the line into tokens by the delimiter.
-                String[] tokens = line.split(delimiter);
+                // Skip header row
+                if (isFirstLine) {
+                    isFirstLine = false;
+                    continue;
+                }
+                // Splitting the line on commas.
+                // Assuming CSV columns order: name, nationality, team, age, skill_rating, position, number, goals, yellow_cards, red_cards, value
+                String[] tokens = line.split(",");
+                String name = tokens[0];
+                String nationality = tokens[1];
+                String team = tokens[2];
+                int age = Integer.parseInt(tokens[3]);
+                int skillRating = Integer.parseInt(tokens[4]);
+                String position = tokens[5];
+                int number = Integer.parseInt(tokens[6]);
+                int goals = tokens[7].isEmpty() ? 0 : Integer.parseInt(tokens[7]);
+                int yellowCards = tokens[8].isEmpty() ? 0 : Integer.parseInt(tokens[8]);
+                int redCards = tokens[9].isEmpty() ? 0 : Integer.parseInt(tokens[9]);
+                int value = Integer.parseInt(tokens[10]);
 
-                // Map tokens to the appropriate fields.
-                // It's a good idea to trim() each token in case there are extra spaces.
-                String name = tokens[0].trim();
-                String nationality = tokens[1].trim();
-                String team = tokens[2].trim();
-                int age = Integer.parseInt(tokens[3].trim());
-                int skillRating = Integer.parseInt(tokens[4].trim());
-                String position = tokens[5].trim();
-                int number = Integer.parseInt(tokens[6].trim());
-                int goals = Integer.parseInt(tokens[7].trim());
-                int yellowCards = Integer.parseInt(tokens[8].trim());
-                int redCards = Integer.parseInt(tokens[9].trim());
-                double value = Double.parseDouble(tokens[10].trim());
-
-                // Create a new Player instance with the extracted data.
-                Player player = new Player(name, nationality, team, age, skillRating, position,
-                                           number, goals, yellowCards, redCards, value);
+                Player player = new Player(name, nationality, team, age, skillRating,
+                                           position, number, goals, yellowCards, redCards, value);
                 players.add(player);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public List<Player> getPlayers() {
         return players;
     }
 }
+

@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class readPlayersFromTeam {
+    
     public static List<Team> readTeam(String filePath) {
         List<Team> teams = new ArrayList<>();
         String delimiter = ",";
@@ -30,7 +31,6 @@ public class readPlayersFromTeam {
             // Process each line of the CSV file.
             while ((line = br.readLine()) != null) {
                 String[] tokens = line.split(delimiter);
-                
                 // Create a new Player instance using parsed values.
                 // Make sure the CSV columns are in the same order as the parameters.
                 Team team = new Team(

@@ -64,7 +64,7 @@
                      <children>
                         <ImageView fx:id="icon" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@teamImgs/manchesterCityFC.png" />
+                              <Image url="@mancity-removebg-preview.png" />
                            </image>
                            <VBox.margin>
                               <Insets left="150.0" top="10.0" />
@@ -74,11 +74,8 @@
                            <font>
                               <Font name="DejaVu Sans Bold" size="35.0" />
                            </font>
-                           <VBox.margin>
-                              <Insets top="10.0" />
-                           </VBox.margin>
                         </Label>
-                        <Label fx:id="location" alignment="CENTER" prefHeight="34.0" prefWidth="604.0" text="Etihad Stadium, Manchester" textFill="WHITE">
+                        <Label fx:id="location" alignment="CENTER" prefHeight="68.0" prefWidth="604.0" text="Etihad Stadium, Manchester" textFill="WHITE">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="15.0" />
                            </font>
@@ -89,7 +86,7 @@
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="458.0" prefWidth="842.0">
                <children>
-                  <VBox layoutX="142.0" layoutY="83.0" prefHeight="368.0" prefWidth="374.0">
+                  <VBox layoutX="142.0" layoutY="105.0" prefHeight="346.0" prefWidth="374.0">
                      <children>
                         <Label alignment="CENTER" prefHeight="58.0" prefWidth="374.0" text="TEAM STATS:" textAlignment="CENTER" textFill="WHITE">
                            <font>

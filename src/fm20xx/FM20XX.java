@@ -4,11 +4,16 @@
  */
 package fm20xx;
 
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -49,56 +54,59 @@ public class FM20XX extends Application {
         String filePath = "src/fm20xx/database/bundTeams.csv";
         List<Team> teams = readPlayersFromTeam.readTeam((filePath));
         // Print each player to verify the output.
-        for (Team t : teams) {
+        for (Team t1 : teams) {
             //System.out.println(p);
-            System.out.println(t.getName());
+            System.out.println(t1.getStadiumName());
         }
         System.out.println("==================================================================================");
          // Adjust the file path based on your project structure.
         String filePath1 = "src/fm20xx/database/eplTeams.csv";
         List<Team> teams1 = readPlayersFromTeam.readTeam((filePath1));
         // Print each player to verify the output.
-        for (Team t : teams1) {
+        for (Team t2 : teams1) {
             //System.out.println(p);
-            System.out.println(t.getName());
+            System.out.println(t2.getStadiumName());
         }
         System.out.println("==================================================================================");
          // Adjust the file path based on your project structure.
         String filePath2 = "src/fm20xx/database/laLigaTeams.csv";
         List<Team> teams2 = readPlayersFromTeam.readTeam((filePath2));
         // Print each player to verify the output.
-        for (Team t : teams2) {
+        for (Team t3 : teams2) {
             //System.out.println(p);
-            System.out.println(t.getName());
+            System.out.println(t3.getStadiumName());
         }
         System.out.println("==================================================================================");
          // Adjust the file path based on your project structure.
         String filePath3 = "src/fm20xx/database/ligue1Teams.csv";
         List<Team> teams3 = readPlayersFromTeam.readTeam((filePath3));
         // Print each player to verify the output.
-        for (Team t : teams3) {
+        for (Team t4 : teams3) {
             //System.out.println(p);
-            System.out.println(t.getName());
+            System.out.println(t4.getStadiumName());
         }
         System.out.println("==================================================================================");
          // Adjust the file path based on your project structure.
         String filePath4 = "src/fm20xx/database/serieATeams.csv";
         List<Team> teams4 = readPlayersFromTeam.readTeam((filePath4));
         // Print each player to verify the output.
-        for (Team t : teams4) {
+        for (Team t5 : teams4) {
             //System.out.println(p);
-            System.out.println(t.getName());
+            System.out.println(t5.getStadiumName());
         }
-        /*
+        
         System.out.println("==================================================================================");
          // Adjust the file path based on your project structure.
         String filePath5 = "src/fm20xx/database/eplPlayers.csv";
-        List<Player> players = PlayerReader.readPlayers((filePath5));
-        // Print each player to verify the output
-        for (Player player : players) {
-            System.out.println(player.getName());
+        PlayerReader playerReader = new PlayerReader(filePath5);
+        playerReader.readCSV();
+        
+        // Retrieve the list of players
+        for (Player player : playerReader.getPlayers()) {
+            // Accessing individual player attributes using getter methods
+            System.out.println("Player Name: " + player.getName());
+            // You can also use other getter methods like getTeam(), getAge(), etc.
         }
-        */
          launch(args);
     }    
 }
