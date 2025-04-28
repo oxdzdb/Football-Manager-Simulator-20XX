@@ -11,7 +11,7 @@
    <children>
       <VBox layoutX="461.0" layoutY="97.0" prefHeight="550.0" prefWidth="400.0" style="-fx-background-color: #314133; -fx-border-color: #000000; -fx-border-width: 7;">
          <children>
-            <Label alignment="CENTER" prefHeight="166.0" prefWidth="400.0" text="FOOTBALL MANAGER SIMULATOR" textAlignment="CENTER" textFill="WHITE" wrapText="true">
+            <Label alignment="CENTER" prefHeight="229.0" prefWidth="386.0" text="FOOTBALL MANAGER SIMULATOR" textAlignment="CENTER" textFill="WHITE" wrapText="true">
                <font>
                   <Font name="DejaVu Sans Condensed Bold" size="45.0" />
                </font>
@@ -31,14 +31,6 @@
                <font>
                   <Font name="DejaVu Sans Condensed Bold" size="17.0" />
                </font>
-            </Button>
-            <Button fx:id="setting" mnemonicParsing="false" onAction="#setting" prefHeight="60.0" prefWidth="350.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-width: 3;" text="Settings">
-               <font>
-                  <Font name="DejaVu Sans Condensed Bold" size="17.0" />
-               </font>
-               <VBox.margin>
-                  <Insets left="20.0" top="15.0" />
-               </VBox.margin>
             </Button>
             <Button fx:id="exit" mnemonicParsing="false" onAction="#exit" prefHeight="60.0" prefWidth="350.0" style="-fx-background-color: #ffffff; -fx-border-color: #000000; -fx-border-width: 3;" text="Exit Game">
                <font>

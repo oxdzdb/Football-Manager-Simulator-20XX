@@ -6,6 +6,7 @@ package fm20xx;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -26,28 +27,18 @@ public class TitleController implements Initializable {
     @FXML Button start;
     @FXML Button setting;
     @FXML Button exit;
-    League chosenLeague = null;
+    static League chosenLeague = null;
+    int teamIndex;
+    Team chosenTeam;
+    ArrayList<Team> teamList;
     
     
     @FXML
     private void start(ActionEvent event) throws IOException {
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("TeamSelect.fxml"));
-        Parent root = loader.load();
-        TeamSelectController controller = loader.getController();
-        controller.chosen(chosenLeague);
-        System.out.println(chosenLeague.getName() + " is the new chosen team.");
-        Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene  = new Scene(root);
-        thisStage.setScene(scene);
-        thisStage.show();
-    }
-    
-    @FXML
-    private void setting(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Settings.fxml"));
         Parent root = loader.load();
         SettingsController controller = loader.getController();
-        controller.chosen(chosenLeague);
+        controller.chosen(chosenLeague, chosenLeague.getTeamList(), teamIndex);
         Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene  = new Scene(root);
         thisStage.setScene(scene);
@@ -55,8 +46,10 @@ public class TitleController implements Initializable {
     }
     
     @FXML
-    public void chosen(League l){
+    public void chosen(League l, ArrayList<Team> tl, int i){
         chosenLeague = l;
+        teamList = tl;
+        teamIndex = i;
     }
     
     @FXML

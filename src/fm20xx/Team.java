@@ -54,21 +54,21 @@ public class Team implements Exchange {
 
     @Override
     public String toString() {
-                return "Team{" +
-               "name='" + name + '\'' +
-               ", shortName='" + shortName + '\'' +
-               ", location='" + location + '\'' +
-               ", stadiumName='" + stadiumName + '\'' +
-               ", wins=" + wins +
-               ", draws=" + draws +
-               ", losses=" + losses +
-               ", goals=" + goals +
-               ", concededGoals=" + concededGoals +
-               ", funds=" + funds +
-               ", facilityRating=" + facilityRating +
-               ", points=" + points +
-               ", stadiumCapacity=" + stadiumCapacity +
-               ", imageFileName='" + imageFileName + '\'' +
+        return "Team{" +
+               "name='" + getName() + '\'' +
+               ", shortName='" + getShortName() + '\'' +
+               ", location='" + getLocation() + '\'' +
+               ", stadiumName='" + getStadiumName() + '\'' +
+               ", wins=" + getWins() +
+               ", draws=" + getDraws() +
+               ", losses=" + getLosses() +
+               ", goals=" + getGoals() +
+               ", concededGoals=" + getConcededGoals() +
+               ", funds=" + getFunds() +
+               ", facilityRating=" + getFacilityRating() +
+               ", points=" + getPoints() +
+               ", stadiumCapacity=" + getStadiumCapacity() +
+               ", imageFileName='" + getImageFileName() + '\'' +
                '}';
     }
 

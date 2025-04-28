@@ -6,7 +6,6 @@
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.SplitPane?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
@@ -17,7 +16,7 @@
    <children>
       <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #1a1c38;">
          <children>
-            <Button fx:id="back" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt; TITLE SCREEN">
+            <Button fx:id="back" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt; TEAM SELECT">
                <font>
                   <Font name="DejaVu Sans Bold" size="13.0" />
                </font>
@@ -35,7 +34,7 @@
                         <Insets top="12.0" />
                      </padding>
                   </Label>
-                  <Label fx:id="leagueName" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="964.0" text="Premier League" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="leagueName" alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="964.0" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="DejaVu Sans Condensed Bold" size="19.0" />
                      </font>
@@ -62,20 +61,23 @@
                <children>
                   <VBox layoutX="27.0" layoutY="40.0" prefHeight="502.0" prefWidth="604.0">
                      <children>
-                        <ImageView fx:id="icon" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fx:id="icon" fitHeight="300.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="NEVER">
                            <image>
-                              <Image url="@mancity-removebg-preview.png" />
+                              
                            </image>
                            <VBox.margin>
                               <Insets left="150.0" top="10.0" />
                            </VBox.margin>
                         </ImageView>
-                        <Label fx:id="teamName" alignment="CENTER" prefHeight="18.0" prefWidth="604.0" text="Manchester City" textFill="#ffde59">
+                        <Label fx:id="teamName" alignment="CENTER" prefHeight="18.0" prefWidth="604.0" textFill="#ffde59">
                            <font>
                               <Font name="DejaVu Sans Bold" size="35.0" />
                            </font>
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
                         </Label>
-                        <Label fx:id="location" alignment="CENTER" prefHeight="68.0" prefWidth="604.0" text="Etihad Stadium, Manchester" textFill="WHITE">
+                        <Label fx:id="location" alignment="CENTER" prefHeight="34.0" prefWidth="604.0" textFill="WHITE">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="15.0" />
                            </font>
@@ -86,7 +88,7 @@
             </AnchorPane>
           <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="458.0" prefWidth="842.0">
                <children>
-                  <VBox layoutX="142.0" layoutY="105.0" prefHeight="346.0" prefWidth="374.0">
+                  <VBox layoutX="142.0" layoutY="83.0" prefHeight="368.0" prefWidth="374.0">
                      <children>
                         <Label alignment="CENTER" prefHeight="58.0" prefWidth="374.0" text="TEAM STATS:" textAlignment="CENTER" textFill="WHITE">
                            <font>
@@ -134,7 +136,7 @@
       <Separator prefWidth="200.0" />
       <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #1a1c38;">
          <children>
-            <Button fx:id="previous" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #737373; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt; PREVIOUS" textFill="WHITE">
+            <Button fx:id="previous" mnemonicParsing="false" onAction="#previous" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #737373; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt; PREVIOUS" textFill="WHITE">
                <font>
                   <Font name="DejaVu Sans Bold" size="13.0" />
                </font>
@@ -142,7 +144,7 @@
                   <Insets left="20.0" top="20.0" />
                </HBox.margin>
             </Button>
-            <TextField prefHeight="52.0" prefWidth="775.0" promptText="Enter a Team..." style="-fx-background-color: #999393;">
+            <TextField fx:id="searchBox" prefHeight="52.0" prefWidth="775.0" promptText="Enter a Team..." style="-fx-background-color: #999393;">
                <font>
                   <Font size="20.0" />
                </font>
@@ -150,7 +152,7 @@
                   <Insets left="10.0" top="20.0" />
                </HBox.margin>
             </TextField>
-            <Button fx:id="search" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #737373; -fx-border-color: #000000; -fx-border-width: 3;" text="SEARCH" textFill="WHITE">
+            <Button fx:id="search" mnemonicParsing="false" onAction="#search" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #737373; -fx-border-color: #000000; -fx-border-width: 3;" text="SEARCH" textFill="WHITE">
                <font>
                   <Font name="DejaVu Sans Bold" size="13.0" />
                </font>
@@ -158,7 +160,7 @@
                   <Insets left="10.0" top="20.0" />
                </HBox.margin>
             </Button>
-            <Button fx:id="next" mnemonicParsing="false" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #737373; -fx-border-color: #000000; -fx-border-width: 3;" text="NEXT &gt;" textFill="WHITE">
+            <Button fx:id="next" mnemonicParsing="false" onAction="#next" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #737373; -fx-border-color: #000000; -fx-border-width: 3;" text="NEXT &gt;" textFill="WHITE">
                <font>
                   <Font name="DejaVu Sans Bold" size="13.0" />
                </font>

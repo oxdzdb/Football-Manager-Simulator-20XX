@@ -38,6 +38,9 @@ public class League {
     public static int getLeagueListLen(){
         return leagueList.size();
     }
+    public ArrayList<Team> getTeamList(){
+        return teamList;
+    }
     public int getTeamListSize(){
         return teamList.size();
     }
@@ -64,4 +67,16 @@ public class League {
         return teamList.get(index);
     }
     
+    public int indexGrabber(String search) throws NullPointerException{
+        int i = 0;
+        for(Team t : this.getTeamList()){
+            if(t.getName().equalsIgnoreCase(search)) {
+                return i;
+            }
+            else {
+                i++;
+            }
+        }
+        throw new NullPointerException();
+    }
 }

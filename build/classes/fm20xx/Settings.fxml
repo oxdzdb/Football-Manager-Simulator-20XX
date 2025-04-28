@@ -14,7 +14,7 @@
    <children>
       <HBox prefHeight="100.0" prefWidth="1322.0" style="-fx-background-color: #1a1c38; -fx-border-color: #ffffff; -fx-border-width: 1;">
          <children>
-            <Button mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt; TITLE SCREEN">
+            <Button mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="&lt; BACK">
                <HBox.margin>
                   <Insets left="10.0" top="20.0" />
                </HBox.margin>
@@ -27,6 +27,14 @@
                   <Font name="DejaVu Sans Condensed Bold" size="30.0" />
                </font>
             </Label>
+            <Button fx:id="team" mnemonicParsing="false" onAction="#start" prefHeight="50.0" prefWidth="160.0" style="-fx-background-color: #ffde59; -fx-border-color: #000000; -fx-border-width: 3;" text="NEXT &gt;">
+               <font>
+                  <Font name="DejaVu Sans Bold" size="13.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="20.0" />
+               </HBox.margin>
+            </Button>
          </children>
       </HBox>
       <VBox layoutY="100.0" prefHeight="542.0" prefWidth="1322.0" style="-fx-background-color: #1a1c38;">

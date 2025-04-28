@@ -6,6 +6,7 @@ package fm20xx;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -26,24 +27,41 @@ import javafx.stage.Stage;
  * @author Dell
  */
 public class SettingsController implements Initializable {
-    @FXML Button back, previous, next, select;
+    @FXML Button back, team, previous, next, select;
     @FXML ImageView icon;
     @FXML Label leagueName;
     
     int index = 0;
+    int teamIndex;
     League chosenLeague;
+    Team chosenTeam;
+    ArrayList<Team> teamList;
     
     @FXML
     private void back(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Title.fxml"));
         Parent root = loader.load();
         TitleController controller = loader.getController();
-        controller.chosen(chosenLeague);
+        controller.chosen(chosenLeague, chosenLeague.getTeamList(), index);
         Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene  = new Scene(root);
         thisStage.setScene(scene);
         thisStage.show();
         System.out.println(chosenLeague.getName() + " is the new chosen league.");
+    }
+    
+    @FXML
+    private void start(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("TeamSelect.fxml"));
+        Parent root = loader.load();
+        TeamSelectController controller = loader.getController();
+        controller.chosen(chosenLeague, chosenLeague.getTeamList(), teamIndex);
+        System.out.println(chosenLeague.getName() + " is the new chosen team.");
+        controller.updateTeam();
+        Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Scene scene  = new Scene(root);
+        thisStage.setScene(scene);
+        thisStage.show();
     }
     
     @FXML
@@ -55,8 +73,10 @@ public class SettingsController implements Initializable {
     }
     
     @FXML
-    public void chosen(League l){
+    public void chosen(League l, ArrayList<Team> tl, int tI){
         chosenLeague = l;
+        teamList = tl;
+        teamIndex = tI;
     }
     
     @FXML
