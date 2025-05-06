@@ -1,494 +1,494 @@
-Name,Nationality,Team,Age,Skill Rating,Position,Number,Goals,Yellow Cards,Red Cards,Value
-Marc-Andre ter Stegen,DEU,Barcelona ,32,88,GK,1,0,0,0,15000000
-Inaki Pena,ESP,Barcelona ,26,66,GK,13,0,0,0,10000000
-Wojciech Szczesny,POL,Barcelona ,34,78,GK,25,0,0,0,1000000
-Pau Cubarsi,ESP,Barcelona ,18,55,DF,2,0,0,0,70000000
-Ronald Araujo,URY,Barcelona ,26,85,DF,4,0,0,0,50000000
-Andreas Christensen,DMK,Barcelona ,29,77,DF,15,0,0,0,15000000
-Eric Garcia,ESP,Barcelona ,24,72,DF,24,0,0,0,15000000
-Inigo Martinez,ESP,Barcelona ,33,73,DF,5,0,0,0,5000000
-Alejandro Balde,ESP,Barcelona ,21,76,DF,3,0,0,0,60000000
-Gerard Martin,ESP,Barcelona ,23,48,DF,35,0,0,0,7500000
-Jules Kounde,FRA,Barcelona ,26,83,DF,23,0,0,0,60000000
-Hector Fort,ESP,Barcelona ,18,53,DF,32,0,0,0,10000000
-Marc Casado,ESP,Barcelona ,21,58,MF,17,0,0,0,30000000
-Marc Bernal,ESP,Barcelona ,17,48,MF,28,0,0,0,5000000
-Pedri,ESP,Barcelona ,22,83,MF,8,0,0,0,120000000
-Gavi,ESP,Barcelona ,20,77,MF,6,0,0,0,70000000
-Frankie de Jong,NLD,Barcelona ,27,83,MF,21,0,0,0,45000000
-Dani Olmo,ESP,Barcelona ,26,83,MF,20,0,0,0,60000000
-Fermin Lopez,ESP,Barcelona ,21,65,MF,16,0,0,0,50000000
-Pablo Torre,ESP,Barcelona ,22,65,MF,14,0,0,0,7500000
-Raphinha,BRA,Barcelona ,28,77,ST,11,0,0,0,80000000
-Ansu Fati,ESP,Barcelona ,22,77,ST,10,0,0,0,5000000
-Lamine Yamal,ESP,Barcelona ,17,68,ST,19,0,0,0,180000000
-Ferran Torres,ESP,Barcelona ,25,75,ST,7,0,0,0,28000000
-Robert Lewandowski,POL,Barcelona ,36,90,ST,9,0,0,0,15000000
-Pau Victor,ESP,Barcelona ,23,60,ST,18,0,0,0,5000000
-Unai Simon,ESP,Athletic Bilbao,27,79,GK,1,0,0,0,28000000
-Julen Agirrezabala,ESP,Athletic Bilbao,24,68,GK,13,0,0,0,15000000
-Dani Vivian,ESP,Athletic Bilbao,25,74,DF,3,0,0,0,40000000
-Aitor Paredes,ESP,Athletic Bilbao,24,65,DF,4,0,0,0,22000000
-Yeray Alvarez,ESP,Athletic Bilbao,30,68,DF,5,0,0,0,7500000
-Unai Nunez,ESP,Athletic Bilbao,28,68,DF,14,0,0,0,3000000
-Adama Boiro,ESP,Athletic Bilbao,22,51,DF,32,0,0,0,2500000
-Yuri Berchiche,ESP,Athletic Bilbao,35,70,DF,17,0,0,0,1500000
-Andoni Gorosabel,ESP,Athletic Bilbao,28,68,DF,2,0,0,0,5000000
-Inigo Lekue,ESP,Athletic Bilbao,31,68,DF,15,0,0,0,2500000
-Oscar de Marcos,ESP,Athletic Bilbao,36,69,DF,18,0,0,0,1500000
-Mikel Vesga,ESP,Athletic Bilbao,32,72,MF,6,0,0,0,3000000
-Mikel Jauregizar,ESP,Athletic Bilbao,21,43,MF,23,0,0,0,20000000
-Benat Prados,ESP,Athletic Bilbao,24,60,MF,24,0,0,0,18000000
-Inigo Ruiz de Galarreta,ESP,Athletic Bilbao,31,70,MF,16,0,0,0,4000000
-Oihan Sancet,ESP,Athletic Bilbao,24,74,MF,8,0,0,0,60000000
-Unai Gomez,ESP,Athletic Bilbao,21,61,MF,20,0,0,0,6000000
-Peio Canales,ESP,Athletic Bilbao,20,44,MF,28,0,0,0,500000
-Nico Williams,ESP,Athletic Bilbao,22,78,ST,10,0,0,0,70000000
-Alex Berenguer,ESP,Athletic Bilbao,29,70,ST,7,0,0,0,12000000
-Alvaro Djalo,ESP,Athletic Bilbao,25,67,ST,11,0,0,0,8000000
-Inaki Williams,ESP,Athletic Bilbao,30,80,ST,9,0,0,0,20000000
-Gorka Guruzeta,ESP,Athletic Bilbao,28,65,ST,12,0,0,0,12000000
-Maroan Sannadi,ESP,Athletic Bilbao,24,43,ST,21,0,0,0,5000000
-Jan Oblak,SVN,Atletico Madrid,32,86,GK,13,0,0,0,25000000
-Juan Musso,ARG,Atletico Madrid,30,68,GK,1,0,0,0,4000000
-Robin Le Normand,ESP,Atletico Madrid,28,75,DF,24,0,0,0,40000000
-Jose Maria Gimenez,URY,Atletico Madrid,30,75,DF,2,0,0,0,20000000
-Clement Lenglet,FRA,Atletico Madrid,29,70,DF,15,0,0,0,7500000
-Axel Witsel,BEL,Atletico Madrid,36,74,DF,20,0,0,0,2500000
-Cesar Azpilicueta,ESP,Atletico Madrid,35,71,DF,3,0,0,0,1800000
-Reinildo Mandava,MOZ,Atletico Madrid,31,73,DF,23,0,0,0,8000000
-Javi Galan,ESP,Atletico Madrid,30,71,DF,21,0,0,0,4000000
-Nahuel Molina,ARG,Atletico Madrid,27,75,DF,16,0,0,0,25000000
-Pablo Barrios,ESP,Atletico Madrid,21,66,MF,8,0,0,0,50000000
-Conor Gallagher,ENG,Atletico Madrid,25,75,MF,4,0,0,0,40000000
-Rodrigo De Paul,ARG,Atletico Madrid,30,77,MF,5,0,0,0,25000000
-Koke ,ESP,Atletico Madrid,33,79,MF,6,0,0,0,10000000
-Marcos Llorente,ESP,Atletico Madrid,30,76,MF,14,0,0,0,28000000
-Thomas Lemar,FRA,Atletico Madrid,29,74,MF,11,0,0,0,5000000
-Samuel Lino,BRA,Atletico Madrid,25,74,ST,12,0,0,0,25000000
-Rodrigo Riquelme,ESP,Atletico Madrid,25,71,ST,17,0,0,0,18000000
-Giuliano Simeone,ARG,Atletico Madrid,22,61,ST,22,0,0,0,25000000
-Angel Correa,ARG,Atletico Madrid,30,75,ST,10,0,0,0,15000000
-Julian Alvarez,ARG,Atletico Madrid,25,77,ST,19,0,0,0,90000000
-Alexander Sorloth,NOR,Atletico Madrid,29,73,ST,9,0,0,0,25000000
-Antoine Griezmann,FRA,Atletico Madrid,34,86,ST,7,0,0,0,22000000
-Sergio Herrera,ESP,Osasuna,31,66,GK,1,0,0,0,4000000
-Aitor Fernandez,ESP,Osasuna,33,69,GK,13,0,0,0,1500000
-Enzo Boyomo,CMR,Osasuna,23,40,DF,22,0,0,0,20000000
-Jorge Herrando,ESP,Osasuna,24,58,DF,5,0,0,0,4000000
-Alejandro Catena,ESP,Osasuna,30,70,DF,24,0,0,0,4000000
-Unai Garcia,ESP,Osasuna,33,65,DF,4,0,0,0,1000000
-Abel Bretones,ESP,Osasuna,24,60,DF,23,0,0,0,3000000
-Juan Cruz,ESP,Osasuna,32,63,DF,3,0,0,0,1800000
-Jesus Areso,ESP,Osasuna,25,65,DF,12,0,0,0,8000000
-Ruben Pena,ESP,Osasuna,33,68,DF,15,0,0,0,1800000
-Lucas Torro,ESP,Osasuna,30,66,MF,6,0,0,0,3500000
-Iker Munoz,ESP,Osasuna,22,63,MF,18,0,0,0,3000000
-Jon Moncayola,ESP,Osasuna,26,67,MF,7,0,0,0,7000000
-Pablo Ibanez,ESP,Osasuna,26,64,MF,8,0,0,0,2300000
-Aimar Oroz,ESP,Osasuna,23,69,MF,10,0,0,0,15000000
-Bryan Zaragoza,ESP,Osasuna,23,69,ST,19,0,0,0,12000000
-Moi Gomez,ESP,Osasuna,30,69,ST,16,0,0,0,3000000
-Jose Manuel Arnaiz,ESP,Osasuna,30,66,ST,20,0,0,0,1800000
-Ruben Garcia,ESP,Osasuna,31,68,ST,14,0,0,0,2000000
-Kike Barja,ESP,Osasuna,28,65,ST,11,0,0,0,1800000
-Ante Budimir,HRV,Osasuna,33,69,ST,17,0,0,0,5000000
-Raul Garcia,ESP,Osasuna,24,65,ST,9,0,0,0,3500000
-Juan Soriano,ESP,Leganes,27,64,GK,1,0,0,0,1200000
-Marko Dmitrovic,SRB,Leganes,33,66,GK,13,0,0,0,800000
-Sergio Gonzalez,ESP,Leganes,32,55,DF,6,0,0,0,1500000
-Jorge Saenz,ESP,Leganes,28,59,DF,3,0,0,0,1200000
-Matija Nastasic,SRB,Leganes,32,65,DF,22,0,0,0,1000000
-Javi Hernandez,ESP,Leganes,26,61,DF,20,0,0,0,2000000
-Enric Franquesa,ESP,Leganes,28,62,DF,15,0,0,0,1500000
-Borna Barisic,HRV,Leganes,32,63,DF,4,0,0,0,1000000
-Valentin Rosier,FRA,Leganes,28,63,DF,12,0,0,0,3000000
-Adria Altimira,ESP,Leganes,24,58,DF,2,0,0,0,1500000
-Renato Tapia,PER,Leganes,29,68,MF,5,0,0,0,3500000
-Yvan Neyou,CAM,Leganes,28,62,MF,17,0,0,0,2500000
-Julian Chicco,ARG,Leganes,27,58,MF,24,0,0,0,600000
-Seydouba Cisse,GIN,Leganes,24,58,MF,8,0,0,0,3000000
-Darko Brasanac,SRB,Leganes,33,64,MF,14,0,0,0,600000
-Oscar Rodriguez,ESP,Leganes,26,66,MF,7,0,0,0,2000000
-Roberto Lopez,ESP,Leganes,24,63,MF,21,0,0,0,1500000
-Juan Cruz,ESP,Leganes,24,63,ST,11,0,0,0,4000000
-Duk,CPV,Leganes,25,60,ST,18,0,0,0,1200000
-Dani Raba,ESP,Leganes,29,61,ST,10,0,0,0,1800000
-Munir El Haddadi,MAR,Leganes,29,66,ST,23,0,0,0,1500000
-Miguel de la Fuente,ESP,Leganes,25,62,ST,9,0,0,0,2000000
-Diego Garcia,ESP,Leganes,24,55,ST,19,0,0,0,1500000
-Antonio Sivera,ESP,Alaves,28,68,GK,1,0,0,0,6000000
-Jesus Owono,GNQ,Alaves,24,57,GK,13,0,0,0,1000000
-Adrian Rodriguez,ARG,Alaves,24,50,GK,31,0,0,0,100000
-Abdel Abqar,MAR,Alaves,26,63,DF,5,0,0,0,7500000
-Santiago Mourino,URY,Alaves,23,63,DF,12,0,0,0,2000000
-Moussa Diarra,MLI,Alaves,24,60,DF,22,0,0,0,2000000
-Adrian Pica,ESP,Alaves,22,43,DF,36,0,0,0,1500000
-Facundo Garces,ARG,Alaves,25,62,DF,2,0,0,0,1200000
-Aleksandar Sedlar,SRB,Alaves,33,61,DF,4,0,0,0,400000
-Manu Sanchez,ESP,Alaves,24,64,DF,3,0,0,0,6000000
-Nahuel Tenaglia,ARG,Alaves,29,64,DF,14,0,0,0,3000000
-Hugo Novoa,ESP,Alaves,22,56,DF,16,0,0,0,2000000
-Antonio Blanco,ESP,Alaves,24,64,MF,8,0,0,0,7500000
-Carlos Protesoni,URY,Alaves,27,61,MF,23,0,0,0,1500000
-Ander Guevara,ESP,Alaves,27,69,MF,6,0,0,0,4000000
-Jon Guridi,ESP,Alaves,30,65,MF,18,0,0,0,3000000
-Carles Alena,ESP,Alaves,27,68,MF,21,0,0,0,2500000
-Joan Jordan,ESP,Alaves,30,65,MF,24,0,0,0,2500000
-Carlos Martin,ESP,Alaves,22,61,ST,15,0,0,0,3000000
-Tomas Conechny,ARG,Alaves,27,62,ST,10,0,0,0,2000000
-Carlos Vicente,ESP,Alaves,25,65,ST,7,0,0,0,8000000
-Toni Martinez,ESP,Alaves,27,69,ST,11,0,0,0,2800000
-Asier Villalibre,ESP,Alaves,27,65,ST,9,0,0,0,1800000
-Kike Garcia,ESP,Alaves,35,67,ST,17,0,0,0,900000
-Pau Cabanes,ESP,Alaves,20,40,ST,19,0,0,0,800000
-David Soria,ESP,Getafe ,32,71,GK,13,0,0,0,4000000
-Jiri Letacek,CZE,Getafe ,26,56,GK,1,0,0,0,2000000
-Omar Alderete,PRY,Getafe ,28,68,DF,15,0,0,0,8000000
-Djene,TGO,Getafe ,33,70,DF,2,0,0,0,2000000
-Juan Berrocal,ESP,Getafe ,26,55,DF,4,0,0,0,1800000
-Domingos Duarte,PRT,Getafe ,30,69,DF,22,0,0,0,800000
-Juan Bernat,ESP,Getafe ,32,69,DF,14,0,0,0,1500000
-Diego Rico,ESP,Getafe ,32,67,DF,16,0,0,0,1300000
-Juan Iglesias,ESP,Getafe ,26,64,DF,21,0,0,0,3500000
-Allan Nyom,CAM,Getafe ,36,65,DF,12,0,0,0,400000
-Ramon Terrats,ESP,Getafe ,24,68,MF,11,0,0,0,4000000
-Mauro Arambarri,URY,Getafe ,29,69,MF,8,0,0,0,7000000
-Luis Milla,ESP,Getafe ,30,68,MF,5,0,0,0,3500000
-Yellu Santiago,ESP,Getafe ,20,50,MF,20,0,0,0,1000000
-Christantus Uche,NGA,Getafe ,21,46,MF,6,0,0,0,8000000
-Alberto Risco,ESP,Getafe ,19,40,MF,26,0,0,0,200000
-Coba da Costa,ESP,Getafe ,22,60,ST,29,0,0,0,3000000
-Juanmi,ESP,Getafe ,31,68,ST,24,0,0,0,2800000
-Alex Sola,ESP,Getafe ,25,61,ST,7,0,0,0,3000000
-Carles Perez,ESP,Getafe ,27,72,ST,17,0,0,0,2500000
-Peter Federico,PAN,Getafe ,22,59,ST,19,0,0,0,1500000
-Borja Mayoral,ESP,Getafe ,28,70,ST,9,0,0,0,9000000
-Bertug Yildirim,TUR,Getafe ,22,59,ST,10,0,0,0,2500000
-Alvaro Rodriguez,URY,Getafe ,20,60,ST,18,0,0,0,2500000
-Paulo Gazzaniga,ARG,Girona ,33,68,GK,13,0,0,0,3500000
-Vladyslav Krapyvtsov,UKR,Girona ,19,35,GK,25,0,0,0,200000
-Juan Carlos,ESP,Girona ,37,64,GK,1,0,0,0,100000
-Ladislav Krejci,CZE,Girona ,25,68,DF,18,0,0,0,12000000
-David Lopez,ESP,Girona ,35,71,DF,5,0,0,0,2000000
-Daley Blind,NLD,Girona ,35,72,DF,17,0,0,0,2000000
-Juanpe,ESP,Girona ,33,65,DF,15,0,0,0,900000
-Miguel Gutierrez,ESP,Girona ,23,75,DF,3,0,0,0,25000000
-Arnau Martinez,ESP,Girona ,21,67,DF,4,0,0,0,10000000
-Alejandro Frances,ESP,Girona ,22,62,DF,16,0,0,0,2500000
-Arthur Melo,BRA,Girona ,28,72,MF,12,0,0,0,5000000
-Oriol Romeu,ESP,Girona ,33,72,MF,14,0,0,0,1800000
-Yangel Herrera,VEN,Girona ,27,72,MF,21,0,0,0,2000000
-Donny van de Beek,NLD,Girona ,27,69,MF,6,0,0,0,7500000
-Jhon Solis,COL,Girona ,20,58,MF,22,0,0,0,3500000
-Ivan Martin,ESP,Girona ,26,68,MF,23,0,0,0,10000000
-Gabriel Misehouy,NLD,Girona ,19,58,MF,27,0,0,0,1000000
-Bryan Gil,ESP,Girona ,24,68,ST,20,0,0,0,15000000
-Arnaut Danjuma,NLD,Girona ,28,72,ST,11,0,0,0,5000000
-Kim Min-Su,KOR,Girona ,19,40,ST,29,0,0,0,1000000
-Viktor Tsygankov,UKR,Girona ,27,70,ST,8,0,0,0,22000000
-Yaser Asprilla,COL,Girona ,21,63,ST,10,0,0,0,18000000
-Portu,ESP,Girona ,32,68,ST,24,0,0,0,2500000
-Abel Ruiz,ESP,Girona ,25,67,ST,9,0,0,0,6000000
-Bojan Moivski,MKD,Girona ,25,63,ST,19,0,0,0,3000000
-Christhian Stuani,URY,Girona ,38,67,ST,7,0,0,0,1200000
-Augusto Batalla,ARG,Rayo Vallecano,28,66,GK,13,0,0,0,6000000
-Dani Cardenas,ESP,Rayo Vallecano,28,64,GK,1,0,0,0,1800000
-Abdul Mumin,GHA,Rayo Vallecano,26,67,DF,16,0,0,0,5000000
-Florian Lejuene,FRA,Rayo Vallecano,33,70,DF,24,0,0,0,2800000
-Pelayo Fernandez,ESP,Rayo Vallecano,21,50,DF,27,0,0,0,500000
-Aridane Hernandez,ESP,Rayo Vallecano,36,64,DF,5,0,0,0,400000
-Pep Chavarria,ESP,Rayo Vallecano,27,65,DF,3,0,0,0,3500000
-Alfonso Espino,URY,Rayo Vallecano,33,67,DF,22,0,0,0,1500000
-Andrei Ratiu,ROU,Rayo Vallecano,26,62,DF,2,0,0,0,12000000
-Ivan Balliu,ALB,Rayo Vallecano,33,67,DF,20,0,0,0,1500000
-Gerard Gumbau,ESP,Rayo Vallecano,30,66,MF,15,0,0,0,2000000
-Oscar Valentin,ESP,Rayo Vallecano,30,67,MF,23,0,0,0,3500000
-Unai Lopez,ESP,Rayo Vallecano,29,67,MF,17,0,0,0,2800000
-Pedro Diaz,ESP,Rayo Vallecano,26,63,MF,4,0,0,0,2500000
-Pathe Ciss,SEN,Rayo Vallecano,31,67,MF,6,0,0,0,2000000
-Randy Nteka,AGO,Rayo Vallecano,27,64,MF,11,0,0,0,1500000
-Joni Montiel,ESP,Rayo Vallecano,26,60,MF,25,0,0,0,900000
-Oscar Trejo,ARG,Rayo Vallecano,36,69,MF,8,0,0,0,800000
-Alvaro Garcia,ESP,Rayo Vallecano,32,72,ST,18,0,0,0,2500000
-Jorge de Frutos,ESP,Rayo Vallecano,28,66,ST,19,0,0,0,4000000
-Adrian Embarba,ESP,Rayo Vallecano,32,67,ST,21,0,0,0,1500000
-Isi Palazon,ESP,Rayo Vallecano,30,70,ST,7,0,0,0,4000000
-Sergio Camello,ESP,Rayo Vallecano,24,65,ST,14,0,0,0,3500000
-Raul de Tomas,ESP,Rayo Vallecano,30,68,ST,9,0,0,0,800000
-Sergi Guardiola,ESP,Rayo Vallecano,33,63,ST,12,0,0,0,600000
-Ivan Villar,ESP,Celta Vigo,27,66,GK,1,0,0,0,900000
-Vicente Guaita,ESP,Celta Vigo,38,68,GK,13,0,0,0,800000
-Javi Rodriguez,ESP,Celta Vigo,21,32,DF,32,0,0,0,10000000
-Carl Starfelt,SWE,Celta Vigo,29,67,DF,2,0,0,0,6000000
-Carlos Dominguez,ESP,Celta Vigo,24,64,DF,24,0,0,0,2500000
-Marcos Alonso,ESP,Celta Vigo,34,72,DF,20,0,0,0,1800000
-Mihailo Ristic,SRB,Celta Vigo,29,65,DF,21,0,0,0,900000
-Oscar Mingueza,ESP,Celta Vigo,25,68,DF,3,0,0,0,20000000
-Sergio Carreira,ESP,Celta Vigo,24,64,DF,5,0,0,0,3000000
-Javier Manquillo,ESP,Celta Vigo,30,65,DF,22,0,0,0,1800000
-Damian Rodriguez,ESP,Celta Vigo,22,48,MF,25,0,0,0,3000000
-Jailson,BRA,Celta Vigo,29,62,MF,16,0,0,0,1500000
-Fran Beltran,ESP,Celta Vigo,26,68,MF,8,0,0,0,6000000
-Hugo Sotelo,ESP,Celta Vigo,21,60,MF,4,0,0,0,5000000
-Ilaix Moriba,GIN,Celta Vigo,22,63,MF,6,0,0,0,4000000
-Hugo Alvarez,ESP,Celta Vigo,21,54,ST,23,0,0,0,7500000
-Williot Swedberg,SWE,Celta Vigo,21,63,ST,19,0,0,0,5000000
-Alfon Gonzalez,ESP,Celta Vigo,25,30,ST,12,0,0,0,2000000
-Franco Cervi,ARG,Celta Vigo,30,64,ST,11,0,0,0,900000
-Fer Lopez,ESP,Celta Vigo,20,43,ST,28,0,0,0,1500000
-Iker Losada,ESP,Celta Vigo,23,58,ST,14,0,0,0,1800000
-Pablo Duran,ESP,Celta Vigo,23,47,ST,18,0,0,0,3500000
-Borja Iglesias,ESP,Celta Vigo,32,72,ST,7,0,0,0,3000000
-Iago Aspas,ESP,Celta Vigo,37,77,ST,10,0,0,0,2500000
-Joan Garcia,ESP,Espanyol,23,60,GK,1,0,0,0,20000000
-Fernando Pacheco,ESP,Espanyol,32,70,GK,13,0,0,0,900000
-Angel Fortuno,ESP,Espanyol,23,50,GK,33,0,0,0,300000
-Marash Kumbulla,ALB,Espanyol,25,64,DF,4,0,0,0,6000000
-Fernando Calero,ESP,Espanyol,29,65,DF,5,0,0,0,1500000
-Leandro Cabrera,URY,Espanyol,33,68,DF,6,0,0,0,1000000
-Sergi Gomez,ESP,Espanyol,33,64,DF,3,0,0,0,900000
-Pablo Ramon,ESP,Espanyol,23,58,DF,24,0,0,0,200000
-Carlos Romero,ESP,Espanyol,23,60,DF,22,0,0,0,3000000
-Brian Olivian,ESP,Espanyol,31,63,DF,14,0,0,0,2000000
-Omar El Hilali,MAR,Espanyol,21,58,DF,23,0,0,0,10000000
-Alvaro Tejero,ESP,Espanyol,28,63,DF,12,0,0,0,2000000
-Urko Gonzalez de Zarate,ESP,Espanyol,24,55,MF,19,0,0,0,1500000
-Alex Kral,CZE,Espanyol,26,66,MF,20,0,0,0,6000000
-Pol Lozano,ESP,Espanyol,25,61,MF,10,0,0,0,4000000
-Jose Gragera,ESP,Espanyol,24,62,MF,15,0,0,0,2000000
-Alvaro Aguado,ESP,Espanyol,28,67,MF,18,0,0,0,2000000
-Edu Exposito,ESP,Espanyol,28,67,MF,8,0,0,0,1500000
-Justin Smith,CAN,Espanyol,22,48,MF,40,0,0,0,300000
-Rafel Bauza,ESP,Espanyol,20,38,MF,35,0,0,0,200000
-Javi Puado,ESP,Espanyol,26,66,ST,7,0,0,0,8000000
-Pere Milla,ESP,Espanyol,32,67,ST,11,0,0,0,1500000
-Jofre Carreras,ESP,Espanyol,23,59,ST,17,0,0,0,4000000
-Antoniu Roca,ESP,Espanyol,22,39,ST,31,0,0,0,1500000
-Roberto Fernandez,ESP,Espanyol,22,58,ST,2,0,0,0,4000000
-Walid Cheddira,MAR,Espanyol,27,63,ST,16,0,0,0,3000000
-Alejo Veliz,ARG,Espanyol,21,63,ST,9,0,0,0,2800000
-Omar Sadik,MAR,Espanyol,21,35,ST,34,0,0,0,500000
-Dominik Grief,SVK,Mallorca,28,63,GK,1,0,0,0,6000000
-Leo Roman,ESP,Mallorca,24,58,GK,13,0,0,0,2500000
-Ivan Cuellar,ESP,Mallorca,40,61,GK,25,0,0,0,100000
-Martin Valjent,SVK,Mallorca,29,66,DF,24,0,0,0,6000000
-Jose Copete,ESP,Mallorca,25,64,DF,6,0,0,0,2800000
-Antonio Raillo,ESP,Mallorca,33,67,DF,21,0,0,0,2000000
-David Lopez,ESP,Mallorca,22,71,DF,32,0,0,0,500000
-Johan Mojica,COL,Mallorca,32,68,DF,22,0,0,0,2200000
-Toni Lato,ESP,Mallorca,27,63,DF,3,0,0,0,2000000
-Pablo Maffeo,ARG,Mallorca,27,69,DF,23,0,0,0,5000000
-Mateu Morey,ESP,Mallorca,25,60,DF,2,0,0,0,800000
-Samu Costa,PRT,Mallorca,24,69,MF,12,0,0,0,15000000
-Omar Mascarell,GNQ,Mallorca,32,67,MF,5,0,0,0,900000
-Sergi Darder,ESP,Mallorca,31,73,MF,10,0,0,0,4000000
-Manu Morlanes,ESP,Mallorca,26,68,MF,8,0,0,0,2500000
-Antonio Sanchez,ESP,Mallorca,27,65,MF,18,0,0,0,2500000
-Robert Navarro,ESP,Mallorca,23,64,MF,27,0,0,0,6000000
-Dani Rodriguez,ESP,Mallorca,36,65,MF,14,0,0,0,900000
-Chiquinho,PRT,Mallorca,25,63,ST,20,0,0,0,2500000
-Takuma Asano,JPN,Mallorca,30,64,ST,11,0,0,0,2500000
-Valery Fernandez,ESP,Mallorca,25,63,ST,16,0,0,0,2500000
-Vedat Muriqi,XKX,Mallorca,30,71,ST,7,0,0,0,8000000
-Cyle Larin,CAN,Mallorca,29,65,ST,17,0,0,0,3500000
-Abdon Prats,ESP,Mallorca,32,66,ST,9,0,0,0,1500000
-Fran Vieites,ESP,Real Betis,25,50,GK,25,0,0,0,800000
-Adrian,ESP,Real Betis,38,64,GK,13,0,0,0,500000
-Natan,BRA,Real Betis,24,70,DF,6,0,0,0,9000000
-Diego Llorente,ESP,Real Betis,31,70,DF,3,0,0,0,6000000
-Marc Bartra,ESP,Real Betis,34,70,DF,5,0,0,0,1000000
-Romain Perraud,FRA,Real Betis,27,64,DF,15,0,0,0,5000000
-Ricardo Rodriguez,CHE,Real Betis,32,70,DF,12,0,0,0,2500000
-Aitor Ruibal,ESP,Real Betis,29,68,DF,24,0,0,0,3500000
-Hector Bellerin,ESP,Real Betis,30,71,DF,2,0,0,0,3000000
-Angel Ortiz,ESP,Real Betis,20,44,DF,40,0,0,0,2500000
-Youssouf Sabaly,SEN,Real Betis,32,70,DF,23,0,0,0,2000000
-Johnny Cardoso,USA,Real Betis,23,64,MF,4,0,0,0,20000000
-Marc Roca,ESP,Real Betis,28,71,MF,21,0,0,0,8000000
-William Carvalho,PRT,Real Betis,33,74,MF,14,0,0,0,2000000
-Giovani Lo Celso,ARG,Real Betis,29,70,MF,20,0,0,0,20000000
-Sergi Altimira,ESP,Real Betis,23,63,MF,16,0,0,0,10000000
-Mateo Flores,ESP,Real Betis,21,41,MF,46,0,0,0,1000000
-Pablo Fornals,ESP,Real Betis,29,68,MF,18,0,0,0,6000000
-Isco,ESP,Real Betis,32,75,MF,22,0,0,0,6000000
-Abde Ezzalzouli,MAR,Real Betis,23,50,ST,10,0,0,0,12000000
-Jesus Rodriguez,ESP,Real Betis,19,45,ST,36,0,0,0,10000000
-Antony,BRA,Real Betis,25,71,ST,7,0,0,0,20000000
-Cucho Hernandez,COL,Real Betis,25,69,ST,19,0,0,0,18000000
-Chimy Avila,ARG,Real Betis,31,70,ST,9,0,0,0,2500000
-Cedric Bakambu,COD,Real Betis,34,65,ST,11,0,0,0,1800000
-Thibaut Courtois,BEL,Real Madrid,32,91,GK,1,0,0,0,25000000
-Andriy Lunin,UKR,Real Madrid,26,73,GK,13,0,0,0,20000000
-Fran Gonzalez,ESP,Real Madrid,19,38,GK,26,0,0,0,400000
-Eder Militao,BRA,Real Madrid,27,84,DF,3,0,0,0,40000000
-Raul Asencio,ESP,Real Madrid,22,50,DF,35,0,0,0,30000000
-Antonio Rudiger,DEU,Real Madrid,32,83,DF,22,0,0,0,24000000
-David Alaba,AUT,Real Madrid,32,80,DF,4,0,0,0,10000000
-Jesus Vallejo,ESP,Real Madrid,28,66,DF,18,0,0,0,1000000
-Ferland Mendy,FRA,Real Madrid,29,78,DF,23,0,0,0,18000000
-Fran Garcia,ESP,Real Madrid,25,68,DF,20,0,0,0,15000000
-Daniel Carvajal,ESP,Real Madrid,33,78,DF,2,0,0,0,10000000
-Lucas Vazquez,ESP,Real Madrid,33,73,DF,17,0,0,0,3500000
-Aurelien Tchouameni,FRA,Real Madrid,25,80,MF,14,0,0,0,80000000
-Federico Valverde,URY,Real Madrid,26,88,MF,8,0,0,0,130000000
-Eduardo Camavinga,FRA,Real Madrid,22,85,MF,6,0,0,0,70000000
-Dani Ceballos,ESP,Real Madrid,28,75,MF,19,0,0,0,10000000
-Luka Modric,HRV,Real Madrid,39,86,MF,10,0,0,0,5000000
-Jude Bellingham,ENG,Real Madrid,21,90,MF,5,0,0,0,180000000
-Vinicius Junior,BRA,Real Madrid,24,93,ST,7,0,0,0,200000000
-Rodrygo,BRA,Real Madrid,24,85,ST,11,0,0,0,100000000
-Arda Guler,TUR,Real Madrid,20,63,ST,15,0,0,0,45000000
-Brahim Diaz,MAR,Real Madrid,25,75,ST,21,0,0,0,45000000
-Kylian Mbappe,FRA,Real Madrid,26,94,ST,9,0,0,0,170000000
-Endrick,BRA,Real Madrid,18,65,ST,16,0,0,0,40000000
-Alex Remiro,ESP,Real Sociedad,30,75,GK,1,0,0,0,25000000
-Unai Marrero,ESP,Real Sociedad,23,52,GK,13,0,0,0,600000
-Nayef Aguerd,MAR,Real Sociedad,29,70,DF,21,0,0,0,25000000
-Igor Zubeldia,ESP,Real Sociedad,28,72,DF,5,0,0,0,18000000
-Jon Pacheco,ESP,Real Sociedad,24,63,DF,20,0,0,0,7500000
-Aritz Elustondo,ESP,Real Sociedad,31,73,DF,6,0,0,0,4000000
-Jon Martin,ESP,Real Sociedad,18,54,DF,31,0,0,0,2000000
-Javi Lopez,ESP,Real Sociedad,23,63,DF,12,0,0,0,7500000
-Aihen Munoz,ESP,Real Sociedad,27,68,DF,3,0,0,0,5000000
-Jon Aramburu,VEN,Real Sociedad,22,55,DF,19,0,0,0,12000000
-Hamari Traore,MLI,Real Sociedad,33,68,DF,18,0,0,0,3000000
-Alvaro Odriozola,ESP,Real Sociedad,29,70,DF,2,0,0,0,1200000
-Martin Zubimendi,ESP,Real Sociedad,26,75,MF,4,0,0,0,60000000
-Luka Susic,HRV,Real Sociedad,22,65,MF,24,0,0,0,18000000
-Benat Turrientes,ESP,Real Sociedad,23,66,MF,22,0,0,0,16000000
-Jon Ander Olasagasti,ESP,Real Sociedad,24,58,MF,16,0,0,0,2500000
-Brais Mendez,ESP,Real Sociedad,28,74,MF,23,0,0,0,28000000
-Arsen Zakharyan,RUS,Real Sociedad,21,63,MF,8,0,0,0,15000000
-Pablo Marin,ESP,Real Sociedad,21,56,MF,28,0,0,0,3000000
-Ander Barrenetxea,ESP,Real Sociedad,23,73,ST,7,0,0,0,18000000
-Sheraldo Becker,SUR,Real Sociedad,30,69,ST,11,0,0,0,4000000
-Arkaitz Mariezkurrena,ESP,Real Sociedad,20,43,ST,40,0,0,0,500000
-Takefusa Kubo,JPN,Real Sociedad,23,75,ST,14,0,0,0,40000000
-Sergio Gomez,ESP,Real Sociedad,24,66,ST,17,0,0,0,20000000
-Mikel Oyazarbal,ESP,Real Sociedad,27,77,ST,10,0,0,0,30000000
-Orri Oskarsson,ISL,Real Sociedad,20,58,ST,9,0,0,0,18000000
-Karl Hein,EST,Real Valladolid,23,60,GK,13,0,0,0,3000000
-Andre Ferreira,PRT,Real Valladolid,28,61,GK,1,0,0,0,800000
-Eray Comert,CHE,Real Valladolid,27,63,DF,15,0,0,0,2500000
-Javi Sanchez,ESP,Real Valladolid,28,66,DF,5,0,0,0,1800000
-Cenk Ozkacar,TUR,Real Valladolid,24,64,DF,6,0,0,0,1500000
-David Torres,ESP,Real Valladolid,22,58,DF,3,0,0,0,1400000
-Joseph Aidoo,GHA,Real Valladolid,29,67,DF,16,0,0,0,1400000
-Adam Aznou,MAR,Real Valladolid,18,47,DF,39,0,0,0,3000000
-Henrique Silva,BRA,Real Valladolid,30,41,DF,17,0,0,0,600000
-Antonio Candela,ITA,Real Valladolid,24,61,DF,22,0,0,0,2000000
-Luis Perez,ESP,Real Valladolid,30,63,DF,2,0,0,0,1500000
-Florian Grillitsch,AUT,Real Valladolid,29,69,MF,8,0,0,0,3000000
-Mario Martin,ESP,Real Valladolid,21,55,MF,12,0,0,0,1500000
-Stanko Juric,HRV,Real Valladolid,28,61,MF,20,0,0,0,1500000
-Tamas Nikitscher,HUN,Real Valladolid,25,50,MF,4,0,0,0,1000000
-Selim Amallah,MAR,Real Valladolid,28,65,MF,21,0,0,0,1800000
-Chuki,ESP,Real Valladolid,20,43,MF,28,0,0,0,1000000
-Raul Moro,ESP,Real Valladolid,22,57,ST,11,0,0,0,5000000
-Darwin Machis ,VEN,Real Valladolid,32,66,ST,18,0,0,0,1000000
-Kenedy,BRA,Real Valladolid,29,63,ST,24,0,0,0,300000
-Amath Ndiaye,SEN,Real Valladolid,28,64,ST,19,0,0,0,1000000
-Anuar,MAR,Real Valladolid,30,59,ST,23,0,0,0,900000
-Ivan Sanchez,ESP,Real Valladolid,32,63,ST,10,0,0,0,600000
-Juanmi Latasa,ESP,Real Valladolid,24,63,ST,14,0,0,0,2500000
-Mamadou Sylla,SEN,Real Valladolid,31,61,ST,7,0,0,0,1500000
-Marcos Andre,BRA,Real Valladolid,28,62,ST,9,0,0,0,1200000
-Alvaro Fernandez,ESP,Sevilla,27,69,GK,1,0,0,0,2500000
-Orjan Nyland,NOR,Sevilla,34,65,GK,13,0,0,0,1000000
-Loic Bade ,FRA,Sevilla,25,67,DF,22,0,0,0,30000000
-Kike Salas,ESP,Sevilla,22,63,DF,4,0,0,0,8000000
-Marcao,BRA,Sevilla,28,72,DF,23,0,0,0,3000000
-Tanguy Nianzou,FRA,Sevilla,22,67,DF,24,0,0,0,3000000
-Adria Pedrosa,ESP,Sevilla,26,67,DF,3,0,0,0,7000000
-Jose Angel Carmona,ESP,Sevilla,23,63,DF,2,0,0,0,12000000
-Juanlu Sanchez,ESP,Sevilla,21,62,DF,26,0,0,0,12000000
-Lucien Agoume,FRA,Sevilla,23,61,MF,18,0,0,0,7000000
-Nemanja Gudelj,SRB,Sevilla,33,70,MF,6,0,0,0,3500000
-Albert Sambi Lokonga,BEL,Sevilla,25,69,MF,12,0,0,0,9000000
-Djibril Sow,CHE,Sevilla,28,69,MF,20,0,0,0,7500000
-Saul Niguez,ESP,Sevilla,30,71,MF,17,0,0,0,3500000
-Manu Bueno,ESP,Sevilla,20,53,MF,28,0,0,0,1500000
-Stanis Idumbo,BEL,Sevilla,19,55,MF,27,0,0,0,2500000
-Ruben Vargas,CHE,Sevilla,26,66,ST,5,0,0,0,7000000
-Chidera Ejuke,NGA,Sevilla,27,65,ST,21,0,0,0,6000000
-Dodi Lukebakio,BEL,Sevilla,27,70,ST,11,0,0,0,25000000
-Suso,ESP,Sevilla,31,71,ST,10,0,0,0,2500000
-Peque Fernandez,ESP,Sevilla,22,62,ST,14,0,0,0,3500000
-Isaac Romero,ESP,Sevilla,24,65,ST,7,0,0,0,10000000
-Akor Adams,NGA,Sevilla,25,62,ST,15,0,0,0,7500000
-Dinko Horkas,HRV,Las Palmas,26,60,GK,13,0,0,0,1200000
-Jasper Cillessen,NLD,Las Palmas,35,63,GK,1,0,0,0,900000
-Mika Marmol,ESP,Las Palmas,23,68,DF,3,0,0,0,12000000
-Scott McKenna,SCO,Las Palmas,28,64,DF,15,0,0,0,5000000
-Juanma Herzog,ESP,Las Palmas,20,49,DF,28,0,0,0,1500000
-Alex Suarez,ESP,Las Palmas,32,62,DF,4,0,0,0,1000000
-Alex Munoz,ESP,Las Palmas,30,64,DF,23,0,0,0,1200000
-Andy Pelmard,FRA,Las Palmas,25,63,DF,6,0,0,0,2500000
-Viti Rozada,ESP,Las Palmas,27,,DF,18,0,0,0,2500000
-Marvin Park,ESP,Las Palmas,24,63,DF,2,0,0,0,1500000
-Dario Essugo,PRT,Las Palmas,20,56,MF,29,0,0,0,15000000
-Stefan Bajcetic,ESP,Las Palmas,20,60,MF,21,0,0,0,9000000
-Javi Munoz,ESP,Las Palmas,30,67,MF,5,0,0,0,2500000
-Enzo Loiodice,FRA,Las Palmas,24,65,MF,12,0,0,0,1500000
-Jose Campana,ESP,Las Palmas,31,70,MF,8,0,0,0,1000000
-Alberto Moleiro,ESP,Las Palmas,21,66,MF,10,0,0,0,25000000
-Kirian Rodriguez,ESP,Las Palmas,29,70,MF,20,0,0,0,12000000
-Manu Fuster,ESP,Las Palmas,27,65,ST,14,0,0,0,1500000
-Benito Ramirez,ESP,Las Palmas,29,59,ST,11,0,0,0,800000
-Adnan Januzaj,BEL,Las Palmas,30,65,ST,24,0,0,0,1200000
-Fabio Silva,PRT,Las Palmas,22,64,ST,37,0,0,0,20000000
-Oli McBurnie,SCO,Las Palmas,28,63,ST,16,0,0,0,2500000
-Sandro Ramirez,ESP,Las Palmas,29,70,ST,19,0,0,0,2500000
-Marc Cardona,ESP,Las Palmas,29,61,ST,9,0,0,0,900000
-Jaime Mata,ESP,Las Palmas,36,63,ST,17,0,0,0,600000
-Giorgi Mamardashvili,GEO,Valencia,24,75,GK,25,0,0,0,30000000
-Stole Dimitrievski,MKD,Valencia,31,70,GK,13,0,0,0,3000000
-Jaume Domenech,ESP,Valencia,34,66,GK,1,0,0,0,600000
-Cristhian Mosquera,ESP,Valencia,20,65,DF,3,0,0,0,30000000
-Yarek Gasiorowski,ESP,Valencia,20,55,DF,24,0,0,0,12000000
-Cesar Tarrega,ESP,Valencia,23,53,DF,15,0,0,0,6000000
-Mouctar Diakhaby,GIN,Valencia,28,71,DF,4,0,0,0,2000000
-Jose Gaya,ESP,Valencia,29,79,DF,14,0,0,0,15000000
-Jesus Vazquez,ESP,Valencia,22,62,DF,21,0,0,0,3000000
-Max Aarons,ENG,Valencia,25,65,DF,19,0,0,0,12000000
-Thierry Correia,PRT,Valencia,26,69,DF,26,0,0,0,6000000
-Dimitri Foulquier,GLP,Valencia,32,64,DF,20,0,0,0,2000000
-Pepelu,ESP,Valencia,26,69,MF,18,0,0,0,12000000
-Enzo Barrenechea,ARG,Valencia,23,64,MF,5,0,0,0,7500000
-Hugo Guillamon,ESP,Valencia,25,67,MF,6,0,0,0,5000000
-Javi Guerra,ESP,Valencia,21,70,MF,8,0,0,0,20000000
-Andre Almeida,PRT,Valencia,24,68,MF,10,0,0,0,8000000
-Ivan Jaime,ESP,Valencia,24,68,MF,17,0,0,0,7000000
-Martin Tejon,ESP,Valencia,21,43,MF,32,0,0,0,500000
-Luis Rioja,ESP,Valencia,31,69,ST,22,0,0,0,2000000
-Sergi Canos,ESP,Valencia,28,63,ST,7,0,0,0,1500000
-Diego Lopez,ESP,Valencia,22,66,ST,16,0,0,0,10000000
-Fran Perez,ESP,Valencia,22,64,ST,23,0,0,0,4000000
-Hugo Duro,ESP,Valencia,25,69,ST,9,0,0,0,10000000
-Umar Sadiq,NGA,Valencia,28,71,ST,12,0,0,0,5000000
-Rafa Mir,ESP,Valencia,27,65,ST,11,0,0,0,800000
-Diego Conde,ESP,Villarreal ,26,54,GK,13,0,0,0,10000000
-Luiz Junior,BRA,Villarreal ,24,65,GK,1,0,0,0,5000000
-Iker Alvarez,AND,Villarreal ,23,57,GK,31,0,0,0,800000
-Logan Costa,CPV,Villarreal ,24,62,DF,2,0,0,0,15000000
-Willy Kambwala,FRA,Villarreal ,20,55,DF,5,0,0,0,4000000
-Eric Bailly,CIV,Villarreal ,31,65,DF,4,0,0,0,2500000
-Raul Albiol,ESP,Villarreal ,39,74,DF,3,0,0,0,1300000
-Pau Navarro,ESP,Villarreal ,19,33,DF,26,0,0,0,1000000
-Sergi Cardona,ESP,Villarreal ,25,68,DF,23,0,0,0,8000000
-Alfonso Pedrazza,ESP,Villarreal ,29,72,DF,24,0,0,0,2500000
-Juan Foyth,ARG,Villarreal ,27,73,DF,8,0,0,0,10000000
-Kiko Femenia,ESP,Villarreal ,34,69,DF,17,0,0,0,1200000
-Pape Gueye,SEN,Villarreal ,26,63,MF,18,0,0,0,10000000
-Santi Comesana,ESP,Villarreal ,28,70,MF,14,0,0,0,8000000
-Dani Parejo,ESP,Villarreal ,35,74,MF,10,0,0,0,2000000
-Denis Suarez,ESP,Villarreal ,31,73,MF,6,0,0,0,1300000
-Alex Baena,ESP,Villarreal ,23,72,ST,16,0,0,0,50000000
-Yeremy Pino,ESP,Villarreal ,22,71,ST,21,0,0,0,30000000
-Ilias Akhomach,MAR,Villarreal ,20,63,ST,11,0,0,0,15000000
-Tajon Buchanan,CAN,Villarreal ,26,64,ST,9,0,0,0,6000000
-Nicolas Pepe,CIV,Villarreal ,29,68,ST,19,0,0,0,6000000
-Thierno Barry,FRA,Villarreal ,22,55,ST,15,0,0,0,14000000
-Ayoze Perez,ESP,Villarreal ,31,71,ST,22,0,0,0,10000000
-Gerard Moreno,ESP,Villarreal ,33,77,ST,7,0,0,0,5000000
+Name,Nationality,Team,Age,Skill Rating,Position,Number,Goals,Yellow Cards,Red Cards,Value,Energy
+Marc-Andre ter Stegen,DEU,Barcelona ,32,88,GK,1,0,0,0,15000000,1
+Inaki Pena,ESP,Barcelona ,26,66,GK,13,0,0,0,10000000,1
+Wojciech Szczesny,POL,Barcelona ,34,78,GK,25,0,0,0,1000000,1
+Pau Cubarsi,ESP,Barcelona ,18,55,DF,2,0,0,0,70000000,1
+Ronald Araujo,URY,Barcelona ,26,85,DF,4,0,0,0,50000000,1
+Andreas Christensen,DMK,Barcelona ,29,77,DF,15,0,0,0,15000000,1
+Eric Garcia,ESP,Barcelona ,24,72,DF,24,0,0,0,15000000,1
+Inigo Martinez,ESP,Barcelona ,33,73,DF,5,0,0,0,5000000,1
+Alejandro Balde,ESP,Barcelona ,21,76,DF,3,0,0,0,60000000,1
+Gerard Martin,ESP,Barcelona ,23,48,DF,35,0,0,0,7500000,1
+Jules Kounde,FRA,Barcelona ,26,83,DF,23,0,0,0,60000000,1
+Hector Fort,ESP,Barcelona ,18,53,DF,32,0,0,0,10000000,1
+Marc Casado,ESP,Barcelona ,21,58,MF,17,0,0,0,30000000,1
+Marc Bernal,ESP,Barcelona ,17,48,MF,28,0,0,0,5000000,1
+Pedri,ESP,Barcelona ,22,83,MF,8,0,0,0,120000000,1
+Gavi,ESP,Barcelona ,20,77,MF,6,0,0,0,70000000,1
+Frankie de Jong,NLD,Barcelona ,27,83,MF,21,0,0,0,45000000,1
+Dani Olmo,ESP,Barcelona ,26,83,MF,20,0,0,0,60000000,1
+Fermin Lopez,ESP,Barcelona ,21,65,MF,16,0,0,0,50000000,1
+Pablo Torre,ESP,Barcelona ,22,65,MF,14,0,0,0,7500000,1
+Raphinha,BRA,Barcelona ,28,77,ST,11,0,0,0,80000000,1
+Ansu Fati,ESP,Barcelona ,22,77,ST,10,0,0,0,5000000,1
+Lamine Yamal,ESP,Barcelona ,17,68,ST,19,0,0,0,180000000,1
+Ferran Torres,ESP,Barcelona ,25,75,ST,7,0,0,0,28000000,1
+Robert Lewandowski,POL,Barcelona ,36,90,ST,9,0,0,0,15000000,1
+Pau Victor,ESP,Barcelona ,23,60,ST,18,0,0,0,5000000,1
+Unai Simon,ESP,Athletic Bilbao,27,79,GK,1,0,0,0,28000000,1
+Julen Agirrezabala,ESP,Athletic Bilbao,24,68,GK,13,0,0,0,15000000,1
+Dani Vivian,ESP,Athletic Bilbao,25,74,DF,3,0,0,0,40000000,1
+Aitor Paredes,ESP,Athletic Bilbao,24,65,DF,4,0,0,0,22000000,1
+Yeray Alvarez,ESP,Athletic Bilbao,30,68,DF,5,0,0,0,7500000,1
+Unai Nunez,ESP,Athletic Bilbao,28,68,DF,14,0,0,0,3000000,1
+Adama Boiro,ESP,Athletic Bilbao,22,51,DF,32,0,0,0,2500000,1
+Yuri Berchiche,ESP,Athletic Bilbao,35,70,DF,17,0,0,0,1500000,1
+Andoni Gorosabel,ESP,Athletic Bilbao,28,68,DF,2,0,0,0,5000000,1
+Inigo Lekue,ESP,Athletic Bilbao,31,68,DF,15,0,0,0,2500000,1
+Oscar de Marcos,ESP,Athletic Bilbao,36,69,DF,18,0,0,0,1500000,1
+Mikel Vesga,ESP,Athletic Bilbao,32,72,MF,6,0,0,0,3000000,1
+Mikel Jauregizar,ESP,Athletic Bilbao,21,43,MF,23,0,0,0,20000000,1
+Benat Prados,ESP,Athletic Bilbao,24,60,MF,24,0,0,0,18000000,1
+Inigo Ruiz de Galarreta,ESP,Athletic Bilbao,31,70,MF,16,0,0,0,4000000,1
+Oihan Sancet,ESP,Athletic Bilbao,24,74,MF,8,0,0,0,60000000,1
+Unai Gomez,ESP,Athletic Bilbao,21,61,MF,20,0,0,0,6000000,1
+Peio Canales,ESP,Athletic Bilbao,20,44,MF,28,0,0,0,500000,1
+Nico Williams,ESP,Athletic Bilbao,22,78,ST,10,0,0,0,70000000,1
+Alex Berenguer,ESP,Athletic Bilbao,29,70,ST,7,0,0,0,12000000,1
+Alvaro Djalo,ESP,Athletic Bilbao,25,67,ST,11,0,0,0,8000000,1
+Inaki Williams,ESP,Athletic Bilbao,30,80,ST,9,0,0,0,20000000,1
+Gorka Guruzeta,ESP,Athletic Bilbao,28,65,ST,12,0,0,0,12000000,1
+Maroan Sannadi,ESP,Athletic Bilbao,24,43,ST,21,0,0,0,5000000,1
+Jan Oblak,SVN,Atletico Madrid,32,86,GK,13,0,0,0,25000000,1
+Juan Musso,ARG,Atletico Madrid,30,68,GK,1,0,0,0,4000000,1
+Robin Le Normand,ESP,Atletico Madrid,28,75,DF,24,0,0,0,40000000,1
+Jose Maria Gimenez,URY,Atletico Madrid,30,75,DF,2,0,0,0,20000000,1
+Clement Lenglet,FRA,Atletico Madrid,29,70,DF,15,0,0,0,7500000,1
+Axel Witsel,BEL,Atletico Madrid,36,74,DF,20,0,0,0,2500000,1
+Cesar Azpilicueta,ESP,Atletico Madrid,35,71,DF,3,0,0,0,1800000,1
+Reinildo Mandava,MOZ,Atletico Madrid,31,73,DF,23,0,0,0,8000000,1
+Javi Galan,ESP,Atletico Madrid,30,71,DF,21,0,0,0,4000000,1
+Nahuel Molina,ARG,Atletico Madrid,27,75,DF,16,0,0,0,25000000,1
+Pablo Barrios,ESP,Atletico Madrid,21,66,MF,8,0,0,0,50000000,1
+Conor Gallagher,ENG,Atletico Madrid,25,75,MF,4,0,0,0,40000000,1
+Rodrigo De Paul,ARG,Atletico Madrid,30,77,MF,5,0,0,0,25000000,1
+Koke ,ESP,Atletico Madrid,33,79,MF,6,0,0,0,10000000,1
+Marcos Llorente,ESP,Atletico Madrid,30,76,MF,14,0,0,0,28000000,1
+Thomas Lemar,FRA,Atletico Madrid,29,74,MF,11,0,0,0,5000000,1
+Samuel Lino,BRA,Atletico Madrid,25,74,ST,12,0,0,0,25000000,1
+Rodrigo Riquelme,ESP,Atletico Madrid,25,71,ST,17,0,0,0,18000000,1
+Giuliano Simeone,ARG,Atletico Madrid,22,61,ST,22,0,0,0,25000000,1
+Angel Correa,ARG,Atletico Madrid,30,75,ST,10,0,0,0,15000000,1
+Julian Alvarez,ARG,Atletico Madrid,25,77,ST,19,0,0,0,90000000,1
+Alexander Sorloth,NOR,Atletico Madrid,29,73,ST,9,0,0,0,25000000,1
+Antoine Griezmann,FRA,Atletico Madrid,34,86,ST,7,0,0,0,22000000,1
+Sergio Herrera,ESP,Osasuna,31,66,GK,1,0,0,0,4000000,1
+Aitor Fernandez,ESP,Osasuna,33,69,GK,13,0,0,0,1500000,1
+Enzo Boyomo,CMR,Osasuna,23,40,DF,22,0,0,0,20000000,1
+Jorge Herrando,ESP,Osasuna,24,58,DF,5,0,0,0,4000000,1
+Alejandro Catena,ESP,Osasuna,30,70,DF,24,0,0,0,4000000,1
+Unai Garcia,ESP,Osasuna,33,65,DF,4,0,0,0,1000000,1
+Abel Bretones,ESP,Osasuna,24,60,DF,23,0,0,0,3000000,1
+Juan Cruz,ESP,Osasuna,32,63,DF,3,0,0,0,1800000,1
+Jesus Areso,ESP,Osasuna,25,65,DF,12,0,0,0,8000000,1
+Ruben Pena,ESP,Osasuna,33,68,DF,15,0,0,0,1800000,1
+Lucas Torro,ESP,Osasuna,30,66,MF,6,0,0,0,3500000,1
+Iker Munoz,ESP,Osasuna,22,63,MF,18,0,0,0,3000000,1
+Jon Moncayola,ESP,Osasuna,26,67,MF,7,0,0,0,7000000,1
+Pablo Ibanez,ESP,Osasuna,26,64,MF,8,0,0,0,2300000,1
+Aimar Oroz,ESP,Osasuna,23,69,MF,10,0,0,0,15000000,1
+Bryan Zaragoza,ESP,Osasuna,23,69,ST,19,0,0,0,12000000,1
+Moi Gomez,ESP,Osasuna,30,69,ST,16,0,0,0,3000000,1
+Jose Manuel Arnaiz,ESP,Osasuna,30,66,ST,20,0,0,0,1800000,1
+Ruben Garcia,ESP,Osasuna,31,68,ST,14,0,0,0,2000000,1
+Kike Barja,ESP,Osasuna,28,65,ST,11,0,0,0,1800000,1
+Ante Budimir,HRV,Osasuna,33,69,ST,17,0,0,0,5000000,1
+Raul Garcia,ESP,Osasuna,24,65,ST,9,0,0,0,3500000,1
+Juan Soriano,ESP,Leganes,27,64,GK,1,0,0,0,1200000,1
+Marko Dmitrovic,SRB,Leganes,33,66,GK,13,0,0,0,800000,1
+Sergio Gonzalez,ESP,Leganes,32,55,DF,6,0,0,0,1500000,1
+Jorge Saenz,ESP,Leganes,28,59,DF,3,0,0,0,1200000,1
+Matija Nastasic,SRB,Leganes,32,65,DF,22,0,0,0,1000000,1
+Javi Hernandez,ESP,Leganes,26,61,DF,20,0,0,0,2000000,1
+Enric Franquesa,ESP,Leganes,28,62,DF,15,0,0,0,1500000,1
+Borna Barisic,HRV,Leganes,32,63,DF,4,0,0,0,1000000,1
+Valentin Rosier,FRA,Leganes,28,63,DF,12,0,0,0,3000000,1
+Adria Altimira,ESP,Leganes,24,58,DF,2,0,0,0,1500000,1
+Renato Tapia,PER,Leganes,29,68,MF,5,0,0,0,3500000,1
+Yvan Neyou,CAM,Leganes,28,62,MF,17,0,0,0,2500000,1
+Julian Chicco,ARG,Leganes,27,58,MF,24,0,0,0,600000,1
+Seydouba Cisse,GIN,Leganes,24,58,MF,8,0,0,0,3000000,1
+Darko Brasanac,SRB,Leganes,33,64,MF,14,0,0,0,600000,1
+Oscar Rodriguez,ESP,Leganes,26,66,MF,7,0,0,0,2000000,1
+Roberto Lopez,ESP,Leganes,24,63,MF,21,0,0,0,1500000,1
+Juan Cruz,ESP,Leganes,24,63,ST,11,0,0,0,4000000,1
+Duk,CPV,Leganes,25,60,ST,18,0,0,0,1200000,1
+Dani Raba,ESP,Leganes,29,61,ST,10,0,0,0,1800000,1
+Munir El Haddadi,MAR,Leganes,29,66,ST,23,0,0,0,1500000,1
+Miguel de la Fuente,ESP,Leganes,25,62,ST,9,0,0,0,2000000,1
+Diego Garcia,ESP,Leganes,24,55,ST,19,0,0,0,1500000,1
+Antonio Sivera,ESP,Alaves,28,68,GK,1,0,0,0,6000000,1
+Jesus Owono,GNQ,Alaves,24,57,GK,13,0,0,0,1000000,1
+Adrian Rodriguez,ARG,Alaves,24,50,GK,31,0,0,0,100000,1
+Abdel Abqar,MAR,Alaves,26,63,DF,5,0,0,0,7500000,1
+Santiago Mourino,URY,Alaves,23,63,DF,12,0,0,0,2000000,1
+Moussa Diarra,MLI,Alaves,24,60,DF,22,0,0,0,2000000,1
+Adrian Pica,ESP,Alaves,22,43,DF,36,0,0,0,1500000,1
+Facundo Garces,ARG,Alaves,25,62,DF,2,0,0,0,1200000,1
+Aleksandar Sedlar,SRB,Alaves,33,61,DF,4,0,0,0,400000,1
+Manu Sanchez,ESP,Alaves,24,64,DF,3,0,0,0,6000000,1
+Nahuel Tenaglia,ARG,Alaves,29,64,DF,14,0,0,0,3000000,1
+Hugo Novoa,ESP,Alaves,22,56,DF,16,0,0,0,2000000,1
+Antonio Blanco,ESP,Alaves,24,64,MF,8,0,0,0,7500000,1
+Carlos Protesoni,URY,Alaves,27,61,MF,23,0,0,0,1500000,1
+Ander Guevara,ESP,Alaves,27,69,MF,6,0,0,0,4000000,1
+Jon Guridi,ESP,Alaves,30,65,MF,18,0,0,0,3000000,1
+Carles Alena,ESP,Alaves,27,68,MF,21,0,0,0,2500000,1
+Joan Jordan,ESP,Alaves,30,65,MF,24,0,0,0,2500000,1
+Carlos Martin,ESP,Alaves,22,61,ST,15,0,0,0,3000000,1
+Tomas Conechny,ARG,Alaves,27,62,ST,10,0,0,0,2000000,1
+Carlos Vicente,ESP,Alaves,25,65,ST,7,0,0,0,8000000,1
+Toni Martinez,ESP,Alaves,27,69,ST,11,0,0,0,2800000,1
+Asier Villalibre,ESP,Alaves,27,65,ST,9,0,0,0,1800000,1
+Kike Garcia,ESP,Alaves,35,67,ST,17,0,0,0,900000,1
+Pau Cabanes,ESP,Alaves,20,40,ST,19,0,0,0,800000,1
+David Soria,ESP,Getafe ,32,71,GK,13,0,0,0,4000000,1
+Jiri Letacek,CZE,Getafe ,26,56,GK,1,0,0,0,2000000,1
+Omar Alderete,PRY,Getafe ,28,68,DF,15,0,0,0,8000000,1
+Djene,TGO,Getafe ,33,70,DF,2,0,0,0,2000000,1
+Juan Berrocal,ESP,Getafe ,26,55,DF,4,0,0,0,1800000,1
+Domingos Duarte,PRT,Getafe ,30,69,DF,22,0,0,0,800000,1
+Juan Bernat,ESP,Getafe ,32,69,DF,14,0,0,0,1500000,1
+Diego Rico,ESP,Getafe ,32,67,DF,16,0,0,0,1300000,1
+Juan Iglesias,ESP,Getafe ,26,64,DF,21,0,0,0,3500000,1
+Allan Nyom,CAM,Getafe ,36,65,DF,12,0,0,0,400000,1
+Ramon Terrats,ESP,Getafe ,24,68,MF,11,0,0,0,4000000,1
+Mauro Arambarri,URY,Getafe ,29,69,MF,8,0,0,0,7000000,1
+Luis Milla,ESP,Getafe ,30,68,MF,5,0,0,0,3500000,1
+Yellu Santiago,ESP,Getafe ,20,50,MF,20,0,0,0,1000000,1
+Christantus Uche,NGA,Getafe ,21,46,MF,6,0,0,0,8000000,1
+Alberto Risco,ESP,Getafe ,19,40,MF,26,0,0,0,200000,1
+Coba da Costa,ESP,Getafe ,22,60,ST,29,0,0,0,3000000,1
+Juanmi,ESP,Getafe ,31,68,ST,24,0,0,0,2800000,1
+Alex Sola,ESP,Getafe ,25,61,ST,7,0,0,0,3000000,1
+Carles Perez,ESP,Getafe ,27,72,ST,17,0,0,0,2500000,1
+Peter Federico,PAN,Getafe ,22,59,ST,19,0,0,0,1500000,1
+Borja Mayoral,ESP,Getafe ,28,70,ST,9,0,0,0,9000000,1
+Bertug Yildirim,TUR,Getafe ,22,59,ST,10,0,0,0,2500000,1
+Alvaro Rodriguez,URY,Getafe ,20,60,ST,18,0,0,0,2500000,1
+Paulo Gazzaniga,ARG,Girona ,33,68,GK,13,0,0,0,3500000,1
+Vladyslav Krapyvtsov,UKR,Girona ,19,35,GK,25,0,0,0,200000,1
+Juan Carlos,ESP,Girona ,37,64,GK,1,0,0,0,100000,1
+Ladislav Krejci,CZE,Girona ,25,68,DF,18,0,0,0,12000000,1
+David Lopez,ESP,Girona ,35,71,DF,5,0,0,0,2000000,1
+Daley Blind,NLD,Girona ,35,72,DF,17,0,0,0,2000000,1
+Juanpe,ESP,Girona ,33,65,DF,15,0,0,0,900000,1
+Miguel Gutierrez,ESP,Girona ,23,75,DF,3,0,0,0,25000000,1
+Arnau Martinez,ESP,Girona ,21,67,DF,4,0,0,0,10000000,1
+Alejandro Frances,ESP,Girona ,22,62,DF,16,0,0,0,2500000,1
+Arthur Melo,BRA,Girona ,28,72,MF,12,0,0,0,5000000,1
+Oriol Romeu,ESP,Girona ,33,72,MF,14,0,0,0,1800000,1
+Yangel Herrera,VEN,Girona ,27,72,MF,21,0,0,0,2000000,1
+Donny van de Beek,NLD,Girona ,27,69,MF,6,0,0,0,7500000,1
+Jhon Solis,COL,Girona ,20,58,MF,22,0,0,0,3500000,1
+Ivan Martin,ESP,Girona ,26,68,MF,23,0,0,0,10000000,1
+Gabriel Misehouy,NLD,Girona ,19,58,MF,27,0,0,0,1000000,1
+Bryan Gil,ESP,Girona ,24,68,ST,20,0,0,0,15000000,1
+Arnaut Danjuma,NLD,Girona ,28,72,ST,11,0,0,0,5000000,1
+Kim Min-Su,KOR,Girona ,19,40,ST,29,0,0,0,1000000,1
+Viktor Tsygankov,UKR,Girona ,27,70,ST,8,0,0,0,22000000,1
+Yaser Asprilla,COL,Girona ,21,63,ST,10,0,0,0,18000000,1
+Portu,ESP,Girona ,32,68,ST,24,0,0,0,2500000,1
+Abel Ruiz,ESP,Girona ,25,67,ST,9,0,0,0,6000000,1
+Bojan Moivski,MKD,Girona ,25,63,ST,19,0,0,0,3000000,1
+Christhian Stuani,URY,Girona ,38,67,ST,7,0,0,0,1200000,1
+Augusto Batalla,ARG,Rayo Vallecano,28,66,GK,13,0,0,0,6000000,1
+Dani Cardenas,ESP,Rayo Vallecano,28,64,GK,1,0,0,0,1800000,1
+Abdul Mumin,GHA,Rayo Vallecano,26,67,DF,16,0,0,0,5000000,1
+Florian Lejuene,FRA,Rayo Vallecano,33,70,DF,24,0,0,0,2800000,1
+Pelayo Fernandez,ESP,Rayo Vallecano,21,50,DF,27,0,0,0,500000,1
+Aridane Hernandez,ESP,Rayo Vallecano,36,64,DF,5,0,0,0,400000,1
+Pep Chavarria,ESP,Rayo Vallecano,27,65,DF,3,0,0,0,3500000,1
+Alfonso Espino,URY,Rayo Vallecano,33,67,DF,22,0,0,0,1500000,1
+Andrei Ratiu,ROU,Rayo Vallecano,26,62,DF,2,0,0,0,12000000,1
+Ivan Balliu,ALB,Rayo Vallecano,33,67,DF,20,0,0,0,1500000,1
+Gerard Gumbau,ESP,Rayo Vallecano,30,66,MF,15,0,0,0,2000000,1
+Oscar Valentin,ESP,Rayo Vallecano,30,67,MF,23,0,0,0,3500000,1
+Unai Lopez,ESP,Rayo Vallecano,29,67,MF,17,0,0,0,2800000,1
+Pedro Diaz,ESP,Rayo Vallecano,26,63,MF,4,0,0,0,2500000,1
+Pathe Ciss,SEN,Rayo Vallecano,31,67,MF,6,0,0,0,2000000,1
+Randy Nteka,AGO,Rayo Vallecano,27,64,MF,11,0,0,0,1500000,1
+Joni Montiel,ESP,Rayo Vallecano,26,60,MF,25,0,0,0,900000,1
+Oscar Trejo,ARG,Rayo Vallecano,36,69,MF,8,0,0,0,800000,1
+Alvaro Garcia,ESP,Rayo Vallecano,32,72,ST,18,0,0,0,2500000,1
+Jorge de Frutos,ESP,Rayo Vallecano,28,66,ST,19,0,0,0,4000000,1
+Adrian Embarba,ESP,Rayo Vallecano,32,67,ST,21,0,0,0,1500000,1
+Isi Palazon,ESP,Rayo Vallecano,30,70,ST,7,0,0,0,4000000,1
+Sergio Camello,ESP,Rayo Vallecano,24,65,ST,14,0,0,0,3500000,1
+Raul de Tomas,ESP,Rayo Vallecano,30,68,ST,9,0,0,0,800000,1
+Sergi Guardiola,ESP,Rayo Vallecano,33,63,ST,12,0,0,0,600000,1
+Ivan Villar,ESP,Celta Vigo,27,66,GK,1,0,0,0,900000,1
+Vicente Guaita,ESP,Celta Vigo,38,68,GK,13,0,0,0,800000,1
+Javi Rodriguez,ESP,Celta Vigo,21,32,DF,32,0,0,0,10000000,1
+Carl Starfelt,SWE,Celta Vigo,29,67,DF,2,0,0,0,6000000,1
+Carlos Dominguez,ESP,Celta Vigo,24,64,DF,24,0,0,0,2500000,1
+Marcos Alonso,ESP,Celta Vigo,34,72,DF,20,0,0,0,1800000,1
+Mihailo Ristic,SRB,Celta Vigo,29,65,DF,21,0,0,0,900000,1
+Oscar Mingueza,ESP,Celta Vigo,25,68,DF,3,0,0,0,20000000,1
+Sergio Carreira,ESP,Celta Vigo,24,64,DF,5,0,0,0,3000000,1
+Javier Manquillo,ESP,Celta Vigo,30,65,DF,22,0,0,0,1800000,1
+Damian Rodriguez,ESP,Celta Vigo,22,48,MF,25,0,0,0,3000000,1
+Jailson,BRA,Celta Vigo,29,62,MF,16,0,0,0,1500000,1
+Fran Beltran,ESP,Celta Vigo,26,68,MF,8,0,0,0,6000000,1
+Hugo Sotelo,ESP,Celta Vigo,21,60,MF,4,0,0,0,5000000,1
+Ilaix Moriba,GIN,Celta Vigo,22,63,MF,6,0,0,0,4000000,1
+Hugo Alvarez,ESP,Celta Vigo,21,54,ST,23,0,0,0,7500000,1
+Williot Swedberg,SWE,Celta Vigo,21,63,ST,19,0,0,0,5000000,1
+Alfon Gonzalez,ESP,Celta Vigo,25,30,ST,12,0,0,0,2000000,1
+Franco Cervi,ARG,Celta Vigo,30,64,ST,11,0,0,0,900000,1
+Fer Lopez,ESP,Celta Vigo,20,43,ST,28,0,0,0,1500000,1
+Iker Losada,ESP,Celta Vigo,23,58,ST,14,0,0,0,1800000,1
+Pablo Duran,ESP,Celta Vigo,23,47,ST,18,0,0,0,3500000,1
+Borja Iglesias,ESP,Celta Vigo,32,72,ST,7,0,0,0,3000000,1
+Iago Aspas,ESP,Celta Vigo,37,77,ST,10,0,0,0,2500000,1
+Joan Garcia,ESP,Espanyol,23,60,GK,1,0,0,0,20000000,1
+Fernando Pacheco,ESP,Espanyol,32,70,GK,13,0,0,0,900000,1
+Angel Fortuno,ESP,Espanyol,23,50,GK,33,0,0,0,300000,1
+Marash Kumbulla,ALB,Espanyol,25,64,DF,4,0,0,0,6000000,1
+Fernando Calero,ESP,Espanyol,29,65,DF,5,0,0,0,1500000,1
+Leandro Cabrera,URY,Espanyol,33,68,DF,6,0,0,0,1000000,1
+Sergi Gomez,ESP,Espanyol,33,64,DF,3,0,0,0,900000,1
+Pablo Ramon,ESP,Espanyol,23,58,DF,24,0,0,0,200000,1
+Carlos Romero,ESP,Espanyol,23,60,DF,22,0,0,0,3000000,1
+Brian Olivian,ESP,Espanyol,31,63,DF,14,0,0,0,2000000,1
+Omar El Hilali,MAR,Espanyol,21,58,DF,23,0,0,0,10000000,1
+Alvaro Tejero,ESP,Espanyol,28,63,DF,12,0,0,0,2000000,1
+Urko Gonzalez de Zarate,ESP,Espanyol,24,55,MF,19,0,0,0,1500000,1
+Alex Kral,CZE,Espanyol,26,66,MF,20,0,0,0,6000000,1
+Pol Lozano,ESP,Espanyol,25,61,MF,10,0,0,0,4000000,1
+Jose Gragera,ESP,Espanyol,24,62,MF,15,0,0,0,2000000,1
+Alvaro Aguado,ESP,Espanyol,28,67,MF,18,0,0,0,2000000,1
+Edu Exposito,ESP,Espanyol,28,67,MF,8,0,0,0,1500000,1
+Justin Smith,CAN,Espanyol,22,48,MF,40,0,0,0,300000,1
+Rafel Bauza,ESP,Espanyol,20,38,MF,35,0,0,0,200000,1
+Javi Puado,ESP,Espanyol,26,66,ST,7,0,0,0,8000000,1
+Pere Milla,ESP,Espanyol,32,67,ST,11,0,0,0,1500000,1
+Jofre Carreras,ESP,Espanyol,23,59,ST,17,0,0,0,4000000,1
+Antoniu Roca,ESP,Espanyol,22,39,ST,31,0,0,0,1500000,1
+Roberto Fernandez,ESP,Espanyol,22,58,ST,2,0,0,0,4000000,1
+Walid Cheddira,MAR,Espanyol,27,63,ST,16,0,0,0,3000000,1
+Alejo Veliz,ARG,Espanyol,21,63,ST,9,0,0,0,2800000,1
+Omar Sadik,MAR,Espanyol,21,35,ST,34,0,0,0,500000,1
+Dominik Grief,SVK,Mallorca,28,63,GK,1,0,0,0,6000000,1
+Leo Roman,ESP,Mallorca,24,58,GK,13,0,0,0,2500000,1
+Ivan Cuellar,ESP,Mallorca,40,61,GK,25,0,0,0,100000,1
+Martin Valjent,SVK,Mallorca,29,66,DF,24,0,0,0,6000000,1
+Jose Copete,ESP,Mallorca,25,64,DF,6,0,0,0,2800000,1
+Antonio Raillo,ESP,Mallorca,33,67,DF,21,0,0,0,2000000,1
+David Lopez,ESP,Mallorca,22,71,DF,32,0,0,0,500000,1
+Johan Mojica,COL,Mallorca,32,68,DF,22,0,0,0,2200000,1
+Toni Lato,ESP,Mallorca,27,63,DF,3,0,0,0,2000000,1
+Pablo Maffeo,ARG,Mallorca,27,69,DF,23,0,0,0,5000000,1
+Mateu Morey,ESP,Mallorca,25,60,DF,2,0,0,0,800000,1
+Samu Costa,PRT,Mallorca,24,69,MF,12,0,0,0,15000000,1
+Omar Mascarell,GNQ,Mallorca,32,67,MF,5,0,0,0,900000,1
+Sergi Darder,ESP,Mallorca,31,73,MF,10,0,0,0,4000000,1
+Manu Morlanes,ESP,Mallorca,26,68,MF,8,0,0,0,2500000,1
+Antonio Sanchez,ESP,Mallorca,27,65,MF,18,0,0,0,2500000,1
+Robert Navarro,ESP,Mallorca,23,64,MF,27,0,0,0,6000000,1
+Dani Rodriguez,ESP,Mallorca,36,65,MF,14,0,0,0,900000,1
+Chiquinho,PRT,Mallorca,25,63,ST,20,0,0,0,2500000,1
+Takuma Asano,JPN,Mallorca,30,64,ST,11,0,0,0,2500000,1
+Valery Fernandez,ESP,Mallorca,25,63,ST,16,0,0,0,2500000,1
+Vedat Muriqi,XKX,Mallorca,30,71,ST,7,0,0,0,8000000,1
+Cyle Larin,CAN,Mallorca,29,65,ST,17,0,0,0,3500000,1
+Abdon Prats,ESP,Mallorca,32,66,ST,9,0,0,0,1500000,1
+Fran Vieites,ESP,Real Betis,25,50,GK,25,0,0,0,800000,1
+Adrian,ESP,Real Betis,38,64,GK,13,0,0,0,500000,1
+Natan,BRA,Real Betis,24,70,DF,6,0,0,0,9000000,1
+Diego Llorente,ESP,Real Betis,31,70,DF,3,0,0,0,6000000,1
+Marc Bartra,ESP,Real Betis,34,70,DF,5,0,0,0,1000000,1
+Romain Perraud,FRA,Real Betis,27,64,DF,15,0,0,0,5000000,1
+Ricardo Rodriguez,CHE,Real Betis,32,70,DF,12,0,0,0,2500000,1
+Aitor Ruibal,ESP,Real Betis,29,68,DF,24,0,0,0,3500000,1
+Hector Bellerin,ESP,Real Betis,30,71,DF,2,0,0,0,3000000,1
+Angel Ortiz,ESP,Real Betis,20,44,DF,40,0,0,0,2500000,1
+Youssouf Sabaly,SEN,Real Betis,32,70,DF,23,0,0,0,2000000,1
+Johnny Cardoso,USA,Real Betis,23,64,MF,4,0,0,0,20000000,1
+Marc Roca,ESP,Real Betis,28,71,MF,21,0,0,0,8000000,1
+William Carvalho,PRT,Real Betis,33,74,MF,14,0,0,0,2000000,1
+Giovani Lo Celso,ARG,Real Betis,29,70,MF,20,0,0,0,20000000,1
+Sergi Altimira,ESP,Real Betis,23,63,MF,16,0,0,0,10000000,1
+Mateo Flores,ESP,Real Betis,21,41,MF,46,0,0,0,1000000,1
+Pablo Fornals,ESP,Real Betis,29,68,MF,18,0,0,0,6000000,1
+Isco,ESP,Real Betis,32,75,MF,22,0,0,0,6000000,1
+Abde Ezzalzouli,MAR,Real Betis,23,50,ST,10,0,0,0,12000000,1
+Jesus Rodriguez,ESP,Real Betis,19,45,ST,36,0,0,0,10000000,1
+Antony,BRA,Real Betis,25,71,ST,7,0,0,0,20000000,1
+Cucho Hernandez,COL,Real Betis,25,69,ST,19,0,0,0,18000000,1
+Chimy Avila,ARG,Real Betis,31,70,ST,9,0,0,0,2500000,1
+Cedric Bakambu,COD,Real Betis,34,65,ST,11,0,0,0,1800000,1
+Thibaut Courtois,BEL,Real Madrid,32,91,GK,1,0,0,0,25000000,1
+Andriy Lunin,UKR,Real Madrid,26,73,GK,13,0,0,0,20000000,1
+Fran Gonzalez,ESP,Real Madrid,19,38,GK,26,0,0,0,400000,1
+Eder Militao,BRA,Real Madrid,27,84,DF,3,0,0,0,40000000,1
+Raul Asencio,ESP,Real Madrid,22,50,DF,35,0,0,0,30000000,1
+Antonio Rudiger,DEU,Real Madrid,32,83,DF,22,0,0,0,24000000,1
+David Alaba,AUT,Real Madrid,32,80,DF,4,0,0,0,10000000,1
+Jesus Vallejo,ESP,Real Madrid,28,66,DF,18,0,0,0,1000000,1
+Ferland Mendy,FRA,Real Madrid,29,78,DF,23,0,0,0,18000000,1
+Fran Garcia,ESP,Real Madrid,25,68,DF,20,0,0,0,15000000,1
+Daniel Carvajal,ESP,Real Madrid,33,78,DF,2,0,0,0,10000000,1
+Lucas Vazquez,ESP,Real Madrid,33,73,DF,17,0,0,0,3500000,1
+Aurelien Tchouameni,FRA,Real Madrid,25,80,MF,14,0,0,0,80000000,1
+Federico Valverde,URY,Real Madrid,26,88,MF,8,0,0,0,130000000,1
+Eduardo Camavinga,FRA,Real Madrid,22,85,MF,6,0,0,0,70000000,1
+Dani Ceballos,ESP,Real Madrid,28,75,MF,19,0,0,0,10000000,1
+Luka Modric,HRV,Real Madrid,39,86,MF,10,0,0,0,5000000,1
+Jude Bellingham,ENG,Real Madrid,21,90,MF,5,0,0,0,180000000,1
+Vinicius Junior,BRA,Real Madrid,24,93,ST,7,0,0,0,200000000,1
+Rodrygo,BRA,Real Madrid,24,85,ST,11,0,0,0,100000000,1
+Arda Guler,TUR,Real Madrid,20,63,ST,15,0,0,0,45000000,1
+Brahim Diaz,MAR,Real Madrid,25,75,ST,21,0,0,0,45000000,1
+Kylian Mbappe,FRA,Real Madrid,26,94,ST,9,0,0,0,170000000,1
+Endrick,BRA,Real Madrid,18,65,ST,16,0,0,0,40000000,1
+Alex Remiro,ESP,Real Sociedad,30,75,GK,1,0,0,0,25000000,1
+Unai Marrero,ESP,Real Sociedad,23,52,GK,13,0,0,0,600000,1
+Nayef Aguerd,MAR,Real Sociedad,29,70,DF,21,0,0,0,25000000,1
+Igor Zubeldia,ESP,Real Sociedad,28,72,DF,5,0,0,0,18000000,1
+Jon Pacheco,ESP,Real Sociedad,24,63,DF,20,0,0,0,7500000,1
+Aritz Elustondo,ESP,Real Sociedad,31,73,DF,6,0,0,0,4000000,1
+Jon Martin,ESP,Real Sociedad,18,54,DF,31,0,0,0,2000000,1
+Javi Lopez,ESP,Real Sociedad,23,63,DF,12,0,0,0,7500000,1
+Aihen Munoz,ESP,Real Sociedad,27,68,DF,3,0,0,0,5000000,1
+Jon Aramburu,VEN,Real Sociedad,22,55,DF,19,0,0,0,12000000,1
+Hamari Traore,MLI,Real Sociedad,33,68,DF,18,0,0,0,3000000,1
+Alvaro Odriozola,ESP,Real Sociedad,29,70,DF,2,0,0,0,1200000,1
+Martin Zubimendi,ESP,Real Sociedad,26,75,MF,4,0,0,0,60000000,1
+Luka Susic,HRV,Real Sociedad,22,65,MF,24,0,0,0,18000000,1
+Benat Turrientes,ESP,Real Sociedad,23,66,MF,22,0,0,0,16000000,1
+Jon Ander Olasagasti,ESP,Real Sociedad,24,58,MF,16,0,0,0,2500000,1
+Brais Mendez,ESP,Real Sociedad,28,74,MF,23,0,0,0,28000000,1
+Arsen Zakharyan,RUS,Real Sociedad,21,63,MF,8,0,0,0,15000000,1
+Pablo Marin,ESP,Real Sociedad,21,56,MF,28,0,0,0,3000000,1
+Ander Barrenetxea,ESP,Real Sociedad,23,73,ST,7,0,0,0,18000000,1
+Sheraldo Becker,SUR,Real Sociedad,30,69,ST,11,0,0,0,4000000,1
+Arkaitz Mariezkurrena,ESP,Real Sociedad,20,43,ST,40,0,0,0,500000,1
+Takefusa Kubo,JPN,Real Sociedad,23,75,ST,14,0,0,0,40000000,1
+Sergio Gomez,ESP,Real Sociedad,24,66,ST,17,0,0,0,20000000,1
+Mikel Oyazarbal,ESP,Real Sociedad,27,77,ST,10,0,0,0,30000000,1
+Orri Oskarsson,ISL,Real Sociedad,20,58,ST,9,0,0,0,18000000,1
+Karl Hein,EST,Real Valladolid,23,60,GK,13,0,0,0,3000000,1
+Andre Ferreira,PRT,Real Valladolid,28,61,GK,1,0,0,0,800000,1
+Eray Comert,CHE,Real Valladolid,27,63,DF,15,0,0,0,2500000,1
+Javi Sanchez,ESP,Real Valladolid,28,66,DF,5,0,0,0,1800000,1
+Cenk Ozkacar,TUR,Real Valladolid,24,64,DF,6,0,0,0,1500000,1
+David Torres,ESP,Real Valladolid,22,58,DF,3,0,0,0,1400000,1
+Joseph Aidoo,GHA,Real Valladolid,29,67,DF,16,0,0,0,1400000,1
+Adam Aznou,MAR,Real Valladolid,18,47,DF,39,0,0,0,3000000,1
+Henrique Silva,BRA,Real Valladolid,30,41,DF,17,0,0,0,600000,1
+Antonio Candela,ITA,Real Valladolid,24,61,DF,22,0,0,0,2000000,1
+Luis Perez,ESP,Real Valladolid,30,63,DF,2,0,0,0,1500000,1
+Florian Grillitsch,AUT,Real Valladolid,29,69,MF,8,0,0,0,3000000,1
+Mario Martin,ESP,Real Valladolid,21,55,MF,12,0,0,0,1500000,1
+Stanko Juric,HRV,Real Valladolid,28,61,MF,20,0,0,0,1500000,1
+Tamas Nikitscher,HUN,Real Valladolid,25,50,MF,4,0,0,0,1000000,1
+Selim Amallah,MAR,Real Valladolid,28,65,MF,21,0,0,0,1800000,1
+Chuki,ESP,Real Valladolid,20,43,MF,28,0,0,0,1000000,1
+Raul Moro,ESP,Real Valladolid,22,57,ST,11,0,0,0,5000000,1
+Darwin Machis ,VEN,Real Valladolid,32,66,ST,18,0,0,0,1000000,1
+Kenedy,BRA,Real Valladolid,29,63,ST,24,0,0,0,300000,1
+Amath Ndiaye,SEN,Real Valladolid,28,64,ST,19,0,0,0,1000000,1
+Anuar,MAR,Real Valladolid,30,59,ST,23,0,0,0,900000,1
+Ivan Sanchez,ESP,Real Valladolid,32,63,ST,10,0,0,0,600000,1
+Juanmi Latasa,ESP,Real Valladolid,24,63,ST,14,0,0,0,2500000,1
+Mamadou Sylla,SEN,Real Valladolid,31,61,ST,7,0,0,0,1500000,1
+Marcos Andre,BRA,Real Valladolid,28,62,ST,9,0,0,0,1200000,1
+Alvaro Fernandez,ESP,Sevilla,27,69,GK,1,0,0,0,2500000,1
+Orjan Nyland,NOR,Sevilla,34,65,GK,13,0,0,0,1000000,1
+Loic Bade ,FRA,Sevilla,25,67,DF,22,0,0,0,30000000,1
+Kike Salas,ESP,Sevilla,22,63,DF,4,0,0,0,8000000,1
+Marcao,BRA,Sevilla,28,72,DF,23,0,0,0,3000000,1
+Tanguy Nianzou,FRA,Sevilla,22,67,DF,24,0,0,0,3000000,1
+Adria Pedrosa,ESP,Sevilla,26,67,DF,3,0,0,0,7000000,1
+Jose Angel Carmona,ESP,Sevilla,23,63,DF,2,0,0,0,12000000,1
+Juanlu Sanchez,ESP,Sevilla,21,62,DF,26,0,0,0,12000000,1
+Lucien Agoume,FRA,Sevilla,23,61,MF,18,0,0,0,7000000,1
+Nemanja Gudelj,SRB,Sevilla,33,70,MF,6,0,0,0,3500000,1
+Albert Sambi Lokonga,BEL,Sevilla,25,69,MF,12,0,0,0,9000000,1
+Djibril Sow,CHE,Sevilla,28,69,MF,20,0,0,0,7500000,1
+Saul Niguez,ESP,Sevilla,30,71,MF,17,0,0,0,3500000,1
+Manu Bueno,ESP,Sevilla,20,53,MF,28,0,0,0,1500000,1
+Stanis Idumbo,BEL,Sevilla,19,55,MF,27,0,0,0,2500000,1
+Ruben Vargas,CHE,Sevilla,26,66,ST,5,0,0,0,7000000,1
+Chidera Ejuke,NGA,Sevilla,27,65,ST,21,0,0,0,6000000,1
+Dodi Lukebakio,BEL,Sevilla,27,70,ST,11,0,0,0,25000000,1
+Suso,ESP,Sevilla,31,71,ST,10,0,0,0,2500000,1
+Peque Fernandez,ESP,Sevilla,22,62,ST,14,0,0,0,3500000,1
+Isaac Romero,ESP,Sevilla,24,65,ST,7,0,0,0,10000000,1
+Akor Adams,NGA,Sevilla,25,62,ST,15,0,0,0,7500000,1
+Dinko Horkas,HRV,Las Palmas,26,60,GK,13,0,0,0,1200000,1
+Jasper Cillessen,NLD,Las Palmas,35,63,GK,1,0,0,0,900000,1
+Mika Marmol,ESP,Las Palmas,23,68,DF,3,0,0,0,12000000,1
+Scott McKenna,SCO,Las Palmas,28,64,DF,15,0,0,0,5000000,1
+Juanma Herzog,ESP,Las Palmas,20,49,DF,28,0,0,0,1500000,1
+Alex Suarez,ESP,Las Palmas,32,62,DF,4,0,0,0,1000000,1
+Alex Munoz,ESP,Las Palmas,30,64,DF,23,0,0,0,1200000,1
+Andy Pelmard,FRA,Las Palmas,25,63,DF,6,0,0,0,2500000,1
+Viti Rozada,ESP,Las Palmas,27,,DF,18,0,0,0,2500000,1
+Marvin Park,ESP,Las Palmas,24,63,DF,2,0,0,0,1500000,1
+Dario Essugo,PRT,Las Palmas,20,56,MF,29,0,0,0,15000000,1
+Stefan Bajcetic,ESP,Las Palmas,20,60,MF,21,0,0,0,9000000,1
+Javi Munoz,ESP,Las Palmas,30,67,MF,5,0,0,0,2500000,1
+Enzo Loiodice,FRA,Las Palmas,24,65,MF,12,0,0,0,1500000,1
+Jose Campana,ESP,Las Palmas,31,70,MF,8,0,0,0,1000000,1
+Alberto Moleiro,ESP,Las Palmas,21,66,MF,10,0,0,0,25000000,1
+Kirian Rodriguez,ESP,Las Palmas,29,70,MF,20,0,0,0,12000000,1
+Manu Fuster,ESP,Las Palmas,27,65,ST,14,0,0,0,1500000,1
+Benito Ramirez,ESP,Las Palmas,29,59,ST,11,0,0,0,800000,1
+Adnan Januzaj,BEL,Las Palmas,30,65,ST,24,0,0,0,1200000,1
+Fabio Silva,PRT,Las Palmas,22,64,ST,37,0,0,0,20000000,1
+Oli McBurnie,SCO,Las Palmas,28,63,ST,16,0,0,0,2500000,1
+Sandro Ramirez,ESP,Las Palmas,29,70,ST,19,0,0,0,2500000,1
+Marc Cardona,ESP,Las Palmas,29,61,ST,9,0,0,0,900000,1
+Jaime Mata,ESP,Las Palmas,36,63,ST,17,0,0,0,600000,1
+Giorgi Mamardashvili,GEO,Valencia,24,75,GK,25,0,0,0,30000000,1
+Stole Dimitrievski,MKD,Valencia,31,70,GK,13,0,0,0,3000000,1
+Jaume Domenech,ESP,Valencia,34,66,GK,1,0,0,0,600000,1
+Cristhian Mosquera,ESP,Valencia,20,65,DF,3,0,0,0,30000000,1
+Yarek Gasiorowski,ESP,Valencia,20,55,DF,24,0,0,0,12000000,1
+Cesar Tarrega,ESP,Valencia,23,53,DF,15,0,0,0,6000000,1
+Mouctar Diakhaby,GIN,Valencia,28,71,DF,4,0,0,0,2000000,1
+Jose Gaya,ESP,Valencia,29,79,DF,14,0,0,0,15000000,1
+Jesus Vazquez,ESP,Valencia,22,62,DF,21,0,0,0,3000000,1
+Max Aarons,ENG,Valencia,25,65,DF,19,0,0,0,12000000,1
+Thierry Correia,PRT,Valencia,26,69,DF,26,0,0,0,6000000,1
+Dimitri Foulquier,GLP,Valencia,32,64,DF,20,0,0,0,2000000,1
+Pepelu,ESP,Valencia,26,69,MF,18,0,0,0,12000000,1
+Enzo Barrenechea,ARG,Valencia,23,64,MF,5,0,0,0,7500000,1
+Hugo Guillamon,ESP,Valencia,25,67,MF,6,0,0,0,5000000,1
+Javi Guerra,ESP,Valencia,21,70,MF,8,0,0,0,20000000,1
+Andre Almeida,PRT,Valencia,24,68,MF,10,0,0,0,8000000,1
+Ivan Jaime,ESP,Valencia,24,68,MF,17,0,0,0,7000000,1
+Martin Tejon,ESP,Valencia,21,43,MF,32,0,0,0,500000,1
+Luis Rioja,ESP,Valencia,31,69,ST,22,0,0,0,2000000,1
+Sergi Canos,ESP,Valencia,28,63,ST,7,0,0,0,1500000,1
+Diego Lopez,ESP,Valencia,22,66,ST,16,0,0,0,10000000,1
+Fran Perez,ESP,Valencia,22,64,ST,23,0,0,0,4000000,1
+Hugo Duro,ESP,Valencia,25,69,ST,9,0,0,0,10000000,1
+Umar Sadiq,NGA,Valencia,28,71,ST,12,0,0,0,5000000,1
+Rafa Mir,ESP,Valencia,27,65,ST,11,0,0,0,800000,1
+Diego Conde,ESP,Villarreal ,26,54,GK,13,0,0,0,10000000,1
+Luiz Junior,BRA,Villarreal ,24,65,GK,1,0,0,0,5000000,1
+Iker Alvarez,AND,Villarreal ,23,57,GK,31,0,0,0,800000,1
+Logan Costa,CPV,Villarreal ,24,62,DF,2,0,0,0,15000000,1
+Willy Kambwala,FRA,Villarreal ,20,55,DF,5,0,0,0,4000000,1
+Eric Bailly,CIV,Villarreal ,31,65,DF,4,0,0,0,2500000,1
+Raul Albiol,ESP,Villarreal ,39,74,DF,3,0,0,0,1300000,1
+Pau Navarro,ESP,Villarreal ,19,33,DF,26,0,0,0,1000000,1
+Sergi Cardona,ESP,Villarreal ,25,68,DF,23,0,0,0,8000000,1
+Alfonso Pedrazza,ESP,Villarreal ,29,72,DF,24,0,0,0,2500000,1
+Juan Foyth,ARG,Villarreal ,27,73,DF,8,0,0,0,10000000,1
+Kiko Femenia,ESP,Villarreal ,34,69,DF,17,0,0,0,1200000,1
+Pape Gueye,SEN,Villarreal ,26,63,MF,18,0,0,0,10000000,1
+Santi Comesana,ESP,Villarreal ,28,70,MF,14,0,0,0,8000000,1
+Dani Parejo,ESP,Villarreal ,35,74,MF,10,0,0,0,2000000,1
+Denis Suarez,ESP,Villarreal ,31,73,MF,6,0,0,0,1300000,1
+Alex Baena,ESP,Villarreal ,23,72,ST,16,0,0,0,50000000,1
+Yeremy Pino,ESP,Villarreal ,22,71,ST,21,0,0,0,30000000,1
+Ilias Akhomach,MAR,Villarreal ,20,63,ST,11,0,0,0,15000000,1
+Tajon Buchanan,CAN,Villarreal ,26,64,ST,9,0,0,0,6000000,1
+Nicolas Pepe,CIV,Villarreal ,29,68,ST,19,0,0,0,6000000,1
+Thierno Barry,FRA,Villarreal ,22,55,ST,15,0,0,0,14000000,1
+Ayoze Perez,ESP,Villarreal ,31,71,ST,22,0,0,0,10000000,1
+Gerard Moreno,ESP,Villarreal ,33,77,ST,7,0,0,0,5000000,1

@@ -21,9 +21,10 @@ public class Player {
     private int yellowCards;
     private int redCards;
     private int value;
+    private double energy;
 
     public Player(String name, String nationality, String team, int age, int skillRating,
-                  String position, int number, int goals, int yellowCards, int redCards, int value) {
+                  String position, int number, int goals, int yellowCards, int redCards, int value, double energy) {
         this.name = name;
         this.nationality = nationality;
         this.team = team;
@@ -35,6 +36,7 @@ public class Player {
         this.yellowCards = yellowCards;
         this.redCards = redCards;
         this.value = value;
+        this.energy = energy;
     }
 
     public String getName() {
@@ -79,6 +81,10 @@ public class Player {
     
     public int getValue() {
         return value;
+    }
+    
+    public double getEnergy() {
+        return energy;
     }
 }
 /*

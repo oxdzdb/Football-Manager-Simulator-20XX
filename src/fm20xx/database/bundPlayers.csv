@@ -1,505 +1,505 @@
-Name,Nationality,Team,Age,Skill Rating,Position,Number,Goals,Yellow Cards,Red Cards,Value
-Matej Kovar,CZE,Bayer Leverkusen,24,66,GK,17,0,0,0,7000000
-Lucas Hradecky,FIN,Bayer Leverkusen,35,73,GK,1,0,0,0,2000000
-Niklas Lomb,DEU,Bayer Leverkusen,31,51,GK,36,0,0,0,250000
-Luca Novodomsky,DEU,Bayer Leverkusen,19,39,GK,48,0,0,0,0
-Piero Hincapie,ECU,Bayer Leverkusen,23,69,DF,3,0,0,0,50000000
-Edmond Tapsoba,BFA,Bayer Leverkusen,26,74,DF,12,0,0,0,40000000
-Jonathan Tah,GER,Bayer Leverkusen,29,76,DF,4,0,0,0,30000000
-Jeanuel Belocian,FRA,Bayer Leverkusen,20,58,DF,44,0,0,0,15000000
-Mario Hermoso,ESP,Bayer Leverkusen,29,72,DF,5,0,0,0,10000000
-Alejandro Grimaldo,ESP,Bayer Leverkusen,29,79,DF,20,0,0,0,40000000
-Nordi Mukiele,FRA,Bayer Leverkusen,27,71,DF,23,0,0,0,10000000
-Arthur,BRA,Bayer Leverkusen,22,59,DF,13,0,0,0,7000000
-Granit Xhaka,CHE,Bayer Leverkusen,32,76,MF,34,0,0,0,17000000
-Robert Andrich,DEU,Bayer Leverkusen,30,70,MF,8,0,0,0,15000000
-Exequiel Palacios,ARG,Bayer Leverkusen,26,74,MF,25,0,0,0,40000000
-Aleix Garcia,ESP,Bayer Leverkusen,27,73,MF,24,0,0,0,20000000
-Jeremie Frimpong,NLD,Bayer Leverkusen,24,75,MF,30,0,0,0,50000000
-Nathan Tella,NGA,Bayer Leverkusen,25,68,MF,19,0,0,0,18000000
-Florian Wirtz,DEU,Bayer Leverkusen,21,78,MF,10,0,0,0,140000000
-Emiliano Buendia,ARG,Bayer Leverkusen,28,72,MF,16,0,0,0,18000000
-Jonas Hoffmann,DEU,Bayer Leverkusen,32,75,MF,7,0,0,0,3000000
-Amine Adli,MAR,Bayer Leverkusen,24,68,ST,21,0,0,0,22000000
-Martin Terrier,FRA,Bayer Leverkusen,28,74,ST,11,0,0,0,17000000
-Victor Boniface,NGA,Bayer Leverkusen,24,73,ST,22,0,0,0,45000000
-Patrik Schick,CZE,Bayer Leverkusen,29,73,ST,14,0,0,0,27000000
-Alejo Sarco,ARG,Bayer Leverkusen,19,46,ST,18,0,0,0,800000
-Alexander Nubel,DEU,Stuttgart,28,69,GK,33,0,0,0,12000000
-Dennis Siemen,DEU,Stuttgart,19,53,GK,41,0,0,0,1500000
-Fabian Bredlow,DEU,Stuttgart,30,59,GK,1,0,0,0,1000000
-Stefan Drijaca,DEU,Stuttgart,25,57,GK,21,0,0,0,325000
-Jeff Chabot,DEU,Stuttgart,27,67,DF,24,0,0,0,12000000
-Finn Jeltsch,DEU,Stuttgart,18,46,DF,29,0,0,0,12000000
-Ameen Al-Dakhil,BEL,Stuttgart,23,61,DF,2,0,0,0,7500000
-Luca Jaquez,CHE,Stuttgart,21,48,DF,14,0,0,0,6000000
-Dan-Axel Zagadou,FRA,Stuttgart,25,67,DF,23,0,0,0,6000000
-Anrie Chase,JPN,Stuttgart,21,43,DF,45,0,0,0,4000000
-Maximilian Mittelstadt,DEU,Stuttgart,28,68,DF,7,0,0,0,20000000
-Ramon Hendriks,NLD,Stuttgart,23,55,DF,3,0,0,0,5000000
-Josha Vagnoman,DEU,Stuttgart,24,68,DF,4,0,0,0,12000000
-Leonidas Stergiou,CHE,Stuttgart,23,61,DF,20,0,0,0,5000000
-Pascal Stenzel,DEU,Stuttgart,29,64,MF,15,0,0,0,2500000
-Angelo Stiller,DEU,Stuttgart,24,66,MF,6,0,0,0,38000000
-Atakan Karazor,TUR,Stuttgart,28,68,MF,16,0,0,0,12000000
-Yannik Keitel,DEU,Stuttgart,25,63,MF,5,0,0,0,3500000
-Nikolas Nartey,DMK,Stuttgart,25,59,MF,28,0,0,0,400000
-Enzo Millot,FRA,Stuttgart,22,64,ST,8,0,0,0,35000000
-Chris Fuhrich,DEU,Stuttgart,27,69,ST,27,0,0,0,18000000
-Jacob Bruun Larsen,DMK,Stuttgart,26,65,ST,25,0,0,0,6000000
-Justin Diehl,DEU,Stuttgart,20,54,ST,17,0,0,0,3500000
-Jamie Leweling,DEU,Stuttgart,24,64,ST,18,0,0,0,20000000
-Fabian Rieder,CHE,Stuttgart,23,65,ST,32,0,0,0,7000000
-Luca Raimund,DEU,Stuttgart,20,49,ST,40,0,0,0,500000
-Nick Woltemade,DEU,Stuttgart,23,57,ST,11,0,0,0,17000000
-Ermedin Demirovic,BIH,Stuttgart,27,70,ST,9,0,0,0,22000000
-Deniz Unday,DEU,Stuttgart,28,71,ST,26,0,0,0,22000000
-El Bilal Toure,MLI,Stuttgart,23,68,ST,10,0,0,0,17000000
-Wahid Faghir,DMK,Stuttgart,21,55,ST,19,0,0,0,1000000
-Thomas Kastanaras,DEU,Stuttgart,22,55,ST,22,0,0,0,500000
-Jonas Urbig,DEU,Bayern Munich,21,59,GK,40,0,0,0,8000000
-Manuel Neuer,DEU,Bayern Munich,39,82,GK,1,0,0,0,4000000
-Daniel Peretz,ISR,Bayern Munich,24,64,GK,18,0,0,0,3000000
-Sven Ulreich,DEU,Bayern Munich,36,64,GK,26,0,0,0,500000
-Dayot Upamecano,FRA,Bayern Munich,26,79,DF,2,0,0,0,50000000
-Kim Min-Jae,KOR,Bayern Munich,28,81,DF,3,0,0,0,45000000
-Hiroki Ito,JPN,Bayern Munich,25,69,DF,21,0,0,0,30000000
-Eric Dier,ENG,Bayern Munich,31,67,DF,15,0,0,0,8000000
-Tarek Buchmann,DEU,Bayern Munich,20,50,DF,28,0,0,0,500000
-Alphonso Davies,CAN,Bayern Munich,24,78,DF,19,0,0,0,50000000
-Raphael Guerreiro,PRT,Bayern Munich,31,74,DF,22,0,0,0,10000000
-Josip Stanisic,HRV,Bayern Munich,25,68,DF,44,0,0,0,28000000
-Sacha Boey,FRA,Bayern Munich,24,70,DF,23,0,0,0,18000000
-Joshua Kimmich,DEU,Bayern Munich,30,88,MF,6,0,0,0,50000000
-Aleksandar Pavlovic,DEU,Bayern Munich,20,63,MF,45,0,0,0,50000000
-Joao Palhinha,PRT,Bayern Munich,29,78,MF,16,0,0,0,40000000
-Konrad Laimer,AUT,Bayern Munich,27,75,MF,27,0,0,0,25000000
-Leon Goretzka,DEU,Bayern Munich,30,79,MF,8,0,0,0,22000000
-Jamal Musiala,DEU,Bayern Munich,22,83,MF,42,0,0,0,140000000
-Kingsley Coman,FRA,Bayern Munich,28,81,ST,11,0,0,0,35000000
-Serge Gnabry,DEU,Bayern Munich,29,78,ST,7,0,0,0,25000000
-Michael Olise,FRA,Bayern Munich,23,75,ST,17,0,0,0,80000000
-Leroy Sane,DEU,Bayern Munich,29,85,ST,10,0,0,0,38000000
-Thomas Muller,DEU,Bayern Munich,35,78,ST,25,0,0,0,6000000
-Gabriel Vidovic,HRV,Bayern Munich,21,56,ST,24,0,0,0,3000000
-Harry Kane,ENG,Bayern Munich,31,94,ST,9,0,0,0,90000000
-Maarten Vandevoordt,BEL,RB Leipzig,23,61,GK,26,0,0,0,8000000
-Peter Gulacsi,HUN,RB Leipzig,34,68,GK,1,0,0,0,2500000
-Leopold Zingerle,DEU,RB Leipzig,31,58,GK,25,0,0,0,400000
-Castello Lukeba,FRA,RB Leipzig,22,70,DF,23,0,0,0,50000000
-El Chasaille Bitshaibu,FRA,RB Leipzig,19,60,DF,5,0,0,0,12000000
-Willi Orban,HUN,RB Leipzig,32,75,DF,4,0,0,0,10000000
-Lukas Klostermann,DEU,RB Leipzig,28,72,DF,16,0,0,0,8000000
-David Raum,DEU,RB Leipzig,26,74,DF,22,0,0,0,25000000
-Lutsharel Geertruida,NLD,RB Leipzig,24,73,DF,3,0,0,0,27000000
-Benjamin Henrichs,DEU,RB Leipzig,28,73,DF,39,0,0,0,17000000
-Kosta Nedeljkovic,SRB,RB Leipzig,19,55,DF,21,0,0,0,8500000
-Ridle Baku,DEU,RB Leipzig,27,68,DF,17,0,0,0,7000000
-Arthur Vermeeren,BEL,RB Leipzig,20,63,MF,18,0,0,0,22000000
-Amadou Haidara,MLI,RB Leipzig,27,72,MF,8,0,0,0,20000000
-Xaver Schlager,AUT,RB Leipzig,27,74,MF,24,0,0,0,18000000
-Nicolas Seiwald,AUT,RB Leipzig,23,68,MF,13,0,0,0,16000000
-Assan Ouedraogo,DEU,RB Leipzig,18,55,MF,20,0,0,0,10000000
-Kevin Kampl,SVN,RB Leipzig,34,72,MF,44,0,0,0,3000000
-Xavi Simons,NLD,RB Leipzig,21,74,MF,10,0,0,0,70000000
-Christoph Baumgartner,AUT,RB Leipzig,25,70,MF,14,0,0,0,15000000
-Viggo Gebel,DEU,RB Leipzig,17,40,MF,47,0,0,0,350000
-Antonio Nusa,NOR,RB Leipzig,19,59,ST,7,0,0,0,28000000
-Tidiam Gomis,FRA,RB Leipzig,18,43,ST,27,0,0,0,3000000
-Benjamin Sesko,SVN,RB Leipzig,21,68,ST,30,0,0,0,65000000
-Lois Openda,BEL,RB Leipzig,25,74,ST,11,0,0,0,60000000
-Yussuf Poulsen,DMK,RB Leipzig,30,68,ST,9,0,0,0,5000000
-Gregor Kobel,CHE,Dortmund,27,79,GK,1,0,0,0,40000000
-Marcel Lotka,DEU,Dortmund,23,59,GK,35,0,0,0,1300000
-Alexander Meyer,DEU,Dortmund,34,64,GK,33,0,0,0,800000
-Silas Ostrzinski,DEU,Dortmund,21,51,GK,31,0,0,0,200000
-Nico Schlotterbeck,DEU,Dortmund,25,73,DF,4,0,0,0,40000000
-Waldemar Anton,DEU,Dortmund,28,69,DF,3,0,0,0,18000000
-Niklas Sule,DEU,Dortmund,29,75,DF,25,0,0,0,8000000
-Filippo Mane,ITA,Dortmund,20,49,DF,39,0,0,0,600000
-Ramy Bensebaini,DZA,Dortmund,29,72,DF,5,0,0,0,7000000
-Daniel Svensson,SWE,Dortmund,23,58,DF,24,0,0,0,5500000
-Almugera Kabar,DEU,Dortmund,18,43,DF,42,0,0,0,1000000
-Yan Couto,BRA,Dortmund,22,76,DF,2,0,0,0,20000000
-Julian Ryerson,NOR,Dortmund,27,72,DF,26,0,0,0,20000000
-Emre Can,DEU,Dortmund,31,74,MF,23,0,0,0,7000000
-Salih Ozcan,TUR,Dortmund,27,70,MF,6,0,0,0,5000000
-Felix Nmecha,DEU,Dortmund,24,70,MF,8,0,0,0,28000000
-Carney Chukwuemeka,ENG,Dortmund,21,63,MF,17,0,0,0,15000000
-Marcel Sabitzer,AUT,Dortmund,31,75,MF,20,0,0,0,10000000
-Pascal Gross,DEU,Dortmund,33,75,MF,13,0,0,0,7000000
-Kjell Watjen,DEU,Dortmund,19,46,MF,38,0,0,0,2000000
-Julian Brandt,DEU,Dortmund,28,77,MF,10,0,0,0,25000000
-Giovanni Reyna,USA,Dortmund,22,68,MF,7,0,0,0,10000000
-Jamie Gittens,ENG,Dortmund,20,66,ST,43,0,0,0,50000000
-Julien Duranville,BEL,Dortmund,18,58,ST,16,0,0,0,8500000
-Karim Adeyemi,DEU,Dortmund,23,73,ST,27,0,0,0,40000000
-Cole Campbell,USA,Dortmund,19,42,ST,37,0,0,0,1500000
-Serhou Guirassy,GIN,Dortmund,29,78,ST,9,0,0,0,40000000
-Maximilian Beier,DEU,Dortmund,22,68,ST,14,0,0,0,25000000
-Kevin Trapp,DEU,Eintracht Frankfurt,34,70,GK,1,0,0,0,3000000
-Kaua Santos,BRA,Eintracht Frankfurt,22,,GK,40,0,0,0,2500000
-Jens Grahl,DEU,Eintracht Frankfurt,36,,GK,33,0,0,0,200000
-Arthur Theate,BEL,Eintracht Frankfurt,24,68,DF,3,0,0,0,24000000
-Robin Koch,DEU,Eintracht Frankfurt,28,69,DF,4,0,0,0,18000000
-Tuta,BRA,Eintracht Frankfurt,25,66,DF,35,0,0,0,15000000
-Nnamdi Collins,DEU,Eintracht Frankfurt,21,52,DF,34,0,0,0,10000000
-Aurele Amenda,CHE,Eintracht Frankfurt,21,60,DF,5,0,0,0,7500000
-Nathaniel Brown,DEU,Eintracht Frankfurt,21,59,DF,21,0,0,0,15000000
-Niels Nkounkou,FRA,Eintracht Frankfurt,24,63,DF,29,0,0,0,5000000
-Rasmus Kristensen,DMK,Eintracht Frankfurt,27,69,DF,13,0,0,0,10000000
-Timothy Chandler,USA,Eintracht Frankfurt,35,59,DF,22,0,0,0,350000
-Ellyes Skhiri,TUN,Eintracht Frankfurt,29,72,MF,15,0,0,0,9000000
-Hugo Larsson,SWE,Eintracht Frankfurt,20,62,MF,16,0,0,0,40000000
-Oscar Hojlund,DMK,Eintracht Frankfurt,20,55,MF,6,0,0,0,7500000
-Mahmoud Dahoud,SYR,Eintracht Frankfurt,29,67,MF,18,0,0,0,5000000
-Junior Dina Ebimbe,FRA,Eintracht Frankfurt,24,65,MF,26,0,0,0,7000000
-Can Uzun,TUR,Eintracht Frankfurt,19,58,MF,20,0,0,0,18000000
-Fares Chaibi,DZA,Eintracht Frankfurt,22,65,MF,8,0,0,0,9000000
-Mario Gotze,DEU,Eintracht Frankfurt,32,71,MF,27,0,0,0,5000000
-Krisztian Lisztes,HUN,Eintracht Frankfurt,19,48,MF,23,0,0,0,2000000
-Jean-Matteo Bahoya,FRA,Eintracht Frankfurt,19,54,ST,19,0,0,0,9000000
-Ansgar Knauff,DEU,Eintracht Frankfurt,23,64,ST,26,0,0,0,10000000
-Hugo Ekitike,FRA,Eintracht Frankfurt,22,65,ST,11,0,0,0,55000000
-Elye Wahi,FRA,Eintracht Frankfurt,22,67,ST,17,0,0,0,25000000
-Igor Matanovic,HRV,Eintracht Frankfurt,22,55,ST,9,0,0,0,6000000
-Michy Batshuayi,BEL,Eintracht Frankfurt,31,65,ST,30,0,0,0,5000000
-Oliver Baumann,DEU,Hoffenheim,34,68,GK,1,0,0,0,3000000
-Luca Philipp,DEU,Hoffenheim,24,56,GK,37,0,0,0,750000
-Jakob Busk,DMK,Hoffenheim,31,53,GK,32,0,0,0,250000
-Lukas Petersson,ISL,Hoffenheim,21,38,GK,36,0,0,0,150000
-Ozan Kabak,TUR,Hoffenheim,25,67,DF,5,0,0,0,7500000
-Leo Ostigard,NOR,Hoffenheim,25,70,DF,4,0,0,0,7000000
-Robin Hranac,CZE,Hoffenheim,25,59,DF,2,0,0,0,3500000
-Arthur Chaves,BRA,Hoffenheim,24,58,DF,35,0,0,0,3000000
-Kevin Akpoguma,NGA,Hoffenheim,29,66,DF,25,0,0,0,2500000
-Stanley Nsoki,FRA,Hoffenheim,26,64,DF,34,0,0,0,2500000
-David Jurasek,CZE,Hoffenheim,24,62,DF,19,0,0,0,7000000
-Alexander Prass,AUT,Hoffenheim,23,63,DF,22,0,0,0,6500000
-Christopher Lenz,DEU,Hoffenheim,30,66,DF,13,0,0,0,800000
-Valentin Gendrey,FRA,Hoffenheim,24,65,DF,15,0,0,0,8500000
-Pavel Kadebarek,CZE,Hoffenheim,32,66,DF,3,0,0,0,2500000
-Anton Stach,DEU,Hoffenheim,26,69,ST,16,0,0,0,14000000
-Diadie Samassekou,MLI,Hoffenheim,29,63,ST,18,0,0,0,1000000
-Tom Bischof,DEU,Hoffenheim,19,56,ST,7,0,0,0,25000000
-Umut Tohumcu,DEU,Hoffenheim,20,58,ST,17,0,0,0,7000000
-Grischa Promel,DEU,Hoffenheim,30,69,ST,6,0,0,0,4500000
-Dennis Geiger,DEU,Hoffenheim,26,66,ST,8,0,0,0,3000000
-Finn Becker,DEU,Hoffenheim,24,62,ST,20,0,0,0,2000000
-Florian Micheler,AUT,Hoffenheim,19,43,ST,28,0,0,0,500000
-Andrej Kramaric,HRV,Hoffenheim,33,72,MF,27,0,0,0,4000000
-Bazoumana Toure,CIV,Hoffenheim,19,43,ST,29,0,0,0,9000000
-Marius Bulter,DEU,Hoffenheim,32,67,ST,21,0,0,0,2500000
-Adam Hlozek,CZE,Hoffenheim,22,64,ST,23,0,0,0,18000000
-Gift Orban,NGA,Hoffenheim,22,62,ST,14,0,0,0,10000000
-Max Moerstedt,DEU,Hoffenheim,19,44,ST,33,0,0,0,7000000
-Haris Tabakovic,BIH,Hoffenheim,30,64,ST,26,0,0,0,3000000
-Erencan Yardimci,TUR,Hoffenheim,23,55,ST,53,0,0,0,3000000
-Ihlas Bebou,TGO,Hoffenheim,30,66,ST,9,0,0,0,2800000
-David Mokwa,FRA,Hoffenheim,20,33,ST,52,0,0,0,1000000
-Kevin Muller,DEU,Heidenheim,34,63,GK,1,0,0,0,1000000
-Frank Feller,DEU,Heidenheim,21,44,GK,40,0,0,0,500000
-Vitus Eicher,DEU,Heidenheim,34,54,GK,22,0,0,0,250000
-Paul Tschernuth,AUT,Heidenheim,23,43,GK,34,0,0,0,100000
-Benedikt Gimber,DEU,Heidenheim,28,61,DF,5,0,0,0,3000000
-Patrik Mainka,DEU,Heidenheim,30,64,DF,6,0,0,0,3000000
-Tim Siersleben,DEU,Heidenheim,25,60,DF,4,0,0,0,1500000
-Thomas Keller,DEU,Heidenheim,25,53,DF,27,0,0,0,300000
-Jonas Fohrenbach,DEU,Heidenheim,29,61,DF,19,0,0,0,2000000
-Omar Traore,DEU,Heidenheim,27,59,DF,23,0,0,0,4000000
-Marnon Busch,DEU,Heidenheim,30,62,DF,2,0,0,0,1200000
-Niklas Dorsch,DEU,Heidenheim,27,67,MF,39,0,0,0,3500000
-Julian Niehues,DEU,Heidenheim,23,57,MF,16,0,0,0,1500000
-Luka Janes,DEU,Heidenheim,21,44,MF,36,0,0,0,200000
-Norman Theuerkauf,DEU,Heidenheim,38,58,MF,30,0,0,0,175000
-Jan Schoppner,DEU,Heidenheim,25,60,MF,3,0,0,0,4500000
-Luca Kerber,DEU,Heidenheim,23,54,MF,20,0,0,0,1300000
-Frans Kratzig,DEU,Heidenheim,22,57,MF,13,0,0,0,2000000
-Paul Wanner,DEU,Heidenheim,19,54,MF,10,0,0,0,18000000
-Adrian Beck,DEU,Heidenheim,27,59,MF,21,0,0,0,2000000
-Leo Scienza,BRA,Heidenheim,26,51,ST,8,0,0,0,3000000
-Mathias Honsak,AUT,Heidenheim,28,60,ST,17,0,0,0,1500000
-Christopher Negele,DEU,Heidenheim,20,35,ST,25,0,0,0,250000
-Sirlord Conteh,DEU,Heidenheim,28,57,ST,31,0,0,0,1500000
-Marvin Pieringer,DEU,Heidenheim,25,61,ST,18,0,0,0,5500000
-Budu Zivzivadze,GEO,Heidenheim,31,56,ST,12,0,0,0,2500000
-Maximilian Breunig,DEU,Heidenheim,24,50,ST,14,0,0,0,2000000
-Stefan Schimmer,DEU,Heidenheim,30,55,ST,9,0,0,0,500000
-Michael Zetterer,DEU,Werder Bremen,29,62,GK,1,0,0,0,4500000
-Mio Backhaus,DEU,Werder Bremen,20,51,GK,30,0,0,0,2000000
-Markus Kolke,DEU,Werder Bremen,34,58,GK,25,0,0,0,300000
-Marco Friedl,AUT,Werder Bremen,27,66,DF,32,0,0,0,10000000
-Niklas Stark,DEU,Werder Bremen,30,66,DF,4,0,0,0,5000000
-Amos Pieper,DEU,Werder Bremen,27,66,DF,5,0,0,0,3000000
-Milos Veljkovic,SRB,Werder Bremen,29,65,DF,13,0,0,0,3000000
-Julian Malatini,ARG,Werder Bremen,23,60,DF,22,0,0,0,3000000
-Anthony Jung,DEU,Werder Bremen,33,64,DF,3,0,0,0,1000000
-Derrick Kohn,DEU,Werder Bremen,26,65,DF,19,0,0,0,6000000
-Felix Agu,DEU,Werder Bremen,25,60,DF,27,0,0,0,6000000
-Issa Kabore,BFA,Werder Bremen,23,63,DF,29,0,0,0,6000000
-Mitchell Weiser,DEU,Werder Bremen,30,67,DF,8,0,0,0,5000000
-Senne Lynen,BEL,Werder Bremen,26,63,MF,14,0,0,0,9000000
-Skelly Alvero,FRA,Werder Bremen,22,56,MF,28,0,0,0,3000000
-Jens Stage,DMK,Werder Bremen,28,66,MF,6,0,0,0,12000000
-Leonardo Bittencourt,DEU,Werder Bremen,31,64,MF,10,0,0,0,2000000
-Romano Schmid,AUT,Werder Bremen,25,63,MF,20,0,0,0,15000000
-Leon Opitz,DEU,Werder Bremen,20,49,MF,35,0,0,0,600000
-Patrice Covic,HRV,Werder Bremen,17,38,MF,39,0,0,0,0
-Marco Grull,AUT,Werder Bremen,26,63,ST,17,0,0,0,4000000
-Abdenego Nankishi,DEU,Werder Bremen,22,48,ST,33,0,0,0,450000
-Justin Njinmah,DEU,Werder Bremen,24,61,ST,11,0,0,0,7000000
-Marvin Ducksch,DEU,Werder Bremen,31,67,ST,7,0,0,0,7500000
-Andre Silva,PRT,Werder Bremen,29,71,ST,9,0,0,0,5000000
-Keke Topp,DEU,Werder Bremen,21,53,ST,42,0,0,0,4000000
-Oliver Burke,SCO,Werder Bremen,28,55,ST,15,0,0,0,1800000
-Noah Atubolu,DEU,Freiburg,22,62,GK,1,0,0,0,15000000
-Florian Muller,DEU,Freiburg,27,62,GK,21,0,0,0,1200000
-Jannik Huth,DEU,Freiburg,31,59,GK,24,0,0,0,400000
-Philipp Lienhart,AUT,Freiburg,28,70,DF,3,0,0,0,15000000
-Matthias GInter,DEU,Freiburg,31,72,DF,28,0,0,0,8000000
-Max Rosenfelder,DEU,Freiburg,22,54,DF,37,0,0,0,4000000
-Bruno Ogbus,CHE,Freiburg,19,42,DF,43,0,0,0,1000000
-Manuel Gulde,DEU,Freiburg,34,65,DF,5,0,0,0,800000
-Christian Gunter,DEU,Freiburg,32,69,DF,30,0,0,0,4000000
-Jordy Makengo,FRA,Freiburg,23,59,DF,33,0,0,0,3000000
-Kiliann Sildillia,FRA,Freiburg,22,64,DF,25,0,0,0,10000000
-Lukas Kubler,DEU,Freiburg,32,66,DF,17,0,0,0,2000000
-Nicolas Hofler,DEU,Freiburg,35,69,MF,27,0,0,0,700000
-Maximilian Eggestein,DEU,Freiburg,28,68,MF,8,0,0,0,10000000
-Patrick Osterhage,DEU,Freiburg,25,63,MF,6,0,0,0,8500000
-Johan Manzambi,CHE,Freiburg,19,39,MF,44,0,0,0,750000
-Merlin Rohl,DEU,Freiburg,22,65,MF,34,0,0,0,12000000
-Daniel-Kofi Kyereh,GHA,Freiburg,29,65,MF,11,0,0,0,1500000
-Niklas Beste,DEU,Freiburg,26,67,ST,19,0,0,0,10000000
-VIncenzo Grifo,ITA,Freiburg,32,71,ST,32,0,0,0,7500000
-Florent Muslija,XKX,Freiburg,26,64,ST,23,0,0,0,2000000
-Ritsu Doan,JPN,Freiburg,26,69,ST,42,0,0,0,22000000
-Eren Dinkci,TUR,Freiburg,23,60,ST,18,0,0,0,12000000
-Maximilian Philipp,DEU,Freiburg,31,64,ST,26,0,0,0,1000000
-Junior Adamu,AUT,Freiburg,23,64,ST,20,0,0,0,6000000
-Michael Gregoritsch,AUT,Freiburg,30,66,ST,38,0,0,0,4000000
-Lucas Holer,DEU,Freiburg,30,67,ST,9,0,0,0,3500000
-Finn Dahmen,DEU,Augsburg,27,64,GK,1,0,0,0,6000000
-Nedilijko Labrovic,HRV,Augsburg,25,66,GK,22,0,0,0,3000000
-Daniel Klein,DEU,Augsburg,24,48,GK,25,0,0,0,150000
-Christian Matsima,FRA,Augsburg,22,57,DF,5,0,0,0,17000000
-Keven Schlotterbeck,DEU,Augsburg,27,63,DF,31,0,0,0,7000000
-Nahkai Banks,USA,Augsburg,18,36,DF,40,0,0,0,6000000
-Cedric Zesiger,CHE,Augsburg,26,35,DF,16,0,0,0,5500000
-Jeffrey Gouweleeuw,NLD,Augsburg,33,65,DF,6,0,0,0,1500000
-Reece Oxford,ENG,Augsburg,26,62,DF,4,0,0,0,500000
-Dimitrios Giannoulis,GRC,Augsburg,29,62,DF,13,0,0,0,2800000
-Mads Pedersen,DMK,Augsburg,28,64,DF,3,0,0,0,2500000
-Marius Wolf,DEU,Augsburg,29,68,DF,11,0,0,0,3000000
-Robert Gumny,POL,Augsburg,26,61,DF,2,0,0,0,2000000
-Hneri Koudossou,DEU,Augsburg,25,49,DF,44,0,0,0,1500000
-Kristijan Jakic,HRV,Augsburg,27,66,MF,17,0,0,0,6500000
-Mahmut Kucuksahin,TUR,Augsburg,21,35,MF,42,0,0,0,175000
-Frank Onyeka,NGA,Augsburg,27,64,MF,19,0,0,0,7000000
-Arne Maier,DEU,Augsburg,26,64,MF,10,0,0,0,4000000
-Elvis Rexhbecaj,XKX,Augsburg,27,66,MF,8,0,0,0,3500000
-Alexis Claude-Maurice,FRA,Augsburg,26,59,MF,20,0,0,0,12000000
-Mert Komur ,DEU,Augsburg,19,51,MF,36,0,0,0,5000000
-Frederik Jensen,FIN,Augsburg,27,63,MF,24,0,0,0,3500000
-Yusuf Kabadayi,DEU,Augsburg,21,54,ST,7,0,0,0,1500000
-Phillip Tietz,DEU,Augsburg,27,64,ST,21,0,0,0,5000000
-Mergim Berisha,DEU,Augsburg,26,67,ST,37,0,0,0,5000000
-Samuel Essende,COD,Augsburg,27,58,ST,9,0,0,0,4500000
-Steve Mounie,BEN,Augsburg,30,65,ST,15,0,0,0,3000000
-Kamil Grabara,POL,Wolfsburg,26,68,GK,1,0,0,0,14000000
-Marius Muller,DEU,Wolfsburg,31,63,GK,29,0,0,0,1500000
-Pavao Pervan,AUT,Wolfsburg,37,56,GK,12,0,0,0,300000
-Niklas Klinger,DEU,Wolfsburg,29,48,GK,30,0,0,0,100000
-Konstantinos Koulierakis,GRC,Wolfsburg,21,40,DF,4,0,0,0,20000000
-Sebastiaan Bournaw,BEL,Wolfsburg,26,66,DF,3,0,0,0,7000000
-Denis Vavro,SVK,Wolfsburg,29,65,DF,18,0,0,0,7000000
-David Odogu,DEU,Wolfsburg,18,44,DF,33,0,0,0,700000
-Mathys Angely,FRA,Wolfsburg,17,34,DF,22,0,0,0,600000
-Joakim Maehle,DMK,Wolfsburg,27,69,DF,21,0,0,0,14000000
-Rogerio,BRA,Wolfsburg,27,67,DF,13,0,0,0,3500000
-Mads Roerslev,DMK,Wolfsburg,25,68,DF,5,0,0,0,8000000
-Kilian Fischer,DEU,Wolfsburg,24,61,DF,2,0,0,0,6000000
-Mattias Svanberg,SWE,Wolfsburg,26,68,MF,32,0,0,0,12000000
-Aster Vranckx,BEL,Wolfsburg,22,64,MF,6,0,0,0,9000000
-Maximilian Arnold,DEU,Wolfsburg,30,71,MF,27,0,0,0,7000000
-Yannick Gerhardt,DEU,Wolfsburg,31,67,MF,31,0,0,0,3000000
-Kevin Paredes,USA,Wolfsburg,21,59,MF,40,0,0,0,7500000
-Lovro Majer,HRV,Wolfsburg,27,70,MF,19,0,0,0,20000000
-Bence Dardai,HUN,Wolfsburg,19,51,MF,24,0,0,0,9000000
-Bennit Broger,DEU,Wolfsburg,18,43,MF,38,0,0,0,500000
-Jakub Kaminski,POL,Wolfsburg,22,64,ST,16,0,0,0,6000000
-Andreas Skov Olsen,DMK,Wolfsburg,25,66,ST,7,0,0,0,16000000
-Patrick Wimmer,AUT,Wolfsburg,23,68,ST,39,0,0,0,15000000
-Mohamed Amoura,DZA,Wolfsburg,24,65,ST,9,0,0,0,32000000
-Jonas Wind,DMK,Wolfsburg,26,70,ST,23,0,0,0,15000000
-Tiago Tomas,PRT,Wolfsburg,22,64,ST,11,0,0,0,12000000
-Lukas Nmecha,DEU,Wolfsburg,26,66,ST,10,0,0,0,3000000
-Kevin Behrens,DEU,Wolfsburg,34,66,ST,17,0,0,0,1500000
-Bartosz Bialek,POL,Wolfsburg,23,58,ST,14,0,0,0,800000
-Robin Zentner,DEU,Mainz,30,63,GK,27,0,0,0,4000000
-Daniel Batz,DEU,Mainz,34,59,GK,33,0,0,0,350000
-Lasse Riess,DEU,Mainz,23,40,GK,1,0,0,0,200000
-Moritz Jenz,DEU,Mainz,25,67,DF,3,0,0,0,6000000
-Andreas Hanche-Olsen,NOR,Mainz,28,66,DF,25,0,0,0,6000000
-Maxim Leitsch,DEU,Mainz,26,63,DF,5,0,0,0,2000000
-Danny da Costa,DEU,Mainz,31,63,DF,21,0,0,0,1500000
-Stefan Bell,DEU,Mainz,33,64,DF,16,0,0,0,800000
-Maxim Dal,DEU,Mainz,19,43,DF,47,0,0,0,150000
-Philipp Mwene,AUT,Mainz,31,65,DF,2,0,0,0,1800000
-Silvan Widmer,CHE,Mainz,32,66,DF,30,0,0,0,1500000
-Nikolas Veratschnig,AUT,Mainz,22,54,DF,22,0,0,0,800000
-Kaishu Sano,JPN,Mainz,24,58,MF,6,0,0,0,17000000
-Lennard Maloney,USA,Mainz,25,62,MF,15,0,0,0,5000000
-Dominik Kohr,DEU,Mainz,31,65,MF,31,0,0,0,3500000
-Nadiem Amiri,DEU,Mainz,28,65,MF,18,0,0,0,18000000
-Anthony Caci,FRA,Mainz,27,67,MF,19,0,0,0,10000000
-Paul Nebel,DEU,Mainz,22,59,MF,8,0,0,0,17000000
-Hong Hyun-Seok,KOR,Mainz,25,62,MF,14,0,0,0,3500000
-Lee Jae-Sung,KOR,Mainz,32,66,MF,7,0,0,0,2500000
-Arnaud Nordin,FRA,Mainz,26,65,ST,9,0,0,0,6000000
-Armindo Sieb,DEU,Mainz,22,56,ST,11,0,0,0,4000000
-Jonathan Burkardt,DEU,Mainz,24,65,ST,29,0,0,0,35000000
-Nelson Wieper,DEU,Mainz,20,54,ST,44,0,0,0,6000000
-Moritz Nicolas,DEU,B. Monchengladbach,27,62,GK,33,0,0,0,5000000
-Joanas Omlin,CHE,B. Monchengladbach,31,70,GK,1,0,0,0,2500000
-Tobias Sippel,DEU,B. Monchengladbach,37,57,GK,21,0,0,0,300000
-Tiago Pereira Cardoso,LUX,B. Monchengladbach,19,43,GK,42,0,0,0,300000
-Ko Itakura,JPN,B. Monchengladbach,28,69,DF,3,0,0,0,12000000
-Nico Elvedi,CHE,B. Monchengladbach,28,68,DF,30,0,0,0,8000000
-Marvin Friedrich,DEU,B. Monchengladbach,29,65,DF,5,0,0,0,3500000
-Fabio Chiarodia,ITA,B. Monchengladbach,19,54,DF,2,0,0,0,2000000
-Lukas Ullrich,DEU,B. Monchengladbach,21,55,DF,26,0,0,0,8000000
-Luca Netz,DEU,B. Monchengladbach,21,62,DF,20,0,0,0,7000000
-Joe Scally,USA,B. Monchengladbach,22,63,DF,29,0,0,0,10000000
-Stefan Lainer,AUT,B. Monchengladbach,32,63,DF,22,0,0,0,1800000
-Julian Weigl,DEU,B. Monchengladbach,29,71,MF,8,0,0,0,6000000
-Niklas Swider,DEU,B. Monchengladbach,18,42,MF,39,0,0,0,0
-Rocco Reitz,DEU,B. Monchengladbach,22,63,MF,27,0,0,0,15000000
-Philipp Sander,DEU,B. Monchengladbach,27,62,MF,16,0,0,0,4000000
-Florian Neuhaus,DEU,B. Monchengladbach,28,68,MF,10,0,0,0,3500000
-Kevin Stoger,AUT,B. Monchengladbach,31,67,MF,7,0,0,0,4500000
-Robin Hack,DEU,B. Monchengladbach,26,63,ST,25,0,0,0,10000000
-Yvandro Borges Sanches,LUX,B. Monchengladbach,20,53,ST,38,0,0,0,500000
-Franck Honorat,FRA,B. Monchengladbach,28,68,ST,9,0,0,0,12000000
-Nathan Ngoumou,CMR,B. Monchengladbach,25,64,ST,19,0,0,0,4000000
-Tim Kleindienst,DEU,B. Monchengladbach,29,65,ST,11,0,0,0,17000000
-Alassane Plea,FRA,B. Monchengladbach,32,68,ST,14,0,0,0,6000000
-Tomas Cvancara,CZE,B. Monchengladbach,24,63,ST,31,0,0,0,4000000
-Shio Fukuda,JPN,B. Monchengladbach,21,46,ST,13,0,0,0,500000
-Frederik Ronnow,DMK,Union Berlin,32,69,GK,1,0,0,0,4000000
-Alexander Schwolow,DEU,Union Berlin,32,59,GK,37,0,0,0,700000
-Carl Klaus,DEU,Union Berlin,31,54,GK,25,0,0,0,350000
-Diogo Leite,PRT,Union Berlin,26,67,DF,4,0,0,0,17000000
-Danilho Doekhi,NLD,Union Berlin,26,69,DF,5,0,0,0,13000000
-Leopold Querfeld,AUT,Union Berlin,21,59,DF,14,0,0,0,7000000
-Kevin Vogt,DEU,Union Berlin,33,68,DF,2,0,0,0,2000000
-Oluwaseun Ogbemudia,DEU,Union Berlin,18,43,DF,41,0,0,0,0
-Tom Rothe,DEU,Union Berlin,20,58,DF,15,0,0,0,10000000
-Jerome Roussillion,XKX,Union Berlin,32,65,DF,26,0,0,0,1200000
-Josip Juranovic,HRV,Union Berlin,29,68,DF,18,0,0,0,4000000
-Christopher Trimmel,AUT,Union Berlin,38,67,DF,28,0,0,0,600000
-Aljoscha Kemlein,DEU,Union Berlin,20,56,MF,36,0,0,0,7000000
-Lucas Tousart,FRA,Union Berlin,27,66,MF,29,0,0,0,4000000
-Rani Khedira,DEU,Union Berlin,31,68,MF,8,0,0,0,3000000
-Andras Schafer,HUN,Union Berlin,26,65,MF,13,0,0,0,5000000
-Laszio Benes,SVK,Union Berlin,27,64,MF,20,0,0,0,4000000
-Janik Haberer,DEU,Union Berlin,31,66,MF,19,0,0,0,2500000
-Robert Skov,DMK,Union Berlin,28,67,MF,24,0,0,0,4000000
-Jeong Woo-Yeong,KOR,Union Berlin,25,64,MF,11,0,0,0,4000000
-David Preu,DEU,Union Berlin,20,40,ST,45,0,0,0,25000
-Tim Skarke,DEU,Union Berlin,28,63,ST,21,0,0,0,2500000
-Benedict Hollerbach,DEU,Union Berlin,23,59,ST,16,0,0,0,7500000
-Marin Ljubicic,HRV,Union Berlin,23,58,ST,27,0,0,0,4000000
-Andrej Ilic,SRB,Union Berlin,25,59,ST,23,0,0,0,2500000
-Kevin Volland,DEU,Union Berlin,32,67,ST,10,0,0,0,1800000
-Ivan Prtajin,HRV,Union Berlin,28,59,ST,9,0,0,0,1500000
-Timo Horn,DEU,Bochum,31,63,GK,1,0,0,0,800000
-Patrick Drewes,DEU,Bochum,32,59,GK,27,0,0,0,800000
-Paul Grave,DEU,Bochum,24,44,GK,34,0,0,0,50000
-Bernardo,BRA,Bochum,29,66,DF,5,0,0,0,5500000
-Tim Oermann,DEU,Bochum,21,57,DF,14,0,0,0,5000000
-Erhan Masovic,SRB,Bochum,26,63,DF,4,0,0,0,3000000
-Jakov Medic,HRV,Bochum,26,63,DF,13,0,0,0,2000000
-Ivan Ordets,UKR,Bochum,32,64,DF,20,0,0,0,1800000
-Mohammed Tolba,DEU,Bochum,20,46,DF,25,0,0,0,200000
-Maximilian Wittek,DEU,Bochum,29,61,DF,32,0,0,0,2000000
-Felix Passlack,DEU,Bochum,26,60,DF,15,0,0,0,2500000
-Cristian Gamboa,CRI,Bochum,35,61,DF,2,0,0,0,500000
-Ibrahima Sissoko,MLI,Bochum,27,64,MF,6,0,0,0,6000000
-Anthony Losilla,FRA,Bochum,39,65,MF,8,0,0,0,500000
-Niklas Jahn,DEU,Bochum,20,43,MF,16,0,0,0,200000
-Tom Krauss,DEU,Bochum,23,63,MF,17,0,0,0,4000000
-Matus Bero,SVK,Bochum,29,63,MF,19,0,0,0,3500000
-Mats Pannewig,DEU,Bochum,20,42,MF,24,0,0,0,600000
-Koji Miyoshi,JPN,Bochum,28,62,MF,23,0,0,0,1800000
-Dani de Wit,NLD,Bochum,27,64,MF,10,0,0,0,3000000
-Lennart Koerdt,DEU,Bochum,20,39,MF,28,0,0,0,0
-Georgios Masouras,GRC,Bochum,31,63,ST,11,0,0,0,3200000
-Gerrit Holtmann,PHL,Bochum,30,60,ST,21,0,0,0,700000
-Samuel Bamba,DEU,Bochum,21,53,ST,18,0,0,0,800000
-Myron Boadu,NLD,Bochum,24,64,ST,9,0,0,0,7000000
-Moritz Broschinski,DEU,Bochum,24,56,ST,29,0,0,0,2500000
-Philipp Hofmann,DEU,Bochum,32,62,ST,33,0,0,0,1500000
-Nikola Vasilj,BIH,St. Pauli,29,60,GK,22,0,0,0,3000000
-Ben Voll,DEU,St. Pauli,24,51,GK,1,0,0,0,500000
-Eric Oelschlagel,DEU,St. Pauli,29,52,GK,32,0,0,0,300000
-Sascha Burchert,DEU,St. Pauli,35,55,GK,30,0,0,0,200000
-Soren Ahlers,DEU,St. Pauli,27,46,GK,28,0,0,0,50000
-Eric Smith,SWE,St. Pauli,28,64,DF,8,0,0,0,5000000
-David Nemeth,AUT,St. Pauli,24,56,DF,4,0,0,0,2500000
-Siebe Van der Heyden,BEL,St. Pauli,26,63,DF,44,0,0,0,2000000
-Hauke Wahl,DEU,St. Pauli,31,62,DF,5,0,0,0,1500000
-Karol Mets,EST,St. Pauli,31,61,DF,3,0,0,0,1300000
-Adam Dzwigala,POL,St. Pauli,29,56,DF,25,0,0,0,600000
-Muhammad Dahaba,DEU,St. Pauli,20,39,DF,34,0,0,0,125000
-Philipp Treu,DEU,St. Pauli,24,58,DF,23,0,0,0,5000000
-Lars Ritzka,DEU,St. Pauli,26,57,DF,21,0,0,0,900000
-Manolis Saliakas,GRC,St. Pauli,28,61,DF,2,0,0,0,2800000
-Fin Stevens,WLS,St. Pauli,22,57,DF,14,0,0,0,600000
-James Sands,USA,St. Pauli,24,60,MF,6,0,0,0,3000000
-Marwin Schimtz,DEU,St. Pauli,18,34,MF,42,0,0,0,200000
-Robert Wagner,DEU,St. Pauli,21,59,MF,39,0,0,0,3000000
-Connor Metcalfe,AUS,St. Pauli,25,59,MF,24,0,0,0,2500000
-Jackson Irvine,AUS,St. Pauli,32,63,MF,7,0,0,0,2000000
-Carlo Boukhalfa,DEU,St. Pauli,25,54,MF,16,0,0,0,1000000
-Erik Ahlstrand,SWE,St. Pauli,23,57,MF,20,0,0,0,500000
-Noah Weisshaupt,DEU,St. Pauli,23,61,ST,13,0,0,0,5000000
-Elias Saad,TUN,St. Pauli,25,61,ST,26,0,0,0,4000000
-Romeo Aigbekaen,DEU,St. Pauli,20,32,ST,38,0,0,0,100000
-Oladapo Afolayan,ENG,St. Pauli,27,60,ST,17,0,0,0,4000000
-Morgan Guilavogui,GIN,St. Pauli,27,59,ST,29,0,0,0,4000000
-Danel Sinani,LUX,St. Pauli,28,56,ST,10,0,0,0,750000
-Scott Banks,SCO,St. Pauli,23,53,ST,18,0,0,0,500000
-Johannes Eggestein,DEU,St. Pauli,26,60,ST,11,0,0,0,3000000
-Abdoulie Ceesay,GMB,St. Pauli,21,21,ST,9,0,0,0,500000
-Andreas Albers,DMK,St. Pauli,35,56,ST,19,0,0,0,300000
-Simon Zoller,DEU,St. Pauli,33,58,ST,27,0,0,0,300000
-Timon Weiner ,DEU,Holstein Kiel,26,58,GK,1,0,0,0,1500000
-Thomas Dahne,DEU,Holstein Kiel,31,56,GK,21,0,0,0,400000
-Marcel Engelhardt,DEU,Holstein Kiel,32,50,GK,31,0,0,0,175000
-Marko Ivezic,SRB,Holstein Kiel,23,56,DF,6,0,0,0,2500000
-David Zec,SVN,Holstein Kiel,25,57,DF,26,0,0,0,2500000
-Colin Kleine-Bekel,DEU,Holstein Kiel,22,56,DF,34,0,0,0,2500000
-Timo Becker,DEU,Holstein Kiel,28,60,DF,17,0,0,0,2000000
-Max Geschwill,DEU,Holstein Kiel,23,56,DF,14,0,0,0,1500000
-Marco Komenda,DEU,Holstein Kiel,28,58,DF,3,0,0,0,800000
-Ivan Nekic,HRV,Holstein Kiel,24,,DF,13,0,0,0,800000
-Carl Johansson,SWE,Holstein Kiel,30,58,DF,5,0,0,0,700000
-John Tolkin,USA,Holstein Kiel,22,58,DF,47,0,0,0,3000000
-Dominik Javorcek,SVK,Holstein Kiel,22,45,DF,33,0,0,0,550000
-Lasse Rosenboom,DEU,Holstein Kiel,23,48,DF,23,0,0,0,1000000
-Patrick Erras,DEU,Holstein Kiel,30,60,MF,4,0,0,0,1000000
-Marvin Schulz,DEU,Holstein Kiel,30,58,MF,15,0,0,0,700000
-Armin Gigovic,BIH,Holstein Kiel,23,59,MF,37,0,0,0,3000000
-Nicolai Remberg,DEU,Holstein Kiel,24,56,MF,22,0,0,0,2800000
-Magnus Knudsen,NOR,Holstein Kiel,23,58,MF,24,0,0,0,2500000
-Lewis Holtby,DEU,Holstein Kiel,34,60,MF,10,0,0,0,500000
-Aurel Wagbe,DEU,Holstein Kiel,21,50,MF,28,0,0,0,100000
-Finn Porath,DEU,Holstein Kiel,28,56,MF,8,0,0,0,2000000
-Steven Skrzybski,DEU,Holstein Kiel,32,62,MF,7,0,0,0,1000000
-Andu Kelati,DEU,Holstein Kiel,22,50,ST,16,0,0,0,800000
-Alexander Bernhardsson,SWE,Holstein Kiel,26,59,ST,11,0,0,0,1500000
-Phil Harres,DEU,Holstein Kiel,23,45,ST,19,0,0,0,4500000
-Shuto Machino,JPN,Holstein Kiel,25,58,ST,18,0,0,0,3500000
-Benedikt Pichler,AUT,Holstein Kiel,27,61,ST,9,0,0,0,2000000
-Fiete Arp,DEU,Holstein Kiel,25,56,ST,20,0,0,0,800000
+Name,Nationality,Team,Age,Skill Rating,Position,Number,Goals,Yellow Cards,Red Cards,Value,Energy
+Matej Kovar,CZE,Bayer Leverkusen,24,66,GK,17,0,0,0,7000000,1
+Lucas Hradecky,FIN,Bayer Leverkusen,35,73,GK,1,0,0,0,2000000,1
+Niklas Lomb,DEU,Bayer Leverkusen,31,51,GK,36,0,0,0,250000,1
+Luca Novodomsky,DEU,Bayer Leverkusen,19,39,GK,48,0,0,0,0,1
+Piero Hincapie,ECU,Bayer Leverkusen,23,69,DF,3,0,0,0,50000000,1
+Edmond Tapsoba,BFA,Bayer Leverkusen,26,74,DF,12,0,0,0,40000000,1
+Jonathan Tah,GER,Bayer Leverkusen,29,76,DF,4,0,0,0,30000000,1
+Jeanuel Belocian,FRA,Bayer Leverkusen,20,58,DF,44,0,0,0,15000000,1
+Mario Hermoso,ESP,Bayer Leverkusen,29,72,DF,5,0,0,0,10000000,1
+Alejandro Grimaldo,ESP,Bayer Leverkusen,29,79,DF,20,0,0,0,40000000,1
+Nordi Mukiele,FRA,Bayer Leverkusen,27,71,DF,23,0,0,0,10000000,1
+Arthur,BRA,Bayer Leverkusen,22,59,DF,13,0,0,0,7000000,1
+Granit Xhaka,CHE,Bayer Leverkusen,32,76,MF,34,0,0,0,17000000,1
+Robert Andrich,DEU,Bayer Leverkusen,30,70,MF,8,0,0,0,15000000,1
+Exequiel Palacios,ARG,Bayer Leverkusen,26,74,MF,25,0,0,0,40000000,1
+Aleix Garcia,ESP,Bayer Leverkusen,27,73,MF,24,0,0,0,20000000,1
+Jeremie Frimpong,NLD,Bayer Leverkusen,24,75,MF,30,0,0,0,50000000,1
+Nathan Tella,NGA,Bayer Leverkusen,25,68,MF,19,0,0,0,18000000,1
+Florian Wirtz,DEU,Bayer Leverkusen,21,78,MF,10,0,0,0,140000000,1
+Emiliano Buendia,ARG,Bayer Leverkusen,28,72,MF,16,0,0,0,18000000,1
+Jonas Hoffmann,DEU,Bayer Leverkusen,32,75,MF,7,0,0,0,3000000,1
+Amine Adli,MAR,Bayer Leverkusen,24,68,ST,21,0,0,0,22000000,1
+Martin Terrier,FRA,Bayer Leverkusen,28,74,ST,11,0,0,0,17000000,1
+Victor Boniface,NGA,Bayer Leverkusen,24,73,ST,22,0,0,0,45000000,1
+Patrik Schick,CZE,Bayer Leverkusen,29,73,ST,14,0,0,0,27000000,1
+Alejo Sarco,ARG,Bayer Leverkusen,19,46,ST,18,0,0,0,800000,1
+Alexander Nubel,DEU,Stuttgart,28,69,GK,33,0,0,0,12000000,1
+Dennis Siemen,DEU,Stuttgart,19,53,GK,41,0,0,0,1500000,1
+Fabian Bredlow,DEU,Stuttgart,30,59,GK,1,0,0,0,1000000,1
+Stefan Drijaca,DEU,Stuttgart,25,57,GK,21,0,0,0,325000,1
+Jeff Chabot,DEU,Stuttgart,27,67,DF,24,0,0,0,12000000,1
+Finn Jeltsch,DEU,Stuttgart,18,46,DF,29,0,0,0,12000000,1
+Ameen Al-Dakhil,BEL,Stuttgart,23,61,DF,2,0,0,0,7500000,1
+Luca Jaquez,CHE,Stuttgart,21,48,DF,14,0,0,0,6000000,1
+Dan-Axel Zagadou,FRA,Stuttgart,25,67,DF,23,0,0,0,6000000,1
+Anrie Chase,JPN,Stuttgart,21,43,DF,45,0,0,0,4000000,1
+Maximilian Mittelstadt,DEU,Stuttgart,28,68,DF,7,0,0,0,20000000,1
+Ramon Hendriks,NLD,Stuttgart,23,55,DF,3,0,0,0,5000000,1
+Josha Vagnoman,DEU,Stuttgart,24,68,DF,4,0,0,0,12000000,1
+Leonidas Stergiou,CHE,Stuttgart,23,61,DF,20,0,0,0,5000000,1
+Pascal Stenzel,DEU,Stuttgart,29,64,MF,15,0,0,0,2500000,1
+Angelo Stiller,DEU,Stuttgart,24,66,MF,6,0,0,0,38000000,1
+Atakan Karazor,TUR,Stuttgart,28,68,MF,16,0,0,0,12000000,1
+Yannik Keitel,DEU,Stuttgart,25,63,MF,5,0,0,0,3500000,1
+Nikolas Nartey,DMK,Stuttgart,25,59,MF,28,0,0,0,400000,1
+Enzo Millot,FRA,Stuttgart,22,64,ST,8,0,0,0,35000000,1
+Chris Fuhrich,DEU,Stuttgart,27,69,ST,27,0,0,0,18000000,1
+Jacob Bruun Larsen,DMK,Stuttgart,26,65,ST,25,0,0,0,6000000,1
+Justin Diehl,DEU,Stuttgart,20,54,ST,17,0,0,0,3500000,1
+Jamie Leweling,DEU,Stuttgart,24,64,ST,18,0,0,0,20000000,1
+Fabian Rieder,CHE,Stuttgart,23,65,ST,32,0,0,0,7000000,1
+Luca Raimund,DEU,Stuttgart,20,49,ST,40,0,0,0,500000,1
+Nick Woltemade,DEU,Stuttgart,23,57,ST,11,0,0,0,17000000,1
+Ermedin Demirovic,BIH,Stuttgart,27,70,ST,9,0,0,0,22000000,1
+Deniz Unday,DEU,Stuttgart,28,71,ST,26,0,0,0,22000000,1
+El Bilal Toure,MLI,Stuttgart,23,68,ST,10,0,0,0,17000000,1
+Wahid Faghir,DMK,Stuttgart,21,55,ST,19,0,0,0,1000000,1
+Thomas Kastanaras,DEU,Stuttgart,22,55,ST,22,0,0,0,500000,1
+Jonas Urbig,DEU,Bayern Munich,21,59,GK,40,0,0,0,8000000,1
+Manuel Neuer,DEU,Bayern Munich,39,82,GK,1,0,0,0,4000000,1
+Daniel Peretz,ISR,Bayern Munich,24,64,GK,18,0,0,0,3000000,1
+Sven Ulreich,DEU,Bayern Munich,36,64,GK,26,0,0,0,500000,1
+Dayot Upamecano,FRA,Bayern Munich,26,79,DF,2,0,0,0,50000000,1
+Kim Min-Jae,KOR,Bayern Munich,28,81,DF,3,0,0,0,45000000,1
+Hiroki Ito,JPN,Bayern Munich,25,69,DF,21,0,0,0,30000000,1
+Eric Dier,ENG,Bayern Munich,31,67,DF,15,0,0,0,8000000,1
+Tarek Buchmann,DEU,Bayern Munich,20,50,DF,28,0,0,0,500000,1
+Alphonso Davies,CAN,Bayern Munich,24,78,DF,19,0,0,0,50000000,1
+Raphael Guerreiro,PRT,Bayern Munich,31,74,DF,22,0,0,0,10000000,1
+Josip Stanisic,HRV,Bayern Munich,25,68,DF,44,0,0,0,28000000,1
+Sacha Boey,FRA,Bayern Munich,24,70,DF,23,0,0,0,18000000,1
+Joshua Kimmich,DEU,Bayern Munich,30,88,MF,6,0,0,0,50000000,1
+Aleksandar Pavlovic,DEU,Bayern Munich,20,63,MF,45,0,0,0,50000000,1
+Joao Palhinha,PRT,Bayern Munich,29,78,MF,16,0,0,0,40000000,1
+Konrad Laimer,AUT,Bayern Munich,27,75,MF,27,0,0,0,25000000,1
+Leon Goretzka,DEU,Bayern Munich,30,79,MF,8,0,0,0,22000000,1
+Jamal Musiala,DEU,Bayern Munich,22,83,MF,42,0,0,0,140000000,1
+Kingsley Coman,FRA,Bayern Munich,28,81,ST,11,0,0,0,35000000,1
+Serge Gnabry,DEU,Bayern Munich,29,78,ST,7,0,0,0,25000000,1
+Michael Olise,FRA,Bayern Munich,23,75,ST,17,0,0,0,80000000,1
+Leroy Sane,DEU,Bayern Munich,29,85,ST,10,0,0,0,38000000,1
+Thomas Muller,DEU,Bayern Munich,35,78,ST,25,0,0,0,6000000,1
+Gabriel Vidovic,HRV,Bayern Munich,21,56,ST,24,0,0,0,3000000,1
+Harry Kane,ENG,Bayern Munich,31,94,ST,9,0,0,0,90000000,1
+Maarten Vandevoordt,BEL,RB Leipzig,23,61,GK,26,0,0,0,8000000,1
+Peter Gulacsi,HUN,RB Leipzig,34,68,GK,1,0,0,0,2500000,1
+Leopold Zingerle,DEU,RB Leipzig,31,58,GK,25,0,0,0,400000,1
+Castello Lukeba,FRA,RB Leipzig,22,70,DF,23,0,0,0,50000000,1
+El Chasaille Bitshaibu,FRA,RB Leipzig,19,60,DF,5,0,0,0,12000000,1
+Willi Orban,HUN,RB Leipzig,32,75,DF,4,0,0,0,10000000,1
+Lukas Klostermann,DEU,RB Leipzig,28,72,DF,16,0,0,0,8000000,1
+David Raum,DEU,RB Leipzig,26,74,DF,22,0,0,0,25000000,1
+Lutsharel Geertruida,NLD,RB Leipzig,24,73,DF,3,0,0,0,27000000,1
+Benjamin Henrichs,DEU,RB Leipzig,28,73,DF,39,0,0,0,17000000,1
+Kosta Nedeljkovic,SRB,RB Leipzig,19,55,DF,21,0,0,0,8500000,1
+Ridle Baku,DEU,RB Leipzig,27,68,DF,17,0,0,0,7000000,1
+Arthur Vermeeren,BEL,RB Leipzig,20,63,MF,18,0,0,0,22000000,1
+Amadou Haidara,MLI,RB Leipzig,27,72,MF,8,0,0,0,20000000,1
+Xaver Schlager,AUT,RB Leipzig,27,74,MF,24,0,0,0,18000000,1
+Nicolas Seiwald,AUT,RB Leipzig,23,68,MF,13,0,0,0,16000000,1
+Assan Ouedraogo,DEU,RB Leipzig,18,55,MF,20,0,0,0,10000000,1
+Kevin Kampl,SVN,RB Leipzig,34,72,MF,44,0,0,0,3000000,1
+Xavi Simons,NLD,RB Leipzig,21,74,MF,10,0,0,0,70000000,1
+Christoph Baumgartner,AUT,RB Leipzig,25,70,MF,14,0,0,0,15000000,1
+Viggo Gebel,DEU,RB Leipzig,17,40,MF,47,0,0,0,350000,1
+Antonio Nusa,NOR,RB Leipzig,19,59,ST,7,0,0,0,28000000,1
+Tidiam Gomis,FRA,RB Leipzig,18,43,ST,27,0,0,0,3000000,1
+Benjamin Sesko,SVN,RB Leipzig,21,68,ST,30,0,0,0,65000000,1
+Lois Openda,BEL,RB Leipzig,25,74,ST,11,0,0,0,60000000,1
+Yussuf Poulsen,DMK,RB Leipzig,30,68,ST,9,0,0,0,5000000,1
+Gregor Kobel,CHE,Dortmund,27,79,GK,1,0,0,0,40000000,1
+Marcel Lotka,DEU,Dortmund,23,59,GK,35,0,0,0,1300000,1
+Alexander Meyer,DEU,Dortmund,34,64,GK,33,0,0,0,800000,1
+Silas Ostrzinski,DEU,Dortmund,21,51,GK,31,0,0,0,200000,1
+Nico Schlotterbeck,DEU,Dortmund,25,73,DF,4,0,0,0,40000000,1
+Waldemar Anton,DEU,Dortmund,28,69,DF,3,0,0,0,18000000,1
+Niklas Sule,DEU,Dortmund,29,75,DF,25,0,0,0,8000000,1
+Filippo Mane,ITA,Dortmund,20,49,DF,39,0,0,0,600000,1
+Ramy Bensebaini,DZA,Dortmund,29,72,DF,5,0,0,0,7000000,1
+Daniel Svensson,SWE,Dortmund,23,58,DF,24,0,0,0,5500000,1
+Almugera Kabar,DEU,Dortmund,18,43,DF,42,0,0,0,1000000,1
+Yan Couto,BRA,Dortmund,22,76,DF,2,0,0,0,20000000,1
+Julian Ryerson,NOR,Dortmund,27,72,DF,26,0,0,0,20000000,1
+Emre Can,DEU,Dortmund,31,74,MF,23,0,0,0,7000000,1
+Salih Ozcan,TUR,Dortmund,27,70,MF,6,0,0,0,5000000,1
+Felix Nmecha,DEU,Dortmund,24,70,MF,8,0,0,0,28000000,1
+Carney Chukwuemeka,ENG,Dortmund,21,63,MF,17,0,0,0,15000000,1
+Marcel Sabitzer,AUT,Dortmund,31,75,MF,20,0,0,0,10000000,1
+Pascal Gross,DEU,Dortmund,33,75,MF,13,0,0,0,7000000,1
+Kjell Watjen,DEU,Dortmund,19,46,MF,38,0,0,0,2000000,1
+Julian Brandt,DEU,Dortmund,28,77,MF,10,0,0,0,25000000,1
+Giovanni Reyna,USA,Dortmund,22,68,MF,7,0,0,0,10000000,1
+Jamie Gittens,ENG,Dortmund,20,66,ST,43,0,0,0,50000000,1
+Julien Duranville,BEL,Dortmund,18,58,ST,16,0,0,0,8500000,1
+Karim Adeyemi,DEU,Dortmund,23,73,ST,27,0,0,0,40000000,1
+Cole Campbell,USA,Dortmund,19,42,ST,37,0,0,0,1500000,1
+Serhou Guirassy,GIN,Dortmund,29,78,ST,9,0,0,0,40000000,1
+Maximilian Beier,DEU,Dortmund,22,68,ST,14,0,0,0,25000000,1
+Kevin Trapp,DEU,Eintracht Frankfurt,34,70,GK,1,0,0,0,3000000,1
+Kaua Santos,BRA,Eintracht Frankfurt,22,,GK,40,0,0,0,2500000,1
+Jens Grahl,DEU,Eintracht Frankfurt,36,,GK,33,0,0,0,200000,1
+Arthur Theate,BEL,Eintracht Frankfurt,24,68,DF,3,0,0,0,24000000,1
+Robin Koch,DEU,Eintracht Frankfurt,28,69,DF,4,0,0,0,18000000,1
+Tuta,BRA,Eintracht Frankfurt,25,66,DF,35,0,0,0,15000000,1
+Nnamdi Collins,DEU,Eintracht Frankfurt,21,52,DF,34,0,0,0,10000000,1
+Aurele Amenda,CHE,Eintracht Frankfurt,21,60,DF,5,0,0,0,7500000,1
+Nathaniel Brown,DEU,Eintracht Frankfurt,21,59,DF,21,0,0,0,15000000,1
+Niels Nkounkou,FRA,Eintracht Frankfurt,24,63,DF,29,0,0,0,5000000,1
+Rasmus Kristensen,DMK,Eintracht Frankfurt,27,69,DF,13,0,0,0,10000000,1
+Timothy Chandler,USA,Eintracht Frankfurt,35,59,DF,22,0,0,0,350000,1
+Ellyes Skhiri,TUN,Eintracht Frankfurt,29,72,MF,15,0,0,0,9000000,1
+Hugo Larsson,SWE,Eintracht Frankfurt,20,62,MF,16,0,0,0,40000000,1
+Oscar Hojlund,DMK,Eintracht Frankfurt,20,55,MF,6,0,0,0,7500000,1
+Mahmoud Dahoud,SYR,Eintracht Frankfurt,29,67,MF,18,0,0,0,5000000,1
+Junior Dina Ebimbe,FRA,Eintracht Frankfurt,24,65,MF,26,0,0,0,7000000,1
+Can Uzun,TUR,Eintracht Frankfurt,19,58,MF,20,0,0,0,18000000,1
+Fares Chaibi,DZA,Eintracht Frankfurt,22,65,MF,8,0,0,0,9000000,1
+Mario Gotze,DEU,Eintracht Frankfurt,32,71,MF,27,0,0,0,5000000,1
+Krisztian Lisztes,HUN,Eintracht Frankfurt,19,48,MF,23,0,0,0,2000000,1
+Jean-Matteo Bahoya,FRA,Eintracht Frankfurt,19,54,ST,19,0,0,0,9000000,1
+Ansgar Knauff,DEU,Eintracht Frankfurt,23,64,ST,26,0,0,0,10000000,1
+Hugo Ekitike,FRA,Eintracht Frankfurt,22,65,ST,11,0,0,0,55000000,1
+Elye Wahi,FRA,Eintracht Frankfurt,22,67,ST,17,0,0,0,25000000,1
+Igor Matanovic,HRV,Eintracht Frankfurt,22,55,ST,9,0,0,0,6000000,1
+Michy Batshuayi,BEL,Eintracht Frankfurt,31,65,ST,30,0,0,0,5000000,1
+Oliver Baumann,DEU,Hoffenheim,34,68,GK,1,0,0,0,3000000,1
+Luca Philipp,DEU,Hoffenheim,24,56,GK,37,0,0,0,750000,1
+Jakob Busk,DMK,Hoffenheim,31,53,GK,32,0,0,0,250000,1
+Lukas Petersson,ISL,Hoffenheim,21,38,GK,36,0,0,0,150000,1
+Ozan Kabak,TUR,Hoffenheim,25,67,DF,5,0,0,0,7500000,1
+Leo Ostigard,NOR,Hoffenheim,25,70,DF,4,0,0,0,7000000,1
+Robin Hranac,CZE,Hoffenheim,25,59,DF,2,0,0,0,3500000,1
+Arthur Chaves,BRA,Hoffenheim,24,58,DF,35,0,0,0,3000000,1
+Kevin Akpoguma,NGA,Hoffenheim,29,66,DF,25,0,0,0,2500000,1
+Stanley Nsoki,FRA,Hoffenheim,26,64,DF,34,0,0,0,2500000,1
+David Jurasek,CZE,Hoffenheim,24,62,DF,19,0,0,0,7000000,1
+Alexander Prass,AUT,Hoffenheim,23,63,DF,22,0,0,0,6500000,1
+Christopher Lenz,DEU,Hoffenheim,30,66,DF,13,0,0,0,800000,1
+Valentin Gendrey,FRA,Hoffenheim,24,65,DF,15,0,0,0,8500000,1
+Pavel Kadebarek,CZE,Hoffenheim,32,66,DF,3,0,0,0,2500000,1
+Anton Stach,DEU,Hoffenheim,26,69,ST,16,0,0,0,14000000,1
+Diadie Samassekou,MLI,Hoffenheim,29,63,ST,18,0,0,0,1000000,1
+Tom Bischof,DEU,Hoffenheim,19,56,ST,7,0,0,0,25000000,1
+Umut Tohumcu,DEU,Hoffenheim,20,58,ST,17,0,0,0,7000000,1
+Grischa Promel,DEU,Hoffenheim,30,69,ST,6,0,0,0,4500000,1
+Dennis Geiger,DEU,Hoffenheim,26,66,ST,8,0,0,0,3000000,1
+Finn Becker,DEU,Hoffenheim,24,62,ST,20,0,0,0,2000000,1
+Florian Micheler,AUT,Hoffenheim,19,43,ST,28,0,0,0,500000,1
+Andrej Kramaric,HRV,Hoffenheim,33,72,MF,27,0,0,0,4000000,1
+Bazoumana Toure,CIV,Hoffenheim,19,43,ST,29,0,0,0,9000000,1
+Marius Bulter,DEU,Hoffenheim,32,67,ST,21,0,0,0,2500000,1
+Adam Hlozek,CZE,Hoffenheim,22,64,ST,23,0,0,0,18000000,1
+Gift Orban,NGA,Hoffenheim,22,62,ST,14,0,0,0,10000000,1
+Max Moerstedt,DEU,Hoffenheim,19,44,ST,33,0,0,0,7000000,1
+Haris Tabakovic,BIH,Hoffenheim,30,64,ST,26,0,0,0,3000000,1
+Erencan Yardimci,TUR,Hoffenheim,23,55,ST,53,0,0,0,3000000,1
+Ihlas Bebou,TGO,Hoffenheim,30,66,ST,9,0,0,0,2800000,1
+David Mokwa,FRA,Hoffenheim,20,33,ST,52,0,0,0,1000000,1
+Kevin Muller,DEU,Heidenheim,34,63,GK,1,0,0,0,1000000,1
+Frank Feller,DEU,Heidenheim,21,44,GK,40,0,0,0,500000,1
+Vitus Eicher,DEU,Heidenheim,34,54,GK,22,0,0,0,250000,1
+Paul Tschernuth,AUT,Heidenheim,23,43,GK,34,0,0,0,100000,1
+Benedikt Gimber,DEU,Heidenheim,28,61,DF,5,0,0,0,3000000,1
+Patrik Mainka,DEU,Heidenheim,30,64,DF,6,0,0,0,3000000,1
+Tim Siersleben,DEU,Heidenheim,25,60,DF,4,0,0,0,1500000,1
+Thomas Keller,DEU,Heidenheim,25,53,DF,27,0,0,0,300000,1
+Jonas Fohrenbach,DEU,Heidenheim,29,61,DF,19,0,0,0,2000000,1
+Omar Traore,DEU,Heidenheim,27,59,DF,23,0,0,0,4000000,1
+Marnon Busch,DEU,Heidenheim,30,62,DF,2,0,0,0,1200000,1
+Niklas Dorsch,DEU,Heidenheim,27,67,MF,39,0,0,0,3500000,1
+Julian Niehues,DEU,Heidenheim,23,57,MF,16,0,0,0,1500000,1
+Luka Janes,DEU,Heidenheim,21,44,MF,36,0,0,0,200000,1
+Norman Theuerkauf,DEU,Heidenheim,38,58,MF,30,0,0,0,175000,1
+Jan Schoppner,DEU,Heidenheim,25,60,MF,3,0,0,0,4500000,1
+Luca Kerber,DEU,Heidenheim,23,54,MF,20,0,0,0,1300000,1
+Frans Kratzig,DEU,Heidenheim,22,57,MF,13,0,0,0,2000000,1
+Paul Wanner,DEU,Heidenheim,19,54,MF,10,0,0,0,18000000,1
+Adrian Beck,DEU,Heidenheim,27,59,MF,21,0,0,0,2000000,1
+Leo Scienza,BRA,Heidenheim,26,51,ST,8,0,0,0,3000000,1
+Mathias Honsak,AUT,Heidenheim,28,60,ST,17,0,0,0,1500000,1
+Christopher Negele,DEU,Heidenheim,20,35,ST,25,0,0,0,250000,1
+Sirlord Conteh,DEU,Heidenheim,28,57,ST,31,0,0,0,1500000,1
+Marvin Pieringer,DEU,Heidenheim,25,61,ST,18,0,0,0,5500000,1
+Budu Zivzivadze,GEO,Heidenheim,31,56,ST,12,0,0,0,2500000,1
+Maximilian Breunig,DEU,Heidenheim,24,50,ST,14,0,0,0,2000000,1
+Stefan Schimmer,DEU,Heidenheim,30,55,ST,9,0,0,0,500000,1
+Michael Zetterer,DEU,Werder Bremen,29,62,GK,1,0,0,0,4500000,1
+Mio Backhaus,DEU,Werder Bremen,20,51,GK,30,0,0,0,2000000,1
+Markus Kolke,DEU,Werder Bremen,34,58,GK,25,0,0,0,300000,1
+Marco Friedl,AUT,Werder Bremen,27,66,DF,32,0,0,0,10000000,1
+Niklas Stark,DEU,Werder Bremen,30,66,DF,4,0,0,0,5000000,1
+Amos Pieper,DEU,Werder Bremen,27,66,DF,5,0,0,0,3000000,1
+Milos Veljkovic,SRB,Werder Bremen,29,65,DF,13,0,0,0,3000000,1
+Julian Malatini,ARG,Werder Bremen,23,60,DF,22,0,0,0,3000000,1
+Anthony Jung,DEU,Werder Bremen,33,64,DF,3,0,0,0,1000000,1
+Derrick Kohn,DEU,Werder Bremen,26,65,DF,19,0,0,0,6000000,1
+Felix Agu,DEU,Werder Bremen,25,60,DF,27,0,0,0,6000000,1
+Issa Kabore,BFA,Werder Bremen,23,63,DF,29,0,0,0,6000000,1
+Mitchell Weiser,DEU,Werder Bremen,30,67,DF,8,0,0,0,5000000,1
+Senne Lynen,BEL,Werder Bremen,26,63,MF,14,0,0,0,9000000,1
+Skelly Alvero,FRA,Werder Bremen,22,56,MF,28,0,0,0,3000000,1
+Jens Stage,DMK,Werder Bremen,28,66,MF,6,0,0,0,12000000,1
+Leonardo Bittencourt,DEU,Werder Bremen,31,64,MF,10,0,0,0,2000000,1
+Romano Schmid,AUT,Werder Bremen,25,63,MF,20,0,0,0,15000000,1
+Leon Opitz,DEU,Werder Bremen,20,49,MF,35,0,0,0,600000,1
+Patrice Covic,HRV,Werder Bremen,17,38,MF,39,0,0,0,0,1
+Marco Grull,AUT,Werder Bremen,26,63,ST,17,0,0,0,4000000,1
+Abdenego Nankishi,DEU,Werder Bremen,22,48,ST,33,0,0,0,450000,1
+Justin Njinmah,DEU,Werder Bremen,24,61,ST,11,0,0,0,7000000,1
+Marvin Ducksch,DEU,Werder Bremen,31,67,ST,7,0,0,0,7500000,1
+Andre Silva,PRT,Werder Bremen,29,71,ST,9,0,0,0,5000000,1
+Keke Topp,DEU,Werder Bremen,21,53,ST,42,0,0,0,4000000,1
+Oliver Burke,SCO,Werder Bremen,28,55,ST,15,0,0,0,1800000,1
+Noah Atubolu,DEU,Freiburg,22,62,GK,1,0,0,0,15000000,1
+Florian Muller,DEU,Freiburg,27,62,GK,21,0,0,0,1200000,1
+Jannik Huth,DEU,Freiburg,31,59,GK,24,0,0,0,400000,1
+Philipp Lienhart,AUT,Freiburg,28,70,DF,3,0,0,0,15000000,1
+Matthias GInter,DEU,Freiburg,31,72,DF,28,0,0,0,8000000,1
+Max Rosenfelder,DEU,Freiburg,22,54,DF,37,0,0,0,4000000,1
+Bruno Ogbus,CHE,Freiburg,19,42,DF,43,0,0,0,1000000,1
+Manuel Gulde,DEU,Freiburg,34,65,DF,5,0,0,0,800000,1
+Christian Gunter,DEU,Freiburg,32,69,DF,30,0,0,0,4000000,1
+Jordy Makengo,FRA,Freiburg,23,59,DF,33,0,0,0,3000000,1
+Kiliann Sildillia,FRA,Freiburg,22,64,DF,25,0,0,0,10000000,1
+Lukas Kubler,DEU,Freiburg,32,66,DF,17,0,0,0,2000000,1
+Nicolas Hofler,DEU,Freiburg,35,69,MF,27,0,0,0,700000,1
+Maximilian Eggestein,DEU,Freiburg,28,68,MF,8,0,0,0,10000000,1
+Patrick Osterhage,DEU,Freiburg,25,63,MF,6,0,0,0,8500000,1
+Johan Manzambi,CHE,Freiburg,19,39,MF,44,0,0,0,750000,1
+Merlin Rohl,DEU,Freiburg,22,65,MF,34,0,0,0,12000000,1
+Daniel-Kofi Kyereh,GHA,Freiburg,29,65,MF,11,0,0,0,1500000,1
+Niklas Beste,DEU,Freiburg,26,67,ST,19,0,0,0,10000000,1
+VIncenzo Grifo,ITA,Freiburg,32,71,ST,32,0,0,0,7500000,1
+Florent Muslija,XKX,Freiburg,26,64,ST,23,0,0,0,2000000,1
+Ritsu Doan,JPN,Freiburg,26,69,ST,42,0,0,0,22000000,1
+Eren Dinkci,TUR,Freiburg,23,60,ST,18,0,0,0,12000000,1
+Maximilian Philipp,DEU,Freiburg,31,64,ST,26,0,0,0,1000000,1
+Junior Adamu,AUT,Freiburg,23,64,ST,20,0,0,0,6000000,1
+Michael Gregoritsch,AUT,Freiburg,30,66,ST,38,0,0,0,4000000,1
+Lucas Holer,DEU,Freiburg,30,67,ST,9,0,0,0,3500000,1
+Finn Dahmen,DEU,Augsburg,27,64,GK,1,0,0,0,6000000,1
+Nedilijko Labrovic,HRV,Augsburg,25,66,GK,22,0,0,0,3000000,1
+Daniel Klein,DEU,Augsburg,24,48,GK,25,0,0,0,150000,1
+Christian Matsima,FRA,Augsburg,22,57,DF,5,0,0,0,17000000,1
+Keven Schlotterbeck,DEU,Augsburg,27,63,DF,31,0,0,0,7000000,1
+Nahkai Banks,USA,Augsburg,18,36,DF,40,0,0,0,6000000,1
+Cedric Zesiger,CHE,Augsburg,26,35,DF,16,0,0,0,5500000,1
+Jeffrey Gouweleeuw,NLD,Augsburg,33,65,DF,6,0,0,0,1500000,1
+Reece Oxford,ENG,Augsburg,26,62,DF,4,0,0,0,500000,1
+Dimitrios Giannoulis,GRC,Augsburg,29,62,DF,13,0,0,0,2800000,1
+Mads Pedersen,DMK,Augsburg,28,64,DF,3,0,0,0,2500000,1
+Marius Wolf,DEU,Augsburg,29,68,DF,11,0,0,0,3000000,1
+Robert Gumny,POL,Augsburg,26,61,DF,2,0,0,0,2000000,1
+Hneri Koudossou,DEU,Augsburg,25,49,DF,44,0,0,0,1500000,1
+Kristijan Jakic,HRV,Augsburg,27,66,MF,17,0,0,0,6500000,1
+Mahmut Kucuksahin,TUR,Augsburg,21,35,MF,42,0,0,0,175000,1
+Frank Onyeka,NGA,Augsburg,27,64,MF,19,0,0,0,7000000,1
+Arne Maier,DEU,Augsburg,26,64,MF,10,0,0,0,4000000,1
+Elvis Rexhbecaj,XKX,Augsburg,27,66,MF,8,0,0,0,3500000,1
+Alexis Claude-Maurice,FRA,Augsburg,26,59,MF,20,0,0,0,12000000,1
+Mert Komur ,DEU,Augsburg,19,51,MF,36,0,0,0,5000000,1
+Frederik Jensen,FIN,Augsburg,27,63,MF,24,0,0,0,3500000,1
+Yusuf Kabadayi,DEU,Augsburg,21,54,ST,7,0,0,0,1500000,1
+Phillip Tietz,DEU,Augsburg,27,64,ST,21,0,0,0,5000000,1
+Mergim Berisha,DEU,Augsburg,26,67,ST,37,0,0,0,5000000,1
+Samuel Essende,COD,Augsburg,27,58,ST,9,0,0,0,4500000,1
+Steve Mounie,BEN,Augsburg,30,65,ST,15,0,0,0,3000000,1
+Kamil Grabara,POL,Wolfsburg,26,68,GK,1,0,0,0,14000000,1
+Marius Muller,DEU,Wolfsburg,31,63,GK,29,0,0,0,1500000,1
+Pavao Pervan,AUT,Wolfsburg,37,56,GK,12,0,0,0,300000,1
+Niklas Klinger,DEU,Wolfsburg,29,48,GK,30,0,0,0,100000,1
+Konstantinos Koulierakis,GRC,Wolfsburg,21,40,DF,4,0,0,0,20000000,1
+Sebastiaan Bournaw,BEL,Wolfsburg,26,66,DF,3,0,0,0,7000000,1
+Denis Vavro,SVK,Wolfsburg,29,65,DF,18,0,0,0,7000000,1
+David Odogu,DEU,Wolfsburg,18,44,DF,33,0,0,0,700000,1
+Mathys Angely,FRA,Wolfsburg,17,34,DF,22,0,0,0,600000,1
+Joakim Maehle,DMK,Wolfsburg,27,69,DF,21,0,0,0,14000000,1
+Rogerio,BRA,Wolfsburg,27,67,DF,13,0,0,0,3500000,1
+Mads Roerslev,DMK,Wolfsburg,25,68,DF,5,0,0,0,8000000,1
+Kilian Fischer,DEU,Wolfsburg,24,61,DF,2,0,0,0,6000000,1
+Mattias Svanberg,SWE,Wolfsburg,26,68,MF,32,0,0,0,12000000,1
+Aster Vranckx,BEL,Wolfsburg,22,64,MF,6,0,0,0,9000000,1
+Maximilian Arnold,DEU,Wolfsburg,30,71,MF,27,0,0,0,7000000,1
+Yannick Gerhardt,DEU,Wolfsburg,31,67,MF,31,0,0,0,3000000,1
+Kevin Paredes,USA,Wolfsburg,21,59,MF,40,0,0,0,7500000,1
+Lovro Majer,HRV,Wolfsburg,27,70,MF,19,0,0,0,20000000,1
+Bence Dardai,HUN,Wolfsburg,19,51,MF,24,0,0,0,9000000,1
+Bennit Broger,DEU,Wolfsburg,18,43,MF,38,0,0,0,500000,1
+Jakub Kaminski,POL,Wolfsburg,22,64,ST,16,0,0,0,6000000,1
+Andreas Skov Olsen,DMK,Wolfsburg,25,66,ST,7,0,0,0,16000000,1
+Patrick Wimmer,AUT,Wolfsburg,23,68,ST,39,0,0,0,15000000,1
+Mohamed Amoura,DZA,Wolfsburg,24,65,ST,9,0,0,0,32000000,1
+Jonas Wind,DMK,Wolfsburg,26,70,ST,23,0,0,0,15000000,1
+Tiago Tomas,PRT,Wolfsburg,22,64,ST,11,0,0,0,12000000,1
+Lukas Nmecha,DEU,Wolfsburg,26,66,ST,10,0,0,0,3000000,1
+Kevin Behrens,DEU,Wolfsburg,34,66,ST,17,0,0,0,1500000,1
+Bartosz Bialek,POL,Wolfsburg,23,58,ST,14,0,0,0,800000,1
+Robin Zentner,DEU,Mainz,30,63,GK,27,0,0,0,4000000,1
+Daniel Batz,DEU,Mainz,34,59,GK,33,0,0,0,350000,1
+Lasse Riess,DEU,Mainz,23,40,GK,1,0,0,0,200000,1
+Moritz Jenz,DEU,Mainz,25,67,DF,3,0,0,0,6000000,1
+Andreas Hanche-Olsen,NOR,Mainz,28,66,DF,25,0,0,0,6000000,1
+Maxim Leitsch,DEU,Mainz,26,63,DF,5,0,0,0,2000000,1
+Danny da Costa,DEU,Mainz,31,63,DF,21,0,0,0,1500000,1
+Stefan Bell,DEU,Mainz,33,64,DF,16,0,0,0,800000,1
+Maxim Dal,DEU,Mainz,19,43,DF,47,0,0,0,150000,1
+Philipp Mwene,AUT,Mainz,31,65,DF,2,0,0,0,1800000,1
+Silvan Widmer,CHE,Mainz,32,66,DF,30,0,0,0,1500000,1
+Nikolas Veratschnig,AUT,Mainz,22,54,DF,22,0,0,0,800000,1
+Kaishu Sano,JPN,Mainz,24,58,MF,6,0,0,0,17000000,1
+Lennard Maloney,USA,Mainz,25,62,MF,15,0,0,0,5000000,1
+Dominik Kohr,DEU,Mainz,31,65,MF,31,0,0,0,3500000,1
+Nadiem Amiri,DEU,Mainz,28,65,MF,18,0,0,0,18000000,1
+Anthony Caci,FRA,Mainz,27,67,MF,19,0,0,0,10000000,1
+Paul Nebel,DEU,Mainz,22,59,MF,8,0,0,0,17000000,1
+Hong Hyun-Seok,KOR,Mainz,25,62,MF,14,0,0,0,3500000,1
+Lee Jae-Sung,KOR,Mainz,32,66,MF,7,0,0,0,2500000,1
+Arnaud Nordin,FRA,Mainz,26,65,ST,9,0,0,0,6000000,1
+Armindo Sieb,DEU,Mainz,22,56,ST,11,0,0,0,4000000,1
+Jonathan Burkardt,DEU,Mainz,24,65,ST,29,0,0,0,35000000,1
+Nelson Wieper,DEU,Mainz,20,54,ST,44,0,0,0,6000000,1
+Moritz Nicolas,DEU,B. Monchengladbach,27,62,GK,33,0,0,0,5000000,1
+Joanas Omlin,CHE,B. Monchengladbach,31,70,GK,1,0,0,0,2500000,1
+Tobias Sippel,DEU,B. Monchengladbach,37,57,GK,21,0,0,0,300000,1
+Tiago Pereira Cardoso,LUX,B. Monchengladbach,19,43,GK,42,0,0,0,300000,1
+Ko Itakura,JPN,B. Monchengladbach,28,69,DF,3,0,0,0,12000000,1
+Nico Elvedi,CHE,B. Monchengladbach,28,68,DF,30,0,0,0,8000000,1
+Marvin Friedrich,DEU,B. Monchengladbach,29,65,DF,5,0,0,0,3500000,1
+Fabio Chiarodia,ITA,B. Monchengladbach,19,54,DF,2,0,0,0,2000000,1
+Lukas Ullrich,DEU,B. Monchengladbach,21,55,DF,26,0,0,0,8000000,1
+Luca Netz,DEU,B. Monchengladbach,21,62,DF,20,0,0,0,7000000,1
+Joe Scally,USA,B. Monchengladbach,22,63,DF,29,0,0,0,10000000,1
+Stefan Lainer,AUT,B. Monchengladbach,32,63,DF,22,0,0,0,1800000,1
+Julian Weigl,DEU,B. Monchengladbach,29,71,MF,8,0,0,0,6000000,1
+Niklas Swider,DEU,B. Monchengladbach,18,42,MF,39,0,0,0,0,1
+Rocco Reitz,DEU,B. Monchengladbach,22,63,MF,27,0,0,0,15000000,1
+Philipp Sander,DEU,B. Monchengladbach,27,62,MF,16,0,0,0,4000000,1
+Florian Neuhaus,DEU,B. Monchengladbach,28,68,MF,10,0,0,0,3500000,1
+Kevin Stoger,AUT,B. Monchengladbach,31,67,MF,7,0,0,0,4500000,1
+Robin Hack,DEU,B. Monchengladbach,26,63,ST,25,0,0,0,10000000,1
+Yvandro Borges Sanches,LUX,B. Monchengladbach,20,53,ST,38,0,0,0,500000,1
+Franck Honorat,FRA,B. Monchengladbach,28,68,ST,9,0,0,0,12000000,1
+Nathan Ngoumou,CMR,B. Monchengladbach,25,64,ST,19,0,0,0,4000000,1
+Tim Kleindienst,DEU,B. Monchengladbach,29,65,ST,11,0,0,0,17000000,1
+Alassane Plea,FRA,B. Monchengladbach,32,68,ST,14,0,0,0,6000000,1
+Tomas Cvancara,CZE,B. Monchengladbach,24,63,ST,31,0,0,0,4000000,1
+Shio Fukuda,JPN,B. Monchengladbach,21,46,ST,13,0,0,0,500000,1
+Frederik Ronnow,DMK,Union Berlin,32,69,GK,1,0,0,0,4000000,1
+Alexander Schwolow,DEU,Union Berlin,32,59,GK,37,0,0,0,700000,1
+Carl Klaus,DEU,Union Berlin,31,54,GK,25,0,0,0,350000,1
+Diogo Leite,PRT,Union Berlin,26,67,DF,4,0,0,0,17000000,1
+Danilho Doekhi,NLD,Union Berlin,26,69,DF,5,0,0,0,13000000,1
+Leopold Querfeld,AUT,Union Berlin,21,59,DF,14,0,0,0,7000000,1
+Kevin Vogt,DEU,Union Berlin,33,68,DF,2,0,0,0,2000000,1
+Oluwaseun Ogbemudia,DEU,Union Berlin,18,43,DF,41,0,0,0,0,1
+Tom Rothe,DEU,Union Berlin,20,58,DF,15,0,0,0,10000000,1
+Jerome Roussillion,XKX,Union Berlin,32,65,DF,26,0,0,0,1200000,1
+Josip Juranovic,HRV,Union Berlin,29,68,DF,18,0,0,0,4000000,1
+Christopher Trimmel,AUT,Union Berlin,38,67,DF,28,0,0,0,600000,1
+Aljoscha Kemlein,DEU,Union Berlin,20,56,MF,36,0,0,0,7000000,1
+Lucas Tousart,FRA,Union Berlin,27,66,MF,29,0,0,0,4000000,1
+Rani Khedira,DEU,Union Berlin,31,68,MF,8,0,0,0,3000000,1
+Andras Schafer,HUN,Union Berlin,26,65,MF,13,0,0,0,5000000,1
+Laszio Benes,SVK,Union Berlin,27,64,MF,20,0,0,0,4000000,1
+Janik Haberer,DEU,Union Berlin,31,66,MF,19,0,0,0,2500000,1
+Robert Skov,DMK,Union Berlin,28,67,MF,24,0,0,0,4000000,1
+Jeong Woo-Yeong,KOR,Union Berlin,25,64,MF,11,0,0,0,4000000,1
+David Preu,DEU,Union Berlin,20,40,ST,45,0,0,0,25000,1
+Tim Skarke,DEU,Union Berlin,28,63,ST,21,0,0,0,2500000,1
+Benedict Hollerbach,DEU,Union Berlin,23,59,ST,16,0,0,0,7500000,1
+Marin Ljubicic,HRV,Union Berlin,23,58,ST,27,0,0,0,4000000,1
+Andrej Ilic,SRB,Union Berlin,25,59,ST,23,0,0,0,2500000,1
+Kevin Volland,DEU,Union Berlin,32,67,ST,10,0,0,0,1800000,1
+Ivan Prtajin,HRV,Union Berlin,28,59,ST,9,0,0,0,1500000,1
+Timo Horn,DEU,Bochum,31,63,GK,1,0,0,0,800000,1
+Patrick Drewes,DEU,Bochum,32,59,GK,27,0,0,0,800000,1
+Paul Grave,DEU,Bochum,24,44,GK,34,0,0,0,50000,1
+Bernardo,BRA,Bochum,29,66,DF,5,0,0,0,5500000,1
+Tim Oermann,DEU,Bochum,21,57,DF,14,0,0,0,5000000,1
+Erhan Masovic,SRB,Bochum,26,63,DF,4,0,0,0,3000000,1
+Jakov Medic,HRV,Bochum,26,63,DF,13,0,0,0,2000000,1
+Ivan Ordets,UKR,Bochum,32,64,DF,20,0,0,0,1800000,1
+Mohammed Tolba,DEU,Bochum,20,46,DF,25,0,0,0,200000,1
+Maximilian Wittek,DEU,Bochum,29,61,DF,32,0,0,0,2000000,1
+Felix Passlack,DEU,Bochum,26,60,DF,15,0,0,0,2500000,1
+Cristian Gamboa,CRI,Bochum,35,61,DF,2,0,0,0,500000,1
+Ibrahima Sissoko,MLI,Bochum,27,64,MF,6,0,0,0,6000000,1
+Anthony Losilla,FRA,Bochum,39,65,MF,8,0,0,0,500000,1
+Niklas Jahn,DEU,Bochum,20,43,MF,16,0,0,0,200000,1
+Tom Krauss,DEU,Bochum,23,63,MF,17,0,0,0,4000000,1
+Matus Bero,SVK,Bochum,29,63,MF,19,0,0,0,3500000,1
+Mats Pannewig,DEU,Bochum,20,42,MF,24,0,0,0,600000,1
+Koji Miyoshi,JPN,Bochum,28,62,MF,23,0,0,0,1800000,1
+Dani de Wit,NLD,Bochum,27,64,MF,10,0,0,0,3000000,1
+Lennart Koerdt,DEU,Bochum,20,39,MF,28,0,0,0,0,1
+Georgios Masouras,GRC,Bochum,31,63,ST,11,0,0,0,3200000,1
+Gerrit Holtmann,PHL,Bochum,30,60,ST,21,0,0,0,700000,1
+Samuel Bamba,DEU,Bochum,21,53,ST,18,0,0,0,800000,1
+Myron Boadu,NLD,Bochum,24,64,ST,9,0,0,0,7000000,1
+Moritz Broschinski,DEU,Bochum,24,56,ST,29,0,0,0,2500000,1
+Philipp Hofmann,DEU,Bochum,32,62,ST,33,0,0,0,1500000,1
+Nikola Vasilj,BIH,St. Pauli,29,60,GK,22,0,0,0,3000000,1
+Ben Voll,DEU,St. Pauli,24,51,GK,1,0,0,0,500000,1
+Eric Oelschlagel,DEU,St. Pauli,29,52,GK,32,0,0,0,300000,1
+Sascha Burchert,DEU,St. Pauli,35,55,GK,30,0,0,0,200000,1
+Soren Ahlers,DEU,St. Pauli,27,46,GK,28,0,0,0,50000,1
+Eric Smith,SWE,St. Pauli,28,64,DF,8,0,0,0,5000000,1
+David Nemeth,AUT,St. Pauli,24,56,DF,4,0,0,0,2500000,1
+Siebe Van der Heyden,BEL,St. Pauli,26,63,DF,44,0,0,0,2000000,1
+Hauke Wahl,DEU,St. Pauli,31,62,DF,5,0,0,0,1500000,1
+Karol Mets,EST,St. Pauli,31,61,DF,3,0,0,0,1300000,1
+Adam Dzwigala,POL,St. Pauli,29,56,DF,25,0,0,0,600000,1
+Muhammad Dahaba,DEU,St. Pauli,20,39,DF,34,0,0,0,125000,1
+Philipp Treu,DEU,St. Pauli,24,58,DF,23,0,0,0,5000000,1
+Lars Ritzka,DEU,St. Pauli,26,57,DF,21,0,0,0,900000,1
+Manolis Saliakas,GRC,St. Pauli,28,61,DF,2,0,0,0,2800000,1
+Fin Stevens,WLS,St. Pauli,22,57,DF,14,0,0,0,600000,1
+James Sands,USA,St. Pauli,24,60,MF,6,0,0,0,3000000,1
+Marwin Schimtz,DEU,St. Pauli,18,34,MF,42,0,0,0,200000,1
+Robert Wagner,DEU,St. Pauli,21,59,MF,39,0,0,0,3000000,1
+Connor Metcalfe,AUS,St. Pauli,25,59,MF,24,0,0,0,2500000,1
+Jackson Irvine,AUS,St. Pauli,32,63,MF,7,0,0,0,2000000,1
+Carlo Boukhalfa,DEU,St. Pauli,25,54,MF,16,0,0,0,1000000,1
+Erik Ahlstrand,SWE,St. Pauli,23,57,MF,20,0,0,0,500000,1
+Noah Weisshaupt,DEU,St. Pauli,23,61,ST,13,0,0,0,5000000,1
+Elias Saad,TUN,St. Pauli,25,61,ST,26,0,0,0,4000000,1
+Romeo Aigbekaen,DEU,St. Pauli,20,32,ST,38,0,0,0,100000,1
+Oladapo Afolayan,ENG,St. Pauli,27,60,ST,17,0,0,0,4000000,1
+Morgan Guilavogui,GIN,St. Pauli,27,59,ST,29,0,0,0,4000000,1
+Danel Sinani,LUX,St. Pauli,28,56,ST,10,0,0,0,750000,1
+Scott Banks,SCO,St. Pauli,23,53,ST,18,0,0,0,500000,1
+Johannes Eggestein,DEU,St. Pauli,26,60,ST,11,0,0,0,3000000,1
+Abdoulie Ceesay,GMB,St. Pauli,21,21,ST,9,0,0,0,500000,1
+Andreas Albers,DMK,St. Pauli,35,56,ST,19,0,0,0,300000,1
+Simon Zoller,DEU,St. Pauli,33,58,ST,27,0,0,0,300000,1
+Timon Weiner ,DEU,Holstein Kiel,26,58,GK,1,0,0,0,1500000,1
+Thomas Dahne,DEU,Holstein Kiel,31,56,GK,21,0,0,0,400000,1
+Marcel Engelhardt,DEU,Holstein Kiel,32,50,GK,31,0,0,0,175000,1
+Marko Ivezic,SRB,Holstein Kiel,23,56,DF,6,0,0,0,2500000,1
+David Zec,SVN,Holstein Kiel,25,57,DF,26,0,0,0,2500000,1
+Colin Kleine-Bekel,DEU,Holstein Kiel,22,56,DF,34,0,0,0,2500000,1
+Timo Becker,DEU,Holstein Kiel,28,60,DF,17,0,0,0,2000000,1
+Max Geschwill,DEU,Holstein Kiel,23,56,DF,14,0,0,0,1500000,1
+Marco Komenda,DEU,Holstein Kiel,28,58,DF,3,0,0,0,800000,1
+Ivan Nekic,HRV,Holstein Kiel,24,,DF,13,0,0,0,800000,1
+Carl Johansson,SWE,Holstein Kiel,30,58,DF,5,0,0,0,700000,1
+John Tolkin,USA,Holstein Kiel,22,58,DF,47,0,0,0,3000000,1
+Dominik Javorcek,SVK,Holstein Kiel,22,45,DF,33,0,0,0,550000,1
+Lasse Rosenboom,DEU,Holstein Kiel,23,48,DF,23,0,0,0,1000000,1
+Patrick Erras,DEU,Holstein Kiel,30,60,MF,4,0,0,0,1000000,1
+Marvin Schulz,DEU,Holstein Kiel,30,58,MF,15,0,0,0,700000,1
+Armin Gigovic,BIH,Holstein Kiel,23,59,MF,37,0,0,0,3000000,1
+Nicolai Remberg,DEU,Holstein Kiel,24,56,MF,22,0,0,0,2800000,1
+Magnus Knudsen,NOR,Holstein Kiel,23,58,MF,24,0,0,0,2500000,1
+Lewis Holtby,DEU,Holstein Kiel,34,60,MF,10,0,0,0,500000,1
+Aurel Wagbe,DEU,Holstein Kiel,21,50,MF,28,0,0,0,100000,1
+Finn Porath,DEU,Holstein Kiel,28,56,MF,8,0,0,0,2000000,1
+Steven Skrzybski,DEU,Holstein Kiel,32,62,MF,7,0,0,0,1000000,1
+Andu Kelati,DEU,Holstein Kiel,22,50,ST,16,0,0,0,800000,1
+Alexander Bernhardsson,SWE,Holstein Kiel,26,59,ST,11,0,0,0,1500000,1
+Phil Harres,DEU,Holstein Kiel,23,45,ST,19,0,0,0,4500000,1
+Shuto Machino,JPN,Holstein Kiel,25,58,ST,18,0,0,0,3500000,1
+Benedikt Pichler,AUT,Holstein Kiel,27,61,ST,9,0,0,0,2000000,1
+Fiete Arp,DEU,Holstein Kiel,25,56,ST,20,0,0,0,800000,1

@@ -8,11 +8,6 @@ package fm20xx;
  *
  * @author Dell
  */
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -40,7 +35,7 @@ public class PlayerReader {
                     continue;
                 }
                 // Splitting the line on commas.
-                // Assuming CSV columns order: name, nationality, team, age, skill_rating, position, number, goals, yellow_cards, red_cards, value
+                // Assuming CSV columns order: name, nationality, team, age, skill_rating, position, number, goals, yellow_cards, red_cards, value, energy
                 String[] tokens = line.split(",");
                 String name = tokens[0];
                 String nationality = tokens[1];
@@ -53,9 +48,10 @@ public class PlayerReader {
                 int yellowCards = tokens[8].isEmpty() ? 0 : Integer.parseInt(tokens[8]);
                 int redCards = tokens[9].isEmpty() ? 0 : Integer.parseInt(tokens[9]);
                 int value = Integer.parseInt(tokens[10]);
+                double energy = 1;
 
                 Player player = new Player(name, nationality, team, age, skillRating,
-                                           position, number, goals, yellowCards, redCards, value);
+                                           position, number, goals, yellowCards, redCards, value, energy);
                 players.add(player);
             }
         } catch (IOException e) {
