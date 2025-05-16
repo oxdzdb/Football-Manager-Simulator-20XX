@@ -46,7 +46,7 @@ public class TeamSelectController implements Initializable {
     
     int teamIndex;
     League chosenLeague;
-    Team chosenTeam;
+    static Team chosenTeam;
     ArrayList<Team> teamList;
     
     

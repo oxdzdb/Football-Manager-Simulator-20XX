@@ -1,14 +1,14 @@
 Name,Short Name,Location,Stadium Name,Wins,Draws,Losses,Goals,Con Goals,Funds,Facility Rating,Points,Stadium Capacity,Image FIle Name
-Atalanta ,ATA,Bergamo,Gewiss Stadium,0,0,0,0,0,17000000,17,0,15000,teamImgs/atalantaBC.png
+Atalanta,ATA,Bergamo,Gewiss Stadium,0,0,0,0,0,17000000,17,0,15000,teamImgs/atalantaBC.png
 Bologna,BOL,Bologna,Renato Dall'Ara,0,0,0,0,0,7000000,16,0,38279,teamImgs/bolognaFC1909.png
-Cagliari ,CAG,Cagliari,Unipol Domus,0,0,0,0,0,4000000,14,0,16416,teamImgs/cagliariCalcio.png
-Como ,COM,Como,Guiseppe Sinigaglia,0,0,0,0,0,857000,10,0,13602,teamImgs/como1907.png
-Empoli ,EMP,Empoli,Stadio Carlo Castellani,0,0,0,0,0,5000000,10,0,16284,teamImgs/empoliFC.png
+Cagliari,CAG,Cagliari,Unipol Domus,0,0,0,0,0,4000000,14,0,16416,teamImgs/cagliariCalcio.png
+Como,COM,Como,Guiseppe Sinigaglia,0,0,0,0,0,857000,10,0,13602,teamImgs/como1907.png
+Empoli,EMP,Empoli,Stadio Carlo Castellani,0,0,0,0,0,5000000,10,0,16284,teamImgs/empoliFC.png
 Fiorentina,FIO,Florence,Stadio Artemio Franchi,0,0,0,0,0,7000000,20,0,43189,teamImgs/ACFFiorentina.png
-Genoa ,GEN,Genoa,Luigi Ferraris,0,0,0,0,0,4000000,16,0,33205,teamImgs/genoaCFC.png
-Verona ,HEL,Verona,Marcantonio Bentegodi,0,0,0,0,0,857000,13,0,31713,teamImgs/hellasVeronaFC.png
-Inter ,INT,Milan,San Siro,0,0,0,0,0,13000000,18,0,75710,teamImgs/FCInternazionaleMilano.png
-Juventus ,JUV,Turin,Allianz Stadium,0,0,0,0,0,13000000,18,0,41507,teamImgs/juventusFC.png
+Genoa,GEN,Genoa,Luigi Ferraris,0,0,0,0,0,4000000,16,0,33205,teamImgs/genoaCFC.png
+Verona,HEL,Verona,Marcantonio Bentegodi,0,0,0,0,0,857000,13,0,31713,teamImgs/hellasVeronaFC.png
+Inter,INT,Milan,San Siro,0,0,0,0,0,13000000,18,0,75710,teamImgs/FCInternazionaleMilano.png
+Juventus,JUV,Turin,Allianz Stadium,0,0,0,0,0,13000000,18,0,41507,teamImgs/juventusFC.png
 Lazio,LAZ,Rome,Olimpico,0,0,0,0,0,13000000,18,0,69110,teamImgs/SSLazio.png
 Lecce,LEC,Lecce,Stadio Via del Mare,0,0,0,0,0,4000000,14,0,31461,teamImgs/USLecce.png
 AC Milan,MIL,Milan,San Siro,0,0,0,0,0,17000000,19,0,75710,teamImgs/ACMilan.png
@@ -16,6 +16,6 @@ Monza,MON,Monza,Stadio Brianteo,0,0,0,0,0,9000000,10,0,15039,teamImgs/ACMonza.pn
 Napoli,NAP,Naples,Stadio Diego Maradona,0,0,0,0,0,30000000,12,0,54726,teamImgs/SSCNapoli.png
 Parma,PAR,Parma,Ennio Tardini,0,0,0,0,0,3000000,16,0,22352,teamImgs/parmaCalcio1913.png
 AS Roma,ROM,Rome,Olimpico,0,0,0,0,0,9000000,18,0,69110,teamImgs/ASRoma.png
-Torino ,TOR,Turin,Olimpico Grande Torino,0,0,0,0,0,6000000,15,0,28177,teamImgs/torinoFC.png
-Udinese ,UDI,Udine,Bluenergy Stadium,0,0,0,0,0,7000000,14,0,25132,teamImgs/udineseCalcio.png
-Venezia ,VEN,Venice,Pier Luigi Penzo,0,0,0,0,0,857000,10,0,11150,teamImgs/veneziaFC.png
+Torino,TOR,Turin,Olimpico Grande Torino,0,0,0,0,0,6000000,15,0,28177,teamImgs/torinoFC.png
+Udinese,UDI,Udine,Bluenergy Stadium,0,0,0,0,0,7000000,14,0,25132,teamImgs/udineseCalcio.png
+Venezia,VEN,Venice,Pier Luigi Penzo,0,0,0,0,0,857000,10,0,11150,teamImgs/veneziaFC.png

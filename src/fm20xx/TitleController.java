@@ -29,7 +29,7 @@ public class TitleController implements Initializable {
     @FXML Button exit;
     static League chosenLeague = null;
     int teamIndex;
-    Team chosenTeam;
+    static Team chosenTeam = null;
     ArrayList<Team> teamList;
     
     
@@ -50,6 +50,7 @@ public class TitleController implements Initializable {
         chosenLeague = l;
         teamList = tl;
         teamIndex = i;
+        chosenTeam = chosenLeague.searchTeam(teamIndex);
     }
     
     @FXML

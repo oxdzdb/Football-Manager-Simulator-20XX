@@ -50,32 +50,32 @@ Mason Greenwood,ENG,Marseille,23,72,ST,10,0,0,0,35000000,1
 Amine Gouiri,DZA,Marseille,25,69,ST,9,0,0,0,20000000,1
 Neal Maupay,FRA,Marseille,28,64,ST,8,0,0,0,10000000,1
 Faris Moumbagna,CAM,Marseille,24,66,ST,14,0,0,0,8000000,1
-Radoslaw Majecki,POL,Monaco ,25,59,GK,1,0,0,0,7000000,1
-Philipp Kohn,CHE,Monaco ,27,65,GK,16,0,0,0,4000000,1
-Yann Lienard,FRA,Monaco ,22,46,GK,50,0,0,0,200000,1
-Wilfried Singo,CIV,Monaco ,24,69,DF,17,0,0,0,25000000,1
-Thilo Kehrer,DEU,Monaco ,28,68,DF,5,0,0,0,15000000,1
-Mohammed Salisu,GHA,Monaco ,25,69,DF,22,0,0,0,15000000,1
-Christian Mawissa,FRA,Monaco ,19,53,DF,13,0,0,0,12000000,1
-Caio Henrique,BRA,Monaco ,27,72,DF,12,0,0,0,15000000,1
-Kassoum Ouattara,FRA,Monaco ,20,54,DF,20,0,0,0,8000000,1
-Vanderson,BRA,Monaco ,23,70,DF,2,0,0,0,20000000,1
-Jordan Teze,NLD,Monaco ,25,69,DF,4,0,0,0,12000000,1
-Denis Zakaria,CHE,Monaco ,28,71,MF,6,0,0,0,30000000,1
-Soungoutou Magassa,FRA,Monaco ,21,58,MF,88,0,0,0,12000000,1
-Moatasem Al-Musrati,LBY,Monaco ,29,50,MF,8,0,0,0,10000000,1
-Lamine Camara,SEN,Monaco ,21,60,MF,15,0,0,0,20000000,1
-Edan Diop,FRA,Monaco ,20,52,MF,37,0,0,0,1500000,1
-Alexandr Golovin,RUS,Monaco ,28,75,MF,10,0,0,0,25000000,1
-Eliesse Ben Seghir,MAR,Monaco ,20,62,ST,7,0,0,0,30000000,1
-Takumi Minamino,JPN,Monaco ,30,70,ST,18,0,0,0,15000000,1
-Lucas Michal,FRA,Monaco ,19,39,ST,41,0,0,0,500000,1
-Maghnes Akliouche,FRA,Monaco ,23,60,ST,11,0,0,0,40000000,1
-Krepin Diatta,SEN,Monaco ,26,63,ST,27,0,0,0,10000000,1
-Mika Biereth,DMK,Monaco ,22,55,ST,14,0,0,0,25000000,1
-Folarin Balogun,USA,Monaco ,23,70,ST,9,0,0,0,20000000,1
-George Ilenikhena,NGA,Monaco ,18,53,ST,21,0,0,0,15000000,1
-Breel Embolo,CHE,Monaco ,28,73,ST,36,0,0,0,12000000,1
+Radoslaw Majecki,POL,Monaco,25,59,GK,1,0,0,0,7000000,1
+Philipp Kohn,CHE,Monaco,27,65,GK,16,0,0,0,4000000,1
+Yann Lienard,FRA,Monaco,22,46,GK,50,0,0,0,200000,1
+Wilfried Singo,CIV,Monaco,24,69,DF,17,0,0,0,25000000,1
+Thilo Kehrer,DEU,Monaco,28,68,DF,5,0,0,0,15000000,1
+Mohammed Salisu,GHA,Monaco,25,69,DF,22,0,0,0,15000000,1
+Christian Mawissa,FRA,Monaco,19,53,DF,13,0,0,0,12000000,1
+Caio Henrique,BRA,Monaco,27,72,DF,12,0,0,0,15000000,1
+Kassoum Ouattara,FRA,Monaco,20,54,DF,20,0,0,0,8000000,1
+Vanderson,BRA,Monaco,23,70,DF,2,0,0,0,20000000,1
+Jordan Teze,NLD,Monaco,25,69,DF,4,0,0,0,12000000,1
+Denis Zakaria,CHE,Monaco,28,71,MF,6,0,0,0,30000000,1
+Soungoutou Magassa,FRA,Monaco,21,58,MF,88,0,0,0,12000000,1
+Moatasem Al-Musrati,LBY,Monaco,29,50,MF,8,0,0,0,10000000,1
+Lamine Camara,SEN,Monaco,21,60,MF,15,0,0,0,20000000,1
+Edan Diop,FRA,Monaco,20,52,MF,37,0,0,0,1500000,1
+Alexandr Golovin,RUS,Monaco,28,75,MF,10,0,0,0,25000000,1
+Eliesse Ben Seghir,MAR,Monaco,20,62,ST,7,0,0,0,30000000,1
+Takumi Minamino,JPN,Monaco,30,70,ST,18,0,0,0,15000000,1
+Lucas Michal,FRA,Monaco,19,39,ST,41,0,0,0,500000,1
+Maghnes Akliouche,FRA,Monaco,23,60,ST,11,0,0,0,40000000,1
+Krepin Diatta,SEN,Monaco,26,63,ST,27,0,0,0,10000000,1
+Mika Biereth,DMK,Monaco,22,55,ST,14,0,0,0,25000000,1
+Folarin Balogun,USA,Monaco,23,70,ST,9,0,0,0,20000000,1
+George Ilenikhena,NGA,Monaco,18,53,ST,21,0,0,0,15000000,1
+Breel Embolo,CHE,Monaco,28,73,ST,36,0,0,0,12000000,1
 Marcin Bulka,POL,Nice,25,68,GK,1,0,0,0,20000000,1
 Maxime Dupe,FRA,Nice,32,63,GK,31,0,0,0,1200000,1
 Teddy Boulhendi,DZA,Nice,24,44,GK,77,0,0,0,100000,1
@@ -127,32 +127,32 @@ Ernest Nuamah,GHA,Lyon,21,67,ST,37,0,0,0,15000000,1
 Georges Mikautadze,GEO,Lyon,24,63,ST,69,0,0,0,20000000,1
 Alexandre Lacazette,FRA,Lyon,33,70,ST,10,0,0,0,8000000,1
 Enzo Molebe,FRA,Lyon,17,50,ST,29,0,0,0,100000,1
-Lucas Chevalier,FRA,Lille ,23,66,GK,30,0,0,0,30000000,1
-Vito Mannone,ITA,Lille ,37,59,GK,1,0,0,0,200000,1
-Marc-Aurele Caillard,FRA,Lille ,30,57,GK,16,0,0,0,150000,1
-Bafode Diakite,FRA,Lille ,24,67,DF,18,0,0,0,25000000,1
-Alexsandro,BRA,Lille ,25,63,DF,4,0,0,0,15000000,1
-Samuel Umtiti,FRA,Lille ,31,67,DF,14,0,0,0,2000000,1
-Aissa Mandi,DZA,Lille ,33,70,DF,2,0,0,0,1500000,1
-Gabriel Gudmundsson,SWE,Lille ,25,59,DF,5,0,0,0,9000000,1
-Mitchel Bakker,NLD,Lille ,24,65,DF,20,0,0,0,7000000,1
-Ismaily,BRA,Lille ,35,64,DF,31,0,0,0,1500000,1
-Tiago Santos,PRT,Lille ,22,63,DF,22,0,0,0,15000000,1
-Thomas Meunier,BEL,Lille ,33,65,DF,12,0,0,0,2000000,1
-Ngal'ayel Mukau,COD,Lille ,20,46,MF,17,0,0,0,15000000,1
-Nabil Bentaleb,DZA,Lille ,30,68,MF,6,0,0,0,8000000,1
-Benjamin Andre,FRA,Lille ,34,69,MF,21,0,0,0,6000000,1
-Ayyoub Bouaddi,FRA,Lille ,17,43,MF,32,0,0,0,30000000,1
-Andre Gomes,PRT,Lille ,31,65,MF,26,0,0,0,8000000,1
-Ethan Mbappe,FRA,Lille ,18,47,MF,29,0,0,0,5000000,1
-Angel Gomes,ENG,Lille ,24,69,MF,8,0,0,0,20000000,1
-Hakon Arnar Haraldsson,ISL,Lille ,22,64,MF,7,0,0,0,15000000,1
-Remy Cabella,FRA,Lille ,35,68,MF,10,0,0,0,3000000,1
-Osame Sahraoui,MAR,Lille ,23,64,ST,11,0,0,0,12000000,1
-Edon Zhegrova,XKX,Lille ,26,72,ST,23,0,0,0,25000000,1
-Jonathan David,CAN,Lille ,25,74,ST,9,0,0,0,45000000,1
-Matias Fernandez-Pardo,ESP,Lille ,20,45,ST,19,0,0,0,10000000,1
-Chuba Akpom,ENG,Lille ,29,67,ST,24,0,0,0,8000000,1
+Lucas Chevalier,FRA,Lille,23,66,GK,30,0,0,0,30000000,1
+Vito Mannone,ITA,Lille,37,59,GK,1,0,0,0,200000,1
+Marc-Aurele Caillard,FRA,Lille,30,57,GK,16,0,0,0,150000,1
+Bafode Diakite,FRA,Lille,24,67,DF,18,0,0,0,25000000,1
+Alexsandro,BRA,Lille,25,63,DF,4,0,0,0,15000000,1
+Samuel Umtiti,FRA,Lille,31,67,DF,14,0,0,0,2000000,1
+Aissa Mandi,DZA,Lille,33,70,DF,2,0,0,0,1500000,1
+Gabriel Gudmundsson,SWE,Lille,25,59,DF,5,0,0,0,9000000,1
+Mitchel Bakker,NLD,Lille,24,65,DF,20,0,0,0,7000000,1
+Ismaily,BRA,Lille,35,64,DF,31,0,0,0,1500000,1
+Tiago Santos,PRT,Lille,22,63,DF,22,0,0,0,15000000,1
+Thomas Meunier,BEL,Lille,33,65,DF,12,0,0,0,2000000,1
+Ngal'ayel Mukau,COD,Lille,20,46,MF,17,0,0,0,15000000,1
+Nabil Bentaleb,DZA,Lille,30,68,MF,6,0,0,0,8000000,1
+Benjamin Andre,FRA,Lille,34,69,MF,21,0,0,0,6000000,1
+Ayyoub Bouaddi,FRA,Lille,17,43,MF,32,0,0,0,30000000,1
+Andre Gomes,PRT,Lille,31,65,MF,26,0,0,0,8000000,1
+Ethan Mbappe,FRA,Lille,18,47,MF,29,0,0,0,5000000,1
+Angel Gomes,ENG,Lille,24,69,MF,8,0,0,0,20000000,1
+Hakon Arnar Haraldsson,ISL,Lille,22,64,MF,7,0,0,0,15000000,1
+Remy Cabella,FRA,Lille,35,68,MF,10,0,0,0,3000000,1
+Osame Sahraoui,MAR,Lille,23,64,ST,11,0,0,0,12000000,1
+Edon Zhegrova,XKX,Lille,26,72,ST,23,0,0,0,25000000,1
+Jonathan David,CAN,Lille,25,74,ST,9,0,0,0,45000000,1
+Matias Fernandez-Pardo,ESP,Lille,20,45,ST,19,0,0,0,10000000,1
+Chuba Akpom,ENG,Lille,29,67,ST,24,0,0,0,8000000,1
 Dorde Petrovic,SRB,Strasbourg,25,71,GK,1,0,0,0,18000000,1
 Alaa Bellaarouch,MAR,Strasbourg,23,42,GK,36,0,0,0,500000,1
 Karl-Johan Johnsson,SWE,Strasbourg,35,57,GK,30,0,0,0,400000,1
@@ -232,31 +232,31 @@ Mathias Pereira Lage,FRA,Brest,28,64,ST,26,0,0,0,2000000,1
 Romain Del Castillo,FRA,Brest,29,65,ST,10,0,0,0,8000000,1
 Mama Balde,GNB,Brest,29,62,ST,14,0,0,0,4500000,1
 Ludovic Ajorque,FRA,Brest,31,64,ST,19,0,0,0,4000000,1
-Guillaume Restes,FRA,Toulouse ,20,62,GK,50,0,0,0,20000000,1
-Kjetil Haug,NOR,Toulouse ,26,58,GK,16,0,0,0,600000,1
-Justin Lacombe,FRA,Toulouse ,22,38,GK,40,0,0,0,50000,1
-Charlie Cresswell,ENG,Toulouse ,22,60,DF,4,0,0,0,7000000,1
-Mark McKenzie,USA,Toulouse ,26,62,DF,3,0,0,0,6000000,1
-Rasmus Nicolaisen,DMK,Toulouse ,28,64,DF,2,0,0,0,5000000,1
-Jaydee Canvot,FRA,Toulouse ,18,38,DF,29,0,0,0,2500000,1
-Umit Akdag,ROM,Toulouse ,21,43,DF,6,0,0,0,800000,1
-Gabriel Suazo,CHL,Toulouse ,27,63,DF,17,0,0,0,4000000,1
-Ylies Aradj,FRA,Toulouse ,19,45,DF,26,0,0,0,0,1
-Warren Kamanzi,NOR,Toulouse ,24,60,DF,12,0,0,0,2000000,1
-Djibril Sidibe,FRA,Toulouse ,32,58,DF,19,0,0,0,1200000,1
-Cristian Casseres Jr.,VEN,Toulouse ,25,62,MF,23,0,0,0,5000000,1
-Vincent Sierro,CHE,Toulouse ,29,63,MF,8,0,0,0,4000000,1
-Niklas Schmidt,DEU,Toulouse ,27,61,MF,20,0,0,0,2000000,1
-Miha Zajc,SVN,Toulouse ,30,63,MF,21,0,0,0,1800000,1
-Rafik Messali,DZA,Toulouse ,21,38,MF,22,0,0,0,800000,1
-Aron Donnum,NOR,Toulouse ,26,62,MF,15,0,0,0,4000000,1
-Mathis Saka,FRA,Toulouse ,18,33,MF,11,0,0,0,0,1
-Yann Gboho,FRA,Toulouse ,24,56,ST,10,0,0,0,8000000,1
-Zakaria Aboukhlal,MAR,Toulouse ,25,65,ST,7,0,0,0,12000000,1
-Shavy Babicka,GAB,Toulouse ,24,60,ST,80,0,0,0,3000000,1
-Noah Edjouma,FRA,Toulouse ,19,44,ST,31,0,0,0,500000,1
-Frank Magri,FRA,Toulouse ,25,62,ST,9,0,0,0,2500000,1
-Joshua King,NOR,Toulouse ,33,65,ST,13,0,0,0,2000000,1
+Guillaume Restes,FRA,Toulouse,20,62,GK,50,0,0,0,20000000,1
+Kjetil Haug,NOR,Toulouse,26,58,GK,16,0,0,0,600000,1
+Justin Lacombe,FRA,Toulouse,22,38,GK,40,0,0,0,50000,1
+Charlie Cresswell,ENG,Toulouse,22,60,DF,4,0,0,0,7000000,1
+Mark McKenzie,USA,Toulouse,26,62,DF,3,0,0,0,6000000,1
+Rasmus Nicolaisen,DMK,Toulouse,28,64,DF,2,0,0,0,5000000,1
+Jaydee Canvot,FRA,Toulouse,18,38,DF,29,0,0,0,2500000,1
+Umit Akdag,ROM,Toulouse,21,43,DF,6,0,0,0,800000,1
+Gabriel Suazo,CHL,Toulouse,27,63,DF,17,0,0,0,4000000,1
+Ylies Aradj,FRA,Toulouse,19,45,DF,26,0,0,0,0,1
+Warren Kamanzi,NOR,Toulouse,24,60,DF,12,0,0,0,2000000,1
+Djibril Sidibe,FRA,Toulouse,32,58,DF,19,0,0,0,1200000,1
+Cristian Casseres Jr.,VEN,Toulouse,25,62,MF,23,0,0,0,5000000,1
+Vincent Sierro,CHE,Toulouse,29,63,MF,8,0,0,0,4000000,1
+Niklas Schmidt,DEU,Toulouse,27,61,MF,20,0,0,0,2000000,1
+Miha Zajc,SVN,Toulouse,30,63,MF,21,0,0,0,1800000,1
+Rafik Messali,DZA,Toulouse,21,38,MF,22,0,0,0,800000,1
+Aron Donnum,NOR,Toulouse,26,62,MF,15,0,0,0,4000000,1
+Mathis Saka,FRA,Toulouse,18,33,MF,11,0,0,0,0,1
+Yann Gboho,FRA,Toulouse,24,56,ST,10,0,0,0,8000000,1
+Zakaria Aboukhlal,MAR,Toulouse,25,65,ST,7,0,0,0,12000000,1
+Shavy Babicka,GAB,Toulouse,24,60,ST,80,0,0,0,3000000,1
+Noah Edjouma,FRA,Toulouse,19,44,ST,31,0,0,0,500000,1
+Frank Magri,FRA,Toulouse,25,62,ST,9,0,0,0,2500000,1
+Joshua King,NOR,Toulouse,33,65,ST,13,0,0,0,2000000,1
 Donovan Leon,GUF,Auxerre,32,58,GK,16,0,0,0,800000,1
 Theo De Percin,FRA,Auxerre,24,45,GK,40,0,0,0,300000,1
 Raphael Adiceam,FRA,Auxerre,34,42,GK,37,0,0,0,50000,1
@@ -386,7 +386,7 @@ Amadou Kone,CIV,Reims,19,50,MF,72,0,0,0,1500000,1
 Valentin Atangana,FRA,Reims,19,50,MF,6,0,0,0,9000000,1
 Yaya Fofana,CIV,Reims,20,48,MF,8,0,0,0,5000000,1
 Teddy Teuma,MLT,Reims,31,67,MF,10,0,0,0,4000000,1
-John Patrick ,IRL,Reims,21,45,MF,30,0,0,0,1000000,1
+John Patrick,IRL,Reims,21,45,MF,30,0,0,0,1000000,1
 Reda Khadra,DEU,Reims,23,63,MF,14,0,0,0,2500000,1
 Keito Nakamura,JPN,Reims,24,68,ST,17,0,0,0,10000000,1
 Mohamed Daramy,DMK,Reims,23,69,ST,9,0,0,0,5000000,1
@@ -448,28 +448,28 @@ Irvin Cardona,FRA,St Etienne,27,60,ST,7,0,0,0,2000000,1
 Ibrahim Sissoko,MLI,St Etienne,29,57,ST,9,0,0,0,2000000,1
 Ibrahima Wadji,SEN,St Etienne,29,55,ST,25,0,0,0,800000,1
 Djylian N'Guessan,FRA,St Etienne,16,37,ST,63,0,0,0,800000,1
-Benjamin Lecomte,FRA,Montpellier ,33,68,GK,40,0,0,0,2000000,1
-Dimitry Bertaud,COD,Montpellier ,26,60,GK,16,0,0,0,1200000,1
-Belmin Dizdarevic,BIH,Montpellier ,23,48,GK,1,0,0,0,150000,1
-Bamo Meite,CIV,Montpellier ,23,59,DF,2,0,0,0,5000000,1
-Becir Omeragic,CHE,Montpellier ,23,62,DF,27,0,0,0,5000000,1
-Kiki Kouyate,MLI,Montpellier ,28,64,DF,4,0,0,0,3500000,1
-Modibo Sagnan,MLI,Montpellier ,26,59,DF,5,0,0,0,3000000,1
-Christopher Jullien,FRA,Montpellier ,32,60,DF,6,0,0,0,1500000,1
-Nikola Maksimovic,SRB,Montpellier ,33,55,DF,52,0,0,0,400000,1
-Issiaga Sylla,GIN,Montpellier ,31,63,DF,3,0,0,0,2000000,1
-Lucas Mincarelli,FRA,Montpellier ,21,49,DF,21,0,0,0,900000,1
-Theo Sainte-Luce,FRA,Montpellier ,26,58,DF,17,0,0,0,800000,1
-Enzo Tchato,SEN,Montpellier ,22,52,DF,29,0,0,0,2500000,1
-Falaye Sacko,MLI,Montpellier ,29,62,DF,77,0,0,0,2000000,1
-Joris Chotard,FRA,Montpellier ,23,65,MF,13,0,0,0,7000000,1
-Rabby Nzingoula,FRA,Montpellier ,19,30,MF,19,0,0,0,2500000,1
-Khalil Fayad,MAR,Montpellier ,20,54,MF,22,0,0,0,4000000,1
-Jordan Ferri,FRA,Montpellier ,33,64,MF,12,0,0,0,2500000,1
-Teji Savanier,FRA,Montpellier ,33,72,MF,11,0,0,0,3000000,1
-Nicolas Pays,FRA,Montpellier ,21,30,MF,18,0,0,0,700000,1
-Wahbi Khazri,TUN,Montpellier ,34,62,ST,10,0,0,0,1500000,1
-Tanguy Coulibaly,FRA,Montpellier ,24,61,ST,70,0,0,0,1800000,1
-Othmane Maamma,MAR,Montpellier ,19,41,ST,14,0,0,0,800000,1
-Andy Delort,DZA,Montpellier ,33,68,ST,9,0,0,0,2000000,1
-Glenn Ngoso,SEN,Montpellier ,21,40,ST,28,0,0,0,0,1
+Benjamin Lecomte,FRA,Montpellier,33,68,GK,40,0,0,0,2000000,1
+Dimitry Bertaud,COD,Montpellier,26,60,GK,16,0,0,0,1200000,1
+Belmin Dizdarevic,BIH,Montpellier,23,48,GK,1,0,0,0,150000,1
+Bamo Meite,CIV,Montpellier,23,59,DF,2,0,0,0,5000000,1
+Becir Omeragic,CHE,Montpellier,23,62,DF,27,0,0,0,5000000,1
+Kiki Kouyate,MLI,Montpellier,28,64,DF,4,0,0,0,3500000,1
+Modibo Sagnan,MLI,Montpellier,26,59,DF,5,0,0,0,3000000,1
+Christopher Jullien,FRA,Montpellier,32,60,DF,6,0,0,0,1500000,1
+Nikola Maksimovic,SRB,Montpellier,33,55,DF,52,0,0,0,400000,1
+Issiaga Sylla,GIN,Montpellier,31,63,DF,3,0,0,0,2000000,1
+Lucas Mincarelli,FRA,Montpellier,21,49,DF,21,0,0,0,900000,1
+Theo Sainte-Luce,FRA,Montpellier,26,58,DF,17,0,0,0,800000,1
+Enzo Tchato,SEN,Montpellier,22,52,DF,29,0,0,0,2500000,1
+Falaye Sacko,MLI,Montpellier,29,62,DF,77,0,0,0,2000000,1
+Joris Chotard,FRA,Montpellier,23,65,MF,13,0,0,0,7000000,1
+Rabby Nzingoula,FRA,Montpellier,19,30,MF,19,0,0,0,2500000,1
+Khalil Fayad,MAR,Montpellier,20,54,MF,22,0,0,0,4000000,1
+Jordan Ferri,FRA,Montpellier,33,64,MF,12,0,0,0,2500000,1
+Teji Savanier,FRA,Montpellier,33,72,MF,11,0,0,0,3000000,1
+Nicolas Pays,FRA,Montpellier,21,30,MF,18,0,0,0,700000,1
+Wahbi Khazri,TUN,Montpellier,34,62,ST,10,0,0,0,1500000,1
+Tanguy Coulibaly,FRA,Montpellier,24,61,ST,70,0,0,0,1800000,1
+Othmane Maamma,MAR,Montpellier,19,41,ST,14,0,0,0,800000,1
+Andy Delort,DZA,Montpellier,33,68,ST,9,0,0,0,2000000,1
+Glenn Ngoso,SEN,Montpellier,21,40,ST,28,0,0,0,0,1

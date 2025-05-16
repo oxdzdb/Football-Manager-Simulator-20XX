@@ -4,9 +4,19 @@
  */
 package fm20xx;
 
+import static fm20xx.PlayerReader.readCSV;
+import static fm20xx.TitleController.chosenLeague;
+import static fm20xx.TitleController.chosenTeam;
+import static fm20xx.readPlayersFromTeam.readTeam;
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
 import java.util.ResourceBundle;
+import java.util.stream.Collectors;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -37,6 +47,75 @@ public class TransferController implements Initializable {
         thisStage.show();
     }
     
+    
+      // Reference to the League instance (shared from settingsController)
+    String teamFile;
+    String playerFile;
+    public String determineTeamFile(League l){
+    switch(l.getName()){
+            case "Premier League":
+                  teamFile = "src/fm20xx/database/eplTeams.csv";
+            break;
+            
+            case "Bundesliga":
+                  teamFile = "src/fm20xx/database/bundTeams.csv";
+            break;
+            
+            case "La Liga":
+                  teamFile = "src/fm20xx/database/laLigaTeams.csv";
+            break;
+            
+            case "Ligue 1":
+                  teamFile = "src/fm20xx/database/ligue1Teams.csv";
+            break;
+            
+            case "Serie A":
+                  teamFile = "src/fm20xx/database/serieATeams.csv";
+            break; 
+            
+            default:
+                System.out.println("Help");
+            break;
+        }
+        return teamFile;
+                }
+        public String determinePlayerFile(League l){
+    switch(l.getName()){
+            case "Premier League":
+                  teamFile = "src/fm20xx/database/eplPlayers.csv";
+            break;
+            
+            case "Bundesliga":
+                  teamFile = "src/fm20xx/database/bundPlayers.csv";
+            break;
+            
+            case "La Liga":
+                  teamFile = "src/fm20xx/database/laLigaPlayers.csv";
+            break;
+            
+            case "Ligue 1":
+                  teamFile = "src/fm20xx/database/ligue1Players.csv";
+            break;
+            
+            case "Serie A":
+                  teamFile = "src/fm20xx/database/serieAPlayers.csv";
+            break; 
+            
+            default:
+                System.out.println("Help");
+            break;
+        }
+        return teamFile;
+                }
+
+    // The user's team (the home team). This might be set from settings/configuration.
+    private Team team1;
+    private Team team2;
+    private Player player1;
+    private Player player2;
+    private int amount1;
+    private int amount2;
+    
     @FXML
     private TextField amount1IN;
 
@@ -51,64 +130,190 @@ public class TransferController implements Initializable {
 
     @FXML
     private TextField teamIN;
-
+    
     @FXML
-    void confirm(ActionEvent event) throws IOException {
-        String amount1 = amount1IN.getText();
-        try {
-            int amt1 = Integer.parseInt(amount1);
-            System.out.println("Your current bid is: " + amt1);
-        } catch (NumberFormatException e) {
-            System.out.println("Invalid input. Please enter a valid integer.");
-            Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            thisStage.close();
+    void confirm(ActionEvent event) throws IOException {      
+    //Confirms the transfer
+    //>Check if other team has accepted terms done
+    //>Check team1 money amount and validity done
+    //>Check team2 money amount and validity done
+    
+    //>Subtract money1 amount from team1
+    //>Add money1 amount to team2 from team1
+    //>Subtract money2 amount from team2
+    //>Add money2 amount to team1 from team2
+    //>Check player and validity of team1
+    
+    //> Remove player1 from team1 player list and add player1 to team2 player list
+    //> Remove player2 from team2 player list and add player2 to team1 player list
+
+
+        // 1. Ensure all five boxes have input.
+        if (amount1IN.getText().trim().isEmpty() ||
+            amount2IN.getText().trim().isEmpty() ||
+            player1IN.getText().trim().isEmpty() ||
+            player2IN.getText().trim().isEmpty() ||
+           teamIN.getText().trim().isEmpty()) {
+                
+            System.out.println("Error: All trade fields must be filled.");
+            return;
         }
-        System.out.println(amount1IN.getText());
+         System.out.println(amount1IN.getText());
         
-        String amount2 = amount2IN.getText();
-        try {
-            int amt2 = Integer.parseInt(amount2);
-            System.out.println("Your current bid is: " + amt2);
-        } catch (NumberFormatException e) {
-            System.out.println("Invalid input. Please enter a valid integer.");
-            Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            thisStage.close();
-            
-        }
         System.out.println(amount2IN.getText());
         
         System.out.println(player2IN.getText());
-        System.out.println(player1IN.getText());
-        switch(teamIN.getText()){
-            case "Atletico de Manila":
-                System.out.println("11");
-            break;
-            
-            case "Dynamo Dresden":
-                 System.out.println("12");
-            break;
-            
-            case "Sofia Strikers":
-                 System.out.println("13");
-            break;
-            
-            case "Yokohama Marinos":
-                 System.out.println("14");
-            break;
-            
-            default:
-                System.out.println("0");
-                Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
-                thisStage.close();
-            break;
-        }
-        System.out.println(teamIN.getText());
         
+        String player21 =player2IN.getText();
+         String player31 = player1IN.getText();
+        Player playerAdj = null;
+         List<Player> players = readCSV(determinePlayerFile(chosenLeague));
+         Player playerOpp = null;
+        for(Player player: players){
+        if(player21.equals(player.getName())){
+            System.out.println(player);
+            playerOpp = player;   
+        }
+        
+        if(player31.equals(player.getName())){
+            System.out.println(player);
+            playerAdj = player;
+        }
+}
+            if(containsTeam(teamIN.getText()) && containsPlayer(teamIN.getText()) && containsPlayer(chosenTeam.getName()) && validateBalance(getsTeam(teamIN.getText()),playerOpp) && validateBalance(chosenTeam,playerOpp)){
+                //transfer
+                subtractMoneyFromTeam1(Integer.parseInt(amount1IN.getText()));
+                
+                addMoneyToTeam2FromTeam1(Integer.parseInt(amount1IN.getText()));
+                
+                subtractMoneyFromTeam2(Integer.parseInt(amount2IN.getText()));
+                
+                addMoneyToTeam1FromTeam2(Integer.parseInt(amount2IN.getText()));
+                
+                swapPlayerData(playerOpp, playerAdj);
+                
+                
+        }
+                
+        System.out.println(player1IN.getText());
+        
+                
+        
+        
+        System.out.println(teamIN.getText());   
+         
 
+    
+    }
+        public static void swapPlayerData(Player p1, Player p2) {
+        // Swap names
+        
+        // Swap teams
+        String tempTeam = p1.getTeam();
+        p1.setTeam(p2.getTeam());
+        p2.setTeam(tempTeam);
     }
     
+        public boolean containsTeam(String teamName) {
+        // Ensure that the team name is not null.
+        boolean data = false;
+        if (teamName == null || teamName.trim().isEmpty()) {
+            data = false;
+        }
+        List<Team> teams = readTeam(determineTeamFile(chosenLeague));
+        for (Team team : teams) {
+            data = team.getName().equals(teamName);
+        }
+        return data;
+        }
+       
+        public Team getsTeam(String teamName) {
+        // Ensure that the team name is not null.
+        boolean data = false;
+        Team sTeam = null;
+        if (teamName == null || teamName.trim().isEmpty()) {
+            data = false;
+        }
+
+        List<Team> teams = readTeam(determineTeamFile(chosenLeague));
+        for (Team team : teams) {
+            data = team.getName().equals(teamName);
+            sTeam = team;
+        }
+        return sTeam;
+        }
+        List<Player> players = readCSV(determinePlayerFile(chosenLeague));
+         public boolean containsPlayer(String teamName) {
+        // Ensure that the team name is not null.
+        boolean data = false;
+        if (teamName == null || teamName.trim().isEmpty()) {
+            data = false;
+        }
+
+       
+        for (Player player: players) {
+            data = player.getName().equals(teamName);
+        }
+        return data;
+        }
+         
+        
+        // Iterate over each team group and display the players
+        
+         public boolean validateBalance(Team t, Player p){
+             boolean data = false;
+             double playerValue = 0;
+             if(p.getSkillRating()>85){
+                 playerValue=playerValue+100000;
+                 playerValue=playerValue+(p.getSkillRating()-85)*1000000;
+             }
+             if(t.getFunds()>playerValue){
+                 data = true;
+             }
+             return data;
+         }
+    public void subtractMoneyFromTeam1(int amount) {
+        team1Money -= amount;
+    }
+double team1Money = chosenTeam.getFunds();
+double team2Money = getsTeam(teamIN.getText()).getFunds();
+    // Transfer an amount from team1 to team2
+    public void addMoneyToTeam2FromTeam1(int amount) {
+        team2Money += amount;
+    }
+
+    // Subtract an amount from team2's money
+    public void subtractMoneyFromTeam2(int amount) {
+        team2Money -= amount;
+    }
+
+    // Transfer an amount from team2 to team1
+    public void addMoneyToTeam1FromTeam2(int amount) {
+        team1Money += amount;
+    }
+         
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
 }
+/*
+String line;
+            // Optionally skip a header line if your CSV contains one.
+            // Uncomment the next line if there is a header:
+            br.readLine();
+
+            while ((line = br.readLine()) != null) {
+                // Assuming that team names are in the first column of the CSV.
+                // Adjust the split index or add a CSV parser if your CSV structure is more complex.
+                String[] tokens = line.split(",");
+                
+                if (tokens.length > 0) {
+                    // Normalize the team name from the CSV file.
+                    String nameInFile = tokens[0].trim().toLowerCase();
+                    if (nameInFile.equals(teamNameToFind)) {
+                        return true;
+                    }
+                }
+            }
+*/

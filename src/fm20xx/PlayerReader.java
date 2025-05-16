@@ -16,6 +16,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PlayerReader {
+
+    /**
+     * @return the filePath
+     */
+    public String getFilePath() {
+        return filePath;
+    }
     private String filePath;
     private List<Player> players;
 
@@ -23,44 +30,142 @@ public class PlayerReader {
         this.filePath = filePath;
         this.players = new ArrayList<>();
     }
+    private String name;
+    private String nationality;
+    private String team;
+    private int age;
+    private int skillRating;
+    private String position;
+    private int number;
+    private int goals;
+    private int yellowCards;
+    private int redCards;
+    private int value;
+    private double energy;
 
-    public void readCSV() {
-        String line;
+    public static List<Player> readCSV(String filePath) {
+         List<Player> players = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
-            boolean isFirstLine = true;
-            while ((line = br.readLine()) != null) {
-                // Skip header row
-                if (isFirstLine) {
-                    isFirstLine = false;
-                    continue;
-                }
+            String line;
+            
+            // Read and discard the header row if your CSV has one.
+            if ((line = br.readLine()) != null) {
+                // Optionally, you can process or verify the header here.
+            }
                 // Splitting the line on commas.
                 // Assuming CSV columns order: name, nationality, team, age, skill_rating, position, number, goals, yellow_cards, red_cards, value, energy
+                while ((line = br.readLine()) != null) {
                 String[] tokens = line.split(",");
-                String name = tokens[0];
-                String nationality = tokens[1];
-                String team = tokens[2];
-                int age = Integer.parseInt(tokens[3]);
-                int skillRating = Integer.parseInt(tokens[4]);
-                String position = tokens[5];
-                int number = Integer.parseInt(tokens[6]);
-                int goals = tokens[7].isEmpty() ? 0 : Integer.parseInt(tokens[7]);
-                int yellowCards = tokens[8].isEmpty() ? 0 : Integer.parseInt(tokens[8]);
-                int redCards = tokens[9].isEmpty() ? 0 : Integer.parseInt(tokens[9]);
-                int value = Integer.parseInt(tokens[10]);
-                double energy = 1;
-
-                Player player = new Player(name, nationality, team, age, skillRating,
-                                           position, number, goals, yellowCards, redCards, value, energy);
+                
+                Player player = new Player(
+                tokens[0],
+                tokens[1],
+                tokens[2],
+                Integer.parseInt(tokens[3]),
+                Integer.parseInt(tokens[4]),
+                tokens[5],
+                Integer.parseInt(tokens[6]),
+                tokens[7].isEmpty() ? 0 : Integer.parseInt(tokens[7]),
+                tokens[8].isEmpty() ? 0 : Integer.parseInt(tokens[8]),
+                tokens[9].isEmpty() ? 0 : Integer.parseInt(tokens[9]),
+                Integer.parseInt(tokens[10]),
+                Double.parseDouble(tokens[11])
+                );
                 players.add(player);
-            }
+                }
+                
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return players;
     }
 
     public List<Player> getPlayers() {
         return players;
+    }
+
+    /**
+     * @return the name
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * @return the nationality
+     */
+    public String getNationality() {
+        return nationality;
+    }
+
+    /**
+     * @return the team
+     */
+    public String getTeam() {
+        return team;
+    }
+
+    /**
+     * @return the age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * @return the skillRating
+     */
+    public int getSkillRating() {
+        return skillRating;
+    }
+
+    /**
+     * @return the position
+     */
+    public String getPosition() {
+        return position;
+    }
+
+    /**
+     * @return the number
+     */
+    public int getNumber() {
+        return number;
+    }
+
+    /**
+     * @return the goals
+     */
+    public int getGoals() {
+        return goals;
+    }
+
+    /**
+     * @return the yellowCards
+     */
+    public int getYellowCards() {
+        return yellowCards;
+    }
+
+    /**
+     * @return the redCards
+     */
+    public int getRedCards() {
+        return redCards;
+    }
+
+    /**
+     * @return the value
+     */
+    public int getValue() {
+        return value;
+    }
+
+    /**
+     * @return the energy
+     */
+    public double getEnergy() {
+        return energy;
     }
 }
 

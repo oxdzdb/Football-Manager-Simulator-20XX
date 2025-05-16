@@ -1,30 +1,30 @@
 Name,Nationality,Team,Age,Skill Rating,Position,Number,Goals,Yellow Cards,Red Cards,Value,Energy
-Marco Carnesecchi,ITA,Atalanta ,24,68,GK,29,0,0,0,25000000,1
-Rui Patricio,PRT,Atalanta ,37,70,GK,28,0,0,0,1000000,1
-Francesco Rossi,ITA,Atalanta ,33,54,GK,31,0,0,0,100000,1
-Giorgo Scalvini,ITA,Atalanta ,21,73,DF,42,0,0,0,35000000,1
-Isak Hien,SWE,Atalanta ,26,66,DF,4,0,0,0,30000000,1
-Odilion Kossounou,CIV,Atalanta ,24,70,DF,3,0,0,0,25000000,1
-Stefan Posch,AUT,Atalanta ,27,70,DF,5,0,0,0,10000000,1
-Sead Kolanisac,BIH,Atalanta ,31,71,DF,23,0,0,0,10000000,1
-Berat Djimsiti,ALB,Atalanta ,32,71,DF,19,0,0,0,8000000,1
-Rafael Toloi,ITA,Atalanta ,34,70,DF,2,0,0,0,1500000,1
-Marten de Roon,NLD,Atalanta ,34,73,MF,15,0,0,0,7000000,1
-Ibrahim Sulemana,GHA,Atalanta ,21,62,MF,6,0,0,0,6000000,1
-Ederson,BRA,Atalanta ,25,75,MF,13,0,0,0,50000000,1
-Lazar Samardzic,SRB,Atalanta ,23,72,MF,24,0,0,0,20000000,1
-Mario Pasalic,HRV,Atalanta ,30,71,MF,8,0,0,0,13000000,1
-Marco Brescianini,ITA,Atalanta ,25,63,MF,44,0,0,0,8000000,1
-Raoul Bellanova,ITA,Atalanta ,24,69,MF,16,0,0,0,22000000,1
-Davide Zappacosta,ITA,Atalanta ,32,70,MF,77,0,0,0,6000000,1
-Marco Palestra,ITA,Atalanta ,20,54,MF,27,0,0,0,3000000,1
-Juan Cuadrado,COL,Atalanta ,36,70,MF,7,0,0,0,1000000,1
-Matteo Ruggeri,ITA,Atalanta ,22,71,MF,22,0,0,0,20000000,1
-Charles De Ketelaere,BEL,Atalanta ,24,74,MF,17,0,0,0,38000000,1
-Daniel Maldini,ITA,Atalanta ,23,58,MF,70,0,0,0,10000000,1
-Ademola Lookman,NGA,Atalanta ,27,75,ST,11,0,0,0,60000000,1
-Mateo Retegui,ITA,Atalanta ,25,70,ST,32,0,0,0,45000000,1
-Gianluca Scamacca,ITA,Atalanta ,26,72,ST,9,0,0,0,24000000,1
+Marco Carnesecchi,ITA,Atalanta,24,68,GK,29,0,0,0,25000000,1
+Rui Patricio,PRT,Atalanta,37,70,GK,28,0,0,0,1000000,1
+Francesco Rossi,ITA,Atalanta,33,54,GK,31,0,0,0,100000,1
+Giorgo Scalvini,ITA,Atalanta,21,73,DF,42,0,0,0,35000000,1
+Isak Hien,SWE,Atalanta,26,66,DF,4,0,0,0,30000000,1
+Odilion Kossounou,CIV,Atalanta,24,70,DF,3,0,0,0,25000000,1
+Stefan Posch,AUT,Atalanta,27,70,DF,5,0,0,0,10000000,1
+Sead Kolanisac,BIH,Atalanta,31,71,DF,23,0,0,0,10000000,1
+Berat Djimsiti,ALB,Atalanta,32,71,DF,19,0,0,0,8000000,1
+Rafael Toloi,ITA,Atalanta,34,70,DF,2,0,0,0,1500000,1
+Marten de Roon,NLD,Atalanta,34,73,MF,15,0,0,0,7000000,1
+Ibrahim Sulemana,GHA,Atalanta,21,62,MF,6,0,0,0,6000000,1
+Ederson,BRA,Atalanta,25,75,MF,13,0,0,0,50000000,1
+Lazar Samardzic,SRB,Atalanta,23,72,MF,24,0,0,0,20000000,1
+Mario Pasalic,HRV,Atalanta,30,71,MF,8,0,0,0,13000000,1
+Marco Brescianini,ITA,Atalanta,25,63,MF,44,0,0,0,8000000,1
+Raoul Bellanova,ITA,Atalanta,24,69,MF,16,0,0,0,22000000,1
+Davide Zappacosta,ITA,Atalanta,32,70,MF,77,0,0,0,6000000,1
+Marco Palestra,ITA,Atalanta,20,54,MF,27,0,0,0,3000000,1
+Juan Cuadrado,COL,Atalanta,36,70,MF,7,0,0,0,1000000,1
+Matteo Ruggeri,ITA,Atalanta,22,71,MF,22,0,0,0,20000000,1
+Charles De Ketelaere,BEL,Atalanta,24,74,MF,17,0,0,0,38000000,1
+Daniel Maldini,ITA,Atalanta,23,58,MF,70,0,0,0,10000000,1
+Ademola Lookman,NGA,Atalanta,27,75,ST,11,0,0,0,60000000,1
+Mateo Retegui,ITA,Atalanta,25,70,ST,32,0,0,0,45000000,1
+Gianluca Scamacca,ITA,Atalanta,26,72,ST,9,0,0,0,24000000,1
 Lukasz Skorupski,POL,Bologna,33,68,GK,1,0,0,0,2500000,1
 Federico Ravaglia,ITA,Bologna,25,61,GK,34,0,0,0,1000000,1
 Nicola Bagnolini,ITA,Bologna,21,42,GK,23,0,0,0,200000,1
@@ -53,90 +53,90 @@ Dan Ndoye,CHE,Bologna,24,67,ST,11,0,0,0,25000000,1
 Riccardo Orsolini,ITA,Bologna,28,73,ST,7,0,0,0,20000000,1
 Santiago Castro,ARG,Bologna,20,61,ST,9,0,0,0,35000000,1
 Thijs Dallinga,NLD,Bologna,24,64,ST,24,0,0,0,12000000,1
-Elia Caprile,ITA,Cagliari ,23,64,GK,25,0,0,0,8000000,1
-Alen Sherri,ALB,Cagliari ,27,43,GK,71,0,0,0,1000000,1
-Giuseppe Ciocci,ITA,Cagliari ,23,43,GK,1,0,0,0,100000,1
-Sebastiano Luperto,ITA,Cagliari ,28,66,DF,6,0,0,0,3500000,1
-Yerry Mina,COL,Cagliari ,30,67,DF,26,0,0,0,3000000,1
-Adam Obert,SVK,Cagliari ,22,61,DF,33,0,0,0,3000000,1
-Jose Luis Palomino,ARG,Cagliari ,35,67,DF,24,0,0,0,700000,1
-Tommaso Augello,ITA,Cagliari ,30,62,DF,3,0,0,0,1800000,1
-Gabriele Zappa,ITA,Cagliari ,25,64,DF,28,0,0,0,4000000,1
-Matteo Prati,ITA,Cagliari ,21,62,MF,16,0,0,0,7000000,1
-Antoine Makoumbou,COG,Cagliari ,26,65,MF,29,0,0,0,4000000,1
-Rasvan Marin,ROM,Cagliari ,28,65,MF,18,0,0,0,3500000,1
-Michel Adopo,FRA,Cagliari ,24,62,MF,8,0,0,0,3000000,1
-Alessandro Deiola,ITA,Cagliari ,29,60,MF,14,0,0,0,1600000,1
-Nadir Zortea,ITA,Cagliari ,25,63,MF,19,0,0,0,4500000,1
-Jakub Jankto,CZE,Cagliari ,29,62,MF,21,0,0,0,1000000,1
-Gianluca Gaetano,ITA,Cagliari ,24,63,MF,70,0,0,0,4000000,1
-Nicolas Viola,ITA,Cagliari ,35,63,MF,10,0,0,0,1000000,1
-Florinel Coman,ROM,Cagliari ,27,63,ST,9,0,0,0,6000000,1
-Mattia Felici,ITA,Cagliari ,23,54,ST,97,0,0,0,3000000,1
-Roberto Piccoli,ITA,Cagliari ,24,64,ST,91,0,0,0,8000000,1
-Zito Luvumbo,AGO,Cagliari ,23,66,ST,77,0,0,0,5500000,1
-Kingstone Mutandwa,ZMB,Cagliari ,22,40,ST,80,0,0,0,1000000,1
-Leonardo Pavoletti,ITA,Cagliari ,36,62,ST,30,0,0,0,700000,1
-Jean Butez,FRA,Como ,29,64,GK,30,0,0,0,3000000,1
-Pepe Reina,ESP,Como ,42,68,GK,25,0,0,0,600000,1
-Mauro Vigorito,ITA,Como ,34,53,GK,22,0,0,0,150000,1
-Pierre Bolchini,ITA,Como ,26,40,GK,12,0,0,0,50000,1
-Alberto Dossena,ITA,Como ,26,67,DF,13,0,0,0,7000000,1
-Marc-Oliver Kempf,DEU,Como ,30,64,DF,2,0,0,0,2500000,1
-Edoardo Goldaniga,ITA,Como ,31,62,DF,5,0,0,0,2000000,1
-Fellipe Jack,ITA,Como ,19,31,DF,15,0,0,0,1400000,1
-Alex Valle,ESP,Como ,20,60,DF,41,0,0,0,4500000,1
-Alberto Moreno,ESP,Como ,32,70,DF,18,0,0,0,1800000,1
-Ignace Van der Brempt,BEL,Como ,23,60,DF,77,0,0,0,4000000,1
-Mergim Vojvoda,XKX,Como ,30,66,DF,31,0,0,0,3000000,1
-Ivan Smolcic,HRV,Como ,24,59,DF,28,0,0,0,2000000,1
-Maximo Perrone,ARG,Como ,22,63,MF,23,0,0,0,9000000,1
-Yannik Engelhardt,DEU,Como ,24,59,MF,26,0,0,0,7000000,1
-Maxence Caqueret,FRA,Como ,25,67,MF,80,0,0,0,15000000,1
-Lucas Da Cunha,FRA,Como ,23,60,MF,33,0,0,0,7000000,1
-Sergi Roberto,ESP,Como ,33,72,MF,20,0,0,0,2000000,1
-Matthias Braunoder,AUT,Como ,23,58,MF,27,0,0,0,1600000,1
-Giuseppe Mazzaglia,ITA,Como ,18,21,MF,58,0,0,0,250000,1
-Alessio Iovine,ITA,Como ,34,57,MF,6,0,0,0,400000,1
-Nico Paz,ARG,Como ,20,55,MF,79,0,0,0,35000000,1
-Dele Alli,ENG,Como ,29,58,MF,8,0,0,0,3500000,1
-Naj Razi,IRL,Como ,18,34,MF,44,0,0,0,300000,1
-Alieu Fadera,GMB,Como ,23,59,ST,16,0,0,0,5000000,1
-Assane Diao,SEN,Como ,19,60,ST,38,0,0,0,25000000,1
-Jonathan Ikone,FRA,Como ,26,68,ST,19,0,0,0,8000000,1
-Gabriel Strefezza,BRA,Como ,27,64,ST,7,0,0,0,6000000,1
-Anastasios Douvikas,GRC,Como ,25,66,ST,11,0,0,0,8000000,1
-Patrick Cutrone,ITA,Como ,27,63,ST,10,0,0,0,7000000,1
-Ivan Azon,ESP,Como ,22,60,ST,90,0,0,0,3000000,1
-Alessandro Gabrielloni,ITA,Como ,30,58,ST,9,0,0,0,1000000,1
-Devis Vasquez,COL,Empoli ,26,58,GK,23,0,0,0,2000000,1
-Jacopo Seghetti,ITA,Empoli ,20,26,GK,12,0,0,0,1000000,1
-Marco Silvestri,ITA,Empoli ,34,64,GK,1,0,0,0,500000,1
-Federico Brancolini,ITA,Empoli ,23,52,GK,98,0,0,0,200000,1
-Saba Goglichidze,GEO,Empoli ,20,48,DF,2,0,0,0,8000000,1
-Mattia Viti,ITA,Empoli ,23,60,DF,21,0,0,0,6500000,1
-Ardian Ismajli,ALB,Empoli ,28,63,DF,34,0,0,0,6000000,1
-Luca Marianucci,ITA,Empoli ,20,43,DF,35,0,0,0,5000000,1
-Saba Sazonov,GEO,Empoli ,23,62,DF,15,0,0,0,2500000,1
-Liberato Cacace,NZL,Empoli ,24,61,DF,13,0,0,0,3000000,1
-Giuseppe Pezzella,ITA,Empoli ,27,61,DF,3,0,0,0,2500000,1
-Tyronne Ebuehi,NGA,Empoli ,29,63,DF,24,0,0,0,1500000,1
-Junior Samba,FRA,Empoli ,28,71,DF,7,0,0,0,1400000,1
-Mattia De Sciglio,ITA,Empoli ,32,63,DF,22,0,0,0,1000000,1
-Alberto Grassi,ITA,Empoli ,30,62,MF,5,0,0,0,2000000,1
-Jacopo Fazzini,ITA,Empoli ,22,62,MF,10,0,0,0,8000000,1
-Youssef Maleh,MAR,Empoli ,26,63,MF,93,0,0,0,4000000,1
-Szymon Zurkowski,POL,Empoli ,27,61,MF,27,0,0,0,2500000,1
-Liam Henderson,SCO,Empoli ,28,62,MF,6,0,0,0,1800000,1
-Nicolas Haas,CHE,Empoli ,29,62,MF,32,0,0,0,700000,1
-Emmanuel Gyasi,GHA,Empoli ,31,62,MF,11,0,0,0,2000000,1
-Tino Anjorin,ENG,Empoli ,23,59,MF,8,0,0,0,6000000,1
-Victor Kovalenko,UKR,Empoli ,29,60,MF,20,0,0,0,1000000,1
-Ola Salbakken,NOR,Empoli ,26,55,ST,17,0,0,0,2500000,1
-Sebastiano Esposito,ITA,Empoli ,22,61,ST,99,0,0,0,10000000,1
-Christian Kouame ,CIV,Empoli ,27,68,ST,18,0,0,0,6000000,1
-Lorenzo Colombo,ITA,Empoli ,23,66,ST,29,0,0,0,6000000,1
-Pietro Pellegri,ITA,Empoli ,24,64,ST,9,0,0,0,2500000,1
+Elia Caprile,ITA,Cagliari,23,64,GK,25,0,0,0,8000000,1
+Alen Sherri,ALB,Cagliari,27,43,GK,71,0,0,0,1000000,1
+Giuseppe Ciocci,ITA,Cagliari,23,43,GK,1,0,0,0,100000,1
+Sebastiano Luperto,ITA,Cagliari,28,66,DF,6,0,0,0,3500000,1
+Yerry Mina,COL,Cagliari,30,67,DF,26,0,0,0,3000000,1
+Adam Obert,SVK,Cagliari,22,61,DF,33,0,0,0,3000000,1
+Jose Luis Palomino,ARG,Cagliari,35,67,DF,24,0,0,0,700000,1
+Tommaso Augello,ITA,Cagliari,30,62,DF,3,0,0,0,1800000,1
+Gabriele Zappa,ITA,Cagliari,25,64,DF,28,0,0,0,4000000,1
+Matteo Prati,ITA,Cagliari,21,62,MF,16,0,0,0,7000000,1
+Antoine Makoumbou,COG,Cagliari,26,65,MF,29,0,0,0,4000000,1
+Rasvan Marin,ROM,Cagliari,28,65,MF,18,0,0,0,3500000,1
+Michel Adopo,FRA,Cagliari,24,62,MF,8,0,0,0,3000000,1
+Alessandro Deiola,ITA,Cagliari,29,60,MF,14,0,0,0,1600000,1
+Nadir Zortea,ITA,Cagliari,25,63,MF,19,0,0,0,4500000,1
+Jakub Jankto,CZE,Cagliari,29,62,MF,21,0,0,0,1000000,1
+Gianluca Gaetano,ITA,Cagliari,24,63,MF,70,0,0,0,4000000,1
+Nicolas Viola,ITA,Cagliari,35,63,MF,10,0,0,0,1000000,1
+Florinel Coman,ROM,Cagliari,27,63,ST,9,0,0,0,6000000,1
+Mattia Felici,ITA,Cagliari,23,54,ST,97,0,0,0,3000000,1
+Roberto Piccoli,ITA,Cagliari,24,64,ST,91,0,0,0,8000000,1
+Zito Luvumbo,AGO,Cagliari,23,66,ST,77,0,0,0,5500000,1
+Kingstone Mutandwa,ZMB,Cagliari,22,40,ST,80,0,0,0,1000000,1
+Leonardo Pavoletti,ITA,Cagliari,36,62,ST,30,0,0,0,700000,1
+Jean Butez,FRA,Como,29,64,GK,30,0,0,0,3000000,1
+Pepe Reina,ESP,Como,42,68,GK,25,0,0,0,600000,1
+Mauro Vigorito,ITA,Como,34,53,GK,22,0,0,0,150000,1
+Pierre Bolchini,ITA,Como,26,40,GK,12,0,0,0,50000,1
+Alberto Dossena,ITA,Como,26,67,DF,13,0,0,0,7000000,1
+Marc-Oliver Kempf,DEU,Como,30,64,DF,2,0,0,0,2500000,1
+Edoardo Goldaniga,ITA,Como,31,62,DF,5,0,0,0,2000000,1
+Fellipe Jack,ITA,Como,19,31,DF,15,0,0,0,1400000,1
+Alex Valle,ESP,Como,20,60,DF,41,0,0,0,4500000,1
+Alberto Moreno,ESP,Como,32,70,DF,18,0,0,0,1800000,1
+Ignace Van der Brempt,BEL,Como,23,60,DF,77,0,0,0,4000000,1
+Mergim Vojvoda,XKX,Como,30,66,DF,31,0,0,0,3000000,1
+Ivan Smolcic,HRV,Como,24,59,DF,28,0,0,0,2000000,1
+Maximo Perrone,ARG,Como,22,63,MF,23,0,0,0,9000000,1
+Yannik Engelhardt,DEU,Como,24,59,MF,26,0,0,0,7000000,1
+Maxence Caqueret,FRA,Como,25,67,MF,80,0,0,0,15000000,1
+Lucas Da Cunha,FRA,Como,23,60,MF,33,0,0,0,7000000,1
+Sergi Roberto,ESP,Como,33,72,MF,20,0,0,0,2000000,1
+Matthias Braunoder,AUT,Como,23,58,MF,27,0,0,0,1600000,1
+Giuseppe Mazzaglia,ITA,Como,18,21,MF,58,0,0,0,250000,1
+Alessio Iovine,ITA,Como,34,57,MF,6,0,0,0,400000,1
+Nico Paz,ARG,Como,20,55,MF,79,0,0,0,35000000,1
+Dele Alli,ENG,Como,29,58,MF,8,0,0,0,3500000,1
+Naj Razi,IRL,Como,18,34,MF,44,0,0,0,300000,1
+Alieu Fadera,GMB,Como,23,59,ST,16,0,0,0,5000000,1
+Assane Diao,SEN,Como,19,60,ST,38,0,0,0,25000000,1
+Jonathan Ikone,FRA,Como,26,68,ST,19,0,0,0,8000000,1
+Gabriel Strefezza,BRA,Como,27,64,ST,7,0,0,0,6000000,1
+Anastasios Douvikas,GRC,Como,25,66,ST,11,0,0,0,8000000,1
+Patrick Cutrone,ITA,Como,27,63,ST,10,0,0,0,7000000,1
+Ivan Azon,ESP,Como,22,60,ST,90,0,0,0,3000000,1
+Alessandro Gabrielloni,ITA,Como,30,58,ST,9,0,0,0,1000000,1
+Devis Vasquez,COL,Empoli,26,58,GK,23,0,0,0,2000000,1
+Jacopo Seghetti,ITA,Empoli,20,26,GK,12,0,0,0,1000000,1
+Marco Silvestri,ITA,Empoli,34,64,GK,1,0,0,0,500000,1
+Federico Brancolini,ITA,Empoli,23,52,GK,98,0,0,0,200000,1
+Saba Goglichidze,GEO,Empoli,20,48,DF,2,0,0,0,8000000,1
+Mattia Viti,ITA,Empoli,23,60,DF,21,0,0,0,6500000,1
+Ardian Ismajli,ALB,Empoli,28,63,DF,34,0,0,0,6000000,1
+Luca Marianucci,ITA,Empoli,20,43,DF,35,0,0,0,5000000,1
+Saba Sazonov,GEO,Empoli,23,62,DF,15,0,0,0,2500000,1
+Liberato Cacace,NZL,Empoli,24,61,DF,13,0,0,0,3000000,1
+Giuseppe Pezzella,ITA,Empoli,27,61,DF,3,0,0,0,2500000,1
+Tyronne Ebuehi,NGA,Empoli,29,63,DF,24,0,0,0,1500000,1
+Junior Samba,FRA,Empoli,28,71,DF,7,0,0,0,1400000,1
+Mattia De Sciglio,ITA,Empoli,32,63,DF,22,0,0,0,1000000,1
+Alberto Grassi,ITA,Empoli,30,62,MF,5,0,0,0,2000000,1
+Jacopo Fazzini,ITA,Empoli,22,62,MF,10,0,0,0,8000000,1
+Youssef Maleh,MAR,Empoli,26,63,MF,93,0,0,0,4000000,1
+Szymon Zurkowski,POL,Empoli,27,61,MF,27,0,0,0,2500000,1
+Liam Henderson,SCO,Empoli,28,62,MF,6,0,0,0,1800000,1
+Nicolas Haas,CHE,Empoli,29,62,MF,32,0,0,0,700000,1
+Emmanuel Gyasi,GHA,Empoli,31,62,MF,11,0,0,0,2000000,1
+Tino Anjorin,ENG,Empoli,23,59,MF,8,0,0,0,6000000,1
+Victor Kovalenko,UKR,Empoli,29,60,MF,20,0,0,0,1000000,1
+Ola Salbakken,NOR,Empoli,26,55,ST,17,0,0,0,2500000,1
+Sebastiano Esposito,ITA,Empoli,22,61,ST,99,0,0,0,10000000,1
+Christian Kouame,CIV,Empoli,27,68,ST,18,0,0,0,6000000,1
+Lorenzo Colombo,ITA,Empoli,23,66,ST,29,0,0,0,6000000,1
+Pietro Pellegri,ITA,Empoli,24,64,ST,9,0,0,0,2500000,1
 David de Gea,ESP,Fiorentina,34,72,GK,43,0,0,0,5000000,1
 Tommaso Martinelli,ITA,Fiorentina,19,45,GK,30,0,0,0,1800000,1
 Pietro Terracciano,ITA,Fiorentina,35,69,GK,1,0,0,0,1500000,1
@@ -162,119 +162,119 @@ Andrea Colpani,ITA,Fiorentina,25,70,MF,23,0,0,0,12000000,1
 Maat Daniel Caprini,ITA,Fiorentina,19,36,ST,63,0,0,0,2000000,1
 Albert Gudmundsson,ISL,Fiorentina,27,74,ST,10,0,0,0,23000000,1
 Moise Kean,ITA,Fiorentina,25,70,ST,20,0,0,0,40000000,1
-Nicola Leali,ITA,Genoa ,32,59,GK,1,0,0,0,1500000,1
-Benjamin Siegrist,CHE,Genoa ,33,60,GK,31,0,0,0,650000,1
-Daniele Sommariva,ITA,Genoa ,27,48,GK,39,0,0,0,100000,1
-Koni De Winter,BEL,Genoa ,22,64,DF,4,0,0,0,18000000,1
-Johan Vasquez,MEX,Genoa ,26,66,DF,22,0,0,0,12000000,1
-Alan Matturro,URY,Genoa ,20,61,DF,33,0,0,0,8000000,1
-Mattia Bani,ITA,Genoa ,31,65,DF,13,0,0,0,2000000,1
-Sebastian Otoa,DMK,Genoa ,20,50,DF,34,0,0,0,2000000,1
-Aaron Martin,ESP,Genoa ,27,39,DF,3,0,0,0,6500000,1
-Honest Ahanor,ITA,Genoa ,17,40,DF,69,0,0,0,3000000,1
-Alessandro Zanoli,ITA,Genoa ,24,61,DF,59,0,0,0,6000000,1
-Brooke Norton-Cuffy,ENG,Genoa ,21,60,DF,15,0,0,0,3500000,1
-Stefano Sabelli,ITA,Genoa ,32,65,DF,20,0,0,0,1500000,1
-Jean Onana,CAM,Genoa ,25,58,MF,5,0,0,0,3000000,1
-Lior Kasa,ISR,Genoa ,19,43,MF,53,0,0,0,1500000,1
-Milan Badelj,HRV,Genoa ,36,64,MF,47,0,0,0,800000,1
-Morten Frendrup,DMK,Genoa ,24,69,MF,32,0,0,0,20000000,1
-Fabio Miretti,ITA,Genoa ,21,68,MF,23,0,0,0,14000000,1
-Patrizio Masini,ITA,Genoa ,24,54,MF,73,0,0,0,3500000,1
-Morten Thorsby,NOR,Genoa ,28,64,MF,2,0,0,0,3000000,1
-Ruslan Malinovskyi,UKR,Genoa ,31,68,MF,17,0,0,0,3500000,1
-Hugo Cuenca,PRY,Genoa ,20,45,MF,30,0,0,0,300000,1
-Maxwel Cornet,CIV,Genoa ,28,67,ST,70,0,0,0,8000000,1
-Junior Messias,BRA,Genoa ,33,68,ST,10,0,0,0,2000000,1
-Andrea Pinamonti,ITA,Genoa ,25,69,ST,19,0,0,0,16000000,1
-Vitinha,PRT,Genoa ,25,66,ST,9,0,0,0,10000000,1
-Jeff Ekhator,ITA,Genoa ,18,21,ST,21,0,0,0,5000000,1
-Caleb Ekuban,GHA,Genoa ,31,62,ST,18,0,0,0,1500000,1
-Mario Balotelli,ITA,Genoa ,34,60,ST,45,0,0,0,500000,1
-Lorenzo Montipo,ITA,Verona ,29,68,GK,1,0,0,0,3000000,1
-Federico Magro,ITA,Verona ,20,38,GK,98,0,0,0,300000,1
-Simone Perilli,ITA,Verona ,30,56,GK,34,0,0,0,200000,1
-Alessandro Berardi,ITA,Verona ,34,49,GK,22,0,0,0,50000,1
-Diego Coppola,ITA,Verona ,21,61,DF,42,0,0,0,7500000,1
-Nicolas Valentini,ARG,Verona ,24,63,DF,6,0,0,0,4500000,1
-Flavius Daniliuc,AUT,Verona ,23,62,DF,4,0,0,0,4000000,1
-Daniele Ghilardi,ITA,Verona ,22,57,DF,87,0,0,0,4000000,1
-Pawel Dawidowicz,POL,Verona ,29,50,DF,27,0,0,0,2500000,1
-Tobias Slotsager,DMK,Verona ,19,55,DF,19,0,0,0,2000000,1
-Luan Patrick,BRA,Verona ,23,60,DF,30,0,0,0,1300000,1
-Yllan Okou,FRA,Verona ,22,49,DF,15,0,0,0,900000,1
-Domagoj Bradaric,HRV,Verona ,25,65,DF,12,0,0,0,4000000,1
-Martin Frese,DMK,Verona ,27,58,DF,3,0,0,0,2000000,1
-Jackson Tchatchoua,CAM,Verona ,23,61,DF,38,0,0,0,8000000,1
-Davide Faraoni,ITA,Verona ,33,65,DF,5,0,0,0,1000000,1
-Daniel Oyegoke,ENG,Verona ,22,41,DF,2,0,0,0,400000,1
-Cheikh Niasse,SEN,Verona ,25,62,MF,10,0,0,0,2000000,1
-Suat Serdar,DEU,Verona ,28,62,MF,25,0,0,0,5000000,1
-Ondrej Duda,SVK,Verona ,30,66,MF,33,0,0,0,4000000,1
-Antoine Bernede,FRA,Verona ,25,59,MF,24,0,0,0,3500000,1
-Abdou Harroui,MAR,Verona ,27,64,MF,18,0,0,0,2000000,1
-Darko Lazovic,SRB,Verona ,34,65,MF,8,0,0,0,1000000,1
-Tomas Suslov,SVK,Verona ,22,63,MF,31,0,0,0,6000000,1
-Grigoris Kastanos,CYP,Verona ,27,65,MF,20,0,0,0,1800000,1
-Alphadjo Cisse,ITA,Verona ,18,43,MF,80,0,0,0,1400000,1
-Casper Tengstedt,DMK,Verona ,24,64,ST,11,0,0,0,7000000,1
-Amin Sarr,SWE,Verona ,24,60,ST,9,0,0,0,4000000,1
-Daniel Mosquera,COL,Verona ,25,52,ST,35,0,0,0,1500000,1
-Dailon Rocha Livramento,CPV,Verona ,23,53,ST,14,0,0,0,800000,1
-Mathis Lambourde,FRA,Verona ,19,52,ST,7,0,0,0,500000,1
-Junior Ajayi,CIV,Verona ,20,25,ST,72,0,0,0,300000,1
-Josep Martinez,ESP,Inter ,26,66,GK,13,0,0,0,12000000,1
-Yann Sommer,CHE,Inter ,36,78,GK,1,0,0,0,4000000,1
-Raffaele Di Gennaro,ITA,Inter ,31,53,GK,12,0,0,0,300000,1
-Alessandro Bastoni,ITA,Inter ,26,80,DF,95,0,0,0,80000000,1
-Benjamin Pavard,FRA,Inter ,29,78,DF,28,0,0,0,30000000,1
-Yann Bisseck,DEU,Inter ,24,69,DF,31,0,0,0,30000000,1
-Stefan de Vrij,NLD,Inter ,33,74,DF,6,0,0,0,7000000,1
-Francesco Acerbi,ITA,Inter ,37,76,DF,15,0,0,0,3000000,1
-Federico Dimarco,ITA,Inter ,27,79,DF,32,0,0,0,60000000,1
-Carlos Augusto,BRA,Inter ,26,73,DF,30,0,0,0,22000000,1
-Denzel Dumfries,NLD,Inter ,28,78,DF,2,0,0,0,28000000,1
-Matteo Darmian,ITA,Inter ,35,74,DF,36,0,0,0,4000000,1
-Hakan Calhanoglu,TUR,Inter ,31,80,MF,20,0,0,0,35000000,1
-Kristjan Asllani,ALB,Inter ,23,68,MF,21,0,0,0,15000000,1
-Nicolo Barella,ITA,Inter ,28,81,MF,23,0,0,0,80000000,1
-Davide Frattesi,ITA,Inter ,25,75,MF,16,0,0,0,32000000,1
-Piotr Zielinski,POL,Inter ,30,76,MF,7,0,0,0,14000000,1
-Henrikh Mkhitaryan,ARM,Inter ,36,78,MF,22,0,0,0,4000000,1
-Nicola Zalewski,POL,Inter ,23,69,MF,59,0,0,0,10000000,1
-Valentin Carbon,ARG,Inter ,20,60,MF,45,0,0,0,12000000,1
-Joaquin Correa,ARG,Inter ,30,70,ST,11,0,0,0,3000000,1
-Lautaro Martinez,ARG,Inter ,27,87,ST,10,0,0,0,95000000,1
-Marcus Thuram,FRA,Inter ,27,79,ST,9,0,0,0,75000000,1
-Mehdi Taremi,IRN,Inter ,32,74,ST,99,0,0,0,5000000,1
-Marko Arnautovic,AUT,Inter ,35,70,ST,8,0,0,0,3500000,1
-Michele Di Gregorio,ITA,Juventus ,27,70,GK,29,0,0,0,18000000,1
-Mattia Perin,ITA,Juventus ,32,69,GK,1,0,0,0,3000000,1
-Carlo Pinsoglio,ITA,Juventus ,35,54,GK,23,0,0,0,200000,1
-Bremer,BRA,Juventus ,28,78,DF,3,0,0,0,50000000,1
-Pierre Kalulu,FRA,Juventus ,24,71,DF,15,0,0,0,26000000,1
-Federico Gatti,ITA,Juventus ,26,73,DF,4,0,0,0,25000000,1
-Lloyd Kelly,ENG,Juventus ,26,67,DF,6,0,0,0,18000000,1
-Renato Veiga,PRT,Juventus ,21,63,DF,12,0,0,0,18000000,1
-Andrea Cambiaso,ITA,Juventus ,25,72,DF,27,0,0,0,40000000,1
-Juan Cabal,COL,Juventus ,24,59,DF,32,0,0,0,9000000,1
-Jonas Rouhi,SWE,Juventus ,21,41,DF,40,0,0,0,2000000,1
-Nicolo Savona,ITA,Juventus ,22,45,DF,37,0,0,0,14000000,1
-Alberto Costa,PRT,Juventus ,21,36,DF,2,0,0,0,10000000,1
-Manuel Locatelli,ITA,Juventus ,27,75,MF,5,0,0,0,28000000,1
-Khephren Thuram,FRA,Juventus ,24,72,MF,19,0,0,0,40000000,1
-Douglas Luiz,BRA,Juventus ,26,75,MF,26,0,0,0,38000000,1
-Weston McKennie,USA,Juventus ,26,73,MF,16,0,0,0,24000000,1
-Teun Koopmeiners,NLD,Juventus ,27,77,MF,8,0,0,0,40000000,1
-Vasilije Aszic,MNE,Juventus ,18,51,MF,17,0,0,0,3000000,1
-Kenan Yildiz,TUR,Juventus ,19,67,ST,10,0,0,0,45000000,1
-Samuel Mbangula,BEL,Juventus ,21,44,ST,51,0,0,0,14000000,1
-Francisco Conceicao,PRT,Juventus ,22,70,ST,7,0,0,0,36000000,1
-Nico Gonzalez,ARG,Juventus ,27,70,ST,11,0,0,0,28000000,1
-Timothy Weah,USA,Juventus ,25,69,ST,22,0,0,0,17000000,1
-Dusan Vlahovic,SRB,Juventus ,25,80,ST,9,0,0,0,45000000,1
-Randal Kolo Muani,FRA,Juventus ,26,78,ST,20,0,0,0,30000000,1
-Arkadiusz Milik,POL,Juventus ,31,73,ST,14,0,0,0,2000000,1
+Nicola Leali,ITA,Genoa,32,59,GK,1,0,0,0,1500000,1
+Benjamin Siegrist,CHE,Genoa,33,60,GK,31,0,0,0,650000,1
+Daniele Sommariva,ITA,Genoa,27,48,GK,39,0,0,0,100000,1
+Koni De Winter,BEL,Genoa,22,64,DF,4,0,0,0,18000000,1
+Johan Vasquez,MEX,Genoa,26,66,DF,22,0,0,0,12000000,1
+Alan Matturro,URY,Genoa,20,61,DF,33,0,0,0,8000000,1
+Mattia Bani,ITA,Genoa,31,65,DF,13,0,0,0,2000000,1
+Sebastian Otoa,DMK,Genoa,20,50,DF,34,0,0,0,2000000,1
+Aaron Martin,ESP,Genoa,27,39,DF,3,0,0,0,6500000,1
+Honest Ahanor,ITA,Genoa,17,40,DF,69,0,0,0,3000000,1
+Alessandro Zanoli,ITA,Genoa,24,61,DF,59,0,0,0,6000000,1
+Brooke Norton-Cuffy,ENG,Genoa,21,60,DF,15,0,0,0,3500000,1
+Stefano Sabelli,ITA,Genoa,32,65,DF,20,0,0,0,1500000,1
+Jean Onana,CAM,Genoa,25,58,MF,5,0,0,0,3000000,1
+Lior Kasa,ISR,Genoa,19,43,MF,53,0,0,0,1500000,1
+Milan Badelj,HRV,Genoa,36,64,MF,47,0,0,0,800000,1
+Morten Frendrup,DMK,Genoa,24,69,MF,32,0,0,0,20000000,1
+Fabio Miretti,ITA,Genoa,21,68,MF,23,0,0,0,14000000,1
+Patrizio Masini,ITA,Genoa,24,54,MF,73,0,0,0,3500000,1
+Morten Thorsby,NOR,Genoa,28,64,MF,2,0,0,0,3000000,1
+Ruslan Malinovskyi,UKR,Genoa,31,68,MF,17,0,0,0,3500000,1
+Hugo Cuenca,PRY,Genoa,20,45,MF,30,0,0,0,300000,1
+Maxwel Cornet,CIV,Genoa,28,67,ST,70,0,0,0,8000000,1
+Junior Messias,BRA,Genoa,33,68,ST,10,0,0,0,2000000,1
+Andrea Pinamonti,ITA,Genoa,25,69,ST,19,0,0,0,16000000,1
+Vitinha,PRT,Genoa,25,66,ST,9,0,0,0,10000000,1
+Jeff Ekhator,ITA,Genoa,18,21,ST,21,0,0,0,5000000,1
+Caleb Ekuban,GHA,Genoa,31,62,ST,18,0,0,0,1500000,1
+Mario Balotelli,ITA,Genoa,34,60,ST,45,0,0,0,500000,1
+Lorenzo Montipo,ITA,Verona,29,68,GK,1,0,0,0,3000000,1
+Federico Magro,ITA,Verona,20,38,GK,98,0,0,0,300000,1
+Simone Perilli,ITA,Verona,30,56,GK,34,0,0,0,200000,1
+Alessandro Berardi,ITA,Verona,34,49,GK,22,0,0,0,50000,1
+Diego Coppola,ITA,Verona,21,61,DF,42,0,0,0,7500000,1
+Nicolas Valentini,ARG,Verona,24,63,DF,6,0,0,0,4500000,1
+Flavius Daniliuc,AUT,Verona,23,62,DF,4,0,0,0,4000000,1
+Daniele Ghilardi,ITA,Verona,22,57,DF,87,0,0,0,4000000,1
+Pawel Dawidowicz,POL,Verona,29,50,DF,27,0,0,0,2500000,1
+Tobias Slotsager,DMK,Verona,19,55,DF,19,0,0,0,2000000,1
+Luan Patrick,BRA,Verona,23,60,DF,30,0,0,0,1300000,1
+Yllan Okou,FRA,Verona,22,49,DF,15,0,0,0,900000,1
+Domagoj Bradaric,HRV,Verona,25,65,DF,12,0,0,0,4000000,1
+Martin Frese,DMK,Verona,27,58,DF,3,0,0,0,2000000,1
+Jackson Tchatchoua,CAM,Verona,23,61,DF,38,0,0,0,8000000,1
+Davide Faraoni,ITA,Verona,33,65,DF,5,0,0,0,1000000,1
+Daniel Oyegoke,ENG,Verona,22,41,DF,2,0,0,0,400000,1
+Cheikh Niasse,SEN,Verona,25,62,MF,10,0,0,0,2000000,1
+Suat Serdar,DEU,Verona,28,62,MF,25,0,0,0,5000000,1
+Ondrej Duda,SVK,Verona,30,66,MF,33,0,0,0,4000000,1
+Antoine Bernede,FRA,Verona,25,59,MF,24,0,0,0,3500000,1
+Abdou Harroui,MAR,Verona,27,64,MF,18,0,0,0,2000000,1
+Darko Lazovic,SRB,Verona,34,65,MF,8,0,0,0,1000000,1
+Tomas Suslov,SVK,Verona,22,63,MF,31,0,0,0,6000000,1
+Grigoris Kastanos,CYP,Verona,27,65,MF,20,0,0,0,1800000,1
+Alphadjo Cisse,ITA,Verona,18,43,MF,80,0,0,0,1400000,1
+Casper Tengstedt,DMK,Verona,24,64,ST,11,0,0,0,7000000,1
+Amin Sarr,SWE,Verona,24,60,ST,9,0,0,0,4000000,1
+Daniel Mosquera,COL,Verona,25,52,ST,35,0,0,0,1500000,1
+Dailon Rocha Livramento,CPV,Verona,23,53,ST,14,0,0,0,800000,1
+Mathis Lambourde,FRA,Verona,19,52,ST,7,0,0,0,500000,1
+Junior Ajayi,CIV,Verona,20,25,ST,72,0,0,0,300000,1
+Josep Martinez,ESP,Inter,26,66,GK,13,0,0,0,12000000,1
+Yann Sommer,CHE,Inter,36,78,GK,1,0,0,0,4000000,1
+Raffaele Di Gennaro,ITA,Inter,31,53,GK,12,0,0,0,300000,1
+Alessandro Bastoni,ITA,Inter,26,80,DF,95,0,0,0,80000000,1
+Benjamin Pavard,FRA,Inter,29,78,DF,28,0,0,0,30000000,1
+Yann Bisseck,DEU,Inter,24,69,DF,31,0,0,0,30000000,1
+Stefan de Vrij,NLD,Inter,33,74,DF,6,0,0,0,7000000,1
+Francesco Acerbi,ITA,Inter,37,76,DF,15,0,0,0,3000000,1
+Federico Dimarco,ITA,Inter,27,79,DF,32,0,0,0,60000000,1
+Carlos Augusto,BRA,Inter,26,73,DF,30,0,0,0,22000000,1
+Denzel Dumfries,NLD,Inter,28,78,DF,2,0,0,0,28000000,1
+Matteo Darmian,ITA,Inter,35,74,DF,36,0,0,0,4000000,1
+Hakan Calhanoglu,TUR,Inter,31,80,MF,20,0,0,0,35000000,1
+Kristjan Asllani,ALB,Inter,23,68,MF,21,0,0,0,15000000,1
+Nicolo Barella,ITA,Inter,28,81,MF,23,0,0,0,80000000,1
+Davide Frattesi,ITA,Inter,25,75,MF,16,0,0,0,32000000,1
+Piotr Zielinski,POL,Inter,30,76,MF,7,0,0,0,14000000,1
+Henrikh Mkhitaryan,ARM,Inter,36,78,MF,22,0,0,0,4000000,1
+Nicola Zalewski,POL,Inter,23,69,MF,59,0,0,0,10000000,1
+Valentin Carbon,ARG,Inter,20,60,MF,45,0,0,0,12000000,1
+Joaquin Correa,ARG,Inter,30,70,ST,11,0,0,0,3000000,1
+Lautaro Martinez,ARG,Inter,27,87,ST,10,0,0,0,95000000,1
+Marcus Thuram,FRA,Inter,27,79,ST,9,0,0,0,75000000,1
+Mehdi Taremi,IRN,Inter,32,74,ST,99,0,0,0,5000000,1
+Marko Arnautovic,AUT,Inter,35,70,ST,8,0,0,0,3500000,1
+Michele Di Gregorio,ITA,Juventus,27,70,GK,29,0,0,0,18000000,1
+Mattia Perin,ITA,Juventus,32,69,GK,1,0,0,0,3000000,1
+Carlo Pinsoglio,ITA,Juventus,35,54,GK,23,0,0,0,200000,1
+Bremer,BRA,Juventus,28,78,DF,3,0,0,0,50000000,1
+Pierre Kalulu,FRA,Juventus,24,71,DF,15,0,0,0,26000000,1
+Federico Gatti,ITA,Juventus,26,73,DF,4,0,0,0,25000000,1
+Lloyd Kelly,ENG,Juventus,26,67,DF,6,0,0,0,18000000,1
+Renato Veiga,PRT,Juventus,21,63,DF,12,0,0,0,18000000,1
+Andrea Cambiaso,ITA,Juventus,25,72,DF,27,0,0,0,40000000,1
+Juan Cabal,COL,Juventus,24,59,DF,32,0,0,0,9000000,1
+Jonas Rouhi,SWE,Juventus,21,41,DF,40,0,0,0,2000000,1
+Nicolo Savona,ITA,Juventus,22,45,DF,37,0,0,0,14000000,1
+Alberto Costa,PRT,Juventus,21,36,DF,2,0,0,0,10000000,1
+Manuel Locatelli,ITA,Juventus,27,75,MF,5,0,0,0,28000000,1
+Khephren Thuram,FRA,Juventus,24,72,MF,19,0,0,0,40000000,1
+Douglas Luiz,BRA,Juventus,26,75,MF,26,0,0,0,38000000,1
+Weston McKennie,USA,Juventus,26,73,MF,16,0,0,0,24000000,1
+Teun Koopmeiners,NLD,Juventus,27,77,MF,8,0,0,0,40000000,1
+Vasilije Aszic,MNE,Juventus,18,51,MF,17,0,0,0,3000000,1
+Kenan Yildiz,TUR,Juventus,19,67,ST,10,0,0,0,45000000,1
+Samuel Mbangula,BEL,Juventus,21,44,ST,51,0,0,0,14000000,1
+Francisco Conceicao,PRT,Juventus,22,70,ST,7,0,0,0,36000000,1
+Nico Gonzalez,ARG,Juventus,27,70,ST,11,0,0,0,28000000,1
+Timothy Weah,USA,Juventus,25,69,ST,22,0,0,0,17000000,1
+Dusan Vlahovic,SRB,Juventus,25,80,ST,9,0,0,0,45000000,1
+Randal Kolo Muani,FRA,Juventus,26,78,ST,20,0,0,0,30000000,1
+Arkadiusz Milik,POL,Juventus,31,73,ST,14,0,0,0,2000000,1
 Ivan Provedel,ITA,Lazio,31,76,GK,94,0,0,0,7000000,1
 Christos Mandas,GRC,Lazio,23,61,GK,35,0,0,0,5000000,1
 Davide Renzetti,ITA,Lazio,18,35,GK,59,0,0,0,100000,1
@@ -282,7 +282,7 @@ Alessio Furlanetto,ITA,Lazio,23,45,GK,55,0,0,0,50000,1
 Mario Gila,ESP,Lazio,24,67,DF,34,0,0,0,28000000,1
 Alessio Romagnoli,ITA,Lazio,30,74,DF,13,0,0,0,12000000,1
 Samuel Gigot,FRA,Lazio,31,69,DF,2,0,0,0,4000000,1
-Patric ,ESP,Lazio,31,71,DF,4,0,0,0,4000000,1
+Patric,ESP,Lazio,31,71,DF,4,0,0,0,4000000,1
 Oliver Provstgaard,DMK,Lazio,21,54,DF,25,0,0,0,3500000,1
 Filipe Bordon,BRA,Lazio,19,36,DF,76,0,0,0,500000,1
 Nuno Tavares,PRT,Lazio,25,70,DF,30,0,0,0,25000000,1
@@ -303,7 +303,7 @@ Mattia Zaccagni,ITA,Lazio,29,76,ST,10,0,0,0,20000000,1
 Gustav Isaksen,DMK,Lazio,23,68,ST,18,0,0,0,20000000,1
 Tijjani Noslin,NLD,Lazio,25,60,ST,14,0,0,0,12000000,1
 Loum Tchaouna,FRA,Lazio,21,62,ST,20,0,0,0,10000000,1
-Pedro ,ESP,Lazio,37,69,ST,9,0,0,0,1000000,1
+Pedro,ESP,Lazio,37,69,ST,9,0,0,0,1000000,1
 Taty Castellanos,ARG,Lazio,26,70,ST,11,0,0,0,25000000,1
 Boulaye Dia,SEN,Lazio,28,69,ST,19,0,0,0,15000000,1
 Wladimiro Falcone,ITA,Lecce,30,68,GK,30,0,0,0,4000000,1
@@ -479,92 +479,92 @@ Alexis Saelemaekers,BEL,AS Roma,25,70,ST,56,0,0,0,17000000,1
 Paulo Dybala,ARG,AS Roma,31,78,ST,21,0,0,0,8000000,1
 Artem Dovbyk,UKR,AS Roma,27,78,ST,11,0,0,0,30000000,1
 Eldor Shomurodov,UZB,AS Roma,29,60,ST,14,0,0,0,4000000,1
-Vanja Milinkovic-Savic,SRB,Torino ,28,68,GK,32,0,0,0,12000000,1
-Alberto Paleari,ITA,Torino ,32,55,GK,1,0,0,0,500000,1
-Antonio Donnarumma,ITA,Torino ,34,52,GK,17,0,0,0,300000,1
-Saul Coco,GNQ,Torino ,26,65,DF,23,0,0,0,12000000,1
-Perr Schuurs,NLD,Torino ,25,69,DF,3,0,0,0,10000000,1
-Sebastian Walukiewicz,POL,Torino ,25,60,DF,4,0,0,0,5000000,1
-Guillermo Maripan,CHL,Torino ,30,64,DF,13,0,0,0,4000000,1
-Adam Masina,MAR,Torino ,31,62,DF,5,0,0,0,1500000,1
-Cristiano Biraghi,ITA,Torino ,32,71,DF,34,0,0,0,2000000,1
-Samuele Ricci,ITA,Torino ,23,69,MF,28,0,0,0,30000000,1
-Adrien Tameze,FRA,Torino ,31,67,MF,61,0,0,0,3500000,1
-Ivan Ilic,SRB,Torino ,24,70,MF,8,0,0,0,18000000,1
-Cesare Casadei,ITA,Torino ,22,62,MF,22,0,0,0,15000000,1
-Gvidas Gineitis,LTU,Torino ,21,57,MF,66,0,0,0,5000000,1
-Emirhan Ilkhan,TUR,Torino ,20,55,MF,26,0,0,0,2500000,1
-Karol Linetty,POL,Torino ,30,66,MF,77,0,0,0,2500000,1
-Marcus Pedersen,NOR,Torino ,24,49,MF,16,0,0,0,3500000,1
-Ali Dembele,FRA,Torino ,21,47,MF,21,0,0,0,800000,1
-Borna Sosa,HRV,Torino ,27,68,MF,24,0,0,0,6000000,1
-Valentino Lazaro,AUT,Torino ,29,67,MF,20,0,0,0,4500000,1
-Eljif Elmas,MKD,Torino ,25,71,MF,11,0,0,0,14000000,1
-Nikola Vlasic,HRV,Torino ,27,71,MF,10,0,0,0,8000000,1
-Alieu Njie,SWE,Torino ,19,23,MF,92,0,0,0,2500000,1
-Yann Karamoh,FRA,Torino ,26,63,ST,7,0,0,0,2200000,1
-Zanos Savva,CYP,Torino ,19,35,ST,79,0,0,0,1000000,1
-Che Adams,SCO,Torino ,28,68,ST,18,0,0,0,15000000,1
-Antonio Sanabria,PRY,Torino ,29,68,ST,9,0,0,0,4000000,1
-Duvan Zapata,COL,Torino ,34,70,ST,91,0,0,0,4000000,1
-Amine Salama,FRA,Torino ,24,60,ST,15,0,0,0,1800000,1
-Maduka Okoye,NGA,Udinese ,25,63,GK,40,0,0,0,7500000,1
-Razvan Sava,ROM,Udinese ,22,59,GK,90,0,0,0,2500000,1
-Daniele Padelli,ITA,Udinese ,39,54,GK,93,0,0,0,150000,1
-Edoardo Piana,ITA,Udinese ,21,36,GK,66,0,0,0,50000,1
-Jaka Bijol,SVN,Udinese ,26,67,DF,29,0,0,0,18000000,1
-Oumar Solet,FRA,Udinese ,25,66,DF,28,0,0,0,14000000,1
-Isaak Toure,FRA,Udinese ,22,59,DF,95,0,0,0,8000000,1
-Thomas Kristensen,DMK,Udinese ,23,62,DF,31,0,0,0,6000000,1
-Lautaro Giannetti,ARG,Udinese ,31,64,DF,30,0,0,0,2500000,1
-Matteo Palma,DEU,Udinese ,17,55,DF,16,0,0,0,1000000,1
-Christian Kabasele,BEL,Udinese ,34,61,DF,27,0,0,0,1000000,1
-Jordan Zemura,ZWE,Udinese ,25,62,DF,33,0,0,0,5000000,1
-Hassane Kamara,CIV,Udinese ,31,63,DF,11,0,0,0,3500000,1
-Kingsley Ehizibue,NLD,Udinese ,29,61,DF,19,0,0,0,3000000,1
-Jesper Karlstrom,SWE,Udinese ,29,59,MF,25,0,0,0,3500000,1
-Sandi Lovric,SVN,Udinese ,27,66,MF,8,0,0,0,8000000,1
-Jurgen Ekkelenkamp,NLD,Udinese ,25,65,MF,32,0,0,0,7500000,1
-Martin Payero,ARG,Udinese ,26,63,MF,5,0,0,0,6000000,1
-Arthur Atta,FRA,Udinese ,22,54,MF,14,0,0,0,2500000,1
-Oier Zarraga,ESP,Udinese ,26,61,MF,6,0,0,0,2000000,1
-Rui Modesto,AGO,Udinese ,25,58,MF,77,0,0,0,1800000,1
-Simone Pafundi,ITA,Udinese ,19,58,MF,20,0,0,0,6000000,1
-David Pekicic,SVN,Udinese ,17,48,MF,79,0,0,0,1000000,1
-Florian Thauvin,FRA,Udinese ,32,65,ST,10,0,0,0,5000000,1
-Lorenzo Lucca,ITA,Udinese ,24,67,ST,17,0,0,0,22000000,1
-Brenner ,BRA,Udinese ,25,63,ST,22,0,0,0,4500000,1
-Keinan Davis,ENG,Udinese ,27,59,ST,9,0,0,0,4000000,1
-Daiman Pizarro,CHL,Udinese ,20,51,ST,99,0,0,0,4000000,1
-Iker Bravo,ESP,Udinese ,20,45,ST,21,0,0,0,2500000,1
-Alexis Sanchez,CHL,Udinese ,36,70,ST,7,0,0,0,2000000,1
-Filip Stankovic,SRB,Venezia ,23,59,GK,35,0,0,0,6000000,1
-Andrei Radu,ROM,Venezia ,27,45,GK,28,0,0,0,2500000,1
-Jesse Joronen,FIN,Venezia ,32,61,GK,1,0,0,0,600000,1
-Matteo Grandi,ITA,Venezia ,32,49,GK,23,0,0,0,150000,1
-Jay Idzes,IDN,Venezia ,24,58,DF,4,0,0,0,5000000,1
-Joel Schingtienne,BEL,Venezia ,22,51,DF,25,0,0,0,3000000,1
-Michael Svoboda,AUT,Venezia ,26,55,DF,30,0,0,0,3000000,1
-Fali Cande,GNB,Venezia ,27,62,DF,2,0,0,0,2000000,1
-Alessandro Marcandalli,ITA,Venezia ,22,59,DF,16,0,0,0,2000000,1
-Marin Sverko,HRV,Venezia ,27,59,DF,33,0,0,0,1200000,1
-Ridgeciano Haps,SUR,Venezia ,31,61,DF,5,0,0,0,1000000,1
-Franco Carboni,ARG,Venezia ,22,59,DF,79,0,0,0,1000000,1
-Richie Sagrado,BEL,Venezia ,21,49,DF,21,0,0,0,2000000,1
-Francesco Zampano,ITA,Venezia ,31,61,DF,7,0,0,0,1100000,1
-Cheick Conde,GIN,Venezia ,24,58,MF,17,0,0,0,2000000,1
-Hans Nicolussi Caviglia,ITA,Venezia ,24,64,MF,14,0,0,0,8000000,1
-Gianluca Busio,USA,Venezia ,22,61,MF,6,0,0,0,6500000,1
-Kike Perez,ESP,Venezia ,28,65,MF,71,0,0,0,2800000,1
-Mikael Egill Ellertsson,ISL,Venezia ,23,60,MF,77,0,0,0,2800000,1
-Alfred Duncan,GHA,Venezia ,32,70,MF,32,0,0,0,2500000,1
-Issa Doumbia,ITA,Venezia ,21,49,MF,97,0,0,0,2000000,1
-Domen Crnigoj,SVN,Venezia ,29,57,MF,22,0,0,0,900000,1
-Bjarki Bjarkason,ISL,Venezia ,24,56,MF,19,0,0,0,800000,1
-Gaetano Oristanio,ITA,Venezia ,22,62,MF,11,0,0,0,6500000,1
-John Yeboah,ECU,Venezia ,24,55,MF,10,0,0,0,2500000,1
-Saad El Haddad,MAR,Venezia ,19,29,MF,80,0,0,0,250000,1
-Alessio Zerbin,ITA,Venezia ,26,64,ST,24,0,0,0,4000000,1
-Daniel Fila,CZE,Venezia ,22,53,ST,18,0,0,0,3000000,1
-Christian Gytkjaer,DMK,Venezia ,34,61,ST,9,0,0,0,700000,1
-Mirko Maric,HRV,Venezia ,29,59,ST,99,0,0,0,700000,1
+Vanja Milinkovic-Savic,SRB,Torino,28,68,GK,32,0,0,0,12000000,1
+Alberto Paleari,ITA,Torino,32,55,GK,1,0,0,0,500000,1
+Antonio Donnarumma,ITA,Torino,34,52,GK,17,0,0,0,300000,1
+Saul Coco,GNQ,Torino,26,65,DF,23,0,0,0,12000000,1
+Perr Schuurs,NLD,Torino,25,69,DF,3,0,0,0,10000000,1
+Sebastian Walukiewicz,POL,Torino,25,60,DF,4,0,0,0,5000000,1
+Guillermo Maripan,CHL,Torino,30,64,DF,13,0,0,0,4000000,1
+Adam Masina,MAR,Torino,31,62,DF,5,0,0,0,1500000,1
+Cristiano Biraghi,ITA,Torino,32,71,DF,34,0,0,0,2000000,1
+Samuele Ricci,ITA,Torino,23,69,MF,28,0,0,0,30000000,1
+Adrien Tameze,FRA,Torino,31,67,MF,61,0,0,0,3500000,1
+Ivan Ilic,SRB,Torino,24,70,MF,8,0,0,0,18000000,1
+Cesare Casadei,ITA,Torino,22,62,MF,22,0,0,0,15000000,1
+Gvidas Gineitis,LTU,Torino,21,57,MF,66,0,0,0,5000000,1
+Emirhan Ilkhan,TUR,Torino,20,55,MF,26,0,0,0,2500000,1
+Karol Linetty,POL,Torino,30,66,MF,77,0,0,0,2500000,1
+Marcus Pedersen,NOR,Torino,24,49,MF,16,0,0,0,3500000,1
+Ali Dembele,FRA,Torino,21,47,MF,21,0,0,0,800000,1
+Borna Sosa,HRV,Torino,27,68,MF,24,0,0,0,6000000,1
+Valentino Lazaro,AUT,Torino,29,67,MF,20,0,0,0,4500000,1
+Eljif Elmas,MKD,Torino,25,71,MF,11,0,0,0,14000000,1
+Nikola Vlasic,HRV,Torino,27,71,MF,10,0,0,0,8000000,1
+Alieu Njie,SWE,Torino,19,23,MF,92,0,0,0,2500000,1
+Yann Karamoh,FRA,Torino,26,63,ST,7,0,0,0,2200000,1
+Zanos Savva,CYP,Torino,19,35,ST,79,0,0,0,1000000,1
+Che Adams,SCO,Torino,28,68,ST,18,0,0,0,15000000,1
+Antonio Sanabria,PRY,Torino,29,68,ST,9,0,0,0,4000000,1
+Duvan Zapata,COL,Torino,34,70,ST,91,0,0,0,4000000,1
+Amine Salama,FRA,Torino,24,60,ST,15,0,0,0,1800000,1
+Maduka Okoye,NGA,Udinese,25,63,GK,40,0,0,0,7500000,1
+Razvan Sava,ROM,Udinese,22,59,GK,90,0,0,0,2500000,1
+Daniele Padelli,ITA,Udinese,39,54,GK,93,0,0,0,150000,1
+Edoardo Piana,ITA,Udinese,21,36,GK,66,0,0,0,50000,1
+Jaka Bijol,SVN,Udinese,26,67,DF,29,0,0,0,18000000,1
+Oumar Solet,FRA,Udinese,25,66,DF,28,0,0,0,14000000,1
+Isaak Toure,FRA,Udinese,22,59,DF,95,0,0,0,8000000,1
+Thomas Kristensen,DMK,Udinese,23,62,DF,31,0,0,0,6000000,1
+Lautaro Giannetti,ARG,Udinese,31,64,DF,30,0,0,0,2500000,1
+Matteo Palma,DEU,Udinese,17,55,DF,16,0,0,0,1000000,1
+Christian Kabasele,BEL,Udinese,34,61,DF,27,0,0,0,1000000,1
+Jordan Zemura,ZWE,Udinese,25,62,DF,33,0,0,0,5000000,1
+Hassane Kamara,CIV,Udinese,31,63,DF,11,0,0,0,3500000,1
+Kingsley Ehizibue,NLD,Udinese,29,61,DF,19,0,0,0,3000000,1
+Jesper Karlstrom,SWE,Udinese,29,59,MF,25,0,0,0,3500000,1
+Sandi Lovric,SVN,Udinese,27,66,MF,8,0,0,0,8000000,1
+Jurgen Ekkelenkamp,NLD,Udinese,25,65,MF,32,0,0,0,7500000,1
+Martin Payero,ARG,Udinese,26,63,MF,5,0,0,0,6000000,1
+Arthur Atta,FRA,Udinese,22,54,MF,14,0,0,0,2500000,1
+Oier Zarraga,ESP,Udinese,26,61,MF,6,0,0,0,2000000,1
+Rui Modesto,AGO,Udinese,25,58,MF,77,0,0,0,1800000,1
+Simone Pafundi,ITA,Udinese,19,58,MF,20,0,0,0,6000000,1
+David Pekicic,SVN,Udinese,17,48,MF,79,0,0,0,1000000,1
+Florian Thauvin,FRA,Udinese,32,65,ST,10,0,0,0,5000000,1
+Lorenzo Lucca,ITA,Udinese,24,67,ST,17,0,0,0,22000000,1
+Brenner,BRA,Udinese,25,63,ST,22,0,0,0,4500000,1
+Keinan Davis,ENG,Udinese,27,59,ST,9,0,0,0,4000000,1
+Daiman Pizarro,CHL,Udinese,20,51,ST,99,0,0,0,4000000,1
+Iker Bravo,ESP,Udinese,20,45,ST,21,0,0,0,2500000,1
+Alexis Sanchez,CHL,Udinese,36,70,ST,7,0,0,0,2000000,1
+Filip Stankovic,SRB,Venezia,23,59,GK,35,0,0,0,6000000,1
+Andrei Radu,ROM,Venezia,27,45,GK,28,0,0,0,2500000,1
+Jesse Joronen,FIN,Venezia,32,61,GK,1,0,0,0,600000,1
+Matteo Grandi,ITA,Venezia,32,49,GK,23,0,0,0,150000,1
+Jay Idzes,IDN,Venezia,24,58,DF,4,0,0,0,5000000,1
+Joel Schingtienne,BEL,Venezia,22,51,DF,25,0,0,0,3000000,1
+Michael Svoboda,AUT,Venezia,26,55,DF,30,0,0,0,3000000,1
+Fali Cande,GNB,Venezia,27,62,DF,2,0,0,0,2000000,1
+Alessandro Marcandalli,ITA,Venezia,22,59,DF,16,0,0,0,2000000,1
+Marin Sverko,HRV,Venezia,27,59,DF,33,0,0,0,1200000,1
+Ridgeciano Haps,SUR,Venezia,31,61,DF,5,0,0,0,1000000,1
+Franco Carboni,ARG,Venezia,22,59,DF,79,0,0,0,1000000,1
+Richie Sagrado,BEL,Venezia,21,49,DF,21,0,0,0,2000000,1
+Francesco Zampano,ITA,Venezia,31,61,DF,7,0,0,0,1100000,1
+Cheick Conde,GIN,Venezia,24,58,MF,17,0,0,0,2000000,1
+Hans Nicolussi Caviglia,ITA,Venezia,24,64,MF,14,0,0,0,8000000,1
+Gianluca Busio,USA,Venezia,22,61,MF,6,0,0,0,6500000,1
+Kike Perez,ESP,Venezia,28,65,MF,71,0,0,0,2800000,1
+Mikael Egill Ellertsson,ISL,Venezia,23,60,MF,77,0,0,0,2800000,1
+Alfred Duncan,GHA,Venezia,32,70,MF,32,0,0,0,2500000,1
+Issa Doumbia,ITA,Venezia,21,49,MF,97,0,0,0,2000000,1
+Domen Crnigoj,SVN,Venezia,29,57,MF,22,0,0,0,900000,1
+Bjarki Bjarkason,ISL,Venezia,24,56,MF,19,0,0,0,800000,1
+Gaetano Oristanio,ITA,Venezia,22,62,MF,11,0,0,0,6500000,1
+John Yeboah,ECU,Venezia,24,55,MF,10,0,0,0,2500000,1
+Saad El Haddad,MAR,Venezia,19,29,MF,80,0,0,0,250000,1
+Alessio Zerbin,ITA,Venezia,26,64,ST,24,0,0,0,4000000,1
+Daniel Fila,CZE,Venezia,22,53,ST,18,0,0,0,3000000,1
+Christian Gytkjaer,DMK,Venezia,34,61,ST,9,0,0,0,700000,1
+Mirko Maric,HRV,Venezia,29,59,ST,99,0,0,0,700000,1

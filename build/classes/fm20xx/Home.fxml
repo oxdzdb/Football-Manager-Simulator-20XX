@@ -24,7 +24,7 @@
          <children>
             <StackPane alignment="TOP_LEFT" prefHeight="65.0" prefWidth="1056.0">
                <children>
-                  <ImageView fitHeight="60.0" fitWidth="60.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
+                  <ImageView fx:id="clubBadge" fitHeight="60.0" fitWidth="60.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
                      <image>
                         <Image url="@teamImgs/manchesterCityFC.png" />
                      </image>
@@ -40,7 +40,7 @@
                         <Insets left="70.0" top="15.0" />
                      </StackPane.margin>
                   </Label>
-                  <Label alignment="TOP_RIGHT" prefHeight="24.0" prefWidth="166.0" text="Manchester City - 6th" textFill="WHITE">
+                  <Label fx:id="standing" alignment="TOP_RIGHT" prefHeight="24.0" prefWidth="166.0" text="Manchester City - 6th" textFill="WHITE">
                      <font>
                         <Font name="DejaVu Sans Mono Bold" size="13.0" />
                      </font>
@@ -1182,44 +1182,55 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="NO.">
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="56.0" text="NO.">
                            <font>
                               <Font name="DejaVu Sans Condensed Bold" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="18" GridPane.rowIndex="2">
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="64.0" text="18" GridPane.rowIndex="2">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="31" GridPane.rowIndex="1">
+                        <Label alignment="CENTER" prefHeight="15.0" prefWidth="62.0" text="31" GridPane.rowIndex="1">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="25" GridPane.rowIndex="3">
+                        <Label alignment="CENTER" prefHeight="15.0" prefWidth="58.0" text="25" GridPane.rowIndex="3">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="6" GridPane.rowIndex="4">
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="64.0" text="6" GridPane.rowIndex="4">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="3" GridPane.rowIndex="5">
+                        <Label alignment="CENTER" prefHeight="15.0" prefWidth="62.0" text="3" GridPane.rowIndex="5">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="24" GridPane.rowIndex="6">
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="64.0" text="24" GridPane.rowIndex="6">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="82" GridPane.rowIndex="7">
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="58.0" text="82" GridPane.rowIndex="7">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
@@ -1229,72 +1240,72 @@
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="5" GridPane.rowIndex="9">
+                        <Label alignment="CENTER" prefHeight="15.0" prefWidth="58.0" text="5" GridPane.rowIndex="9">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="2" GridPane.rowIndex="10">
+                        <Label alignment="CENTER" prefHeight="15.0" prefWidth="62.0" text="2" GridPane.rowIndex="10">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="17" GridPane.rowIndex="11">
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="60.0" text="17" GridPane.rowIndex="11">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="47" GridPane.rowIndex="12">
+                        <Label alignment="CENTER" prefHeight="15.0" prefWidth="58.0" text="47" GridPane.rowIndex="12">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="10" GridPane.rowIndex="13">
+                        <Label alignment="CENTER" prefHeight="15.0" prefWidth="56.0" text="10" GridPane.rowIndex="13">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="19" GridPane.rowIndex="14">
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="56.0" text="19" GridPane.rowIndex="14">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="8" GridPane.rowIndex="15">
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="58.0" text="8" GridPane.rowIndex="15">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="87" GridPane.rowIndex="16">
+                        <Label alignment="CENTER" prefHeight="17.0" prefWidth="60.0" text="87" GridPane.rowIndex="16">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="27" GridPane.rowIndex="17">
+                        <Label alignment="CENTER" prefHeight="49.0" prefWidth="86.0" text="27" GridPane.rowIndex="17">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="16" GridPane.rowIndex="18">
+                        <Label alignment="CENTER" prefHeight="49.0" prefWidth="90.0" text="16" GridPane.rowIndex="18">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="20" GridPane.rowIndex="19">
+                        <Label alignment="CENTER" prefHeight="45.0" prefWidth="74.0" text="20" GridPane.rowIndex="20">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="11" GridPane.rowIndex="20">
+                        <Label alignment="CENTER" prefHeight="35.0" prefWidth="72.0" text="11" GridPane.rowIndex="21">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="9" GridPane.rowIndex="21">
+                        <Label alignment="CENTER" prefHeight="41.0" prefWidth="76.0" text="9" GridPane.rowIndex="22">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="20.0" prefWidth="48.0" text="26" GridPane.rowIndex="22">
+                        <Label alignment="CENTER" prefHeight="41.0" prefWidth="68.0" text="26" GridPane.rowIndex="19">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="10.0" />
                            </font>
@@ -1429,22 +1440,22 @@
                               <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
                         </Label>
-                        <Label prefHeight="20.0" prefWidth="632.0" text="Silva, Bernardo" GridPane.columnIndex="1" GridPane.rowIndex="19">
+                        <Label prefHeight="20.0" prefWidth="632.0" text="Silva, Bernardo" GridPane.columnIndex="1" GridPane.rowIndex="20">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
                         </Label>
-                        <Label prefHeight="20.0" prefWidth="514.0" text="Doku, Jeremy" GridPane.columnIndex="1" GridPane.rowIndex="20">
+                        <Label prefHeight="20.0" prefWidth="514.0" text="Doku, Jeremy" GridPane.columnIndex="1" GridPane.rowIndex="21">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
                         </Label>
-                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="21">
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="22">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
                         </Label>
-                        <Label prefHeight="20.0" prefWidth="538.0" text="Savinho" GridPane.columnIndex="1" GridPane.rowIndex="22">
+                        <Label prefHeight="20.0" prefWidth="538.0" text="Savinho" GridPane.columnIndex="1" GridPane.rowIndex="19">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
@@ -1539,22 +1550,22 @@
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="89" GridPane.columnIndex="2" GridPane.rowIndex="19">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="89" GridPane.columnIndex="2" GridPane.rowIndex="20">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="77" GridPane.columnIndex="2" GridPane.rowIndex="20">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="77" GridPane.columnIndex="2" GridPane.rowIndex="21">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="21">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="22">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="71" GridPane.columnIndex="2" GridPane.rowIndex="22">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="71" GridPane.columnIndex="2" GridPane.rowIndex="19">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
@@ -1649,22 +1660,22 @@
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="PRT" GridPane.columnIndex="3" GridPane.rowIndex="19">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="PRT" GridPane.columnIndex="3" GridPane.rowIndex="20">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="BEL" GridPane.columnIndex="3" GridPane.rowIndex="20">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="BEL" GridPane.columnIndex="3" GridPane.rowIndex="21">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="21">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="22">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="BRA" GridPane.columnIndex="3" GridPane.rowIndex="22">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="BRA" GridPane.columnIndex="3" GridPane.rowIndex="19">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
@@ -1759,12 +1770,7 @@
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="MF" GridPane.columnIndex="4" GridPane.rowIndex="19">
-                           <font>
-                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
-                           </font>
-                        </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="20">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="MF" GridPane.columnIndex="4" GridPane.rowIndex="20">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
@@ -1775,6 +1781,11 @@
                            </font>
                         </Label>
                         <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="22">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="19">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
@@ -1869,22 +1880,22 @@
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="5" GridPane.rowIndex="19">
-                           <font>
-                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
-                           </font>
-                        </Label>
                         <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="5" GridPane.rowIndex="20">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="21">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="5" GridPane.rowIndex="21">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="1" GridPane.columnIndex="5" GridPane.rowIndex="22">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="22">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="1" GridPane.columnIndex="5" GridPane.rowIndex="19">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
@@ -1979,22 +1990,22 @@
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="4" GridPane.columnIndex="6" GridPane.rowIndex="19">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="4" GridPane.columnIndex="6" GridPane.rowIndex="20">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="6" GridPane.rowIndex="20">
-                           <font>
-                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
-                           </font>
-                        </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="21">
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="6" GridPane.rowIndex="21">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
                         <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="22">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="19">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
@@ -2089,22 +2100,22 @@
                               <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€62.1M" GridPane.columnIndex="8" GridPane.rowIndex="19">
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€62.1M" GridPane.columnIndex="8" GridPane.rowIndex="20">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€63.0M" GridPane.columnIndex="8" GridPane.rowIndex="20">
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€63.0M" GridPane.columnIndex="8" GridPane.rowIndex="21">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="21">
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="22">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€56.2M" GridPane.columnIndex="8" GridPane.rowIndex="22">
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€56.2M" GridPane.columnIndex="8" GridPane.rowIndex="19">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
@@ -2199,11 +2210,6 @@
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
                            </font>
                         </Label>
-                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="19">
-                           <font>
-                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
-                           </font>
-                        </Label>
                         <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="20">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
@@ -2217,6 +2223,511 @@
                         <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="22">
                            <font>
                               <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="19">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="23">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="24">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="25">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="26">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="27">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="28">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="29">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="30">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="32">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="31">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="71.0" prefWidth="88.0" text="9" GridPane.rowIndex="33">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="23">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="24">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="25">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="26">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="27">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="28">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="29">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="30">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="31">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="32">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="20.0" prefWidth="520.0" text="Haaland, Erling" GridPane.columnIndex="1" GridPane.rowIndex="33">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="23">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="24">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="25">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="26">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="27">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="28">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="29">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="30">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="31">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="32">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="94" GridPane.columnIndex="2" GridPane.rowIndex="33">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="23">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="24">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="25">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="26">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="27">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="28">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="29">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="30">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="31">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="32">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="NOR" GridPane.columnIndex="3" GridPane.rowIndex="33">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="23">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="24">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="25">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="26">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="27">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="28">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="29">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="30">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="31">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="32">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="ST" GridPane.columnIndex="4" GridPane.rowIndex="33">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="23">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="24">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="25">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="26">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="27">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="28">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="29">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="30">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="31">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="32">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="14" GridPane.columnIndex="5" GridPane.rowIndex="33">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="23">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="24">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="25">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="26">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="27">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="28">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="29">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="30">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="31">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="32">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="2" GridPane.columnIndex="6" GridPane.rowIndex="33">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="23">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="24">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="25">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="26">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="27">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="28">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="29">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="30">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="31">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="32">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="21.0" prefWidth="100.0" text="0" GridPane.columnIndex="7" GridPane.rowIndex="33">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="12.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="23">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="24">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="25">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="26">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="27">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="28">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="29">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="30">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="31">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="32">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER" prefHeight="19.0" prefWidth="314.0" text="€195.7M" GridPane.columnIndex="8" GridPane.rowIndex="33">
+                           <font>
+                              <Font name="DejaVu Sans ExtraLight" size="13.0" />
                            </font>
                         </Label>
                      </children>
