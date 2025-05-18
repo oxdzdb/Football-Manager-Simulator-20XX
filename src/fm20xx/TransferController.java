@@ -5,13 +5,12 @@
 package fm20xx;
 
 import static fm20xx.PlayerReader.readCSV;
-import static fm20xx.TitleController.chosenLeague;
-import static fm20xx.TitleController.chosenTeam;
 import static fm20xx.readPlayersFromTeam.readTeam;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -36,6 +35,19 @@ import javafx.stage.Stage;
  */
 public class TransferController implements Initializable {
     @FXML ImageView icon;
+    private League chosenLeague;
+    private ArrayList<Team> teamList;
+    private int teamIndex;
+    private Team chosenTeam;
+    
+    
+    @FXML
+    public void chosen(League l, ArrayList<Team> tl, int i){
+        chosenLeague = l;
+        teamList = tl;
+        teamIndex = i;
+        chosenTeam = chosenLeague.searchTeam(i);
+    }
     
     @FXML
     private void home(MouseEvent event) throws IOException {

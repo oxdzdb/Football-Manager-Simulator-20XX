@@ -6,7 +6,10 @@ package fm20xx;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.Random;
 import java.util.ResourceBundle;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -27,11 +30,7 @@ import javafx.stage.Stage;
  * @author Dell
  */
 public class MatchController implements Initializable {
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }    
-    
+
     @FXML Label homeTeam;
     @FXML Label homeEvent1;
     @FXML Label homeEvent2;
@@ -67,9 +66,11 @@ public class MatchController implements Initializable {
     @FXML ProgressBar passes;
     @FXML ProgressBar possession;
     @FXML ProgressBar shots;
-    
+
     Team home = TeamSelectController.chosenTeam;
-    Team away = TeamSelectController.chosenTeam;
+    Team away = TeamSelectController.chosenTeam; // supposed to be another team, need function for matchups
+    
+    private static final Random rng = new Random();
     int minutes = 0;
     int hScore = 0;
     int aScore = 0;
@@ -82,453 +83,445 @@ public class MatchController implements Initializable {
     int hShots = 0;
     int aShots = 0;
 
-    Team poss = TeamSelectController.chosenTeam;
-    Team opp = TeamSelectController.chosenTeam;
-    Team pSwitch = TeamSelectController.chosenTeam;
-    
+    Team poss = home;
+    Team opp = away; 
+    Team pSwitch = home;
+
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        // TODO
+    }
+
     @FXML
     private void match(KeyEvent event) throws IOException {
-       timeButton();
-       commentary();
-       attack();
+        timeButton();
+        attack();
     }
     
-    @FXML
     private int rng() {
-        return (int) (Math.random() * 100);
+        return rng.nextInt(100);
     }
-    
-    @FXML
-    private int attack() {
-        //2a
-        int atkGen = 0;
-        atkGen = (((int) (Math.random() * 100)) - ((poss.getFacilityRating() - opp.getFacilityRating()))); //supposed to be avg player ratings vs average player ratings
-        //2b
-        if((int) (Math.random() * 100) <= atkGen) {
-            if(poss == home) {
+
+    private void attack() {
+        int atkGen1;
+        int atkGen2;
+
+        atkGen1 = rng() - (poss.getFacilityRating() - opp.getFacilityRating()); //supposed to be average player skill ratings
+        atkGen2 = rng();
+
+        if (atkGen2 <= atkGen1) {
+            if (poss == home) {
                 hPasses += 5;
-            }
-            else {
+            } else {
                 aPasses += 5;
             }
+            commentary.setText("A chance here for " + poss.getName() + "!");
             chance();
-        }
-        //2b-1
-        else {
-            //[RECYCLE]
-            if(rng() <= 50) {
-                if(poss == home) {
-                hPasses += 10;
-            }
-            else {
-                aPasses += 10;
-            }
-                minutes += 1;
-                if(poss == home) {
-                hTime += 1;
-            }
-            else {
-                aTime += 1;
-            }
-                updateTime();
+        } else {
+            int atkFail = rng();
+
+            if (atkFail <= 50) {
+                if (poss == home) {
+                    hPasses += 10;
+                } else {
+                    aPasses += 10;
+                }
+                if (poss == home) {
+                    hTime += 1;
+                } else {
+                    aTime += 1;
+                }
+                commentary.setText(poss.getName() + " recycles the ball.");
+                tickTime();
                 attack();
-            }
-            //[LOSE]
-            else if(rng() <= 90 && rng() > 50) {
-                if(poss == home) {
-                hPasses += 5;
-            }
-            else {
-                aPasses += 5;
-            }
-                poss = opp;
-                opp = pSwitch;
-                pSwitch = poss;
-                minutes += 1;
-                if(poss == home) {
-                hTime += 1;
-            }
-            else {
-                aTime += 1;
-            }
-                updateTime();
+            } else if (atkFail <= 90) {
+                if (poss == home) {
+                    hPasses += 5;
+                } else {
+                    aPasses += 5;
+                }
+                commentary.setText("And " + poss.getName() + " loses the ball!");
+                swapPossession();
+                if (poss == home) {
+                    hTime += 1;
+                } else {
+                    aTime += 1;
+                }
+                tickTime();
                 attack();
-            }
-            //[COUNTER]
-            else {
-                if(poss == home) {
-                hPasses += 5;
-            }
-            else {
-                aPasses += 5;
-            }
-                poss = opp;
-                opp = pSwitch;
-                pSwitch = poss;
+            } else {
+                if (poss == home) {
+                    hPasses += 5;
+                } else {
+                    aPasses += 5;
+                }
+                swapPossession();
+                commentary.setText("A great challenge wins " + poss.getName() + " the ball.");
                 attack();
             }
         }
-        return 1;
     }
-    
-    @FXML 
+
     private void chance() {
-        //3a
-        int chanceGen = 0;
-        chanceGen = (((int) (Math.random() * 100)) - ((poss.getFacilityRating() - opp.getFacilityRating()))); //supposed to be avg player ratings vs average player ratings
-        //3b
-        if((int) (Math.random() * 100) <= chanceGen) {
-            if(poss == home) {
-                hPasses += 5;
-            }
-            else {
-                aPasses += 5;
-            }
+        int chanceGen1 = rng() + poss.getFacilityRating() - opp.getFacilityRating(); //supposed to be attack rating vs defense rating
+        int chanceGen2 = rng();
+
+        if (chanceGen2 <= chanceGen1) {
+            commentary.setText(poss.getName() + " has a clear opportunity!");
             shot();
-        }
-        else {
-            if(poss == home) {
-                hPasses += 5;
+        } else {
+            commentary.setText(poss.getName() + "'s attack is snuffed out.");
+            swapPossession();
+            if (poss == home) {
+                hPasses += 2;
+            } else {
+                aPasses += 2;
             }
-            else {
-                aPasses += 5;
-            }
-            poss = opp;
-            opp = pSwitch;
-            pSwitch = poss;
-            minutes += 1;
-            if(poss == home) {
-                hTime += 1;
-            }
-            else {
-                aTime += 1;
-            }
-            updateTime();
+            tickTime();
             attack();
         }
     }
-        
-    @FXML
+
     private void shot() {
-        //4a
-        int shotGen = 0;
-        shotGen = (((int) (Math.random() * 100)) - ((poss.getFacilityRating() - opp.getFacilityRating()))); //supposed to be attacker skill lvel vs gk skill level
-        //4b
-        if((int) (Math.random() * 100) <= shotGen) {
-            //goal scored with a 60% chance divided among attackers, 30% chance divided among midifelders, 10% chance divided among defenders
-            if(poss == home) {
+        int shotGen = (rng() - (poss.getFacilityRating() - opp.getFacilityRating())); //supposed to be attacker vs gk rating
+        if (rng() <= shotGen) {
+            if (poss == home) {
                 hScore += 1;
-            }
-            else {
+            } else {
                 aScore += 1;
             }
             minutes += 2;
-            if(poss == home) {
+            if (poss == home) {
                 hTime += 2;
-            }
-            else {
+            } else {
                 aTime += 2;
             }
+            if (hScore > aScore) {
+                if (hScore > aScore + 1) {
+                    commentary.setText("And the home side add another to their tally!");
+                } else {
+                    commentary.setText("And the home side take the lead!");
+                }
+            } else if (hScore == aScore) {
+                commentary.setText("It's in and " + poss.getName() + " equalize!");
+            } else {
+                commentary.setText(poss.getName() + " score!");
+            }
             updateTime();
-        }
-        //4b-1
-        else {
-            //[REBOUND]
-            if(rng() <= 10) {
+            attack();
+        } else {
+            if (rng() <= 10) {
                 shot();
-            }
-            //[MISS]
-            else if(rng() <= 55 && rng() > 10) {
-                if(poss == home) {
+            } else if (rng() <= 55 && rng() > 10) {
+                if (poss == home) {
                     hPasses += 5;
+                } else {
+                    aPasses += 5;
                 }
-                else {
-                   aPasses += 5;
+                commentary.setText(opp.getName() + " do well to clear it out.");
+                swapPossession();
+                if (poss == home) {
+                    hTime += 1;
+                } else {
+                    aTime += 1;
                 }
-                poss = opp;
-                opp = pSwitch;
-                pSwitch = poss;
-                minutes += 1;
-                if(poss == home) {
-                hTime += 1;
-            }
-            else {
-                aTime += 1;
-            }
-                updateTime();
+                tickTime();
                 attack();
-            }
-            //[CORNER]
-            else if(rng() <= 95 && rng() > 55) {
-                   corner();
-            }
-            //[PENALTY]
-            else if(rng() <= 100 && rng() > 95) {
-                if(rng() <= 75) {
-                    //goal scored chance equally divided among all players on field
-                    if(poss == home) {
-                        hScore += 1;
-                    }
-                    else {
-                        aScore += 1;
-                    }
-                    minutes += 3;
-                    if(poss == home) {
-                hTime += 3;
-            }
-            else {
-                aTime += 3;
-            }
-                    updateTime();
-                }
+            } else if (rng() <= 100 && rng() > 55) {
+                commentary.setText("Ball goes out for a corner.");
+                corner();
             }
         }
-        if(poss == home) {
+        if (poss == home) {
             hShots += 1;
-        }
-        else {
+        } else {
             aShots += 1;
         }
     }
-    
-    @FXML
+
     private void corner() {
         minutes += 2;
-        if(poss == home) {
-                hTime += 2;
-            }
-            else {
-                aTime += 2;
-            }
-        updateTime();
-        //5a
-        //[SHORT]
-        if(rng() <= 25) {
-            chance();
+        if (poss == home) {
+            hTime += 2;
+        } else {
+            aTime += 2;
         }
-        //[CORNER SHOT]
-        else if(rng() <= 98 && rng() > 25) {
-            //5a-1
-            int cornerGen = 0;
-            cornerGen = (((int) (Math.random() * 100)) - ((poss.getFacilityRating() - opp.getFacilityRating()))); //supposed to be avg player ratings vs average player ratings
-            //5a-2
-            if((int) (Math.random() * 100) <= cornerGen) {
-                if(rng() < cornerGen) {
-                    //goal scored chance equally divided among all players on field
-                    if(poss == home) {
+        updateTime();
+
+        if (rng() <= 25) {
+            commentary.setText("Corner taken short.");
+            chance();
+        } else if (rng() <= 98 && rng() > 25) {
+            int cornerGen = (rng() - (poss.getFacilityRating() - opp.getFacilityRating())); //supposed to be average ratings
+
+            if (rng() <= cornerGen) {
+                if (rng() < cornerGen) {
+                    if (poss == home) {
                         hScore += 1;
-                    }
-                    else {
+                    } else {
                         aScore += 1;
                     }
-                    minutes += 3;
-                    if(poss == home) {
-                hTime += 3;
-            }
-            else {
-                aTime += 3;
-            }
-                    updateTime();
+                    if (hScore > aScore) {
+                if (hScore > aScore + 1) {
+                    commentary.setText("A bullet header gives the home side a larger advantage!!");
+                } else {
+                    commentary.setText("It's a header and in! The home side take the lead!");
                 }
-                else {
-                    //[RECYCLE]
-                    if(rng() <= 25) {
-                        if(poss == home) {
+                } else if (hScore == aScore) {
+                    commentary.setText("It's in and " + poss.getName() + " equalize!");
+                } else {
+                    commentary.setText(poss.getName() + " score!");
+                }
+                    minutes += 3;
+                    if (poss == home) {
+                        hTime += 3;
+                    } else {
+                        aTime += 3;
+                    }
+                    updateTime();
+                } else {
+                    if (rng() <= 25) {
+                        if (poss == home) {
                             hPasses += 10;
-                        }
-                        else {
+                        } else {
                             aPasses += 10;
                         }
-                        minutes += 1;
-                        if(poss == home) {
-                hTime += 1;
-            }
-            else {
-                aTime += 1;
-            }
-                        updateTime();
+                        if (poss == home) {
+                            hTime += 1;
+                        } else {
+                            aTime += 1;
+                        }
+                        commentary.setText("Corner brought outside the box...");
+                        tickTime();
                         chance();
-                    }
-                    //[LOSE]
-                    else if(rng() <= 50 && rng() > 25) {
-                        if(poss == home) {
+                    } else if (rng() <= 50 && rng() > 25) {
+                        if (poss == home) {
                             hPasses += 5;
-                        }
-                        else {
+                        } else {
                             aPasses += 5;
                         }
-                        poss = opp;
-                        opp = pSwitch;
-                        pSwitch = poss;
-                        minutes += 1;
-                        if(poss == home) {
-                hTime += 1;
-            }
-            else {
-                aTime += 1;
-            }
-                        updateTime();
+                        commentary.setText(opp.getName() + " gain possession and an opportunity to counter.");
+                        swapPossession();
+                        if (poss == home) {
+                            hTime += 1;
+                        } else {
+                            aTime += 1;
+                        }
+                        tickTime();
                         attack();
-                    }
-                    //[REBOUND]
-                    else if(rng() <= 75 && rng() > 50) {
-                        minutes += 1;
-                        if(poss == home) {
-                hTime += 1;
-            }
-            else {
-                aTime += 1;
-            }
-                        updateTime();
+                    } else if (rng() <= 75 && rng() > 50) {
+                        if (poss == home) {
+                            hTime += 1;
+                        } else {
+                            aTime += 1;
+                        }
+                        commentary.setText("He's open for the shot!");
+                        tickTime();
                         shot();
-                    }
-                    //[CORNER COUNTER]
-                    else if (rng() <= 100 && rng() > 75) {
-                        if(poss == home) {
+                    } else if (rng() <= 100 && rng() > 75) {
+                        if (poss == home) {
                             hPasses += 5;
-                        }
-                        else {
+                        } else {
                             aPasses += 5;
                         }
-                        poss = opp;
-                        opp = pSwitch;
-                        pSwitch = poss;
-                        minutes += 1;
-                        if(poss == home) {
-                hTime += 1;
-            }
-            else {
-                aTime += 1;
-            }
-                        updateTime();
+                        commentary.setText("Ball is cleared and it's on for a counter!");
+                        swapPossession();
+                        if (poss == home) {
+                            hTime += 1;
+                        } else {
+                            aTime += 1;
+                        }
+                        tickTime();
                         attack();
                     }
                 }
-            }
-            //[OLIMPICO]
-            else {
-                //goal scored chance equally divided among all players on field
-                if(poss == home) {
+            } else {
+                if (poss == home) {
                     hScore += 1;
-                }
-                else {
+                } else {
                     aScore += 1;
                 }
-                minutes += 2;
-                if(poss == home) {
-                hTime += 2;
+                commentary.setText("And it's gone straight in from the corner!");
+                if (poss == home) {
+                    hTime += 2;
+                } else {
+                    aTime += 2;
+                }
+                tickTime();
             }
-            else {
-                aTime += 2;
-            }
-                updateTime();
-            } 
-            
         }
-        if(poss == home) {
+
+        if (poss == home) {
             hCorner += 1;
-        }
-        else {
+        } else {
             aCorner += 1;
         }
-    }   
+    }
+
+    private void swapPossession() {
+        Team temp = poss;
+        poss = opp;
+        opp = temp;
+    }    
     
-    @FXML
-    private void timeButton() {
-        switch (minutes) {
-            case 0:
-                timeControl.setText("Start Match");
-                //set time control on action to match() function
-                break;
-            case 45:
-                timeControl.setText("Start 2nd Half");
-                //set time control on action to match() function
-                break;
-            case 90:
-                timeControl.setText("End Match");
-                //set time control on action to updateData() function
-                break;
-            default:
-                timeControl.setText("Skip to End");
-                //set time control on action to set minutes to 90
-                break;
-        }
+    private void tickTime() {
+        minutes += 1;
+        updateTime();
     }
     
+    private void fillerCommentary() {
+        int random = rng.nextInt(5);
+        switch (random) {
+            case 1:
+                commentary.setText("A clean pass.");
+                break;
+            case 2:
+                commentary.setText("Good Defending.");
+                break;
+            case 3:
+                commentary.setText("Holding up play.");
+                break;
+            case 4:
+                commentary.setText("Going down the side...");
+                break;
+            case 5:
+                commentary.setText("Missed challenge there.");
+        }
+    }
+
+
     @FXML
     private void manage(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Management.fxml"));
         Parent root = loader.load();
-        Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        Scene scene  = new Scene(root);
+        Stage thisStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
         thisStage.setScene(scene);
         thisStage.show();
     }
     
     @FXML
-    private void gameLoad() {
-        minutes = 0;
-        //reset possession bar
-        //reset shots bar
-        hPasses = 0;
-        aPasses = 0;
-        //reset corner kicks bar
-        //reset commentary box
-        //homeTeam.setText("home team name");
-        //set home team icon
-        //awayTeam.setText("away team name");
-        //set away team icon
-        //set name of league loaded
-        //set current matchweek
-    }
-    
-    @FXML
-    private void commentary() {
-        if(minutes == 0) {
-            commentary.setText("Kickoff is here at the stadiumName"); //replace stadiumName
-        }
-        else if(minutes == 45){
-            if(hScore > aScore) {
-                commentary.setText("And it's halftime with homeTeam having the advantage.");
-            }
-            else if(aScore > hScore) {
-                commentary.setText("And it's halftime with awayTeam having the advantage.");
-            }
-            else if(hScore == aScore) {
-                commentary.setText("And it's all square here at halftime.");
-            }
-        }
-        else if(minutes == 90){
-            commentary.setText("And it's full time here at the stadiumName.");
-        }
-    }
-    
-    @FXML 
-    private void updateTime() {
-        if (minutes < 10) {
-            timer.setText("'0" + minutes + ":00");
-        }
-        else if(minutes == 90){
-            timer.setText("FT");
-        }
-        else {
-            timer.setText("'" + minutes + ":00");
-        }
-        
-        passes.setProgress(hPasses/(hPasses+aPasses));
-        shots.setProgress(hPasses/(hShots+aShots));
-        possession.setProgress(hTime/(hTime+aTime));
+    private void home(ActionEvent event) throws IOException {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Home.fxml"));
+        Parent root = loader.load();
+        Stage thisStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene scene = new Scene(root);
+        thisStage.setScene(scene);
+        thisStage.show();
     }
 
     @FXML
-    private void skipToEnd(){
-        minutes = 90;
-        updateTime();
+    private void commentary() {
+        switch (minutes) {
+            case 0:
+                commentary.setText("Kickoff is here at the stadiumName"); //replace stadiumName
+                break;
+            case 45:
+                if (hScore > aScore) {
+                    commentary.setText("And it's halftime with homeTeam having the advantage.");
+                } else if (aScore > hScore) {
+                    commentary.setText("And it's halftime with awayTeam having the advantage.");
+                } else if (hScore == aScore) {
+                    commentary.setText("And it's all square here at halftime.");
+                }   break;
+            case 90:
+                commentary.setText("And it's full time here at the stadiumName.");
+                break;
+            default:
+                break;
+        }
+    }
+
+    @FXML
+    private void updateTime() {
+        if (minutes >= 90) {
+            timer.setText("FT");
+            minutes = 90;
+        } else if (minutes < 10) {
+            timer.setText("'0" + minutes + ":00");
+        } else {
+            timer.setText("'" + minutes + ":00");
+        }
+
+        passes.setProgress((double) hPasses / (hPasses + aPasses));
+        shots.setProgress((double) hShots / (hShots + aShots));
+        possession.setProgress((double) hTime / (hTime + aTime));
     }
     
-    @FXML 
+    @FXML
+    private void timeButton()
+    {
+        switch (minutes) {
+            case 0:
+                timeControl.setText("Start Match");
+                timeControl.setOnAction(event -> startMatch());
+                break;
+            case 45:
+                timeControl.setText("Start 2nd Half");
+                timeControl.setOnAction(event -> startSecondHalf());
+                break;
+            case 90:
+                timeControl.setText("End Match");
+                timeControl.setOnAction((ActionEvent event) -> {
+                    try {
+                        endMatch();
+                    } catch (IOException ex) {
+                        Logger.getLogger(MatchController.class.getName()).log(Level.SEVERE, null, ex);
+                    }
+                }); break;
+            default:
+                timeControl.setText("Skip to End");
+                timeControl.setOnAction(event -> skipToEnd());
+                break;
+        }
+    }
+
+    
+    private void startMatch() {
+        attack();
+        minutes = 1;
+        updateTime();
+        timeButton();
+    }
+
+    private void startSecondHalf() {
+        attack();
+        minutes = 45;
+        updateTime();
+        timeButton();
+    }
+
+    private void endMatch() throws IOException {
+        minutes = 90;
+        updateTime();
+        updateData();
+        timeControl.setDisable(true);
+    }
+
+    private void skipToEnd() {
+        minutes = 90;
+        updateTime();
+        timeButton();
+    }
+
+
+    @FXML
     private void updateData() throws IOException {
-        //update total data from match data using csv data
-        //return to home screen
+        TeamSelectController.chosenTeam.setGoals(hScore);
+        TeamSelectController.chosenTeam.setConcededGoals(aScore);
+        //same for other team
+        if(hScore > aScore) {
+            TeamSelectController.chosenTeam.setWins(1);
+            TeamSelectController.chosenTeam.setPoints(3);
+            //same for other team
+        } else if (hScore == aScore) {
+            TeamSelectController.chosenTeam.setDraws(1);
+            TeamSelectController.chosenTeam.setPoints(1);
+            //same for other team
+        } else {
+            TeamSelectController.chosenTeam.setLosses(1);
+            //same for other team
+        }
+        
     }
 }

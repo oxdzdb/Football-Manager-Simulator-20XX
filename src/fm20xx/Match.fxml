@@ -39,7 +39,7 @@
                   <Font name="FreeSans Bold" size="55.0" />
                </font>
             </Label>
-            <Label fx:id="timer" alignment="CENTER" onKeyPressed="#match" prefHeight="38.0" prefWidth="98.0" text="00:00" textFill="WHITE">
+            <Label fx:id="timer" alignment="CENTER" onKeyPressed="#match" prefHeight="38.0" prefWidth="98.0" text="KO" textFill="WHITE">
                <font>
                   <Font name="FreeSans Bold" size="33.0" />
                </font>

@@ -29,7 +29,6 @@ public class FM20XX extends Application {
         League serieA = new League("Serie A", "Italy", "leagueImgs/serieA.png");
         League ligue1 = new League("Ligue 1", "France", "leagueImgs/ligue1.png");
         
-        
         League.getLeagueList().add(prem);
         League.getLeagueList().add(bundesliga);
         League.getLeagueList().add(laLiga);
@@ -38,7 +37,6 @@ public class FM20XX extends Application {
         
         TitleController controller = loader.getController();
         controller.chosen(prem, prem.getTeamList(), 0);
-        
   
         Scene scene = new Scene(root);
         

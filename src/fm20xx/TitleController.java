@@ -27,9 +27,9 @@ public class TitleController implements Initializable {
     @FXML Button start;
     @FXML Button setting;
     @FXML Button exit;
-    static League chosenLeague = null;
+    League chosenLeague;
     int teamIndex;
-    static Team chosenTeam = null;
+    Team chosenTeam;
     ArrayList<Team> teamList;
     
     
@@ -39,6 +39,7 @@ public class TitleController implements Initializable {
         Parent root = loader.load();
         SettingsController controller = loader.getController();
         controller.chosen(chosenLeague, chosenLeague.getTeamList(), teamIndex);
+        controller.updateLeague(0);
         Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene  = new Scene(root);
         thisStage.setScene(scene);
@@ -50,7 +51,6 @@ public class TitleController implements Initializable {
         chosenLeague = l;
         teamList = tl;
         teamIndex = i;
-        chosenTeam = chosenLeague.searchTeam(teamIndex);
     }
     
     @FXML

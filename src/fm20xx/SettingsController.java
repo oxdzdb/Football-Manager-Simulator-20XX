@@ -27,36 +27,27 @@ import javafx.stage.Stage;
  * @author Dell
  */
 public class SettingsController implements Initializable {
-    @FXML private Button back;
-    @FXML private Button team;
+    @FXML Button back, team, previous, next, select;
+    @FXML ImageView icon;
+    @FXML Label leagueName;
     
-    @FXML
-    private Button previous;
-    @FXML
-    private Button next;
-    @FXML
-    private Button select;
-    @FXML
-    private ImageView icon;
-    @FXML
-    private Label leagueName;
-    private int index = 0;
-    private int teamIndex;
-    private League chosenLeague;
-    private Team chosenTeam;
-    private ArrayList<Team> teamList;
+    int index;
+    int teamIndex;
+    League chosenLeague;
+    Team chosenTeam;
+    ArrayList<Team> teamList;
     
     @FXML
     private void back(ActionEvent event) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("Title.fxml"));
         Parent root = loader.load();
         TitleController controller = loader.getController();
-        controller.chosen(getChosenLeague(), getChosenLeague().getTeamList(), getIndex());
+        controller.chosen(chosenLeague, chosenLeague.getTeamList(), index);
         Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene  = new Scene(root);
         thisStage.setScene(scene);
         thisStage.show();
-        System.out.println(getChosenLeague().getName() + " is the new chosen league.");
+        System.out.println(chosenLeague.getName() + " is the new chosen league.");
     }
     
     @FXML
@@ -64,8 +55,8 @@ public class SettingsController implements Initializable {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("TeamSelect.fxml"));
         Parent root = loader.load();
         TeamSelectController controller = loader.getController();
-        controller.chosen(getChosenLeague(), getChosenLeague().getTeamList(), getTeamIndex());
-        System.out.println(getChosenLeague().getName() + " is the new chosen team.");
+        controller.chosen(chosenLeague, chosenLeague.getTeamList(), teamIndex);
+        System.out.println(chosenLeague.getName() + " is the new chosen team.");
         controller.updateTeam();
         Stage thisStage = (Stage)((Node)event.getSource()).getScene().getWindow();
         Scene scene  = new Scene(root);
@@ -75,7 +66,7 @@ public class SettingsController implements Initializable {
     
     @FXML
     public void previous(){
-        if(getIndex() > 0){
+        if(index > 0){
             index--;
             updateLeague();    
         }
@@ -86,12 +77,11 @@ public class SettingsController implements Initializable {
         chosenLeague = l;
         teamList = tl;
         teamIndex = tI;
-        chosenTeam = chosenLeague.searchTeam(teamIndex);
     }
     
     @FXML
     public void next(){
-        if(getIndex() < League.getLeagueListLen()){
+        if(index < League.getLeagueListLen()){
             index++;
             updateLeague();
         }
@@ -99,108 +89,36 @@ public class SettingsController implements Initializable {
     
     @FXML
     public void select(){
-        chosenLeague = League.searchLeague(getIndex());
-        System.out.println(getChosenLeague().getName() + " is the new chosen league.");
+        chosenLeague = League.searchLeague(index);
+        System.out.println(chosenLeague.getName() + " is the new chosen league.");
     }
     
     @FXML
     public void updateLeague(){
-        League league = League.searchLeague(getIndex());
+        League league = League.searchLeague(index);
         if (league != null){
-            getLeagueName().setText(league.getName());
-            getIcon().setImage(new Image(getClass().getResourceAsStream(league.getImgFileName())));
+            leagueName.setText(league.getName());
+            icon.setImage(new Image(getClass().getResourceAsStream(league.getImgFileName())));
             
-            getPrevious().setDisable(getIndex() == 0);
-            getNext().setDisable(getIndex() == (League.getLeagueListLen() - 1));
+            previous.setDisable(index == 0);
+            next.setDisable(index == (League.getLeagueListLen() - 1));
+        }
+    }
+    
+    @FXML
+    public void updateLeague(int x){
+        League league = League.searchLeague(x);
+        if (league != null){
+            leagueName.setText(league.getName());
+            icon.setImage(new Image(getClass().getResourceAsStream(league.getImgFileName())));
+            
+            previous.setDisable(index == 0);
+            next.setDisable(index == (League.getLeagueListLen() - 1));
         }
     }
     
     @Override
     public void initialize(URL url, ResourceBundle rb) {
     }    
-
-    /**
-     * @return the back
-     */
-    public Button getBack() {
-        return back;
-    }
-
-    /**
-     * @return the team
-     */
-    public Button getTeam() {
-        return team;
-    }
-
-    /**
-     * @return the previous
-     */
-    public Button getPrevious() {
-        return previous;
-    }
-
-    /**
-     * @return the next
-     */
-    public Button getNext() {
-        return next;
-    }
-
-    /**
-     * @return the select
-     */
-    public Button getSelect() {
-        return select;
-    }
-
-    /**
-     * @return the icon
-     */
-    public ImageView getIcon() {
-        return icon;
-    }
-
-    /**
-     * @return the leagueName
-     */
-    public Label getLeagueName() {
-        return leagueName;
-    }
-
-    /**
-     * @return the index
-     */
-    public int getIndex() {
-        return index;
-    }
-
-    /**
-     * @return the teamIndex
-     */
-    public int getTeamIndex() {
-        return teamIndex;
-    }
-
-    /**
-     * @return the chosenLeague
-     */
-    public League getChosenLeague() {
-        return chosenLeague;
-    }
-
-    /**
-     * @return the chosenTeam
-     */
-    public Team getChosenTeam() {
-        return chosenTeam;
-    }
-
-    /**
-     * @return the teamList
-     */
-    public ArrayList<Team> getTeamList() {
-        return teamList;
-    }
     
 }
